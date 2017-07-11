@@ -1,0 +1,972 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1255">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:right;
+	line-height:115%;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:right;
+	line-height:115%;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:115%;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:right;
+	line-height:115%;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0cm;
+	margin-right:36.0pt;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:right;
+	line-height:115%;
+	direction:rtl;
+	unicode-bidi:embed;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1 dir=RTL>
+
+<p class=MsoNormal dir=LTR style='text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><b><span style='font-size:18.0pt;font-family:
+"Times New Roman","serif";color:black'>Lambda Z Instrument Driver Readme</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:white'>To
+rate this driver, go to the driver download page on the&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><b><span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'>1. Overview</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>Instrument
+Driver Technology: LabVIEW Plug and Play Manufacturer: TDK-LAMBDA&nbsp;<br>
+Supported Language(s): LabVIEW 2009&nbsp;<br>
+Supported Model(s): TDK-LAMBDA,Z Model(s) Tested: Z200, Z400 Interface(s):
+Serial, USB, GPIB, LAN      (VISA)</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:white'>GPIB,
+Serial; GPIB, USB, LAN </span><span style='font-size:13.5pt;font-family:"Times New Roman","serif";
+color:black'><br>
+Language: SCPI, GEN</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>Firmware
+Revision Tested: 2.0.0.0&nbsp;<br>
+<br>
+Certified: NO&nbsp;<br>
+NI Supported: NO&nbsp;<br>
+Source Code Available: Yes&nbsp;<br>
+<br>
+Driver Revision: 1.0.2&nbsp;<br>
+Original Release Date: 31/10/2011&nbsp;<br>
+Current Revision Date: 09/04/2012&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><b><span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'>2. Required Software</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>Some
+software components need to be installed before using this instrument driver.
+The minimum versions of these components are listed below, and can be
+downloaded from the Download Site.&nbsp;<br>
+<br>
+VISA 4.0 or later.&nbsp;<br>
+LabVIEW 2009 or later.&nbsp;<br>
+For more details, refer to the&nbsp;<i>LabVIEW Help</i>&nbsp;under&nbsp;<i>Help
+» VI, Function, &amp; How-To Help</i>.</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><b><span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'>3. Installation Instructions</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>Obtain
+a copy of the driver software.  It is packaged in a file with a name similar
+to: </span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>               
+&quot;ZPLus_LV9_102.zip&quot; </span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>A) 
+Use Windows Explorer and navigate to folder:</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>            ...\Program
+Files \National Instruments \LabVIEW...\instr.lib</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>B) 
+Create a new folder: ZPLus</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>C) 
+Use the ZIP utility, such as WinZip.exe, to extract the driver files </span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>   
+into the &quot;ZPLus&quot; folder</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>D) 
+You will now have a &quot;...\instr.lib\ZPLus\&quot; folder containing:</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>TREE.vi</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Inittialize.vi</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Close.vi</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Action_Status Folder</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Application Folder</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Configuration Folder</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Data Folder</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Utility Folder</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>six MNU menu files</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>&quot;lambda ZPLus Instrument Driver
+readme.htm&quot; (this file)</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Prn Sc 1.jpg</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><b><span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'>4. Accessing the Driver in LabVIEW</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>There
+is normally no need to view the library file because the driver functions may
+be picked from a palette menu.</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>A) 
+Right-click on a blank place on the VI diagram</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>   
+See the &quot;Functions&quot; palette open.  Navigate:</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>            Functions
+-&gt;  </span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>                        Instrument
+I/O -&gt;  </span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>                                     Instrument
+Drivers -&gt;  </span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>                                                 Lambda
+ZPLus(+)</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>B) 
+Alternately, click diagram's menu bar:  </span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>            Window
+-&gt; &quot;Show Functions Palette&quot; and navigate the above menus </span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'><br>
+</span><b><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>5. Using the Instrument Drivers</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>LabVIEW:</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>To
+verify communication with your instrument and test a typical remote</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>instrument
+operation, you should first open the Getting Started or Application Example VIs
+the instrument driver. Look over each of the controls and set them
+appropriately.  Generally, with the exception of the address field, the
+defaults for most controls will be sufficient for your first run. You will need
+to set the instrument resource name appropriately. After running the VI, check
+to see that reasonable data was returned and an error was not reported in the
+error cluster.</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>You
+can right-click any object on the driver panel to see its description.</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>After
+you have verified basic communication with your instrument, you might want to
+customize instrument control for your needs. If your application needs are
+similar to the Getting Started or Example VI, the simplest means of creating a
+customized VI is to save a copy of the Getting Started or Example VI by
+selecting &quot;Save As&quot; from the File menu. You can then modify this
+example to meet your specific needs.</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>For
+more details, reference the LabVIEW Help under:                                       Help
+» VI, Function, and How-To Help.&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:12.0pt;font-family:"Times New Roman","serif"'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><b><span style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'>4. Revision History</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><b><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>ZPLus_LV9_102.zip,
+9/04/2012, LabVIEW_2009</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>            Original
+Release</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>            by
+Alex Shmidov</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>              
+TDK-Lambda</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;text-indent:36.0pt;line-height:normal;direction:ltr;unicode-bidi:
+embed'>&nbsp;</p>
+
+<p class=MsoListParagraphCxSpFirst dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Allow use with LAN interface.</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Fix some grammar errors </span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Allow use &quot;comma&quot; for EU
+format.</span></p>
+
+<p class=MsoListParagraphCxSpLast dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Example 2 Transient.vi file changed.</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;text-indent:36.0pt;line-height:normal;direction:ltr;unicode-bidi:
+embed'>&nbsp;</p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><b><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><b><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>ZPLus_LV9_101.zip,
+19/02/2011, LabVIEW_2009</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>            Original
+Release</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>            by
+Alex Shmidov</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>              
+TDK-Lambda</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;text-indent:36.0pt;line-height:normal;direction:ltr;unicode-bidi:
+embed'>&nbsp;</p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;text-indent:36.0pt;line-height:normal;direction:ltr;unicode-bidi:
+embed'>&nbsp;</p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Example 2 Transient.vi</span></p>
+
+<p class=MsoListParagraphCxSpFirst dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>added &quot;read setting/measure&quot;
+button</span></p>
+
+<p class=MsoListParagraphCxSpLast dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>close session if communication
+initialize fail</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;text-indent:36.0pt;line-height:normal;direction:ltr;unicode-bidi:
+embed'>&nbsp;</p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Write Read Instrument.vi</span></p>
+
+<p class=MsoListParagraph dir=LTR style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>added delay after &quot;Write&quot; 15mS
+for IEEE mode. </span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><b><span style='font-size:12.0pt;font-family:
+"Times New Roman","serif"'>&nbsp;</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><b><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>ZPLus_LV9_100.zip,
+12/2011, LabVIEW_2009</span></b></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>            Original
+Release</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>            by
+Alex Shmidov</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>              
+TDK-Lambda</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpFirst dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>&quot;lambda ZPLus Instrument Driver
+readme.htm&quot; (this file)</span></p>
+
+<p class=MsoListParagraphCxSpLast dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Prn Sc 1.jpg</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpFirst dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>TREE.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Initialize.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Close.vi</span></p>
+
+<p class=MsoListParagraphCxSpLast dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>dir.mnu</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Action_Status folder</span></p>
+
+<p class=MsoListParagraphCxSpFirst dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Read Set Current.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Read Set Voltage.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Transient ABORT</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Transient Load.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Transient Store.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Trigger INITiate.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Trigger.vi</span></p>
+
+<p class=MsoListParagraphCxSpLast dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>dir.mnu</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Application Folder</span></p>
+
+<p class=MsoListParagraphCxSpFirst dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Example 1 Event.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Example 2 Transient.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Example 3 trig in_out.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Getting Started.vi</span></p>
+
+<p class=MsoListParagraphCxSpLast dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>dir.mnu</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Configuration Folder</span></p>
+
+<p class=MsoListParagraphCxSpFirst dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Config Continius.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Config Limit.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Config Output On-OFF.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Config OVP.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Config Program Data.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Config Transient Mode.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Config Triggers.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Config UVP_UVL.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Config Voltage Limit.vi</span></p>
+
+<p class=MsoListParagraphCxSpLast dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>dir.mnu</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Data Folder</span></p>
+
+<p class=MsoListParagraphCxSpFirst dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Meas Output Current.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Meas Output Power.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Meas Output Voltage.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Query Output ON-OFF.vi</span></p>
+
+<p class=MsoListParagraphCxSpLast dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>dir.mnu</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:18.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>Utility</span></p>
+
+<p class=MsoListParagraphCxSpFirst dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL CheckSum Applend.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL GEN Convert Errors.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Reset.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL SCPI Error Query.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Wait ms.vi</span></p>
+
+<p class=MsoListParagraphCxSpMiddle dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>ZPL Write Read Instrument.vi</span></p>
+
+<p class=MsoListParagraphCxSpLast dir=LTR style='margin-top:0cm;margin-right:
+0cm;margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;text-align:left;
+text-indent:-18.0pt;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:Symbol;color:black'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span dir=LTR></span><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>dir.mnu</span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:left;direction:ltr;unicode-bidi:
+embed'>&nbsp;</p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;text-indent:36.0pt;line-height:normal;direction:ltr;unicode-bidi:
+embed'>&nbsp;</p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:normal;direction:ltr;unicode-bidi:embed'><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='margin-top:0cm;margin-right:0cm;margin-bottom:
+0cm;margin-left:36.0pt;margin-bottom:.0001pt;text-align:left;line-height:normal;
+direction:ltr;unicode-bidi:embed'><span style='font-size:13.5pt;font-family:
+"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal dir=LTR style='text-align:left;direction:ltr;unicode-bidi:
+embed'>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

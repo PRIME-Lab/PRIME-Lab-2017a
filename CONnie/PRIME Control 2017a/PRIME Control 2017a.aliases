@@ -1,0 +1,54 @@
+[Control-Room-Rio]
+Control-Room-Rio = "192.168.1.87"
+
+[inj-image-rio]
+inj-image-rio = "192.168.1.105"
+
+[low-end-rio]
+low-end-rio = "192.168.1.89"
+
+[My Computer]
+My Computer = "192.168.1.24"
+
+[NEW-Source-1]
+NEW-Source-1 = "192.168.1.30"
+
+[R-30-Target-Rio]
+R-30-Target-Rio = "0.0.0.0"
+
+[R30-1-cRIO]
+R30-1-cRIO = "0.0.0.0"
+
+[R30-cRIO]
+R30-cRIO = "192.168.1.88"
+
+[R45-1-cRIO]
+R45-1-cRIO = "192.168.1.80"
+
+[Rio-R45-1]
+Rio-R45-1 = "0.0.0.0"
+
+[Rio-R45-2]
+Rio-R45-2 = "192.168.1.9"
+
+[SCA-cRIO]
+SCA-cRIO = "192.168.1.180"
+
+[source-rio]
+source-rio = "192.168.1.97"
+
+[Tankexit]
+Tankexit = "192.168.1.86"
+
+[test-rio]
+test-rio = "192.168.1.57"
+
+[testrio]
+testrio = "192.168.1.250"
+
+[Trans-cRIO]
+Trans-cRIO = "192.168.1.91"
+
+[Transmission]
+Transmission = "0.0.0.0"
+
