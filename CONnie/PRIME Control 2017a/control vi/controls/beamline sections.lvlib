@@ -20,7 +20,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Source A.vi" Type="VI" URL="../../Beam Line Sections/Source A.vi"/>
 	<Item Name="injector fc open.vi" Type="VI" URL="../../ion Source/injector fc open.vi"/>
-	<Item Name="detector  fc open.vi" Type="VI" URL="../../R30/detector  fc open.vi"/>
+	<Item Name="detector fc open.vi" Type="VI" URL="../../R30/detector fc open.vi"/>
 	<Item Name="Low energy end llb.lvlib" Type="Library" URL="../../low energy end/Low energy end/Low energy end llb.lvlib"/>
 	<Item Name="High energy llb.lvlib" Type="Library" URL="../../High energy end/High energy llb.lvlib"/>
 	<Item Name="transmission.lvlib" Type="Library" URL="../../Transmission/transmission.lvlib"/>

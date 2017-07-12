@@ -527,7 +527,7 @@
 		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">state control sample changer.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../controls/state control sample changer.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../controls/state control sample changer.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"&lt;6Q!!!"9!A!!!!!!"!%-!]1!!!!!!!!!")(.U982F)'.P&lt;H2S&lt;WQA=W&amp;N='RF)'.I97ZH:8)O9X2M!"J!-0````].=X2B&gt;'5A9W^O&gt;(*P&lt;!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="set cold cathode off" Type="Variable">

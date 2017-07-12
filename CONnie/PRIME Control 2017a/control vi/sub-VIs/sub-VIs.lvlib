@@ -4,9 +4,17 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="10kv set steerer1.vi" Type="VI" URL="../../R45/realtime vi/10kv set steerer1.vi"/>
+	<Item Name="count rate shift.vi" Type="VI" URL="../../../data aquisition/shift/count rate shift.vi"/>
+	<Item Name="display in or out.vi" Type="VI" URL="../../faraday cup/display in or out.vi"/>
+	<Item Name="faraday switch.vi" Type="VI" URL="../../High energy end/faraday switch.vi"/>
 	<Item Name="get momentum-scaled.vi" Type="VI" URL="../../Features/get momentum-scaled.vi"/>
 	<Item Name="get value.vi" Type="VI" URL="../../Features/features/get value.vi"/>
 	<Item Name="get velocity-scaled.vi" Type="VI" URL="../../Features/get velocity-scaled.vi"/>
+	<Item Name="Injector global.vi" Type="VI" URL="../../Features/features/field/Injector global.vi"/>
 	<Item Name="K-ratio calc.vi" Type="VI" URL="../../Features/K-ratio calc.vi"/>
+	<Item Name="Scale injector.vi" Type="VI" URL="../../Features/features/field/Scale injector.vi"/>
 	<Item Name="set value.vi" Type="VI" URL="../../Features/set value.vi"/>
+	<Item Name="shift currents.vi" Type="VI" URL="../../Current measurements/shift currents.vi"/>
+	<Item Name="Switch magnet  fc open.vi" Type="VI" URL="../../Transmission/Switch magnet  fc open.vi"/>
 </Library>

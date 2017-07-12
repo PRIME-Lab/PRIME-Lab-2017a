@@ -5265,6 +5265,7 @@ DirectoryIndex index.htm
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/16.0/nimclv.dll"/>
 			<Item Name="state control sample changer.ctl" Type="VI" URL="../cRIO code/SCA/controls/state control sample changer.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
