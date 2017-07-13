@@ -1,32 +1,32 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{029D8629-97BB-4B56-A1D0-9EC431F55A7A}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/Copy of shared var source.lvlib/sample change start</Property>
-	<Property Name="varPersistentID:{158AAEB0-6698-4759-9340-75D22DA46A9A}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/inj magnet field</Property>
-	<Property Name="varPersistentID:{18C0065C-75DB-4CCC-A5BC-54FAC09B2C2B}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/Copy of shared var source.lvlib/rare count rate</Property>
-	<Property Name="varPersistentID:{24177283-AA36-4FA8-BF10-2C4C64CADFBA}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/Charge State</Property>
-	<Property Name="varPersistentID:{259A0DF3-EBB7-486F-88F3-AF8D6F7AA55B}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/sequence location</Property>
-	<Property Name="varPersistentID:{2E5BA62E-9CE2-42A2-A490-7C86FEED7FC6}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/Copy of shared var source.lvlib/rare count</Property>
-	<Property Name="varPersistentID:{31056F7C-E58D-455A-B971-DE3CF160E591}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/Copy of shared var source.lvlib/change sample</Property>
-	<Property Name="varPersistentID:{315E4E04-4E36-4D88-BC28-B12E75F96E76}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/inj current</Property>
-	<Property Name="varPersistentID:{361DC092-7676-47FB-AA12-533DD033D37B}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/cycle location</Property>
-	<Property Name="varPersistentID:{3705DC27-1ACE-425F-A266-3EEE115BF0F5}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/Copy of shared var source.lvlib/change sample bool</Property>
-	<Property Name="varPersistentID:{51181B4A-7791-42D4-91A3-E4F702479B49}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/turn cathode on</Property>
-	<Property Name="varPersistentID:{5240C106-3B33-49F3-9AF2-BB3EB74AAECA}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/Copy of shared var source.lvlib/end sample change</Property>
-	<Property Name="varPersistentID:{5E92A4FC-549C-4ECA-B1EF-186E2223B7C0}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/inj cup in</Property>
-	<Property Name="varPersistentID:{659775A9-781A-4929-BC91-54654370274A}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/list of samples</Property>
-	<Property Name="varPersistentID:{6CD1669E-068E-4CE2-8BD1-BCB88ADAFF77}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/chopped current value</Property>
-	<Property Name="varPersistentID:{83D23920-A07C-4158-9629-641ECE019E70}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/injector cup</Property>
-	<Property Name="varPersistentID:{8EDE3AF1-CD88-42D6-B94F-E416BA29A95F}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/stable 1 or 2</Property>
-	<Property Name="varPersistentID:{9056BAED-08CA-4716-A67F-BADE9CEC2706}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/sample change complete</Property>
-	<Property Name="varPersistentID:{A7328BDE-96DC-422B-9460-F1BB7AAFFF58}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/Copy of shared var source.lvlib/counts</Property>
-	<Property Name="varPersistentID:{B176303F-055C-46A7-BE5F-926F6F8875F0}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/Copy of shared var source.lvlib/lois running</Property>
+	<Property Name="varPersistentID:{029D8629-97BB-4B56-A1D0-9EC431F55A7A}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var.lvlib/sample change start</Property>
+	<Property Name="varPersistentID:{158AAEB0-6698-4759-9340-75D22DA46A9A}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/inj magnet field</Property>
+	<Property Name="varPersistentID:{18C0065C-75DB-4CCC-A5BC-54FAC09B2C2B}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/rare count rate</Property>
+	<Property Name="varPersistentID:{24177283-AA36-4FA8-BF10-2C4C64CADFBA}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/Charge State</Property>
+	<Property Name="varPersistentID:{259A0DF3-EBB7-486F-88F3-AF8D6F7AA55B}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/sequence location</Property>
+	<Property Name="varPersistentID:{2E5BA62E-9CE2-42A2-A490-7C86FEED7FC6}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/rare count</Property>
+	<Property Name="varPersistentID:{31056F7C-E58D-455A-B971-DE3CF160E591}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var.lvlib/change sample</Property>
+	<Property Name="varPersistentID:{315E4E04-4E36-4D88-BC28-B12E75F96E76}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/inj current</Property>
+	<Property Name="varPersistentID:{361DC092-7676-47FB-AA12-533DD033D37B}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/cycle location</Property>
+	<Property Name="varPersistentID:{3705DC27-1ACE-425F-A266-3EEE115BF0F5}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var.lvlib/change sample bool</Property>
+	<Property Name="varPersistentID:{51181B4A-7791-42D4-91A3-E4F702479B49}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/turn cathode on</Property>
+	<Property Name="varPersistentID:{5240C106-3B33-49F3-9AF2-BB3EB74AAECA}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var.lvlib/end sample change</Property>
+	<Property Name="varPersistentID:{5E92A4FC-549C-4ECA-B1EF-186E2223B7C0}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/inj cup in</Property>
+	<Property Name="varPersistentID:{659775A9-781A-4929-BC91-54654370274A}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/list of samples</Property>
+	<Property Name="varPersistentID:{6CD1669E-068E-4CE2-8BD1-BCB88ADAFF77}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/chopped current value</Property>
+	<Property Name="varPersistentID:{83D23920-A07C-4158-9629-641ECE019E70}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/injector cup</Property>
+	<Property Name="varPersistentID:{8EDE3AF1-CD88-42D6-B94F-E416BA29A95F}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/stable 1 or 2</Property>
+	<Property Name="varPersistentID:{9056BAED-08CA-4716-A67F-BADE9CEC2706}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/sample change complete</Property>
+	<Property Name="varPersistentID:{A7328BDE-96DC-422B-9460-F1BB7AAFFF58}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/counts</Property>
+	<Property Name="varPersistentID:{B176303F-055C-46A7-BE5F-926F6F8875F0}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/lois running</Property>
 	<Property Name="varPersistentID:{C21EBB71-C091-4AE2-A868-F725C77458B8}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/stable test.lvlib/stableave</Property>
-	<Property Name="varPersistentID:{C641D1BC-7349-4900-9126-8C8D51C2E450}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/Copy of shared var source.lvlib/inj magnet stable</Property>
-	<Property Name="varPersistentID:{D88B1A06-2646-4BEA-9892-59642C8216B9}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/LE waist cup</Property>
-	<Property Name="varPersistentID:{E0659B95-5539-40A5-B0DE-FA5ED6D4D23E}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/wheel folder</Property>
-	<Property Name="varPersistentID:{E301D328-707F-483C-8A8E-4B3AD44F5F8E}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/injector magnet stable or rare</Property>
-	<Property Name="varPersistentID:{F4A4B3E9-E151-40E2-8841-2ED07B9DA61D}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib/stable or rare</Property>
+	<Property Name="varPersistentID:{C641D1BC-7349-4900-9126-8C8D51C2E450}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/inj magnet stable</Property>
+	<Property Name="varPersistentID:{D88B1A06-2646-4BEA-9892-59642C8216B9}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/LowEnd shared var.lvlib/LE waist cup</Property>
+	<Property Name="varPersistentID:{E0659B95-5539-40A5-B0DE-FA5ED6D4D23E}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/wheel folder</Property>
+	<Property Name="varPersistentID:{E301D328-707F-483C-8A8E-4B3AD44F5F8E}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/injector magnet stable or rare</Property>
+	<Property Name="varPersistentID:{F4A4B3E9-E151-40E2-8841-2ED07B9DA61D}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/stable or rare</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="DisableAutoDeployVariables" Type="Bool">true</Property>
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -615,7 +615,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">PRIME DAQ 2017a Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{96B8D755-7641-4A5D-A5F0-5324D46D8385}</Property>
 				<Property Name="INST_productName" Type="Str">PRIME DAQ 2017a</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.37</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.38</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">PRIME Lab</Property>

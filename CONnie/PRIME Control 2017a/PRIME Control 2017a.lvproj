@@ -129,7 +129,7 @@
 	<Property Name="varPersistentID:{1F0D6D1A-ED37-4D55-937D-6968B89D1D8D}" Type="Ref">/My Computer/InjectorA shared var.lvlib/BPM 1 X 10</Property>
 	<Property Name="varPersistentID:{1F4A3819-F1B0-4F1A-86CA-C6791AB3ED40}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/einzel 2 read current</Property>
 	<Property Name="varPersistentID:{1F687E17-3791-458E-B255-F9F31CB7F048}" Type="Ref">/My Computer/SCA shared var.lvlib/set retract in</Property>
-	<Property Name="varPersistentID:{1F6E930B-2FF1-4CF2-82D4-9E713145203D}" Type="Ref">/My Computer/DAQuiri shared var.lvlib/Charge State</Property>
+	<Property Name="varPersistentID:{1F6E930B-2FF1-4CF2-82D4-9E713145203D}" Type="Ref">/My Computer/CONnie shared var.lvlib/Charge State</Property>
 	<Property Name="varPersistentID:{1F777130-C615-47A0-B060-F5F1F08DA1BC}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Steerer Current ReadbacksY-</Property>
 	<Property Name="varPersistentID:{1FB61646-0EAF-4876-8C58-852DD1C66146}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Tank entrance convectron1</Property>
 	<Property Name="varPersistentID:{1FE41AA9-756C-4590-AD80-788D809E2635}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 Y steerer set</Property>
@@ -8000,7 +8000,6 @@ DirectoryIndex index.htm
 			</Item>
 		</Item>
 		<Item Name="injfield_var.lvlib" Type="Library" URL="../control vi/ion Source/inj image rio/inj image rio shared variables/injfield_var.lvlib"/>
-		<Item Name="10kv set steerer1.vi" Type="VI" URL="../control vi/R45/realtime vi/10kv set steerer1.vi"/>
 		<Item Name="realtimecurrent.vi" Type="VI" URL="../control vi/ion Source/inj image rio/inj realtime/realtimecurrent.vi">
 			<Item Name="PID" Type="IIO Function Block">
 				<Item Name="error in" Type="Variable"/>
