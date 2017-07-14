@@ -20,7 +20,7 @@
 	<Property Name="varPersistentID:{8EDE3AF1-CD88-42D6-B94F-E416BA29A95F}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/stable 1 or 2</Property>
 	<Property Name="varPersistentID:{9056BAED-08CA-4716-A67F-BADE9CEC2706}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/sample change complete</Property>
 	<Property Name="varPersistentID:{A7328BDE-96DC-422B-9460-F1BB7AAFFF58}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/counts</Property>
-	<Property Name="varPersistentID:{B176303F-055C-46A7-BE5F-926F6F8875F0}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/lois running</Property>
+	<Property Name="varPersistentID:{B176303F-055C-46A7-BE5F-926F6F8875F0}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/DAQ running</Property>
 	<Property Name="varPersistentID:{C21EBB71-C091-4AE2-A868-F725C77458B8}" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/stable test.lvlib/stableave</Property>
 	<Property Name="varPersistentID:{C641D1BC-7349-4900-9126-8C8D51C2E450}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/inj magnet stable</Property>
 	<Property Name="varPersistentID:{D88B1A06-2646-4BEA-9892-59642C8216B9}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/LowEnd shared var.lvlib/LE waist cup</Property>

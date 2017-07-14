@@ -15,6 +15,7 @@
 	<Item Name="K-ratio calc.vi" Type="VI" URL="../../Features/K-ratio calc.vi"/>
 	<Item Name="Scale injector.vi" Type="VI" URL="../../Features/features/field/Scale injector.vi"/>
 	<Item Name="set value.vi" Type="VI" URL="../../Features/set value.vi"/>
+	<Item Name="set value_old.vi" Type="VI" URL="../../Features/set value_old.vi"/>
 	<Item Name="shift currents.vi" Type="VI" URL="../../Current measurements/shift currents.vi"/>
 	<Item Name="Switch magnet  fc open.vi" Type="VI" URL="../../Transmission/Switch magnet  fc open.vi"/>
 </Library>

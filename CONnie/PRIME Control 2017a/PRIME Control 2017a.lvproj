@@ -344,7 +344,7 @@
 	<Property Name="varPersistentID:{521D7318-B76E-4EDB-B601-629476A108E5}" Type="Ref">/R30-cRIO/he shared variable library_CR.lvlib/Switch magnet AP IN</Property>
 	<Property Name="varPersistentID:{524A7A69-30EA-40BA-8AD0-D40DDABBC1DC}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO16</Property>
 	<Property Name="varPersistentID:{52D38C9B-2248-4547-9A5F-216F214A294D}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI11</Property>
-	<Property Name="varPersistentID:{52FD7B2A-0846-4EBA-920C-C33B814B7BF0}" Type="Ref">/My Computer/DAQuiri shared var.lvlib/running</Property>
+	<Property Name="varPersistentID:{52FD7B2A-0846-4EBA-920C-C33B814B7BF0}" Type="Ref">/My Computer/DAQuiri shared var.lvlib/DAQ running</Property>
 	<Property Name="varPersistentID:{5382394B-4C05-43C7-9683-9B290C58CB42}" Type="Ref">/My Computer/HighEnd shared var.lvlib/AI11</Property>
 	<Property Name="varPersistentID:{53AAA36F-EE6E-4C95-882E-C2B22D9FF83D}" Type="Ref">/Trans-cRIO/trans rio shared var.lvlib/analyze image convectron1</Property>
 	<Property Name="varPersistentID:{542F8FC8-E840-4959-9E42-05438F478957}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI13</Property>
