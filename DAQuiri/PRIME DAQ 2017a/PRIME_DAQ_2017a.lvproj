@@ -1,21 +1,24 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{029D8629-97BB-4B56-A1D0-9EC431F55A7A}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var.lvlib/sample change start</Property>
+	<Property Name="varPersistentID:{029D8629-97BB-4B56-A1D0-9EC431F55A7A}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - old.lvlib/sample change start</Property>
+	<Property Name="varPersistentID:{0A4E7166-CACF-4DEA-95DF-C1F791F6EC7C}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - new.lvlib/SCA Status</Property>
 	<Property Name="varPersistentID:{158AAEB0-6698-4759-9340-75D22DA46A9A}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/inj magnet field</Property>
 	<Property Name="varPersistentID:{18C0065C-75DB-4CCC-A5BC-54FAC09B2C2B}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/rare count rate</Property>
 	<Property Name="varPersistentID:{24177283-AA36-4FA8-BF10-2C4C64CADFBA}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/Charge State</Property>
 	<Property Name="varPersistentID:{259A0DF3-EBB7-486F-88F3-AF8D6F7AA55B}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/sequence location</Property>
 	<Property Name="varPersistentID:{2E5BA62E-9CE2-42A2-A490-7C86FEED7FC6}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/rare count</Property>
-	<Property Name="varPersistentID:{31056F7C-E58D-455A-B971-DE3CF160E591}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var.lvlib/change sample</Property>
+	<Property Name="varPersistentID:{31056F7C-E58D-455A-B971-DE3CF160E591}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - old.lvlib/change sample</Property>
 	<Property Name="varPersistentID:{315E4E04-4E36-4D88-BC28-B12E75F96E76}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/inj current</Property>
 	<Property Name="varPersistentID:{361DC092-7676-47FB-AA12-533DD033D37B}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/cycle location</Property>
-	<Property Name="varPersistentID:{3705DC27-1ACE-425F-A266-3EEE115BF0F5}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var.lvlib/change sample bool</Property>
+	<Property Name="varPersistentID:{3705DC27-1ACE-425F-A266-3EEE115BF0F5}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - old.lvlib/change sample bool</Property>
 	<Property Name="varPersistentID:{51181B4A-7791-42D4-91A3-E4F702479B49}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/turn cathode on</Property>
-	<Property Name="varPersistentID:{5240C106-3B33-49F3-9AF2-BB3EB74AAECA}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var.lvlib/end sample change</Property>
+	<Property Name="varPersistentID:{5240C106-3B33-49F3-9AF2-BB3EB74AAECA}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - old.lvlib/end sample change</Property>
+	<Property Name="varPersistentID:{5E21908F-B917-44B3-841E-A931620F8120}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - new.lvlib/Requested Sample</Property>
 	<Property Name="varPersistentID:{5E92A4FC-549C-4ECA-B1EF-186E2223B7C0}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/inj cup in</Property>
 	<Property Name="varPersistentID:{659775A9-781A-4929-BC91-54654370274A}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/list of samples</Property>
 	<Property Name="varPersistentID:{6CD1669E-068E-4CE2-8BD1-BCB88ADAFF77}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/chopped current value</Property>
+	<Property Name="varPersistentID:{7E24202E-A1CA-435F-811A-1278ABC099E7}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - new.lvlib/SM Command</Property>
 	<Property Name="varPersistentID:{83D23920-A07C-4158-9629-641ECE019E70}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/injector cup</Property>
 	<Property Name="varPersistentID:{8EDE3AF1-CD88-42D6-B94F-E416BA29A95F}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/stable 1 or 2</Property>
 	<Property Name="varPersistentID:{9056BAED-08CA-4716-A67F-BADE9CEC2706}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/sample change complete</Property>
@@ -482,6 +485,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="SCA commands.ctl" Type="VI" URL="../../../CONnie/PRIME Control 2017a/cRIO code/SCA/controls/SCA commands.ctl"/>
+			<Item Name="SCA broadcast status.ctl" Type="VI" URL="../../../CONnie/PRIME Control 2017a/cRIO code/SCA/controls/SCA broadcast status.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PRIME DAQ 2017a Executable" Type="EXE">

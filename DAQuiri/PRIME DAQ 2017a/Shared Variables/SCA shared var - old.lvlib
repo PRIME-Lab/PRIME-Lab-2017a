@@ -13,6 +13,7 @@
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME_DAQ_2017a.lvproj/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - old.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!N!!A!&amp;37ZU-49!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>

@@ -68,40 +68,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="cold cathode off" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\cold cathode off</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="cold cathode on" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\cold cathode on</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="convectron" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -113,60 +79,6 @@
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
 		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\convectron</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"9!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="count" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Logging,Network</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\count</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="end test" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\end test</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="feedback" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:LogFormat" Type="Str">String</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\feedback</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -209,58 +121,6 @@
 		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"9!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="index2" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:LogFormat" Type="Str">String</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\index2</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"9!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="indextest" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\indextest</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&lt;&amp;Q!!!"9!A!!!!!!"!!5!!A!!!1!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="listofstuff" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\listofstuff</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!"9!A!!!!!!#!!A!-0````]!$!"!!!(`````!!!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="position" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
@@ -486,40 +346,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"9!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="set cold cathode off" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\set cold cathode off</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="set cold cathode on" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\set cold cathode on</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="set insert in" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -622,23 +448,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="set rod up1" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\set rod up1</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="set sc close" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -689,76 +498,6 @@
 		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="start random sample change" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\start random sample change</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="stop random sample change" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\stop random sample change</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="use1" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\use1</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!M+!!!!"9!A!!!!!!#!!A!-0````]!$!"!!!(`````!!!!!1!"!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="wheel readback" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\wheel readback</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="sc ion bellows" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
@@ -956,62 +695,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="oven set current" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="oven read current" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="oven read voltage" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="oven read power" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/sc shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="immersion lens I read" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Logging,Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.000000</Property>
@@ -1089,20 +772,5 @@
 		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="EncoderHome Offset" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\shared var lib\Encoder Home Off-Set</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
