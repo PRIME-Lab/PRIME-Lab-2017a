@@ -14,7 +14,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="OdbcAlarmLoggingTableName" Type="Str">NI_ALARM_EVENTS</Property>
 	<Property Name="OdbcBooleanLoggingTableName" Type="Str">NI_VARIABLE_BOOLEAN</Property>
 	<Property Name="OdbcConnectionRadio" Type="UInt">0</Property>
@@ -32,7 +31,7 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Detector AP" Type="Variable">
+	<Item Name="ESA Cryo pump" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -41,119 +40,12 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector AP</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\ESA Cryo pump</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Detector AP IN" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector AP IN</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Detector AP OUT" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector AP OUT</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Detector FC" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector FC</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Detector FC IN" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector FC IN</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Detector FC OUT" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector FC OUT</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="ESA" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\ESA</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">75</Property>
-		<Property Name="Scaling:EngMin" Type="Str">0</Property>
-		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
-		<Property Name="Scaling:RawMin" Type="Str">0</Property>
-		<Property Name="Scaling:Type" Type="Str">Linear</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#LJQ!!!"9!A!!!!!!'!"&amp;!#A!,2GFS=X1A5X2B:W5!%U!+!!R4:7.P&lt;G1A=X2B:W5!!"V!#A!73'^V=H-A=WFO9W5A&lt;'&amp;T&gt;#"S:7&gt;F&lt;A!!$%!B"V"V&lt;8!A4UY!$5!+!!&gt;5;7VF)'^O!"R!5!!&amp;!!!!!1!#!!-!"!J$=HFP)("V&lt;8!A!!!"!!5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="ESA Current readback" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
@@ -181,6 +73,22 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="ESA ion gauge" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 ESA ion gauge</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!![.A!!!"9!A!!!!!!#!!A!-0````]!$A"1!!1!!!!!!!!!!!!"!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="ESA Readback Voltage" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">1e-06</Property>
@@ -207,7 +115,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="r30 Quad A" Type="Variable">
+	<Item Name="ESA V set" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -218,13 +126,12 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\r30 Quad A</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\ESA</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R30main.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">2</Property>
+		<Property Name="Scaling:EngMax" Type="Str">75</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
 		<Property Name="Scaling:EngUnit" Type="Str"></Property>
 		<Property Name="Scaling:RawMax" Type="Str">10</Property>
@@ -233,7 +140,155 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="R30 Quad A readback" Type="Variable">
+	<Item Name="R30 cpu total" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.01</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+		<Property Name="Network:AccessType" Type="Str">read only</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\NI_SystemState\CPULoad\CPU0\Total</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Detector AP" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector AP</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Detector AP IN" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector AP IN</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Detector AP OUT" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector AP OUT</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Detector FC" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector FC</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Detector FC IN" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector FC IN</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Detector FC OUT" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Detector FC OUT</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Detector ion gauge" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Detector ion gauge</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!![.A!!!"9!A!!!!!!#!!A!-0````]!$A"1!!1!!!!!!!!!!!!"!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Memory total" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read only</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\NI_SystemState\Memory\Allocated</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Quad A I read" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -259,7 +314,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="r30 Quad B" Type="Variable">
+	<Item Name="R30 Quad A I set" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -270,7 +325,7 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\r30 Quad B</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\r30 Quad A</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
@@ -285,7 +340,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="R30 Quad B readback" Type="Variable">
+	<Item Name="R30 Quad B I read" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -311,7 +366,129 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="R30 Steerer Current ReadbacksX+" Type="Variable">
+	<Item Name="R30 Quad B I set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\r30 Quad B</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R30main.lvlib/</Property>
+		<Property Name="Scaling:Coerce" Type="Str">False</Property>
+		<Property Name="Scaling:EngMax" Type="Str">2</Property>
+		<Property Name="Scaling:EngMin" Type="Str">0</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMin" Type="Str">0</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Switch magnet AP" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet AP</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Switch magnet AP IN" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet AP IN</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Switch magnet AP OUT" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet AP OUT</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Switch magnet FC" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet FC</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Switch magnet FC IN" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet FC IN</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Switch magnet FC OUT" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet FC OUT</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 X+ Steerer I read" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -337,85 +514,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="R30 Steerer Current ReadbacksX-" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">1e-05</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Current ReadbacksX-</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R30main.lvlib/</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">1.5</Property>
-		<Property Name="Scaling:EngMin" Type="Str">0</Property>
-		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
-		<Property Name="Scaling:RawMin" Type="Str">0</Property>
-		<Property Name="Scaling:Type" Type="Str">Linear</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 Steerer Current ReadbacksY+" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">1e-05</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Current ReadbacksY+</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R30main.lvlib/</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">1.5</Property>
-		<Property Name="Scaling:EngMin" Type="Str">0</Property>
-		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
-		<Property Name="Scaling:RawMin" Type="Str">0</Property>
-		<Property Name="Scaling:Type" Type="Str">Linear</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 Steerer Current ReadbacksY-" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">1e-05</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Current ReadbacksY-</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R30main.lvlib/</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">1.5</Property>
-		<Property Name="Scaling:EngMin" Type="Str">0</Property>
-		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
-		<Property Name="Scaling:RawMin" Type="Str">0</Property>
-		<Property Name="Scaling:Type" Type="Str">Linear</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 Steerer Voltage Readback X+" Type="Variable">
+	<Item Name="R30 X+ Steerer V read" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -441,7 +540,58 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="R30 Steerer Voltage ReadbackX-" Type="Variable">
+	<Item Name="R30 X+ Steerer V set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer X+</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Scaling:Coerce" Type="Str">False</Property>
+		<Property Name="Scaling:EngMax" Type="Str">10</Property>
+		<Property Name="Scaling:EngMin" Type="Str">0</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMin" Type="Str">0</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 X- Steerer I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">1e-05</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Current ReadbacksX-</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R30main.lvlib/</Property>
+		<Property Name="Scaling:Coerce" Type="Str">False</Property>
+		<Property Name="Scaling:EngMax" Type="Str">1.5</Property>
+		<Property Name="Scaling:EngMin" Type="Str">0</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMin" Type="Str">0</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 X- Steerer V read" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -467,84 +617,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="R30 Steerer Voltage ReadbackY+" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">1e-05</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Voltage ReadbackY+</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/R30main.lvlib/</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">10</Property>
-		<Property Name="Scaling:EngMin" Type="Str">0</Property>
-		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
-		<Property Name="Scaling:RawMin" Type="Str">0</Property>
-		<Property Name="Scaling:Type" Type="Str">Linear</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 Steerer Voltage ReadbackY-" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">1e-05</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Voltage ReadbackY-</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R30main.lvlib/</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">10</Property>
-		<Property Name="Scaling:EngMin" Type="Str">0</Property>
-		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
-		<Property Name="Scaling:RawMin" Type="Str">0</Property>
-		<Property Name="Scaling:Type" Type="Str">Linear</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 Steerer X+" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer X+</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">10</Property>
-		<Property Name="Scaling:EngMin" Type="Str">0</Property>
-		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
-		<Property Name="Scaling:RawMin" Type="Str">0</Property>
-		<Property Name="Scaling:Type" Type="Str">Linear</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 Steerer X-" Type="Variable">
+	<Item Name="R30 X- Steerer V set" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -569,82 +642,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="R30 Steerer Y+" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Y+</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">10</Property>
-		<Property Name="Scaling:EngMin" Type="Str">0</Property>
-		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
-		<Property Name="Scaling:RawMin" Type="Str">0</Property>
-		<Property Name="Scaling:Type" Type="Str">Linear</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 Steerer Y-" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Y-</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">10</Property>
-		<Property Name="Scaling:EngMin" Type="Str">0</Property>
-		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
-		<Property Name="Scaling:RawMin" Type="Str">0</Property>
-		<Property Name="Scaling:Type" Type="Str">Linear</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 Y Steerer" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Y Steerer</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">3.000000</Property>
-		<Property Name="Scaling:EngMin" Type="Str">-3.000000</Property>
-		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10.000000</Property>
-		<Property Name="Scaling:RawMin" Type="Str">-10.000000</Property>
-		<Property Name="Scaling:Type" Type="Str">Linear</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 Y Steerer Current readback" Type="Variable">
+	<Item Name="R30 Y Mag Steerer I read" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -670,7 +668,32 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="R30 Y steerers voltage readback" Type="Variable">
+	<Item Name="R30 Y Mag Steerer I set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Y Steerer</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Scaling:Coerce" Type="Str">False</Property>
+		<Property Name="Scaling:EngMax" Type="Str">3.000000</Property>
+		<Property Name="Scaling:EngMin" Type="Str">-3.000000</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">10.000000</Property>
+		<Property Name="Scaling:RawMin" Type="Str">-10.000000</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Y Mag Steerer V read" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -696,185 +719,159 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Switch magnet AP" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+	<Item Name="R30 Y+ Steerer I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">1e-05</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet AP</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Current ReadbacksY+</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Switch magnet AP IN" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet AP IN</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Switch magnet AP OUT" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet AP OUT</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Switch magnet FC" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet FC</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Switch magnet FC IN" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet FC IN</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Switch magnet FC OUT" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet FC OUT</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Switch magnet field" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.01</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet field</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Switch magnet readback" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.01</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\Switch magnet readback</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R30main.lvlib/</Property>
+		<Property Name="Scaling:Coerce" Type="Str">False</Property>
+		<Property Name="Scaling:EngMax" Type="Str">1.5</Property>
+		<Property Name="Scaling:EngMin" Type="Str">0</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMin" Type="Str">0</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="ESA Cryo pump" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+	<Item Name="R30 Y+ Steerer V read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">1e-05</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\ESA Cryo pump</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Voltage ReadbackY+</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/R30main.lvlib/</Property>
+		<Property Name="Scaling:Coerce" Type="Str">False</Property>
+		<Property Name="Scaling:EngMax" Type="Str">10</Property>
+		<Property Name="Scaling:EngMin" Type="Str">0</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMin" Type="Str">0</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#LJQ!!!"9!A!!!!!!'!"&amp;!#A!,2GFS=X1A5X2B:W5!%U!+!!R4:7.P&lt;G1A=X2B:W5!!"V!#A!73'^V=H-A=WFO9W5A&lt;'&amp;T&gt;#"S:7&gt;F&lt;A!!$%!B"V"V&lt;8!A4UY!$5!+!!&gt;5;7VF)'^O!"R!5!!&amp;!!!!!1!#!!-!"!J$=HFP)("V&lt;8!A!!!"!!5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="R30 Detector ion gauge" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+	<Item Name="R30 Y+ Steerer V set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Detector ion gauge</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Y+</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Scaling:Coerce" Type="Str">False</Property>
+		<Property Name="Scaling:EngMax" Type="Str">10</Property>
+		<Property Name="Scaling:EngMin" Type="Str">0</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMin" Type="Str">0</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!![.A!!!"9!A!!!!!!#!!A!-0````]!$A"1!!1!!!!!!!!!!!!"!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="R30 ESA ion gauge" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+	<Item Name="R30 Y- Steerer I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">1e-05</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 ESA ion gauge</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Current ReadbacksY-</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R30main.lvlib/</Property>
+		<Property Name="Scaling:Coerce" Type="Str">False</Property>
+		<Property Name="Scaling:EngMax" Type="Str">1.5</Property>
+		<Property Name="Scaling:EngMin" Type="Str">0</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMin" Type="Str">0</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!![.A!!!"9!A!!!!!!#!!A!-0````]!$A"1!!1!!!!!!!!!!!!"!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Y- Steerer V read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">1e-05</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Voltage ReadbackY-</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R30main.lvlib/</Property>
+		<Property Name="Scaling:Coerce" Type="Str">False</Property>
+		<Property Name="Scaling:EngMax" Type="Str">10</Property>
+		<Property Name="Scaling:EngMin" Type="Str">0</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMin" Type="Str">0</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R30 Y- Steerer V set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.0001</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.88\he shared variable library_CR\R30 Steerer Y-</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Scaling:Coerce" Type="Str">False</Property>
+		<Property Name="Scaling:EngMax" Type="Str">10</Property>
+		<Property Name="Scaling:EngMin" Type="Str">0</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMin" Type="Str">0</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Switch magnet object ion gauge" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Logging,Network</Property>
@@ -891,39 +888,5 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!![.A!!!"9!A!!!!!!#!!A!-0````]!$A"1!!1!!!!!!!!!!!!"!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 cpu total" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.01</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
-		<Property Name="Network:AccessType" Type="Str">read only</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\NI_SystemState\CPULoad\CPU0\Total</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R30 Memory total" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Network:AccessType" Type="Str">read only</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.88\NI_SystemState\Memory\Allocated</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

@@ -12,7 +12,6 @@
 	<Property Name="varPersistentID:{315E4E04-4E36-4D88-BC28-B12E75F96E76}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/inj current</Property>
 	<Property Name="varPersistentID:{361DC092-7676-47FB-AA12-533DD033D37B}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/DAQuiri shared var.lvlib/cycle location</Property>
 	<Property Name="varPersistentID:{3705DC27-1ACE-425F-A266-3EEE115BF0F5}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - old.lvlib/change sample bool</Property>
-	<Property Name="varPersistentID:{51181B4A-7791-42D4-91A3-E4F702479B49}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/CONnie shared var.lvlib/turn cathode on</Property>
 	<Property Name="varPersistentID:{5240C106-3B33-49F3-9AF2-BB3EB74AAECA}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - old.lvlib/end sample change</Property>
 	<Property Name="varPersistentID:{5E21908F-B917-44B3-841E-A931620F8120}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - new.lvlib/Requested Sample</Property>
 	<Property Name="varPersistentID:{5E92A4FC-549C-4ECA-B1EF-186E2223B7C0}" Type="Ref">/My Computer/PRIME DAQ 2017a/Shared Variables/InjA-Image shared var.lvlib/inj cup in</Property>
