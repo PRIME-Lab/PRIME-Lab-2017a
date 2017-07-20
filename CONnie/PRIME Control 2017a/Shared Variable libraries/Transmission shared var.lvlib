@@ -101,7 +101,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Switch magnet field" Type="Variable">
+	<Item Name="Switch magnet field set" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.01</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
@@ -120,12 +120,13 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Switch magnet readback" Type="Variable">
+	<Item Name="Switch magnetic field read" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.01</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Logging:ValueRes" Type="Str">0.01</Property>
+		<Property Name="name" Type="Str">Switch magnetic field read</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
@@ -138,6 +139,25 @@
 		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/Transmission shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Switch magnetic PS set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Logging,Network</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.010000</Property>
+		<Property Name="Logging:LogData" Type="Str">True</Property>
+		<Property Name="Logging:LogEvents" Type="Str">True</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.010000</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.91\global trans shared var\switch magnet coil current</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/Transmission shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Trans cRIO cpu" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Logging</Property>

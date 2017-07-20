@@ -341,22 +341,6 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="tank pressure" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.001</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\SmplChngrTEST\Untitled Library 1\TerminalVacuum</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Bias Current" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>

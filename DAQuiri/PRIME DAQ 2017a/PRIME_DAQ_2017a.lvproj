@@ -619,7 +619,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">PRIME DAQ 2017a Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{96B8D755-7641-4A5D-A5F0-5324D46D8385}</Property>
 				<Property Name="INST_productName" Type="Str">PRIME DAQ 2017a</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.38</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.39</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">PRIME Lab</Property>

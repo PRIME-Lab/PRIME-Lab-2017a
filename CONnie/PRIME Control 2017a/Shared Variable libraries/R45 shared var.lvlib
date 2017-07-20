@@ -32,8 +32,8 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="exb readbacks 1 I +" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+	<Item Name="ExB 1+ I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -43,11 +43,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\exb readbacks 1 I +</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 1+ I read</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">1.200000</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -58,8 +58,8 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="exb readbacks 1 I -" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+	<Item Name="ExB 1- I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -69,11 +69,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\exb readbacks 1 I -</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 1- I read</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">1.2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
@@ -84,8 +84,8 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="exb readbacks 1 V+" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+	<Item Name="ExB 1+ V read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -95,11 +95,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\exb readbacks 1 V+</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 1+ V read</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">60</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
@@ -110,8 +110,8 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="exb readbacks 1 V-" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+	<Item Name="ExB 1- V read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -121,11 +121,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\exb readbacks 1 V-</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 1- V read</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">60</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
@@ -136,8 +136,8 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="exb readbacks 2 I+" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+	<Item Name="ExB 2+ I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -147,11 +147,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\exb readbacks 2 I+</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 2+ I read</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">1.2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
@@ -162,8 +162,8 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="exb readbacks 2 I-" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+	<Item Name="ExB 2- I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -173,11 +173,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\exb readbacks 2 I-</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 2- I read</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">1.2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
@@ -188,8 +188,8 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="exb readbacks 2 V-" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+	<Item Name="ExB 2- V read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -199,11 +199,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\exb readbacks 2 V-</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 2- V read</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">60</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
@@ -214,8 +214,8 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="exb readbacks2 V+" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+	<Item Name="ExB 2+ V read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -225,11 +225,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\exb readbacks2 V+</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 2+ V read</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">60</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
@@ -240,8 +240,8 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Exb1" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+	<Item Name="ExB 1 V set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -251,11 +251,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\Exb1</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 1 voltage set</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">60.000000</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -266,8 +266,8 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Exb1 magnet" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+	<Item Name="ExB 1 Magnet set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -277,16 +277,16 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\Exb1 magnet</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 1 Magnet current set</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Exb2" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Scaling,Logging</Property>
+	<Item Name="ExB 2 V set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -296,11 +296,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\Exb2</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 2 voltage set</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">60.000000</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -311,8 +311,8 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Exb2 magnet" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Logging,Network</Property>
+	<Item Name="ExB 2 Magnet set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.000000</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -322,11 +322,11 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\Exb2 magnet</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 2 Magnet current set</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">12.000000</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
@@ -338,7 +338,7 @@
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="R45 #2  aperature" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
@@ -346,15 +346,16 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\R45 #2  aperature</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 Detector Aperture insert</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="R45 #2 faraday cup1" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
@@ -362,129 +363,16 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\R45 #2 faraday cup1</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 Detector FC insert</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="r45 end x steerer read" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\r45 end x steerer read</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="r45 end x steerer set" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Logging,Network</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.000000</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.000000</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\r45 end x steerer set</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R45 X steerer read" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.80\shared var r45_1\R45 X steerer read</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R45 X steerer set" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.80\shared var r45_1\R45 X steerer set</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R45 Y steerer read" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.80\shared var r45_1\R45 Y steerer read</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="R45 Y steerer set" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.80\shared var r45_1\R45 Y steerer set</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="r45_1 apererture read" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
@@ -492,15 +380,16 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.80\shared var r45_1\r45_1 apererture read</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Switch Mag Aperture Status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="r45_1 aperture" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">write only</Property>
@@ -508,15 +397,16 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.80\shared var r45_1\r45_1 aperture</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Switch Mag Aperture actuator</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="r45_1 faraday cup" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">write only</Property>
@@ -524,15 +414,16 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.80\shared var r45_1\r45_1 faraday cup</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Switch Mag FC actuator</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="r45_1 faraday cup read" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">write only</Property>
@@ -540,15 +431,16 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.80\shared var r45_1\r45_1 faraday cup read</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Switch Mag FC Status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="R45 waist ion gauge" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
@@ -556,15 +448,16 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\R45 waist ion gauge</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB Slot vac gauge cluster</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#OKA!!!"9!A!!!!!!&amp;!"2!-0````],37^O)'&gt;B&gt;7&gt;F)$%!(E!Q`````R2$&lt;WZW:7.U=G^O)#"(986H:3!R)!!!&amp;%!Q`````QN*&lt;WYA2W&amp;V:W5A-A!=1$$`````%E.P&lt;H:F9X2S&lt;WUA2W&amp;V:W5A-A!!+%"1!!1!!!!"!!)!!RF*&lt;WYA:W&amp;V:W5A9WRV=X2F=C"D&lt;WZU=G^M!!%!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="R45 cryopump" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
@@ -572,15 +465,16 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.80\shared var r45_1\R45 cryopump</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Cryo Readback</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#LJQ!!!"9!A!!!!!!'!"&amp;!#A!,2GFS=X1A5X2B:W5!%U!+!!R4:7.P&lt;G1A=X2B:W5!!"V!#A!73'^V=H-A=WFO9W5A&lt;'&amp;T&gt;#"S:7&gt;F&lt;A!!$%!B"V"V&lt;8!A4UY!$5!+!!&gt;5;7VF)'^O!"R!5!!&amp;!!!!!1!#!!-!"!J$=HFP)("V&lt;8!A!!!"!!5!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="R45 switch image ion gauge" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
@@ -588,60 +482,64 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.80\shared var r45_1\R45 switch image ion gauge</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Switch Image Vac Cluster</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#OKA!!!"9!A!!!!!!&amp;!"2!-0````],37^O)'&gt;B&gt;7&gt;F)$%!(E!Q`````R2$&lt;WZW:7.U=G^O)#"(986H:3!R)!!!&amp;%!Q`````QN*&lt;WYA2W&amp;V:W5A-A!=1$$`````%E.P&lt;H:F9X2S&lt;WUA2W&amp;V:W5A-A!!+%"1!!1!!!!"!!)!!RF*&lt;WYA:W&amp;V:W5A9WRV=X2F=C"D&lt;WZU=G^M!!%!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="detector ion gauge" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+	<Item Name="R45 detector ion gauge" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:ProjectPath" Type="Str">Rio-R45-2\r45_2shared var.lvlib\R45 Detector ion gauge</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\R45 Detector ion gauge</Property>
+		<Property Name="Network:ProjectPath" Type="Str">R45-2-cRIO\r45_2shared var.lvlib\R45 Detector ion gauge</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 Detector vac gauge cluster</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#OKA!!!"9!A!!!!!!&amp;!"2!-0````],37^O)'&gt;B&gt;7&gt;F)$%!(E!Q`````R2$&lt;WZW:7.U=G^O)#"(986H:3!R)!!!&amp;%!Q`````QN*&lt;WYA2W&amp;V:W5A-A!=1$$`````%E.P&lt;H:F9X2S&lt;WUA2W&amp;V:W5A-A!!+%"1!!1!!!!"!!)!!RF*&lt;WYA:W&amp;V:W5A9WRV=X2F=C"D&lt;WZU=G^M!!%!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		<Property Name="varSourceProjectPath" Type="Str">Rio-R45-2\r45_2shared var.lvlib\R45 Detector ion gauge</Property>
+		<Property Name="varSourceProjectPath" Type="Str">R45-2-cRIO\r45_2shared var.lvlib\R45 Detector ion gauge</Property>
 		<Property Name="varSourceProjectSubPath" Type="Str"></Property>
 	</Item>
-	<Item Name="45 Detector cup in" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+	<Item Name="R45 Detector cup in" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\R45 Detector cup in</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 Detector FC Position</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="R45 detector ap in" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\R45 detector ap in</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 Detector Aperture Position</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="r45 2 cpu total" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -655,12 +553,12 @@
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="R45 2 memory total" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
@@ -672,11 +570,12 @@
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="R45 1 cpu total" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:Deadband" Type="Str">0</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -690,12 +589,12 @@
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="R45 1 memory total" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Network:AccessType" Type="Str">read only</Property>
@@ -707,43 +606,28 @@
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="x steerer 2 rio2" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Logging,Network</Property>
-		<Property Name="Logging:Deadband" Type="Str">0.000000</Property>
-		<Property Name="Logging:LogData" Type="Str">True</Property>
-		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0.000000</Property>
-		<Property Name="Network:AccessType" Type="Str">write only</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\steerer 2 rio 2</Property>
-		<Property Name="Network:UseBinding" Type="Str">True</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="gfm read" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network,Logging</Property>
+	<Item Name="GFM field read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
 		<Property Name="Logging:LogFormat" Type="Str">String</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\gfm read</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\GFM field read</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"9!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="gfm set" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Logging,Network</Property>
+	<Item Name="GFM field set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Logging:Deadband" Type="Str">0.000000</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
@@ -754,11 +638,11 @@
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\gfm set</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\GFM field set</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -767,12 +651,192 @@
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.9\r45_2shared var\Resetexb2</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45 ExB 2 Reset</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2010.lvproj/My Computer/r45 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Down-Steerer I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Down-Steerer I read</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Down-Steerer V read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Down-Steerer V read</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Down-Steerer V set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Down-Steerer V set</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Left-Steerer I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Left-Steerer I read</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Left-Steerer V read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Left-Steerer V read</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Left-Steerer V set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Left-Steerer V set</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Right-Steerer I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Right-Steerer I read</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Right-Steerer V read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Right-Steerer V read</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Right-Steerer V set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Right-Steerer V set</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Up-Steerer I read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Up-Steerer I read</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Up-Steerer V read" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Up-Steerer V read</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Up-Steerer V set" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\Up-Steerer V set</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

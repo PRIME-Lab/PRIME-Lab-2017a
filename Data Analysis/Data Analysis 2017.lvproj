@@ -233,7 +233,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Data Analysis 2017a Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{83A76D54-BDC0-43C9-84BB-E4E83DFB9A18}</Property>
 				<Property Name="INST_productName" Type="Str">Data Analysis 2017a</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.7</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">PRIMELab</Property>

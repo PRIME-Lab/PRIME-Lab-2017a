@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Property Name="varPersistentID:{0010F478-2C4D-4526-9676-7D0C3CC3574D}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Steerer Y-1 Voltage</Property>
+	<Property Name="varPersistentID:{003C8699-6A89-425F-BE05-5D47BA64822E}" Type="Ref">/My Computer/R45 shared var.lvlib/Left-Steerer V set</Property>
 	<Property Name="varPersistentID:{003CD1F3-656F-4FA8-911F-609DFC201B32}" Type="Ref">/Tankexit/he lib.lvlib/tank exit ion gauge1</Property>
 	<Property Name="varPersistentID:{0089D16D-D669-45F0-8775-2E4B0C1E470E}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Str Current3</Property>
 	<Property Name="varPersistentID:{0129D937-6C76-4286-B3C3-011725FBA3C4}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans X- steerer V read</Property>
@@ -9,57 +10,56 @@
 	<Property Name="varPersistentID:{01F73565-4644-4BBA-A175-D12F8402CEDF}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Ion gauge detector 1</Property>
 	<Property Name="varPersistentID:{0207C7C3-86EC-4390-AD72-B5AFBA655E58}" Type="Ref">/My Computer/InjectorA shared var.lvlib/einzel 2 read current</Property>
 	<Property Name="varPersistentID:{0239141C-832B-4B74-94E2-6E58A0CA7CFF}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Retract Rod Timeout</Property>
-	<Property Name="varPersistentID:{02888237-7E00-4322-BE71-1E8B295F3523}" Type="Ref">/My Computer/Transmission shared var.lvlib/Switch magnet readback</Property>
+	<Property Name="varPersistentID:{02888237-7E00-4322-BE71-1E8B295F3523}" Type="Ref">/My Computer/Transmission shared var.lvlib/Switch magnetic field read</Property>
 	<Property Name="varPersistentID:{02F31F26-8F69-4F1D-B459-C0EC429351B3}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Steerer Voltage X1-</Property>
 	<Property Name="varPersistentID:{031BB5CB-036A-4E7F-BB74-08D3152FC991}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO9</Property>
-	<Property Name="varPersistentID:{033D6269-C21D-4B43-BDE7-E3423349E257}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/Resetexb2</Property>
-	<Property Name="varPersistentID:{03479889-F823-4618-8075-FD72D565ED1E}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/gate valve r45 waist turbo in read</Property>
-	<Property Name="varPersistentID:{04013B3D-763D-4940-A45F-5A552565D4CD}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/wheel readback</Property>
+	<Property Name="varPersistentID:{033D6269-C21D-4B43-BDE7-E3423349E257}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/Resetexb2</Property>
+	<Property Name="varPersistentID:{03479889-F823-4618-8075-FD72D565ED1E}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/gate valve r45 waist turbo in read</Property>
+	<Property Name="varPersistentID:{04013B3D-763D-4940-A45F-5A552565D4CD}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/wheel readback</Property>
 	<Property Name="varPersistentID:{043DA417-8F02-406C-B210-FAFEAAE79064}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/Le Column</Property>
 	<Property Name="varPersistentID:{0464DE7D-5A62-431F-BB8D-5CB7120B68AE}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Cathode V read</Property>
 	<Property Name="varPersistentID:{04709496-294A-4240-B92D-CB80BB5B326E}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/diverter</Property>
-	<Property Name="varPersistentID:{0476B1A9-77A2-4F3C-AC68-B92101C99DF1}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Switch magnet AP OUT</Property>
 	<Property Name="varPersistentID:{04C96D60-E3F5-4C77-BC11-20A9989670AC}" Type="Ref">/SCA-cRIO/Chassis/Mod4/Cathode V set</Property>
-	<Property Name="varPersistentID:{04E4D31C-8A95-4BD2-AEAC-9568290E488A}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/ig read back switch magnet</Property>
-	<Property Name="varPersistentID:{0505F355-1BDB-4898-AF0D-CD2FBB665729}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/analyze image convectron2</Property>
+	<Property Name="varPersistentID:{0510A31E-BB42-446C-BA09-0F1DC5B993EF}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Beamline GV 2 Status</Property>
 	<Property Name="varPersistentID:{069E4EA2-7F68-41E8-B571-F7CD6990AE1F}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/cross ion gauge</Property>
 	<Property Name="varPersistentID:{06D23C5D-A38C-41CA-8ACC-13161E257F36}" Type="Ref">/My Computer/LowEnd shared var.lvlib/source einzel 2</Property>
 	<Property Name="varPersistentID:{070B7A0D-8ABD-44D6-8DAB-DBF8BE4B6EAE}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans Y- steerer I read</Property>
 	<Property Name="varPersistentID:{0796B94A-116C-4FF2-AADD-EFDF51E02951}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/ExB Magnet read</Property>
 	<Property Name="varPersistentID:{07B0CA48-DA5E-4F97-AD11-71E7ED666E7C}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Quad B readback</Property>
-	<Property Name="varPersistentID:{07BDE767-D2F8-4410-AA78-1EB9C5D64587}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/CG waist</Property>
-	<Property Name="varPersistentID:{0830C193-B9FE-4BAB-995B-92D066796B1D}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/R30 Ion gauge detector 1</Property>
+	<Property Name="varPersistentID:{07BDE767-D2F8-4410-AA78-1EB9C5D64587}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/CG waist</Property>
+	<Property Name="varPersistentID:{07E75B03-8F7C-4720-8B50-2B0D03E4278A}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/linearity</Property>
 	<Property Name="varPersistentID:{084FB314-3AC0-4284-9121-FDB72AD58B9D}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/manual control</Property>
 	<Property Name="varPersistentID:{08A779F6-2B28-4C80-8835-B2A0CA8CF9D6}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/ExB+ current readback</Property>
 	<Property Name="varPersistentID:{08EE1904-B543-4FC3-9A48-D9011479757F}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Insert Rod Status</Property>
-	<Property Name="varPersistentID:{0945E36A-3F12-4F11-9612-3563CDC91C6E}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/interlock triped</Property>
 	<Property Name="varPersistentID:{094B0EDC-E2B5-4A1A-B292-6F1F6FBFED1D}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/trans steererY- Voltage</Property>
+	<Property Name="varPersistentID:{097D6139-1C55-4E11-A89B-D34624213F5A}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 1- V read</Property>
 	<Property Name="varPersistentID:{098E1C5B-85EC-4E97-9815-6366B9AE6D55}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Einzel Voltage</Property>
 	<Property Name="varPersistentID:{09A177C4-61AF-4CA5-8891-C1C15B9CCC41}" Type="Ref">/My Computer/SCA shared var - old.lvlib/change sample</Property>
 	<Property Name="varPersistentID:{09AA49E4-45EE-40DA-80C7-49B583595D2C}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/Control Gain</Property>
-	<Property Name="varPersistentID:{0A61D642-3391-48D4-B288-1AD50FC99AB4}" Type="Ref">/My Computer/R45 shared var.lvlib/r45_1 apererture read</Property>
+	<Property Name="varPersistentID:{0A61D642-3391-48D4-B288-1AD50FC99AB4}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Switch Mag Aperture Status</Property>
 	<Property Name="varPersistentID:{0A7E6ADB-21A0-46D9-B85E-D1A57428F308}" Type="Ref">/My Computer/flat top.lvlib/Flat-topping states</Property>
 	<Property Name="varPersistentID:{0A837374-0F9D-4852-B8B1-9E8429D2B403}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/switch magnet coil current</Property>
 	<Property Name="varPersistentID:{0AB9D8C8-EC1F-4B47-8788-3D817C53438B}" Type="Ref">/R30-cRIO/local R30_1 shared var lib.lvlib/Interlock loop error</Property>
-	<Property Name="varPersistentID:{0B38C5A8-EC72-408F-8278-C28209C3C1EA}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/exb readbacks 2 I-</Property>
+	<Property Name="varPersistentID:{0B38C5A8-EC72-408F-8278-C28209C3C1EA}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/exb readbacks 2 I-</Property>
+	<Property Name="varPersistentID:{0B5F000F-797C-4CB6-B542-92FCCC573ADF}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/setpoint</Property>
 	<Property Name="varPersistentID:{0BAAA43F-D7AE-4907-8F1C-2CF853F80632}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 X+ Steerer I read</Property>
 	<Property Name="varPersistentID:{0BCB41AB-A4AD-47E1-8FF3-B38264838BBE}" Type="Ref">/My Computer/CONnie shared var.lvlib/Oven P read</Property>
-	<Property Name="varPersistentID:{0BE854EA-8109-429E-9E45-E30845894D75}" Type="Ref">/My Computer/R45 shared var.lvlib/reset exb 2</Property>
+	<Property Name="varPersistentID:{0BE854EA-8109-429E-9E45-E30845894D75}" Type="Ref">/My Computer/R45 shared var.lvlib/Reset ExB 2</Property>
 	<Property Name="varPersistentID:{0C0C7189-2EF3-493A-81FA-240582FD587C}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/Le Chain</Property>
-	<Property Name="varPersistentID:{0C1DCD29-A06A-473F-A254-AAA1F8DEECB4}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/ION SOURCE covectron2</Property>
+	<Property Name="varPersistentID:{0C1DCD29-A06A-473F-A254-AAA1F8DEECB4}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/ION SOURCE covectron2</Property>
 	<Property Name="varPersistentID:{0C4F8CE4-A251-4023-AAAE-F90DFDAE0525}" Type="Ref">/Tankexit/he lib.lvlib/tank exit convectron1</Property>
 	<Property Name="varPersistentID:{0CD0A621-B518-40DC-86EE-F89B90C644E8}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/Switch object vac gauge cluster</Property>
 	<Property Name="varPersistentID:{0CFB97B4-D995-4D1F-9568-E7CA84DF5070}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/error in</Property>
-	<Property Name="varPersistentID:{0D1868C1-2C23-4F4B-B542-F94568B5C2C9}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/HE Waist ion gauge1</Property>
 	<Property Name="varPersistentID:{0D287206-237C-4A65-90F8-F1069142972F}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/Y- steerer voltage set</Property>
-	<Property Name="varPersistentID:{0D382A70-82FA-4583-A19E-2BF98CCC596F}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Tank entrance ion gauge2</Property>
+	<Property Name="varPersistentID:{0D3D8501-A3AD-4344-A7C4-2CD8C921D579}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Vac cluster 2 Ion Gauge Interlock</Property>
+	<Property Name="varPersistentID:{0D6F17DF-82C2-4AE5-9923-FFB7FFBF8E30}" Type="Ref">/R45-2-cRIO/local R45_2 shared var lib.lvlib/HV control loop error</Property>
 	<Property Name="varPersistentID:{0D7F30E0-66E0-40CB-B5C4-90BF4C429308}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Wasit X+ Current</Property>
 	<Property Name="varPersistentID:{0DC36165-E7A9-486A-8052-717F9A1465C2}" Type="Ref">/My Computer/SCA shared var - new.lvlib/SM Config Update?</Property>
 	<Property Name="varPersistentID:{0DE0271D-7A0D-49B5-BD76-D7209C016A14}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/HV Readback loop error</Property>
 	<Property Name="varPersistentID:{0DE8E93F-00C6-4419-8003-0FCA0AC64771}" Type="Ref">/SCA-cRIO/Chassis/Mod8/Retract Rod Actuator</Property>
 	<Property Name="varPersistentID:{0E3F4667-222C-4A6B-AA0F-EFEB8C12A95F}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Immersion Lens V Set</Property>
 	<Property Name="varPersistentID:{0E442CEB-ECDB-4120-B88B-5BCE89314965}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/linearity</Property>
-	<Property Name="varPersistentID:{0E4F1A76-B4F1-483B-83ED-FD3866BF5979}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/gate valve r45  waist turbo set</Property>
+	<Property Name="varPersistentID:{0E4F1A76-B4F1-483B-83ED-FD3866BF5979}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/gate valve r45  waist turbo set</Property>
 	<Property Name="varPersistentID:{0E58EAFE-1CEE-463E-A80D-A575509C7073}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans ExB- I read</Property>
 	<Property Name="varPersistentID:{0E9F8663-04D8-44E5-B152-B03179779D54}" Type="Ref">/Tankexit/he lib.lvlib/AI28</Property>
 	<Property Name="varPersistentID:{0EACBA87-6F56-4D24-8336-A1AF90E3B83E}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI22</Property>
@@ -70,27 +70,25 @@
 	<Property Name="varPersistentID:{0FDA3F37-9FB6-424D-9816-67FE0E2CBD1C}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO18</Property>
 	<Property Name="varPersistentID:{1003D0A8-D172-4729-9440-DF0454F2E66F}" Type="Ref">/Tankexit/he lib.lvlib/DI25</Property>
 	<Property Name="varPersistentID:{10278E12-0716-4CF1-B0B5-3DCD0152282F}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Rollover Sample</Property>
-	<Property Name="varPersistentID:{104236DD-A197-4B52-94B5-A4179DC5F1E8}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 beamline gate valve out read</Property>
 	<Property Name="varPersistentID:{104BF7B8-3D42-4CDD-8CAD-9ACF6CF9E8EE}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/Le Column</Property>
 	<Property Name="varPersistentID:{1072BC02-F905-4EC7-9574-B9E229021F7A}" Type="Ref">/Tankexit/he lib.lvlib/AI15</Property>
 	<Property Name="varPersistentID:{107F602B-9838-4900-9FFF-46D9DB0376F6}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Waist Y- Voltage</Property>
-	<Property Name="varPersistentID:{109469ED-A00A-49F0-BB95-B02402C01AAE}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/cold cathode off</Property>
-	<Property Name="varPersistentID:{10961542-5841-4208-9207-08EA9186B18C}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 X steerer set</Property>
+	<Property Name="varPersistentID:{109469ED-A00A-49F0-BB95-B02402C01AAE}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/cold cathode off</Property>
 	<Property Name="varPersistentID:{10A28573-C7AF-4745-9E2C-EB5F7146C4D5}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Einzel</Property>
 	<Property Name="varPersistentID:{10C39C10-FDA6-4CC2-8B43-067344FFD5EA}" Type="Ref">/R30-cRIO/local R30_1 shared var lib.lvlib/Actuator Sensor Loop error</Property>
 	<Property Name="varPersistentID:{10F25BAD-833B-47FF-87E1-2FCD37740396}" Type="Ref">/My Computer/SCA shared var - old.lvlib/read sc gv closed</Property>
 	<Property Name="varPersistentID:{112CC9E8-8312-40FF-B7E6-B9D94FB51E3B}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/integral time (Ti, min)</Property>
+	<Property Name="varPersistentID:{11312C8E-9952-4042-8A27-07AC0C0CFB55}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/beta</Property>
 	<Property Name="varPersistentID:{1177845E-F46B-4A08-9D24-2D6F2EADD8D4}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Waist Y+ Voltage</Property>
 	<Property Name="varPersistentID:{1195F9B4-1625-4C6E-90D6-5B641C6EE5AA}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Retract Rod Status</Property>
 	<Property Name="varPersistentID:{11AFEF59-5C15-4118-A65A-EE4D42AC65E0}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans ExB- V read</Property>
 	<Property Name="varPersistentID:{11B03A17-80E0-409F-9E31-9E009A37C7A2}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Mag Steerer I-program</Property>
 	<Property Name="varPersistentID:{11E7CA2A-8E4A-4ADC-85EB-5D3C66D9781A}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/trans steerer Y+current</Property>
 	<Property Name="varPersistentID:{1204EE0C-421E-4FEA-857F-BD70191740BF}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI20</Property>
-	<Property Name="varPersistentID:{121C8140-C255-4A2A-918E-6193F493E76D}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/ION SOURCE covectron1</Property>
-	<Property Name="varPersistentID:{12219350-6F97-47CC-AB36-7DC47AD0A2B6}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/interlock r45 ion gauge 1</Property>
-	<Property Name="varPersistentID:{1232BC9E-1A5E-4E97-9E7E-86E64DF1560C}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/ig2</Property>
-	<Property Name="varPersistentID:{12339FFA-F1D3-40C7-A557-005DC6E9A3FC}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/ION SOURCE ion gauge2</Property>
+	<Property Name="varPersistentID:{121C8140-C255-4A2A-918E-6193F493E76D}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/ION SOURCE covectron1</Property>
+	<Property Name="varPersistentID:{1232BC9E-1A5E-4E97-9E7E-86E64DF1560C}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/ig2</Property>
 	<Property Name="varPersistentID:{126224A1-EFB0-4534-ADBB-70B53FAD46AC}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer Y-2 Voltage</Property>
+	<Property Name="varPersistentID:{12A4B127-31CF-4F70-87F3-C6667E0BB874}" Type="Ref">/R45-2-cRIO/local R45_2 shared var lib.lvlib/Vacuum Readback loop error</Property>
 	<Property Name="varPersistentID:{12AF4519-5A2D-4FED-AB1A-42438C11FE81}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/reinitialize? (F)</Property>
 	<Property Name="varPersistentID:{12BD3809-0814-45A4-A074-EA9A976FCAD2}" Type="Ref">/Tankexit/he lib.lvlib/AI8</Property>
 	<Property Name="varPersistentID:{1302412A-5D49-48D6-B46F-E2F499BF4805}" Type="Ref">/SCA-cRIO/Chassis/Mod8/Extractor HV Enable</Property>
@@ -98,11 +96,11 @@
 	<Property Name="varPersistentID:{13D85E1B-8DC6-4642-AF7A-FCCC80600259}" Type="Ref">/Tankexit/he lib.lvlib/DI6</Property>
 	<Property Name="varPersistentID:{13E53E2C-BF9F-4B29-B65C-A595FF146B2D}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/einzel 1 read current</Property>
 	<Property Name="varPersistentID:{13F253E2-CFBA-4315-BE1C-1B3C581560AD}" Type="Ref">/My Computer/HighEnd shared var.lvlib/He cpu total</Property>
-	<Property Name="varPersistentID:{14000034-051A-48BA-99AC-8EA928ADE116}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/extractor current read</Property>
+	<Property Name="varPersistentID:{14000034-051A-48BA-99AC-8EA928ADE116}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/extractor current read</Property>
 	<Property Name="varPersistentID:{1405BDB3-7FCE-457C-AD0B-8A3A7BD56771}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Extractor I read</Property>
 	<Property Name="varPersistentID:{14280C84-8036-4510-AF3E-E9D14621A128}" Type="Ref">/My Computer/LowEnd shared var.lvlib/extractor V</Property>
 	<Property Name="varPersistentID:{144F9948-68B7-4A36-9FA4-500E79B82D4B}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Waist X-</Property>
-	<Property Name="varPersistentID:{149F2370-F888-4E43-9EDB-10E02C1F5B81}" Type="Ref">/My Computer/R45 shared var.lvlib/r45 2 cpu total</Property>
+	<Property Name="varPersistentID:{149F2370-F888-4E43-9EDB-10E02C1F5B81}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 2 cpu total</Property>
 	<Property Name="varPersistentID:{14C3296F-2D49-452B-8698-20050A007A23}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/process variable</Property>
 	<Property Name="varPersistentID:{151E7921-5FE0-43F4-AD54-8F7F9E841B97}" Type="Ref">/Tankexit/he lib.lvlib/AO11</Property>
 	<Property Name="varPersistentID:{1546BB11-A81B-463A-A1B1-0999A4CB5C66}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/injector field</Property>
@@ -111,14 +109,16 @@
 	<Property Name="varPersistentID:{159F49F2-DB2B-4444-AB38-06CBA6CE57D5}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI30</Property>
 	<Property Name="varPersistentID:{15B0AAF2-28B2-4AE9-AB14-2AA6B68F8E3E}" Type="Ref">/Tankexit/he lib.lvlib/tank exit ion gauge2</Property>
 	<Property Name="varPersistentID:{15CA128E-FA08-49BA-AFA3-7CE28B6067FD}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Steerer X-</Property>
-	<Property Name="varPersistentID:{15DA8372-A32D-448C-BB74-33DB6C9A6AB2}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/exb readbacks 1 I +</Property>
+	<Property Name="varPersistentID:{15DA8372-A32D-448C-BB74-33DB6C9A6AB2}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/exb readbacks 1 I +</Property>
 	<Property Name="varPersistentID:{15E57044-5C3D-464C-AF92-EE38223A0F31}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI21</Property>
 	<Property Name="varPersistentID:{16084A3B-0046-40CA-8480-BE2ED288070A}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Timeouts</Property>
 	<Property Name="varPersistentID:{161B285A-590B-4190-93E5-F1AC5BC86D46}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans Y+ steerer I read</Property>
 	<Property Name="varPersistentID:{163C429C-EC84-4A4B-ADC9-6818631E09C3}" Type="Ref">/My Computer/InjectorA shared var.lvlib/einzel 1 read current</Property>
 	<Property Name="varPersistentID:{1643B908-9B0D-432C-883D-9A57C24D0317}" Type="Ref">/SCA-cRIO/Chassis/Mod7/Retract Rod OUT sensor</Property>
 	<Property Name="varPersistentID:{16832D20-982C-475A-BAA6-B37E680B2FA9}" Type="Ref">/inj-image-rio/injfield_var.lvlib/oscillate</Property>
-	<Property Name="varPersistentID:{169EEB39-20C0-468B-89B5-A1FFDB1FB317}" Type="Ref">/My Computer/R45 shared var.lvlib/exb readbacks 2 I+</Property>
+	<Property Name="varPersistentID:{169EEB39-20C0-468B-89B5-A1FFDB1FB317}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 2+ I read</Property>
+	<Property Name="varPersistentID:{16D8F1E6-0234-4831-9900-644060DB519C}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Right-Steerer V read</Property>
+	<Property Name="varPersistentID:{16E8FDED-6864-445A-8D9E-F6C68E9968AC}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 1- I read</Property>
 	<Property Name="varPersistentID:{17281888-45AE-44FC-A9DE-5AFE54AC1229}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 X+ Steerer V read</Property>
 	<Property Name="varPersistentID:{177AF429-7242-441E-B05B-5A81647518F3}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer X-1</Property>
 	<Property Name="varPersistentID:{178EB23A-B581-4B0D-97AE-B8C72C48368F}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI17</Property>
@@ -130,11 +130,12 @@
 	<Property Name="varPersistentID:{18ABB9A3-BD41-4E32-BC2B-91AECF974771}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Timeouts</Property>
 	<Property Name="varPersistentID:{18C07A70-E2BE-423B-BD59-2F967E38E25C}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Steerer Y-1 Voltage</Property>
 	<Property Name="varPersistentID:{19085D40-8932-4E97-B9C8-433EB183D860}" Type="Ref">/My Computer/CONnie shared var.lvlib/Oven V read</Property>
+	<Property Name="varPersistentID:{19718452-72AC-4BD1-8A53-ABA82EF88A00}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Quad vac gauge cluster</Property>
 	<Property Name="varPersistentID:{19A24102-28CC-40F9-8096-9084FD6AD9F9}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer Y-2 Current</Property>
 	<Property Name="varPersistentID:{19E75979-4439-444A-B334-1F36F7142011}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Rare Field</Property>
 	<Property Name="varPersistentID:{19E79661-737D-49CA-8DCF-947E70787EE7}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/x steerer -</Property>
-	<Property Name="varPersistentID:{1AEF5A42-96B4-4F61-887D-9EF7BF02D58B}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Detector FC IN</Property>
-	<Property Name="varPersistentID:{1AF226DC-1C53-4F2C-BA73-E6514BB47B93}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/gfm read</Property>
+	<Property Name="varPersistentID:{1AEF5A42-96B4-4F61-887D-9EF7BF02D58B}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Detector FC status</Property>
+	<Property Name="varPersistentID:{1AF226DC-1C53-4F2C-BA73-E6514BB47B93}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/gfm read</Property>
 	<Property Name="varPersistentID:{1B2254F6-3D63-4CF6-9418-EA6184DD5B7F}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/setpoint low</Property>
 	<Property Name="varPersistentID:{1B45E806-6C8A-4397-AC00-AD0A4861BCB7}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/output low</Property>
 	<Property Name="varPersistentID:{1B8D8883-9E65-40A6-961B-312EAF46B9EF}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/analyze magnet coil current</Property>
@@ -144,8 +145,9 @@
 	<Property Name="varPersistentID:{1C761671-8046-462B-A1F0-61DEECC3004F}" Type="Ref">/Tankexit/he lib.lvlib/AO15</Property>
 	<Property Name="varPersistentID:{1C8B6873-2729-4ECB-9360-375A6F32FE99}" Type="Ref">/SCA-cRIO/global SCA shared var lib - old.lvlib/Insert Rod insertion</Property>
 	<Property Name="varPersistentID:{1C9EB44A-A48D-4B6F-A851-73BDA452C32E}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/He Column</Property>
+	<Property Name="varPersistentID:{1CB1CF3A-D389-4768-89E8-B27984A39537}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 X-steerer Mag - I read</Property>
 	<Property Name="varPersistentID:{1D26728B-9CBE-42A6-90E0-1DFBF7790F9A}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Immersion Lens I set</Property>
-	<Property Name="varPersistentID:{1D635E09-354C-49A6-AFC2-5216BBF4E4EF}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/R45 detector ap in</Property>
+	<Property Name="varPersistentID:{1D635E09-354C-49A6-AFC2-5216BBF4E4EF}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/R45 detector ap in</Property>
 	<Property Name="varPersistentID:{1DA572A0-08D1-4A78-A0A2-39F59B594AE0}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Sample Rod Bypass</Property>
 	<Property Name="varPersistentID:{1DA7BDB4-8844-441E-8166-F68E0A408827}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Cathode HV Enable</Property>
 	<Property Name="varPersistentID:{1DCE15E9-352A-4FF4-8443-16ED41A8C56D}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Y Mag Steerer I set</Property>
@@ -159,70 +161,72 @@
 	<Property Name="varPersistentID:{1F777130-C615-47A0-B060-F5F1F08DA1BC}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Y- Steerer I read</Property>
 	<Property Name="varPersistentID:{1F8B0BD7-394F-444B-8251-CFEC2CBEB3D9}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/auto? (T)</Property>
 	<Property Name="varPersistentID:{1F92449E-35BC-4234-803E-89D7C9DF10AD}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/process variable</Property>
-	<Property Name="varPersistentID:{1FB61646-0EAF-4876-8C58-852DD1C66146}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Tank entrance convectron1</Property>
-	<Property Name="varPersistentID:{1FE41AA9-756C-4590-AD80-788D809E2635}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 Y steerer set</Property>
-	<Property Name="varPersistentID:{1FE8363C-7554-4D7A-9DAA-F65A60305725}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/exb readbacks 1 V+</Property>
+	<Property Name="varPersistentID:{1FE8363C-7554-4D7A-9DAA-F65A60305725}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/exb readbacks 1 V+</Property>
 	<Property Name="varPersistentID:{2005ECD7-3460-46A1-BCBE-558E5995E8DF}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/X+ Steerer I read</Property>
 	<Property Name="varPersistentID:{20300EB7-5A19-4721-82BF-BC94FC240406}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO11</Property>
 	<Property Name="varPersistentID:{204C9C98-F223-401A-9A0E-0CD005A44603}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/trans steerer X- Voltage readback</Property>
-	<Property Name="varPersistentID:{20645EE4-0B2A-40A9-B98E-82883B7ACD7C}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Analyze ion gauge</Property>
 	<Property Name="varPersistentID:{20852675-F151-42A9-92F9-24F72145B687}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/setpoint high</Property>
 	<Property Name="varPersistentID:{20CAB6CA-8BD5-48B5-8AE6-3D18906CDFF5}" Type="Ref">/My Computer/CONnie shared var.lvlib/inj current</Property>
 	<Property Name="varPersistentID:{20CB43A8-EC2D-4288-BDC0-896525CD39AF}" Type="Ref">/Tankexit/he lib.lvlib/analyze magnet ps</Property>
 	<Property Name="varPersistentID:{20F2F6EC-EB6F-40C5-889D-2716E09054B8}" Type="Ref">/Tankexit/he lib.lvlib/He Quad A</Property>
-	<Property Name="varPersistentID:{215494CB-5117-4DD1-BFE9-D04B3E17EB33}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/R45 #2  aperature</Property>
+	<Property Name="varPersistentID:{215494CB-5117-4DD1-BFE9-D04B3E17EB33}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/R45 #2  aperature</Property>
 	<Property Name="varPersistentID:{21804903-15B5-472C-8B8E-AD221AC89072}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI31</Property>
-	<Property Name="varPersistentID:{219A4692-4236-4331-BB18-301CDA570F1F}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/gfm set</Property>
+	<Property Name="varPersistentID:{219A4692-4236-4331-BB18-301CDA570F1F}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/gfm set</Property>
 	<Property Name="varPersistentID:{21D9EC42-7113-43DC-84FE-F063E2BB59A5}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Waist X+ Voltage</Property>
+	<Property Name="varPersistentID:{21E80CB4-F20B-42B9-9562-10AC507656F2}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{223E029C-935A-447F-A9B4-A098BF52D69B}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO27</Property>
 	<Property Name="varPersistentID:{22A6AEA0-6EF6-4BF4-9C23-195632CE34EE}" Type="Ref">/Tankexit/he lib.lvlib/DI30</Property>
-	<Property Name="varPersistentID:{22B8F7FA-5835-4436-9C32-E5D94ED2BE1A}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Switch magnet FC IN</Property>
+	<Property Name="varPersistentID:{22B8F7FA-5835-4436-9C32-E5D94ED2BE1A}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Switch magnet FC status</Property>
 	<Property Name="varPersistentID:{22BDCBDC-AFC7-433C-84B6-474F32714BAB}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Status Message</Property>
 	<Property Name="varPersistentID:{22D19B06-FAB4-4044-8626-2960A08D70D7}" Type="Ref">/My Computer/SCA shared var - old.lvlib/read insert in</Property>
 	<Property Name="varPersistentID:{23239EF2-1E8C-45CD-A9A1-2DBA8D148CD0}" Type="Ref">/My Computer/R30 shared var.lvlib/ESA Readback Voltage</Property>
+	<Property Name="varPersistentID:{2325C84D-49B4-47BE-AAA2-88E36DD6B915}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/R45-1-FPGA Error</Property>
 	<Property Name="varPersistentID:{2328C6F5-BF78-4F4A-84EA-B20DD51E8F2C}" Type="Ref">/Tankexit/he lib.lvlib/DI2</Property>
-	<Property Name="varPersistentID:{2361BD26-37D2-4835-86FE-615C69798DEC}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/convectron</Property>
+	<Property Name="varPersistentID:{2361BD26-37D2-4835-86FE-615C69798DEC}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/convectron</Property>
 	<Property Name="varPersistentID:{23924663-77A4-48B5-9A39-FE301387CA1A}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer Y+2 Current</Property>
 	<Property Name="varPersistentID:{23C3F5E8-6600-4995-8FFE-F6A2FD9F5600}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Rotate Wheel error</Property>
-	<Property Name="varPersistentID:{23D7E49A-F5C9-472D-9428-306CCA6CA386}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/R30  convectron ESA 1</Property>
 	<Property Name="varPersistentID:{244F2198-A5C2-4826-952E-8FB169C60925}" Type="Ref">/My Computer/HighEnd shared var.lvlib/HE Quad Current A</Property>
 	<Property Name="varPersistentID:{24559C4E-3C15-456B-A63E-CC9FB3E34908}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Steerer Y-</Property>
+	<Property Name="varPersistentID:{24912124-E65F-45FA-BC9B-B0762C86FA16}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 2+ I read</Property>
 	<Property Name="varPersistentID:{24B21EDF-3446-41AB-9109-FABDA8A6065D}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Inj image Steerer Voltage y+</Property>
-	<Property Name="varPersistentID:{24CDF1E1-FD9C-43FB-89EF-CC7E97153605}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/ION SOURCE covectron1</Property>
-	<Property Name="varPersistentID:{25657B87-A8AC-490D-B48C-F0CF4C393B59}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/Exb1</Property>
+	<Property Name="varPersistentID:{25657B87-A8AC-490D-B48C-F0CF4C393B59}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/Exb1</Property>
 	<Property Name="varPersistentID:{25A22FF9-6270-4990-B64F-01B0BFBEBC3F}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Steerer X+</Property>
 	<Property Name="varPersistentID:{25A42054-C761-48AF-AE23-16AD1F3FBB0E}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank exit ion gauge</Property>
 	<Property Name="varPersistentID:{266886D8-1423-45F6-B798-0D999E9D1EEA}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Wheel GV Timeout</Property>
 	<Property Name="varPersistentID:{2688CA12-D99D-41AB-9EAB-3F54619FC37C}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO15</Property>
-	<Property Name="varPersistentID:{26E5D54D-E95B-4676-993F-A3B1F2C726DA}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/R30 ESA ion gauge</Property>
+	<Property Name="varPersistentID:{26AE23CE-D516-4854-AAED-B9CA801B0E99}" Type="Ref">/My Computer/Transmission shared var.lvlib/Switch magnetic PS set</Property>
 	<Property Name="varPersistentID:{270726C4-2F7C-439E-8CFB-B9DA8A3B116F}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/Detector FC OUT</Property>
-	<Property Name="varPersistentID:{272019F9-D1D9-42BE-A1E5-053212E50153}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/Encoder Home Off-Set</Property>
-	<Property Name="varPersistentID:{27C395F7-E787-419F-B866-30B5901F9476}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/HE Waist ion convectron2</Property>
+	<Property Name="varPersistentID:{272019F9-D1D9-42BE-A1E5-053212E50153}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/Encoder Home Off-Set</Property>
 	<Property Name="varPersistentID:{280B6754-86C5-4E29-B660-9A255D67063F}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Str Current6</Property>
-	<Property Name="varPersistentID:{280C4543-3928-4119-9E08-CFA4B1F62EEF}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/index2</Property>
-	<Property Name="varPersistentID:{284645E2-B807-46F4-BB9F-7B4B3958FD1E}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 cryopump</Property>
+	<Property Name="varPersistentID:{280C4543-3928-4119-9E08-CFA4B1F62EEF}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/index2</Property>
 	<Property Name="varPersistentID:{28533B28-6FFC-4D0D-8C46-60B47F477CAF}" Type="Ref">/My Computer/Transmission shared var.lvlib/Analyzer magnet PS set</Property>
 	<Property Name="varPersistentID:{285AF230-5E79-4945-AE42-1A9CE64BF0C5}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Steerer X-1 Current</Property>
+	<Property Name="varPersistentID:{28655622-D0A0-4604-9109-F02A9083641B}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Switch Mag Aperture actuator</Property>
 	<Property Name="varPersistentID:{286BF04A-D1B3-4D90-971B-D1923A35243F}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/preacc</Property>
+	<Property Name="varPersistentID:{28B0BEED-6D11-4614-B4AF-3C2F1ED64B9B}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB Slot Convectron Gauge 1</Property>
 	<Property Name="varPersistentID:{28C357C2-780E-4166-B4A7-634EA1563FE8}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI15</Property>
 	<Property Name="varPersistentID:{28DE9AB7-A6AF-48E0-93DD-0806BB3C4FCD}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/Detector FC</Property>
 	<Property Name="varPersistentID:{28E4CD6A-3883-4C3F-9943-F7CD360F54F0}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Inj image Steerer Voltage X-</Property>
+	<Property Name="varPersistentID:{298178B2-7878-46F7-8571-20B9CB7B09C2}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/setpoint high</Property>
 	<Property Name="varPersistentID:{29AFDB1A-4C52-4078-B19C-B99A2E0B07F5}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/He Column</Property>
-	<Property Name="varPersistentID:{29E4B6C1-9435-46EE-B33C-5FD661E46DDC}" Type="Ref">/My Computer/R45 shared var.lvlib/r45_1 aperture</Property>
-	<Property Name="varPersistentID:{2A279758-D75B-45CB-9328-CB0A35E3FEAA}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/change sample start end</Property>
-	<Property Name="varPersistentID:{2A7992A3-3710-471C-B208-A257AC66A631}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/r45 1 gate valve detector out read</Property>
+	<Property Name="varPersistentID:{29E4B6C1-9435-46EE-B33C-5FD661E46DDC}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Switch Mag Aperture Actuator</Property>
+	<Property Name="varPersistentID:{2A279758-D75B-45CB-9328-CB0A35E3FEAA}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/change sample start end</Property>
+	<Property Name="varPersistentID:{2A78C37D-362B-44C5-BB88-F930EFC39B5B}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Switch Mag FC Status</Property>
+	<Property Name="varPersistentID:{2A7992A3-3710-471C-B208-A257AC66A631}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/r45 1 gate valve detector out read</Property>
 	<Property Name="varPersistentID:{2A89B755-CB99-4CE9-B4C2-55233ACE7E44}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE waist apt</Property>
 	<Property Name="varPersistentID:{2AB3E438-3D5B-472A-84CF-8884E73D0423}" Type="Ref">/My Computer/SCA shared var - old.lvlib/rotate wheel</Property>
 	<Property Name="varPersistentID:{2B270CB9-199F-41BA-9B22-DF6B395FC01C}" Type="Ref">/Tankexit/he lib.lvlib/DI12</Property>
 	<Property Name="varPersistentID:{2B2AAAD6-1075-4161-95BA-F44E06377127}" Type="Ref">/Tankexit/he lib.lvlib/DO6</Property>
-	<Property Name="varPersistentID:{2B50B642-4621-40CA-8152-BA6811ED5FD1}" Type="Ref">/My Computer/R45 shared var.lvlib/45 Detector cup in</Property>
+	<Property Name="varPersistentID:{2B50B642-4621-40CA-8152-BA6811ED5FD1}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Detector FC status</Property>
 	<Property Name="varPersistentID:{2B5F9BE1-A098-45BD-BF1E-A009A72FDF2F}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/SC SM counter</Property>
-	<Property Name="varPersistentID:{2B7FFA52-5916-4A24-99FB-4AF138DD1412}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/IG gauge detector</Property>
-	<Property Name="varPersistentID:{2B9221F0-5928-41C3-980A-9C254CE2BC87}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/cpu</Property>
+	<Property Name="varPersistentID:{2B7FFA52-5916-4A24-99FB-4AF138DD1412}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/IG gauge detector</Property>
+	<Property Name="varPersistentID:{2B9221F0-5928-41C3-980A-9C254CE2BC87}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/cpu</Property>
+	<Property Name="varPersistentID:{2BC0678D-4BB0-4F77-8DE4-B8E96E6FD3F6}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/Vac cluster 4 Interlock bypass</Property>
 	<Property Name="varPersistentID:{2BC42F95-B8B8-41F4-8CCB-24C15D3E05DA}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer X+1</Property>
 	<Property Name="varPersistentID:{2BE16D25-97FE-4C5B-ABD2-1D7D32AAA699}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Steerer Current ReadbacksX-</Property>
 	<Property Name="varPersistentID:{2C22D35A-F947-4C38-AC3F-29922342DF8D}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans X- steerer V set</Property>
 	<Property Name="varPersistentID:{2C422BB2-94F6-4D4E-8CE6-23316816859E}" Type="Ref">/R30-cRIO/local R30_1 shared var lib.lvlib/HV readback loop error</Property>
+	<Property Name="varPersistentID:{2C79C9E7-4F1F-4AAF-9676-9A2C45886598}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB Slot Aperture Position</Property>
 	<Property Name="varPersistentID:{2C96B8C4-EC11-4728-BA73-D012EB3D91A2}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/ESA Vac Cluster</Property>
 	<Property Name="varPersistentID:{2CA3BBAA-07CB-4810-99AF-A2C455F5AB6E}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/Y- steerer voltage readback</Property>
 	<Property Name="varPersistentID:{2CAB2361-5621-40D9-8840-1E81FA636455}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Quad A set</Property>
@@ -233,16 +237,16 @@
 	<Property Name="varPersistentID:{2D83B886-85F9-4874-96DE-10DF95FE02AE}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Steerer X+</Property>
 	<Property Name="varPersistentID:{2D975B4B-3370-42F6-BCA2-8562BD1B8FB3}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/X+ Steerer V set</Property>
 	<Property Name="varPersistentID:{2D9A4729-A077-4266-BCC0-DA7B9FD54EAE}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI25</Property>
+	<Property Name="varPersistentID:{2DDF9E5B-8F8D-47CE-8F76-9A8B96730411}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Switch Image Convectron 1</Property>
 	<Property Name="varPersistentID:{2E0C4BB6-BD83-45D9-B1FD-7FA7171D7719}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/Transmission ion gauge</Property>
 	<Property Name="varPersistentID:{2E51EA55-A564-4422-B84A-F461A54F8A5A}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Sample Rod status</Property>
-	<Property Name="varPersistentID:{2E6E7141-E3E9-404A-ABB5-65D5A33BDBF8}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/encoder position</Property>
-	<Property Name="varPersistentID:{2EA034EE-8FD8-4273-B487-2F8FECC1F946}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/analyze image convectron1</Property>
+	<Property Name="varPersistentID:{2E6E7141-E3E9-404A-ABB5-65D5A33BDBF8}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/encoder position</Property>
 	<Property Name="varPersistentID:{2EC1E218-C43B-43A2-B53B-D9B3A15C4A7A}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Wasit Y- Current</Property>
 	<Property Name="varPersistentID:{2F0E0907-C6BD-4F14-A98F-34C702251192}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans cRIO memory</Property>
 	<Property Name="varPersistentID:{2F3F52CF-DDE4-45EB-9AEE-FAF2B24E2913}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/Detector AP</Property>
 	<Property Name="varPersistentID:{2F5D19D8-BBA2-4FAC-A743-3AACBB93D627}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans X- steerer I read</Property>
 	<Property Name="varPersistentID:{2F86CF24-D543-492F-96BB-10FD55FD4D5F}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI28</Property>
-	<Property Name="varPersistentID:{2F8771EA-03AC-4714-AAF8-F2EB74C9E91B}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/sample number</Property>
+	<Property Name="varPersistentID:{2F8771EA-03AC-4714-AAF8-F2EB74C9E91B}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/sample number</Property>
 	<Property Name="varPersistentID:{2FEA354A-9A81-470B-BA4C-7A44510FCEAB}" Type="Ref">/Tankexit/he lib.lvlib/HE Waist Convectron1</Property>
 	<Property Name="varPersistentID:{30BAA31B-32D6-4EDB-8E2F-402329B4438E}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/BPM 2 X 10</Property>
 	<Property Name="varPersistentID:{312D2F74-8D8E-440B-83C9-7AD8693EEFA1}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/Terminal Voltage</Property>
@@ -253,21 +257,19 @@
 	<Property Name="varPersistentID:{3230400C-4A5E-4FD4-86D7-42EE7D680A91}" Type="Ref">/My Computer/SCA shared var - old.lvlib/position</Property>
 	<Property Name="varPersistentID:{323CE208-67E8-4A1C-BFDC-AC629858F4C0}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer X1 +</Property>
 	<Property Name="varPersistentID:{327A74DE-00ED-4229-AFDA-28960672B30A}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Tank entrance convectron1</Property>
+	<Property Name="varPersistentID:{32E8F0E8-003D-4D3D-8F81-50477E26E2EE}" Type="Ref">/My Computer/R45 shared var.lvlib/Down-Steerer V set</Property>
 	<Property Name="varPersistentID:{33667155-5EB9-4E8C-8F01-EAFE75988036}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Inj image Steerer current  X+</Property>
 	<Property Name="varPersistentID:{33937AEA-6C71-42FB-B13B-9CDBFBAE0C4D}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Immersion Lens I read</Property>
-	<Property Name="varPersistentID:{33C13360-F084-4571-A0F6-5E6AAF344F12}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/ION SOURCE ion gauge1</Property>
 	<Property Name="varPersistentID:{33FD41E3-CBC5-475B-B51A-3E64CD6104EB}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/output high</Property>
 	<Property Name="varPersistentID:{345F6B79-E4DC-403F-A389-74F170A4ADCC}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/X+ steerer current readback</Property>
 	<Property Name="varPersistentID:{34D584E7-5A0A-4E28-8F01-93AF449A21D3}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 1 memory total</Property>
-	<Property Name="varPersistentID:{34E7D73F-4B25-4EE6-9C39-89D3545B2F7D}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/R45 Detector ion gauge</Property>
+	<Property Name="varPersistentID:{34E7D73F-4B25-4EE6-9C39-89D3545B2F7D}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/R45 Detector ion gauge</Property>
 	<Property Name="varPersistentID:{35754EC2-C23B-48DB-A081-30339AF9DBBE}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/Trans-FPGA Error</Property>
 	<Property Name="varPersistentID:{35F966B5-8AE7-4DBC-ADAF-3DECB4102EBA}" Type="Ref">/My Computer/HighEnd shared var.lvlib/HE Quad Current B</Property>
 	<Property Name="varPersistentID:{36243BA4-7D95-493C-A680-B6680CF7C47D}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/New sample</Property>
 	<Property Name="varPersistentID:{36C66709-BB9F-45F0-8D4B-43DDF74F982C}" Type="Ref">/Trans-cRIO/local trans shared var.lvlib/Readback Loop error</Property>
 	<Property Name="varPersistentID:{36E9735D-DBA8-4679-A75A-DA47C31D9B51}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/tester</Property>
 	<Property Name="varPersistentID:{37052E55-170A-4F39-92C4-0E52C59617ED}" Type="Ref">/Tankexit/he lib.lvlib/DI9</Property>
-	<Property Name="varPersistentID:{37214B11-CBB1-4B4E-BA8B-9CFBA985C715}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/le waist ion gauge</Property>
-	<Property Name="varPersistentID:{3724F96F-78EB-47B5-B625-A3E605C469D5}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Bellows covectron1</Property>
 	<Property Name="varPersistentID:{373EA6AC-7CE6-4B90-BB44-20C12EF1F2A8}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Y Mag Steerer V read</Property>
 	<Property Name="varPersistentID:{37544CAE-A61B-460E-AFD4-3C5B842270F3}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/dt (s)</Property>
 	<Property Name="varPersistentID:{376C1C3F-D220-47DD-9BA4-B39B6B8B2D58}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/analyze magnet read field</Property>
@@ -276,8 +278,7 @@
 	<Property Name="varPersistentID:{380B79F0-66DD-4C00-88EE-B18E4B37D8A0}" Type="Ref">/Trans-cRIO/local trans shared var.lvlib/Vacuum Loop error</Property>
 	<Property Name="varPersistentID:{38333B3B-BC00-4B5B-B9B1-B319E34BE817}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans ExB Magnet read</Property>
 	<Property Name="varPersistentID:{384119E0-B1CB-4DC2-8240-DCEE1512A6AB}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer Voltage Y2-</Property>
-	<Property Name="varPersistentID:{38499F00-43C4-4DD9-8A76-E2EFBCE7991C}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/rod up shared</Property>
-	<Property Name="varPersistentID:{3863F9A9-B611-4BB7-9ABB-CCE4DBC327DF}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/bellows ion gauge1</Property>
+	<Property Name="varPersistentID:{38499F00-43C4-4DD9-8A76-E2EFBCE7991C}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/rod up shared</Property>
 	<Property Name="varPersistentID:{387BC939-681F-4B8D-9DD6-C3757C7DB609}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO28</Property>
 	<Property Name="varPersistentID:{38858CA6-66AF-4E5A-89CD-4394B6258DDC}" Type="Ref">/inj-image-rio/injfield_var.lvlib/INJ Image Einzel Current</Property>
 	<Property Name="varPersistentID:{38878A28-8540-4AD3-B5F2-562FB2F6BB34}" Type="Ref">/Tankexit/he lib.lvlib/DI21</Property>
@@ -285,36 +286,38 @@
 	<Property Name="varPersistentID:{38B36E15-B7F4-4935-84B2-EAEEB7ADB61C}" Type="Ref">/Tankexit/he lib.lvlib/AO14</Property>
 	<Property Name="varPersistentID:{396261ED-9E5B-40B8-99B6-90B31C898AE6}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Switch Image Aperture Actuator</Property>
 	<Property Name="varPersistentID:{396CADC3-A446-4A2A-8BFF-6F90498F1764}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Cathode HV Enable</Property>
+	<Property Name="varPersistentID:{39AF81E7-11FA-44BC-8B9D-CF7140F780F0}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Quad Ion Gauge 1</Property>
 	<Property Name="varPersistentID:{39F39252-FA16-43AF-A277-D5747AC28ABA}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/output low</Property>
-	<Property Name="varPersistentID:{3A166246-4C8C-4E36-AF4A-629CBAB15366}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/switch object ion gauge2</Property>
-	<Property Name="varPersistentID:{3A2A43CE-5C0A-492B-8B84-02D696250A59}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/read insert in</Property>
+	<Property Name="varPersistentID:{3A2A43CE-5C0A-492B-8B84-02D696250A59}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/read insert in</Property>
 	<Property Name="varPersistentID:{3A2A5C51-22BA-4062-8357-3DDC2283113F}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/setpoint low</Property>
 	<Property Name="varPersistentID:{3A6A1FE9-9318-4210-BA2D-C757A60D8773}" Type="Ref">/My Computer/LowEnd shared var.lvlib/chop voltage</Property>
 	<Property Name="varPersistentID:{3A7EAF06-FD55-43B4-ABD1-16C24ACB93D9}" Type="Ref">/inj-image-rio/injfield_var.lvlib/ion gauge</Property>
-	<Property Name="varPersistentID:{3A81BD00-95CD-4056-B517-3EAF57305DC8}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 waist ion gauge</Property>
+	<Property Name="varPersistentID:{3A81BD00-95CD-4056-B517-3EAF57305DC8}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 ExB Slot vac gauge cluster</Property>
 	<Property Name="varPersistentID:{3A82421A-6C30-4E76-A074-40FBF49CC95C}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30  convectron ESA 1</Property>
 	<Property Name="varPersistentID:{3A9F6D08-048D-440D-A038-659114544FFF}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Immersion Lens I set</Property>
-	<Property Name="varPersistentID:{3B4978E1-B1E5-4D49-9FFD-6C7D138BE454}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/interlock r45 det CG</Property>
+	<Property Name="varPersistentID:{3B4978E1-B1E5-4D49-9FFD-6C7D138BE454}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/interlock r45 det CG</Property>
+	<Property Name="varPersistentID:{3C89F572-BA01-4AB4-A3E3-AE1EFF293FCC}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Detector FC insert</Property>
 	<Property Name="varPersistentID:{3CABE4F6-3D92-47C0-BC11-D83FE54EA515}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans ExB Magnetic set value</Property>
-	<Property Name="varPersistentID:{3CAF4956-F825-4CBD-8443-3F2C75031BF1}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/gate valve r45  turbo exb set</Property>
+	<Property Name="varPersistentID:{3CAF4956-F825-4CBD-8443-3F2C75031BF1}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/gate valve r45  turbo exb set</Property>
 	<Property Name="varPersistentID:{3D026AAC-388B-464E-AC6C-E00E0FD30B76}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Steerer Y1 +</Property>
 	<Property Name="varPersistentID:{3D35C3A1-51B3-47A7-B744-5516CB70AD52}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Steerer Voltage Y2+</Property>
 	<Property Name="varPersistentID:{3D69A4DE-7484-4E43-9D6D-0DB351183E9E}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/He Suppressor</Property>
-	<Property Name="varPersistentID:{3DC7D672-312A-423A-BEC8-E99615ACE889}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/ion gauge source cross1</Property>
+	<Property Name="varPersistentID:{3D765C13-DDC6-46E1-9ADB-39D9B65675FD}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Vac cluster 3 Ion Gauge Interlock</Property>
 	<Property Name="varPersistentID:{3E7E6C17-A412-4C24-A3D7-479DD61FE4CA}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/setpoint low</Property>
 	<Property Name="varPersistentID:{3E92E112-1E5E-44C4-AFF9-D0F504284E23}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Extractor V Set</Property>
 	<Property Name="varPersistentID:{3E9C0DD2-032E-4AF9-9D2F-94AB00334F1F}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO1</Property>
-	<Property Name="varPersistentID:{3F28F1EB-1289-46FE-B207-3A9B56DFA155}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/motor value</Property>
+	<Property Name="varPersistentID:{3F28F1EB-1289-46FE-B207-3A9B56DFA155}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/motor value</Property>
 	<Property Name="varPersistentID:{3F6E7E4B-1E1D-4BAB-99E2-223740A37477}" Type="Ref">/SCA-cRIO/local SCA shared var lib - old.lvlib/Sample Rod Max Count</Property>
-	<Property Name="varPersistentID:{3FD5FEB0-11FF-4182-A97E-E20F33733E00}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/change sample</Property>
-	<Property Name="varPersistentID:{4017C0A8-141D-4997-A740-03B71E999395}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/interlock r45 waist CG</Property>
+	<Property Name="varPersistentID:{3FD5FEB0-11FF-4182-A97E-E20F33733E00}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/change sample</Property>
+	<Property Name="varPersistentID:{4017C0A8-141D-4997-A740-03B71E999395}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/interlock r45 waist CG</Property>
 	<Property Name="varPersistentID:{403A9AE4-32FE-4711-AF47-D95C722B0D1A}" Type="Ref">/SCA-cRIO/Chassis/Mod4/AO6</Property>
 	<Property Name="varPersistentID:{40B77BE3-F072-4DD0-9169-67FC8C698A7D}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Switch Image FC Status</Property>
 	<Property Name="varPersistentID:{40E6C49C-0658-4954-9BF3-18FA2F6BE42B}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/dt out (s)</Property>
 	<Property Name="varPersistentID:{40F8E893-D457-41A4-B791-120205B10A2B}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/Switch magnet field</Property>
-	<Property Name="varPersistentID:{410BF4AA-8A6B-4BB9-9A14-57EEED251A80}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/use1</Property>
+	<Property Name="varPersistentID:{410BF4AA-8A6B-4BB9-9A14-57EEED251A80}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/use1</Property>
 	<Property Name="varPersistentID:{41215A6D-1E4D-441D-8CC4-577D705AFEAF}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Anayze FC OUT</Property>
 	<Property Name="varPersistentID:{41303D2D-3C81-42B2-B9C8-9A49549CE99E}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Steerer Voltage Y1-</Property>
+	<Property Name="varPersistentID:{41A7ACE3-8780-4BD2-B2F3-94445E91372A}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/GFM field read</Property>
 	<Property Name="varPersistentID:{41E1BBA7-F690-45C1-B39F-4C16282BD58E}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Steerer Y-</Property>
 	<Property Name="varPersistentID:{4220FF7F-D579-4D94-9BF8-29543A8EE3D4}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Preacc current11</Property>
 	<Property Name="varPersistentID:{42282F2D-A1FD-48FF-BEA6-ABCB05832E02}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 X+ Steerer V set</Property>
@@ -326,18 +329,19 @@
 	<Property Name="varPersistentID:{43284EA9-95C7-496E-97CE-65C89E9E3EDD}" Type="Ref">/My Computer/InjectorA shared var.lvlib/einzel 2 set voltage</Property>
 	<Property Name="varPersistentID:{434B3F20-04C8-426F-A4D0-711333F51ABD}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/beta</Property>
 	<Property Name="varPersistentID:{4368332D-8F14-4151-B378-E4DF21199F63}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/ExB current readback +</Property>
+	<Property Name="varPersistentID:{4369B491-5FCE-4EAA-9DDB-206477510E2A}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 2 Magnet current set</Property>
 	<Property Name="varPersistentID:{4382191E-9323-4D64-A337-E5CE2A3A52A3}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer Y+2 Current</Property>
 	<Property Name="varPersistentID:{439ABA5D-8D6E-423A-985C-5EF9788778C8}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Cryo Readback</Property>
 	<Property Name="varPersistentID:{43B4929E-D745-4983-98AE-FE5B9150FE12}" Type="Ref">/My Computer/beamline sections.lvlib/High energy llb.lvlib/le fc array output</Property>
-	<Property Name="varPersistentID:{44298E49-F3D1-4D0A-967A-9A39DDD95A8F}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/sample change complete</Property>
+	<Property Name="varPersistentID:{44298E49-F3D1-4D0A-967A-9A39DDD95A8F}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/sample change complete</Property>
+	<Property Name="varPersistentID:{4492AD83-B450-4B45-884E-176D6C1C0710}" Type="Ref">/R45-1-cRIO/local R45_1 shared var lib.lvlib/HV readback loop error</Property>
 	<Property Name="varPersistentID:{44F6DD87-37B8-476A-A597-DBB9274A3596}" Type="Ref">/Tankexit/he lib.lvlib/DO2</Property>
 	<Property Name="varPersistentID:{45522CA9-D797-4974-B990-20506ACE1CF3}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Waist Y-</Property>
-	<Property Name="varPersistentID:{45666C7D-335D-417C-B8F1-34197E05AFE2}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/r45 end x steerer read</Property>
-	<Property Name="varPersistentID:{459013D4-F0DA-4227-A509-F015642D42FF}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/r45_1 faraday cup read</Property>
-	<Property Name="varPersistentID:{4596974A-E169-42EF-A1A6-31BAB849CEF8}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/interlock r45 waist IG</Property>
-	<Property Name="varPersistentID:{45B50338-545F-45EC-8E4A-3429C58CEDAB}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/tank exit convectron2</Property>
+	<Property Name="varPersistentID:{45666C7D-335D-417C-B8F1-34197E05AFE2}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/r45 end x steerer read</Property>
+	<Property Name="varPersistentID:{4596974A-E169-42EF-A1A6-31BAB849CEF8}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/interlock r45 waist IG</Property>
 	<Property Name="varPersistentID:{45C1B9E2-5D04-4A2B-B7BF-B65E3A342D11}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Cathode V Set</Property>
-	<Property Name="varPersistentID:{45FDD2BB-3E75-4C5A-924C-0A241224EF33}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/extractor set</Property>
+	<Property Name="varPersistentID:{45FDD2BB-3E75-4C5A-924C-0A241224EF33}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/extractor set</Property>
+	<Property Name="varPersistentID:{4636D055-CC37-4677-B1DF-F9D9E29C2688}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/process variable</Property>
 	<Property Name="varPersistentID:{4655C2BE-967E-4095-BFE3-4F3374FDDAC6}" Type="Ref">/Trans-cRIO/local trans shared var.lvlib/ExB Loop error</Property>
 	<Property Name="varPersistentID:{46690E0B-2771-4C75-9778-3403C1D3E82E}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Detector FC Status</Property>
 	<Property Name="varPersistentID:{469543DF-918A-43B1-B0A2-3AE1B4D9F7C6}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Y steerers voltage readback</Property>
@@ -351,13 +355,15 @@
 	<Property Name="varPersistentID:{48104983-FC8C-44B0-9382-E835428ADA25}" Type="Ref">/SCA-cRIO/global SCA shared var lib - old.lvlib/wheel offset minus</Property>
 	<Property Name="varPersistentID:{48331033-D0B0-4564-B609-15E2F723BFDE}" Type="Ref">/SCA-cRIO/Chassis/Mod5/Immersion Lens V read</Property>
 	<Property Name="varPersistentID:{4833417F-EB67-4A7E-B1FC-9143764B0825}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/Le Chain</Property>
-	<Property Name="varPersistentID:{48CF934F-A03A-4944-BB1F-009976AC41FE}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/R45 Detector ion gauge</Property>
 	<Property Name="varPersistentID:{48F0FFA8-E038-461C-A7F3-61E0ECA87426}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer Voltage Y2+</Property>
+	<Property Name="varPersistentID:{4935AA59-C1E1-4F4A-AF5A-1FB44A08F0DD}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Switch Image Vac Cluster</Property>
 	<Property Name="varPersistentID:{498077B4-0443-40B0-8C01-5A8D3BD6D26E}" Type="Ref">/SCA-cRIO/Chassis/Mod4/Extractor V set</Property>
 	<Property Name="varPersistentID:{49890892-C782-42F9-A712-F0A5E80FEBB4}" Type="Ref">/Tankexit/he lib.lvlib/AO12</Property>
-	<Property Name="varPersistentID:{499FCFF1-C833-478E-A691-C9C5235554CD}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/R45 detector turbo out</Property>
+	<Property Name="varPersistentID:{499FCFF1-C833-478E-A691-C9C5235554CD}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/R45 detector turbo out</Property>
 	<Property Name="varPersistentID:{4A0B501E-A506-4BBF-9AF3-FE8FA10F42BD}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/digital outputs</Property>
 	<Property Name="varPersistentID:{4A1121FC-150F-4721-B661-5CACB9A27FAA}" Type="Ref">/Tankexit/he lib.lvlib/DI13</Property>
+	<Property Name="varPersistentID:{4A2621F2-A0CD-4C87-B6BE-557D9C39A37D}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Detector FC Position</Property>
+	<Property Name="varPersistentID:{4A6B0243-980F-4F2B-811D-475BCF398B7D}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Quad Convectron Gauge 1</Property>
 	<Property Name="varPersistentID:{4A6E219E-4397-4B27-859D-0B3C2DDB3691}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Encoder Destination</Property>
 	<Property Name="varPersistentID:{4AD9DBDF-69BA-4F51-AA9E-4721DCF92986}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO4</Property>
 	<Property Name="varPersistentID:{4B61A2CB-85BD-4C74-85A2-DBF089F8C797}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Switch Image Convectron 1</Property>
@@ -369,26 +375,26 @@
 	<Property Name="varPersistentID:{4C649A6F-8C96-4CFE-87AF-DEBF69F61EE0}" Type="Ref">/inj-image-rio/injfield_var.lvlib/injector field</Property>
 	<Property Name="varPersistentID:{4CA2351B-DDB1-4AA8-AFDE-9810AF84BC60}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/trans steerer X+ Voltage readback</Property>
 	<Property Name="varPersistentID:{4CAE4AF1-BF88-43EC-9356-6A345789A023}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Str Current2</Property>
-	<Property Name="varPersistentID:{4CC7D168-AB41-4B05-8F6F-099E611ACA9F}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/ig1</Property>
-	<Property Name="varPersistentID:{4D260B30-3B5D-4DFD-B0BD-97915FFBEBD6}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Bellows covectron2</Property>
+	<Property Name="varPersistentID:{4CC7D168-AB41-4B05-8F6F-099E611ACA9F}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/ig1</Property>
 	<Property Name="varPersistentID:{4D2F89B3-272D-4F23-B456-59AC6AD9C482}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO17</Property>
 	<Property Name="varPersistentID:{4D35EBEC-E349-4E5F-865B-D7A1C28D79A3}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/output high</Property>
+	<Property Name="varPersistentID:{4D62D882-72FF-4D26-BDED-8B057F2C62D5}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Vac cluster 4 Ion Gauge Interlock</Property>
 	<Property Name="varPersistentID:{4D9FBF27-B7F0-4C26-91F8-7440553E1645}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Inj image Steerer current  X+</Property>
-	<Property Name="varPersistentID:{4E050720-6480-465D-9FD0-996F6966D169}" Type="Ref">/My Computer/R45 shared var.lvlib/r45 end x steerer read</Property>
 	<Property Name="varPersistentID:{4E0B4036-99D0-41C9-989D-44487DDD8E8D}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer Y1 -</Property>
-	<Property Name="varPersistentID:{4E0D76A2-F6A7-4859-B509-835379DEE1C6}" Type="Ref">/My Computer/R45 shared var.lvlib/x steerer 2 rio2</Property>
 	<Property Name="varPersistentID:{4E764ED7-9EDC-4485-BF9A-435A1983F8DE}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/Set Terminal Voltage</Property>
-	<Property Name="varPersistentID:{4E89224E-1D56-4B88-A76D-EB3B2105CFC8}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/read retract in</Property>
+	<Property Name="varPersistentID:{4E89224E-1D56-4B88-A76D-EB3B2105CFC8}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/read retract in</Property>
 	<Property Name="varPersistentID:{4E9C2472-7BA1-45A5-8B7A-6EFD71B5B6A3}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Analyze Image FC</Property>
 	<Property Name="varPersistentID:{4F0B9A5A-F09A-4E10-9BBD-983CB43FB046}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI15</Property>
 	<Property Name="varPersistentID:{4F2DCE2F-A8E9-4DC1-AD77-A03E3DFF0689}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 X- Steerer V read</Property>
 	<Property Name="varPersistentID:{4F460600-7939-46B3-80CB-30D4D7D370A1}" Type="Ref">/SCA-cRIO/Chassis/Mod4/AO13</Property>
+	<Property Name="varPersistentID:{4F85A4D7-00B3-40EB-B882-49B29B9CB316}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/dt out (s)</Property>
 	<Property Name="varPersistentID:{4F907EF0-891D-43E8-8D5A-E0EF60E5C24F}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/trans steerer X- current</Property>
 	<Property Name="varPersistentID:{4FA88205-D71F-400E-B1CD-E9DC05791F6F}" Type="Ref">/My Computer/Transmission shared var.lvlib/Analyzer image ion gauge</Property>
 	<Property Name="varPersistentID:{4FE23C61-E4C9-4E4E-A424-995D58FC20C2}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/New Move</Property>
 	<Property Name="varPersistentID:{503DC487-7CB4-44F4-94A3-CC884D15C604}" Type="Ref">/SCA-cRIO/Chassis/Mod5/Extractor V read</Property>
 	<Property Name="varPersistentID:{509047E1-A321-483D-8132-DA41CE7D365C}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/Control Gain</Property>
 	<Property Name="varPersistentID:{50B61545-D7CC-4DCB-A4E5-A856224832A4}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Str Current5</Property>
+	<Property Name="varPersistentID:{50B774FD-9F92-4FB3-8C1A-D43D570FEF57}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Up-Steerer V set</Property>
 	<Property Name="varPersistentID:{511FF1E9-1F32-47D7-9BB3-7C520BB47514}" Type="Ref">/My Computer/LowEnd shared var.lvlib/extractor I</Property>
 	<Property Name="varPersistentID:{5120F81A-F55E-4C1A-B58D-4D97E1B99331}" Type="Ref">/My Computer/LowEnd shared var.lvlib/cathode  V</Property>
 	<Property Name="varPersistentID:{520DD6C7-EFA1-4D42-8B21-6BC23513C532}" Type="Ref">/SCA-cRIO/global SCA shared var lib - old.lvlib/Sample Rod retraction</Property>
@@ -403,22 +409,24 @@
 	<Property Name="varPersistentID:{543C45E1-5876-482A-9036-A7A862154112}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer X-2 Voltage</Property>
 	<Property Name="varPersistentID:{54B4493D-9416-4D5E-BF60-947B1C9B982B}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Wheel GV Status</Property>
 	<Property Name="varPersistentID:{54EAC436-79C3-4C6C-A199-6CAC1831C4D4}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Str Current5</Property>
-	<Property Name="varPersistentID:{550B11F7-4CFA-467E-B95C-777470E97527}" Type="Ref">/My Computer/R45 shared var.lvlib/exb readbacks 1 V-</Property>
+	<Property Name="varPersistentID:{550AD195-DA2B-4F93-9643-3DCB7900637F}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/output high</Property>
+	<Property Name="varPersistentID:{550B11F7-4CFA-467E-B95C-777470E97527}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 1- V read</Property>
 	<Property Name="varPersistentID:{557F8B1A-D8BE-4B7F-A150-8FD757244ABA}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/linearity</Property>
-	<Property Name="varPersistentID:{55C39274-8451-4932-8B90-991C54B4074B}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Detector FC OUT</Property>
-	<Property Name="varPersistentID:{560B0086-4A07-43FC-B5AF-427A0433F12C}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/R45 #2 faraday cup1</Property>
-	<Property Name="varPersistentID:{5614A200-FC8E-4038-848B-CB0519EE8D45}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Y steerer set</Property>
+	<Property Name="varPersistentID:{55B20417-F259-4503-BC5C-DB7F7F72EEC5}" Type="Ref">/My Computer/R45 shared var.lvlib/Left-Steerer I read</Property>
+	<Property Name="varPersistentID:{560B0086-4A07-43FC-B5AF-427A0433F12C}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/R45 #2 faraday cup1</Property>
 	<Property Name="varPersistentID:{56323A0D-2359-4F1D-BCED-09A2CAF9EB59}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/SCA-RT error</Property>
-	<Property Name="varPersistentID:{56A97442-5CC9-4009-BC98-22656D4442DC}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/r45 1 gate valve detector set</Property>
+	<Property Name="varPersistentID:{56A97442-5CC9-4009-BC98-22656D4442DC}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/r45 1 gate valve detector set</Property>
 	<Property Name="varPersistentID:{572D6620-8C7F-4291-9131-FE45770ED747}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI25</Property>
-	<Property Name="varPersistentID:{57447D15-3AF0-4378-BCED-74A68070FE77}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/feedback</Property>
+	<Property Name="varPersistentID:{57447D15-3AF0-4378-BCED-74A68070FE77}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/feedback</Property>
 	<Property Name="varPersistentID:{57468772-ED3D-4F94-AC94-1C74EDD4E74E}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer Y+2 Voltage</Property>
 	<Property Name="varPersistentID:{5771B911-F58D-4A20-925C-900147F6A8C4}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/Detector AP IN</Property>
 	<Property Name="varPersistentID:{578E8EA3-614B-4177-8C15-D7B6CA35ADDB}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/He Chain</Property>
 	<Property Name="varPersistentID:{57B5BA5A-1FC2-46DB-B263-760F991AB583}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/rare or stable?</Property>
-	<Property Name="varPersistentID:{57DB4DFB-3278-4B0B-B909-6E9F7CB67265}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set encoder wheel</Property>
+	<Property Name="varPersistentID:{57DB4DFB-3278-4B0B-B909-6E9F7CB67265}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set encoder wheel</Property>
 	<Property Name="varPersistentID:{57F8CDF3-B9F2-44D3-9723-F3E533F9C06C}" Type="Ref">/SCA-cRIO/global SCA shared var lib - old.lvlib/wheel offset plus</Property>
+	<Property Name="varPersistentID:{5809666E-42EC-437D-B5E1-076C5FA0DAA9}" Type="Ref">/R45-2-cRIO/local R45_2 shared var lib.lvlib/GFM loop error</Property>
 	<Property Name="varPersistentID:{583C8BC4-FBF8-4376-8F94-DE9D85305204}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/inj memory total</Property>
+	<Property Name="varPersistentID:{58676158-2BAE-44CF-86AE-1036ABB4BC69}" Type="Ref">/R45-2-cRIO/local R45_2 shared var lib.lvlib/ExB 2 PS loop error</Property>
 	<Property Name="varPersistentID:{589981EA-14DC-488F-B6B3-F76A79547EE2}" Type="Ref">/Tankexit/he lib.lvlib/DI7</Property>
 	<Property Name="varPersistentID:{59AB9294-BDFA-4311-BF77-BA7B1ADB0624}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/inj cpu total</Property>
 	<Property Name="varPersistentID:{59C3129C-76A2-4B99-A8AC-B48C4E689D78}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/ESA I read</Property>
@@ -431,7 +439,7 @@
 	<Property Name="varPersistentID:{5AFE1BFA-56E1-4080-B1AE-9F49A3C3E48A}" Type="Ref">/Tankexit/he lib.lvlib/Tank exit ion gauge</Property>
 	<Property Name="varPersistentID:{5B1F091A-B92C-44CC-BA65-8F6B6A0F8AB6}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Steerer X1 +</Property>
 	<Property Name="varPersistentID:{5B5DF705-06C5-41E0-A997-FD36DD835C4A}" Type="Ref">/SCA-cRIO/local SCA shared var lib - old.lvlib/Retract Rod Min Count</Property>
-	<Property Name="varPersistentID:{5B91AF8B-F4E1-4B68-A789-E504AC95D890}" Type="Ref">/My Computer/R45 shared var.lvlib/Exb1</Property>
+	<Property Name="varPersistentID:{5B91AF8B-F4E1-4B68-A789-E504AC95D890}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 1 V set</Property>
 	<Property Name="varPersistentID:{5BA7E0FE-3966-4498-B41E-C5E3BC9327AD}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/einzel 1 set voltage</Property>
 	<Property Name="varPersistentID:{5C64380B-6BDA-4E38-A5C2-861D98B76387}" Type="Ref">/SCA-cRIO/Chassis/Mod4/AO15</Property>
 	<Property Name="varPersistentID:{5CE75B1F-A912-455B-B45F-8A834F46F623}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Status Message</Property>
@@ -453,6 +461,7 @@
 	<Property Name="varPersistentID:{5ECA8DB7-60DB-4690-B811-CAEFCF52BD51}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Waist Y- Voltage</Property>
 	<Property Name="varPersistentID:{5EE51030-1C37-4584-9E4A-AC36EA081925}" Type="Ref">/My Computer/LowEnd shared var.lvlib/inj image ap</Property>
 	<Property Name="varPersistentID:{5EFF0405-B663-4427-8769-DD2AD778AE38}" Type="Ref">/SCA-cRIO/local SCA shared var lib - old.lvlib/Wheel GV Min Count</Property>
+	<Property Name="varPersistentID:{5F14709C-76AF-4C47-A2B7-181E990662EB}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Switch Image Ion Gauge 1</Property>
 	<Property Name="varPersistentID:{5F293FAE-C853-470E-90AD-B9F8E17C4CF7}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Quad B I set</Property>
 	<Property Name="varPersistentID:{5F8D9C8D-55C6-48A9-A478-475D0F2FE283}" Type="Ref">/My Computer/SCA shared var - new.lvlib/SCA settings</Property>
 	<Property Name="varPersistentID:{5F929ABF-6DFF-426D-95E0-B78087D68145}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer Y-1</Property>
@@ -460,11 +469,9 @@
 	<Property Name="varPersistentID:{6020EB99-75BA-45EE-8F61-7D9A7AF0C0A6}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/auto? (T)</Property>
 	<Property Name="varPersistentID:{605A3165-BA65-4A97-82EF-6B99FFA92861}" Type="Ref">/Tankexit/he lib.lvlib/DI20</Property>
 	<Property Name="varPersistentID:{606F6121-A7EA-430E-AD8D-50E384ED3E32}" Type="Ref">/SCA-cRIO/Chassis/Mod7/Wheel GV OPEN sensor</Property>
-	<Property Name="varPersistentID:{6083382A-4B36-4680-920E-4074B15794CE}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/ion gauge source cross2</Property>
 	<Property Name="varPersistentID:{6094D9B9-B8A9-497B-8599-A5B3B5FDEF8E}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO10</Property>
 	<Property Name="varPersistentID:{609B1BA2-105A-4500-932F-3B99B8C4EFC9}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{60E8C8DF-E0EA-4D30-B2D5-2146A2C95E3C}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/y steerer -</Property>
-	<Property Name="varPersistentID:{6113050C-3FF7-450D-9E28-081A7F80EBC8}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/switch object ion gauge1</Property>
 	<Property Name="varPersistentID:{612FA00C-93B4-4355-AC74-C5BD1C0AEFE8}" Type="Ref">/My Computer/SCA shared var - old.lvlib/immersion lens v read</Property>
 	<Property Name="varPersistentID:{613EDACC-25DB-4306-BC3B-FD4EC5642A5F}" Type="Ref">/inj-image-rio/injfield_var.lvlib/inj object apt read value</Property>
 	<Property Name="varPersistentID:{615C067D-2B69-40EF-AFA1-2F336DA1EB07}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Detector ion gauge</Property>
@@ -479,8 +486,9 @@
 	<Property Name="varPersistentID:{62D6054C-AFF0-472F-96A3-DD3463492754}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Bypass loop error</Property>
 	<Property Name="varPersistentID:{63243125-96D0-483B-9780-53315974549C}" Type="Ref">/Tankexit/he lib.lvlib/Anayze FC OUT</Property>
 	<Property Name="varPersistentID:{63665096-FAC3-465C-96EF-94C65B42C9B4}" Type="Ref">/My Computer/SCA shared var - old.lvlib/set pump out system</Property>
-	<Property Name="varPersistentID:{63B79151-F01F-4E60-B379-40254F142794}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/tank exit ion gauge1</Property>
+	<Property Name="varPersistentID:{642BEC33-372D-4DD6-9B88-98609550614A}" Type="Ref">/My Computer/R45 shared var.lvlib/Left-Steerer V read</Property>
 	<Property Name="varPersistentID:{642FA94B-C40A-4484-9204-8F313D88D527}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI13</Property>
+	<Property Name="varPersistentID:{64B5082A-CC17-4A42-9ABF-1CA1949C79B9}" Type="Ref">/R45-1-cRIO/local R45_1 shared var lib.lvlib/Actuator-Sensor loop error</Property>
 	<Property Name="varPersistentID:{65495D3B-E8D4-4F86-B2B9-3FDAB77CC494}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Immersion Lens I read</Property>
 	<Property Name="varPersistentID:{655CA7C3-3E6F-4AC3-A94E-8891CE7CB785}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/Y+ steerer voltage readback</Property>
 	<Property Name="varPersistentID:{65615C08-3DC6-4514-83AA-D24FE9F82B18}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/analyze image ion gauge1</Property>
@@ -491,18 +499,22 @@
 	<Property Name="varPersistentID:{665749A4-0479-4223-A29A-79AA8907FFD2}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Quad B I read</Property>
 	<Property Name="varPersistentID:{669295DA-1F65-476C-AC08-9EC3D344F34E}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 X- Steerer V set</Property>
 	<Property Name="varPersistentID:{66A7639A-65B8-42CF-873C-4E8728E5C4C0}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI28</Property>
+	<Property Name="varPersistentID:{66B0E1CA-61EE-4442-9B06-0B8A09C667BD}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Detector Aperture insert</Property>
 	<Property Name="varPersistentID:{66B218E0-C4BE-4333-B460-32860CE9912C}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI30</Property>
 	<Property Name="varPersistentID:{66EF8850-BDBF-47CE-951A-C44397A91988}" Type="Ref">/inj-image-rio/injfield_var.lvlib/inj power supply setting</Property>
-	<Property Name="varPersistentID:{6715B05F-5B0D-409B-8903-2D2B0E1AEDA0}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/r45_1 aperture</Property>
+	<Property Name="varPersistentID:{6720B21A-5157-47CC-926F-DEB9D702C985}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/error in</Property>
 	<Property Name="varPersistentID:{672C3E0C-85D1-4316-9E82-997F758D9878}" Type="Ref">/Tankexit/he lib.lvlib/DI10</Property>
-	<Property Name="varPersistentID:{67464FF7-8D64-4E82-9E85-0E13C331CD9D}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/read insert out</Property>
+	<Property Name="varPersistentID:{67464FF7-8D64-4E82-9E85-0E13C331CD9D}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/read insert out</Property>
 	<Property Name="varPersistentID:{67709794-AAC2-4861-9F5A-0F97D6628869}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Inj image Steerer current  Y+</Property>
 	<Property Name="varPersistentID:{67EE38BA-61FE-4918-A011-C5090E8ED0D0}" Type="Ref">/Tankexit/he lib.lvlib/DI26</Property>
 	<Property Name="varPersistentID:{67F278B6-3117-44B0-8526-F5AA31FDF64E}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Quad B set</Property>
-	<Property Name="varPersistentID:{681D2787-6A99-47CD-89BB-D50984B7E4BA}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/sc control</Property>
+	<Property Name="varPersistentID:{681D2787-6A99-47CD-89BB-D50984B7E4BA}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/sc control</Property>
+	<Property Name="varPersistentID:{6827B576-12D4-48DE-B6A8-E993E5A7CB37}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/integral time (Ti, min)</Property>
 	<Property Name="varPersistentID:{687C4649-F7D4-46FC-811A-936703F500E0}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Y Mag Steerer I read</Property>
 	<Property Name="varPersistentID:{689095A8-7944-4B86-8BE7-0A02BF6A21F2}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Steerer Y+</Property>
 	<Property Name="varPersistentID:{68A3582A-C0E6-4611-9178-E98892DF6886}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/manual control</Property>
+	<Property Name="varPersistentID:{68BC2044-9C29-424B-BA01-FCE4824FD1EC}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Up-Steerer I read</Property>
+	<Property Name="varPersistentID:{68CB3890-78E9-4AAE-AF5D-F5531A4DB1DB}" Type="Ref">/My Computer/R45 shared var.lvlib/Up-Steerer V read</Property>
 	<Property Name="varPersistentID:{68D2D6DB-C6B8-43B5-9C17-E8A58F34DBAB}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/BPM 2</Property>
 	<Property Name="varPersistentID:{68DEBF33-4029-496D-80D2-442520CD8EB5}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans ExB+ V read</Property>
 	<Property Name="varPersistentID:{69003421-D773-4652-A1F3-3CE0B3BDF91A}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/Bias Current</Property>
@@ -516,35 +528,37 @@
 	<Property Name="varPersistentID:{6A7974E4-1F1B-44D5-855D-7DB0FD5DBBC9}" Type="Ref">/My Computer/SCA shared var - old.lvlib/sc ion source pressure</Property>
 	<Property Name="varPersistentID:{6ACA54A4-2891-4050-9BD1-044B7D9B2B56}" Type="Ref">/Tankexit/he lib.lvlib/DI17</Property>
 	<Property Name="varPersistentID:{6ADC4378-8595-4123-94A1-37D181201B59}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Steerer X-1 Voltage</Property>
-	<Property Name="varPersistentID:{6B0943EB-172E-4225-93AA-343DFE19FD2A}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/tank exit convectron1</Property>
 	<Property Name="varPersistentID:{6B2BB358-7C90-4548-9C80-4A0522CB2FE1}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Sample Rod Timeout</Property>
 	<Property Name="varPersistentID:{6B3A8F85-2006-4A9F-95B0-08B237344F2D}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/auto? (T)</Property>
 	<Property Name="varPersistentID:{6B77CF5B-CD8B-48AF-987C-787DCFDF876C}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Steerer Y2-</Property>
 	<Property Name="varPersistentID:{6B7BD0FB-9101-42D3-BCFE-D62A0EAC04CD}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Quad B I read</Property>
+	<Property Name="varPersistentID:{6BA00664-5090-4B04-9C41-A1A701F69269}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 X-steerer Mag- V read</Property>
 	<Property Name="varPersistentID:{6BA8A5CC-CE78-4DB4-8035-4E7305857F53}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/ExB Readback voltage +</Property>
-	<Property Name="varPersistentID:{6BE437A0-BA66-42F1-AE56-7B78058379D8}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/exb readbacks 1 V-</Property>
-	<Property Name="varPersistentID:{6BF1833D-343B-43D7-8FDE-55A516E4E04F}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/wheel offset minus</Property>
+	<Property Name="varPersistentID:{6BE437A0-BA66-42F1-AE56-7B78058379D8}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/exb readbacks 1 V-</Property>
+	<Property Name="varPersistentID:{6BF1833D-343B-43D7-8FDE-55A516E4E04F}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/wheel offset minus</Property>
 	<Property Name="varPersistentID:{6C16EEED-365D-47BA-835B-088E36CA679A}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Tank entrance ion gauge</Property>
 	<Property Name="varPersistentID:{6C44FD07-610D-4403-8CEE-27C985A743D8}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/inj cup out</Property>
 	<Property Name="varPersistentID:{6C4CACD4-200C-4533-A8DD-48948DCC5B89}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO13</Property>
+	<Property Name="varPersistentID:{6CBB67DB-7778-4EE3-8984-3D7AB5426DC5}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Left-Steerer V set</Property>
 	<Property Name="varPersistentID:{6CE881E1-96B9-4368-B4E9-D0F09C653CB9}" Type="Ref">/SCA-cRIO/global SCA shared var lib - old.lvlib/change sample start end</Property>
-	<Property Name="varPersistentID:{6CEAE0CC-AB1C-4FBA-9971-FCD79EE94F47}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/bellows ion gauge2</Property>
+	<Property Name="varPersistentID:{6CEAE0CC-AB1C-4FBA-9971-FCD79EE94F47}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/bellows ion gauge2</Property>
 	<Property Name="varPersistentID:{6CF04B71-2219-4400-BB39-1F4530C5092A}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/X- Steerer V read</Property>
 	<Property Name="varPersistentID:{6D9E34C8-5C1C-44CD-890C-AD78E36C73CA}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/error out</Property>
+	<Property Name="varPersistentID:{6DCA4A09-F8C7-4BCA-9141-655CDD30F583}" Type="Ref">/My Computer/R45 shared var.lvlib/Down-Steerer I read</Property>
 	<Property Name="varPersistentID:{6DD42E19-979A-4E85-92FD-BD1BC2D8D348}" Type="Ref">/SCA-cRIO/local SCA shared var lib - old.lvlib/Rotate Wheel Max Count</Property>
 	<Property Name="varPersistentID:{6E219867-A135-4A62-8475-1AD5B9821A4A}" Type="Ref">/My Computer/flat top.lvlib/Flat Top Control Settings</Property>
 	<Property Name="varPersistentID:{6E34D44F-4DE5-475B-B1D1-0D99A671F5F7}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans X+ steerer I read</Property>
 	<Property Name="varPersistentID:{6E87B89C-3BD9-46B4-919A-BB300F7D1777}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Rare Field</Property>
+	<Property Name="varPersistentID:{6E98751D-4EA6-42EB-8E9D-7496FBEF7A73}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Switching Mag GV Status</Property>
+	<Property Name="varPersistentID:{6EC6AF43-AC67-4092-A4E3-8B246173A109}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Cryo Readback</Property>
 	<Property Name="varPersistentID:{6F0B5F42-E7B8-4CC9-926F-A529B0B7E00E}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/setpoint high</Property>
 	<Property Name="varPersistentID:{6F176C2D-78CD-4454-B1C5-2F36B81E8090}" Type="Ref">/Tankexit/he lib.lvlib/AI9</Property>
-	<Property Name="varPersistentID:{6FB2994A-A9E1-4AA8-A3A9-763803D54822}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 #2  aperature</Property>
+	<Property Name="varPersistentID:{6FB2994A-A9E1-4AA8-A3A9-763803D54822}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Detector AP Actuator</Property>
 	<Property Name="varPersistentID:{6FCFDE28-C990-42B8-845E-EC4449C06A46}" Type="Ref">/My Computer/SCA shared var - old.lvlib/set vent system</Property>
 	<Property Name="varPersistentID:{6FE91D0D-E4EC-4539-8885-955B14AC9542}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI20</Property>
 	<Property Name="varPersistentID:{70175BDC-1580-479B-94BC-43513B5510DA}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI29</Property>
-	<Property Name="varPersistentID:{7025964E-C5D7-41EF-8C27-D07DBE8FABD9}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/tank exit ion gauge2</Property>
 	<Property Name="varPersistentID:{70443983-CE1C-4690-AB3E-4B5F82E7DAE8}" Type="Ref">/SCA-cRIO/local SCA shared var lib - old.lvlib/Wait Position Min Count</Property>
-	<Property Name="varPersistentID:{704659A2-6E03-4397-8CBC-80C1894DC25E}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/r45_1 apererture read</Property>
-	<Property Name="varPersistentID:{7064CE9D-FA92-44E5-965F-CC0C06EC79D6}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set retract out</Property>
+	<Property Name="varPersistentID:{7064CE9D-FA92-44E5-965F-CC0C06EC79D6}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set retract out</Property>
 	<Property Name="varPersistentID:{709810FA-A01C-4890-80D2-DAF45DF8B0DD}" Type="Ref">/Tankexit/he lib.lvlib/DO5</Property>
 	<Property Name="varPersistentID:{70B1A239-B608-4078-8FAE-7AB9035A0504}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/CPO Gain</Property>
 	<Property Name="varPersistentID:{70CB078B-632A-4069-8C88-72214DF07ADD}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer X1 -</Property>
@@ -555,36 +569,38 @@
 	<Property Name="varPersistentID:{717D784A-3A8D-45E1-8C8B-B6490867459B}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Quad A I read</Property>
 	<Property Name="varPersistentID:{71C76E0D-CA08-441A-905D-5765571DE227}" Type="Ref">/SCA-cRIO/Chassis/Mod7/Insert Rod IN sensor</Property>
 	<Property Name="varPersistentID:{721EC341-8B91-41FF-AEDA-F77F2264F17C}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/ExB- current readback</Property>
-	<Property Name="varPersistentID:{7263B75B-5AF7-4755-9B80-A85F1FCB6D25}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/r45_1 faraday cup</Property>
 	<Property Name="varPersistentID:{72B45A66-FDD2-4C6C-8F34-E0D456E5FEEA}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer Y2+</Property>
+	<Property Name="varPersistentID:{7388EE2A-38D4-4276-B20E-A147893731CC}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Quad Convectron Gauge 2</Property>
+	<Property Name="varPersistentID:{738AA7DE-2C50-4C8F-906B-72B9FFF35B1D}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Turbo 3 GV</Property>
 	<Property Name="varPersistentID:{73B0A8EF-DA07-45BB-BEC4-0015AF2310BD}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Steerer Y-1 Current</Property>
-	<Property Name="varPersistentID:{73B73DD1-1ADB-494F-961F-FC87E97FAD44}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/read sc gv closed</Property>
+	<Property Name="varPersistentID:{73B73DD1-1ADB-494F-961F-FC87E97FAD44}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/read sc gv closed</Property>
 	<Property Name="varPersistentID:{73E4E5EA-C7DE-4A83-A9B3-43D35206FDD0}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/Y+ steerer current readback</Property>
-	<Property Name="varPersistentID:{741A26CF-6A3D-4732-A543-CBAEAB080A5A}" Type="Ref">/My Computer/R45 shared var.lvlib/Exb2 magnet</Property>
+	<Property Name="varPersistentID:{741A26CF-6A3D-4732-A543-CBAEAB080A5A}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 2 Magnet set</Property>
 	<Property Name="varPersistentID:{74774DF0-08A4-495E-A435-FF1786C8F4B0}" Type="Ref">/Tankexit/he lib.lvlib/AI25</Property>
-	<Property Name="varPersistentID:{74999833-0328-4767-BEAB-385CD9BC40F9}" Type="Ref">/My Computer/R45 shared var.lvlib/Exb2</Property>
+	<Property Name="varPersistentID:{74999833-0328-4767-BEAB-385CD9BC40F9}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 2 V set</Property>
 	<Property Name="varPersistentID:{7519D42C-B88F-43BE-94D6-CA7599160CA0}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Cathode I read</Property>
 	<Property Name="varPersistentID:{75212E57-E062-4253-ACE4-AB172C5C84A5}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Minimum Time</Property>
 	<Property Name="varPersistentID:{7547EFBC-0D0E-4345-B5BB-2B6FB26114F5}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Steerer X-1 Current</Property>
 	<Property Name="varPersistentID:{754E4790-7D60-47DB-8DBC-4E9ACA04753B}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/proportional gain (Kc)</Property>
-	<Property Name="varPersistentID:{75F811AE-5B63-4EBD-AE7D-B397D6EC457D}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/gate valve r45 turbo exb out read</Property>
+	<Property Name="varPersistentID:{75F811AE-5B63-4EBD-AE7D-B397D6EC457D}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/gate valve r45 turbo exb out read</Property>
 	<Property Name="varPersistentID:{766DBBC5-396D-40D4-B73B-877B00302EDC}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI7</Property>
 	<Property Name="varPersistentID:{76769BEA-2FCE-43F0-AAC3-498A40B4F4EB}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Encoder position</Property>
-	<Property Name="varPersistentID:{769894F4-A39D-4390-A910-544166B2C7CE}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/read rod  down</Property>
-	<Property Name="varPersistentID:{76AF0DA1-2984-4D40-89DE-F069BD887909}" Type="Ref">/My Computer/R45 shared var.lvlib/Exb1 magnet</Property>
+	<Property Name="varPersistentID:{769894F4-A39D-4390-A910-544166B2C7CE}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/read rod  down</Property>
+	<Property Name="varPersistentID:{76AF0DA1-2984-4D40-89DE-F069BD887909}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 1 Magnet set</Property>
 	<Property Name="varPersistentID:{76BA2033-9397-4123-B20C-CC7B89878E8E}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/auto? (T)</Property>
 	<Property Name="varPersistentID:{76E1667B-0821-4A91-843F-CEB4EDF4D6DB}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/beta</Property>
-	<Property Name="varPersistentID:{772DFBF8-7C83-4820-9840-E15426DFD1BF}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Tank Exit ion gauge</Property>
 	<Property Name="varPersistentID:{7751659C-B6CE-466D-8867-6B116281D5CE}" Type="Ref">/My Computer/LowEnd shared var.lvlib/immersion lens</Property>
 	<Property Name="varPersistentID:{77BBEB8D-36FB-403C-B3AC-5BEC889DFEE9}" Type="Ref">/Tankexit/he lib.lvlib/DI15</Property>
 	<Property Name="varPersistentID:{77C4F450-9EC7-49FA-982F-B71E81BF8C87}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI27</Property>
-	<Property Name="varPersistentID:{77E975AE-84CD-4D08-8704-1F1C557B16F9}" Type="Ref">/My Computer/R45 shared var.lvlib/exb readbacks 1 V+</Property>
+	<Property Name="varPersistentID:{77E975AE-84CD-4D08-8704-1F1C557B16F9}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 1+ V read</Property>
 	<Property Name="varPersistentID:{77FEBAAB-48AD-4195-8240-6851A3D5C0D5}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI12</Property>
-	<Property Name="varPersistentID:{7806E393-EA4A-455B-8B0A-A61EDF965CE4}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/Exb1 magnet</Property>
+	<Property Name="varPersistentID:{7806E393-EA4A-455B-8B0A-A61EDF965CE4}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/Exb1 magnet</Property>
 	<Property Name="varPersistentID:{7845A77A-7B98-47F2-8588-9A03BF8342FE}" Type="Ref">/My Computer/SCA shared var - old.lvlib/convectron</Property>
-	<Property Name="varPersistentID:{787F7A1F-6A33-435C-B692-799155BB0190}" Type="Ref">/My Computer/R45 shared var.lvlib/exb readbacks2 V+</Property>
+	<Property Name="varPersistentID:{7850B78D-E87B-41DA-92BB-D9D54E90C72F}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/error out</Property>
+	<Property Name="varPersistentID:{787F7A1F-6A33-435C-B692-799155BB0190}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 2+ V read</Property>
+	<Property Name="varPersistentID:{7899D736-5EA8-49D4-9AE2-6C5CD44C6C95}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Detector Convectron Gauge 2</Property>
 	<Property Name="varPersistentID:{794E04D2-9E01-40D8-B8A2-2B5AD3507CFA}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI18</Property>
-	<Property Name="varPersistentID:{79753C29-470F-4D4E-BC5C-1711E2E14088}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/bellows ion gauge1</Property>
+	<Property Name="varPersistentID:{79753C29-470F-4D4E-BC5C-1711E2E14088}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/bellows ion gauge1</Property>
 	<Property Name="varPersistentID:{79B39C28-BC48-4357-9F1B-76A530D3C8CC}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Einzel Current</Property>
 	<Property Name="varPersistentID:{7A3D8732-22AB-42BE-B039-C1D66728FB3A}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Immersion Lens V Set</Property>
 	<Property Name="varPersistentID:{7A4733C1-0B1A-4A7D-A57B-5BF412DAC04F}" Type="Ref">/Tankexit/he lib.lvlib/AI29</Property>
@@ -592,129 +608,134 @@
 	<Property Name="varPersistentID:{7B089449-6C6C-4EAB-B804-A1569C13C13C}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/analyze image ion gauge 1</Property>
 	<Property Name="varPersistentID:{7B2EA40F-6067-45BD-A197-0A8EF99EFD05}" Type="Ref">/Tankexit/he lib.lvlib/HE Waist ion convectron2</Property>
 	<Property Name="varPersistentID:{7B4C5DE8-816D-467F-9D7A-17775AE4EA9B}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/analyze magnet set field</Property>
-	<Property Name="varPersistentID:{7B6BF149-B31C-4CBA-825B-543685C15368}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/rotate wheel</Property>
+	<Property Name="varPersistentID:{7B612A29-32BB-4A5E-A912-A69980BA500B}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Turbo 3 GV Status</Property>
+	<Property Name="varPersistentID:{7B6BF149-B31C-4CBA-825B-543685C15368}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/rotate wheel</Property>
 	<Property Name="varPersistentID:{7B76C658-E378-49F0-B2F2-916D232FDF50}" Type="Ref">/Tankexit/he lib.lvlib/DI29</Property>
-	<Property Name="varPersistentID:{7BFCAD77-6C30-4ABE-9AEA-7C56C57EAE60}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/R30 Switch image ion gauge</Property>
+	<Property Name="varPersistentID:{7BCEC9AE-2DA9-47A7-BD77-5B08934BED60}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Switch Mag Aperture Status</Property>
 	<Property Name="varPersistentID:{7C110D0D-4D57-4922-8A3F-B57C984F3637}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/setpoint</Property>
 	<Property Name="varPersistentID:{7C31DB4A-C659-49A0-B031-0D9987958948}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/y steerer set voltage</Property>
-	<Property Name="varPersistentID:{7C4AE8BA-7C5C-4341-A0A8-4195E131E7C1}" Type="Ref">/My Computer/R45 shared var.lvlib/exb readbacks 2 I-</Property>
+	<Property Name="varPersistentID:{7C4AE8BA-7C5C-4341-A0A8-4195E131E7C1}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 2- I read</Property>
+	<Property Name="varPersistentID:{7C9EACFD-74F4-467C-8F35-43EA158D0C11}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/reinitialize? (F)</Property>
+	<Property Name="varPersistentID:{7CEA08BF-026D-4164-9DF0-40730834B7C3}" Type="Ref">/R45-1-cRIO/local R45_1 shared var lib.lvlib/Cryo loop error</Property>
 	<Property Name="varPersistentID:{7D0BD103-871F-4934-8C08-528F10BCD4EC}" Type="Ref">/My Computer/SCA shared var - old.lvlib/extractor current read</Property>
 	<Property Name="varPersistentID:{7D33CA07-49C0-4C89-91EB-937BFC949779}" Type="Ref">/My Computer/SCA shared var - old.lvlib/read retract out</Property>
 	<Property Name="varPersistentID:{7D390A89-9332-45FB-BE6E-99CE495A02CA}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Execute Move</Property>
 	<Property Name="varPersistentID:{7D4357F7-928C-407D-87C5-A640D7022797}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Str Current1</Property>
 	<Property Name="varPersistentID:{7D47AAD6-DF6F-4EA3-8C47-96EA7786566D}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/chop output voltage</Property>
 	<Property Name="varPersistentID:{7D6CFF80-6259-4C4F-8FCD-078DF64221B1}" Type="Ref">/Tankexit/he lib.lvlib/Anayze FC IN</Property>
+	<Property Name="varPersistentID:{7D888D82-2E6C-4A61-B7E7-9F82B6670F1C}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/manual control</Property>
 	<Property Name="varPersistentID:{7D9B43F4-4CA3-4525-B90E-BA6F70D8FB67}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Bypass Control</Property>
 	<Property Name="varPersistentID:{7D9EC3D5-27D6-453A-BEBD-712E59A97BCF}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Wasit X+ Current</Property>
 	<Property Name="varPersistentID:{7E1EEA13-0CB8-4DC7-93EC-699C98852F8B}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO21</Property>
-	<Property Name="varPersistentID:{7E1F0A8D-3D38-4B87-B468-8D072D973846}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/inj image ion gauge</Property>
 	<Property Name="varPersistentID:{7E25F9F6-F556-4C2A-9785-954605B0DEE6}" Type="Ref">/My Computer/SCA shared var - old.lvlib/set sc close</Property>
 	<Property Name="varPersistentID:{7E3C7768-FDBB-413A-8B50-DF129B7C721D}" Type="Ref">/inj-image-rio/injfield_var.lvlib/inj obj apt set value</Property>
 	<Property Name="varPersistentID:{7E8C18EA-5203-43C8-A9BC-811939F09C86}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO23</Property>
-	<Property Name="varPersistentID:{7F1E0D96-DD7B-4624-B2A6-DD232CF6757D}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 cryopump</Property>
+	<Property Name="varPersistentID:{7F140E4D-9AEE-49F9-B621-C61E171439E4}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 1 HV Enable</Property>
+	<Property Name="varPersistentID:{7F1E0D96-DD7B-4624-B2A6-DD232CF6757D}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Cryo Readbacks</Property>
 	<Property Name="varPersistentID:{7F25B203-FE75-4629-90F5-3BD769F98058}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer X-2</Property>
 	<Property Name="varPersistentID:{7F5172CF-7922-41DD-B797-DE0528B7094F}" Type="Ref">/SCA-cRIO/Chassis/Mod5/Cathode I read</Property>
-	<Property Name="varPersistentID:{7FDDEED6-5C2A-4183-A837-9CFD7923E906}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Detector AP IN</Property>
-	<Property Name="varPersistentID:{7FF64547-93D2-4484-B271-92AD8F3C8EE4}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/read sc gv open</Property>
+	<Property Name="varPersistentID:{7F56ED08-DBC8-4E01-84E5-D6141371B9AA}" Type="Ref">/R45-2-cRIO/local R45_2 shared var lib.lvlib/HV readback loop error</Property>
+	<Property Name="varPersistentID:{7FDDEED6-5C2A-4183-A837-9CFD7923E906}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Detector AP status</Property>
+	<Property Name="varPersistentID:{7FF64547-93D2-4484-B271-92AD8F3C8EE4}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/read sc gv open</Property>
 	<Property Name="varPersistentID:{800643C0-EB60-48C5-97B1-BAB5A6BA9E07}" Type="Ref">/inj-image-rio/injfield_var.lvlib/inj cup read val</Property>
 	<Property Name="varPersistentID:{804DDBD8-018F-444A-9C0E-A0545EEC30BF}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/linearity</Property>
-	<Property Name="varPersistentID:{8083F8BA-926C-457C-BC36-6CB57ED5077B}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/R45 waist ion gauge</Property>
+	<Property Name="varPersistentID:{8083F8BA-926C-457C-BC36-6CB57ED5077B}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/R45 waist ion gauge</Property>
 	<Property Name="varPersistentID:{80D3FC6D-597D-4B62-A46A-578F32BFFA70}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI8</Property>
+	<Property Name="varPersistentID:{80E01469-C4EB-4A64-8B60-ED30D019EB4B}" Type="Ref">/R45-1-cRIO/local R45_1 shared var lib.lvlib/Vac cluster loop error</Property>
 	<Property Name="varPersistentID:{80EFB387-B0C9-4ED6-A483-9F16530AE0C1}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/switch object convectron1</Property>
 	<Property Name="varPersistentID:{8142DF9A-F93B-4229-A2ED-1CE908A99F05}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 X- Steerer I read</Property>
 	<Property Name="varPersistentID:{817695DF-5166-4AB5-AA00-C9B8B8BB3443}" Type="Ref">/SCA-cRIO/Chassis/Mod8/Cathode HV Enable</Property>
 	<Property Name="varPersistentID:{81E7FB26-18FE-410B-9AD8-429227BF416B}" Type="Ref">/My Computer/SCA shared var - old.lvlib/sc ion bellows</Property>
 	<Property Name="varPersistentID:{81ED0110-C23B-4126-95D3-0522705DCC9A}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/Terminal Voltage</Property>
-	<Property Name="varPersistentID:{81FE19B0-6F35-460F-B0F2-972804A8EEC6}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/R30 convectron detector 1</Property>
+	<Property Name="varPersistentID:{81EECB47-4273-44AD-A2F9-4B4E89EEDC99}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Beamline GV 3 Status</Property>
 	<Property Name="varPersistentID:{823A3C94-8545-46EB-9E60-733B70DF69E9}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Detector Aperture Status</Property>
 	<Property Name="varPersistentID:{823E11AD-ADD6-46B3-8670-41794B753664}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI4</Property>
 	<Property Name="varPersistentID:{824269DC-9FEA-48ED-AE9C-828937842A7A}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer Voltage Y1-</Property>
+	<Property Name="varPersistentID:{8246259F-613C-4C3F-B4F5-933D2A98A709}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/auto? (T)</Property>
 	<Property Name="varPersistentID:{82D09D85-6AF5-4155-AB08-1978A970A6AB}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/inj cup in</Property>
 	<Property Name="varPersistentID:{835566DA-124F-4565-B631-871E60499172}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Steerer Y+1 Voltage</Property>
-	<Property Name="varPersistentID:{8379F0B2-C2CA-489D-9CD2-798859FFB32C}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 switch cryo gate valve out read</Property>
 	<Property Name="varPersistentID:{8381D4E5-DF33-4CEB-B8BE-F3F75513BCB1}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Steerer Y+1 Voltage</Property>
-	<Property Name="varPersistentID:{83903E3E-7966-456C-9361-5F3AE1B7AB84}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 switch gate valve out read</Property>
-	<Property Name="varPersistentID:{83D4F41C-27A5-4CD5-8394-28DB4B867A30}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/Bellows covectron2</Property>
+	<Property Name="varPersistentID:{83D4F41C-27A5-4CD5-8394-28DB4B867A30}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/Bellows covectron2</Property>
 	<Property Name="varPersistentID:{83DF40DA-C3F6-4B70-80D5-29287C0D2751}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/X- Steerer V set</Property>
 	<Property Name="varPersistentID:{8405FCD5-8344-41D8-B629-71B69DA1CD51}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Steerer Y+1 Current</Property>
-	<Property Name="varPersistentID:{840D36D4-02B8-4EA2-BAC5-FC63F19752BB}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Switch magnet FC OUT</Property>
 	<Property Name="varPersistentID:{8412C3A4-95B6-4B5C-A518-D1EB540B80C8}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/inj image ap</Property>
 	<Property Name="varPersistentID:{843573C2-9190-4D32-A05E-A612CF6BB346}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/output</Property>
-	<Property Name="varPersistentID:{846AAB53-3CFB-448E-9A4A-4572E6A51667}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/immersion lens v read</Property>
+	<Property Name="varPersistentID:{845F3C2A-FD97-4FB2-9790-8ED7F012D750}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 2 HV Enable</Property>
+	<Property Name="varPersistentID:{846AAB53-3CFB-448E-9A4A-4572E6A51667}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/immersion lens v read</Property>
 	<Property Name="varPersistentID:{84AE6BA2-5A5E-48A2-8466-3600F2491AA5}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/SCA state control</Property>
 	<Property Name="varPersistentID:{851640C3-BA65-4AE2-ACE5-8DA9BAA0BC07}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/reinitialize? (F)</Property>
 	<Property Name="varPersistentID:{8584E357-EDD1-424D-A55D-718BE4EFC205}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/analyze magnet set field</Property>
-	<Property Name="varPersistentID:{862C1750-8BA9-4C5D-88E0-A7CB8E6885DF}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 beamline gate valve set</Property>
+	<Property Name="varPersistentID:{85AF116E-26F9-423F-AB1E-A326A5EA43D9}" Type="Ref">/My Computer/R45 shared var.lvlib/Down-Steerer V read</Property>
 	<Property Name="varPersistentID:{86480A42-2324-4F14-B11F-62864E0B64F2}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Waist Y-</Property>
 	<Property Name="varPersistentID:{86DB6020-DE37-412D-B86C-637E34724EB1}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Minimum Time</Property>
-	<Property Name="varPersistentID:{872932B9-D105-4AAD-86F9-A660694EDE97}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/Bellows covectron1</Property>
+	<Property Name="varPersistentID:{872932B9-D105-4AAD-86F9-A660694EDE97}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/Bellows covectron1</Property>
 	<Property Name="varPersistentID:{873636B8-ED6C-468E-9EB8-960A96B0801A}" Type="Ref">/My Computer/HighEnd shared var.lvlib/HE memory total</Property>
-	<Property Name="varPersistentID:{87858951-8CC4-4CE1-B384-C3205E90F3BF}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/R30 Ion gauge ESA 1</Property>
-	<Property Name="varPersistentID:{878B9BFA-44B4-4F86-8239-9F012D5ED7B6}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 X steerer read</Property>
+	<Property Name="varPersistentID:{8764ED8D-9CA1-41A0-A10A-0BA9DA105677}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Down-Steerer V set</Property>
 	<Property Name="varPersistentID:{87FC231D-F4CE-4601-B12E-E2C1513C1281}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer Y+2 Voltage</Property>
 	<Property Name="varPersistentID:{881B06EB-2352-478C-A7E0-CE257941DBE9}" Type="Ref">/SCA-cRIO/Chassis/Mod4/Immersion Lens I set</Property>
 	<Property Name="varPersistentID:{88320283-FD50-4DA0-A155-D958EFD2FD66}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Ion gauge ESA 1</Property>
-	<Property Name="varPersistentID:{8837DAFF-D9AF-486B-96A1-8D6FA537E9B2}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/He waist ion gauge</Property>
-	<Property Name="varPersistentID:{88F352C7-151B-4121-ADBD-3A1F585BE655}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/interlock r45 det IG</Property>
+	<Property Name="varPersistentID:{88F352C7-151B-4121-ADBD-3A1F585BE655}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/interlock r45 det IG</Property>
 	<Property Name="varPersistentID:{8901BDC2-295B-44E1-80EA-F6A0785FE2E8}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/y steerer +</Property>
-	<Property Name="varPersistentID:{8901C149-E982-48A3-8473-E4A8D91EE5F4}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/tank pressure</Property>
 	<Property Name="varPersistentID:{89259698-3D6F-4704-855C-7C37DC2C705A}" Type="Ref">/Tankexit/he lib.lvlib/He Quad B Voltage</Property>
-	<Property Name="varPersistentID:{89396602-8B04-4989-A3C6-4E1F324EA1FF}" Type="Ref">/My Computer/Transmission shared var.lvlib/Switch magnet field</Property>
-	<Property Name="varPersistentID:{89584A66-F3DE-401E-BCE7-F8670C70A437}" Type="Ref">/My Computer/R45 shared var.lvlib/detector ion gauge</Property>
+	<Property Name="varPersistentID:{89396602-8B04-4989-A3C6-4E1F324EA1FF}" Type="Ref">/My Computer/Transmission shared var.lvlib/Switch magnet field set</Property>
+	<Property Name="varPersistentID:{89584A66-F3DE-401E-BCE7-F8670C70A437}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Detector vac gauge cluster</Property>
 	<Property Name="varPersistentID:{89892AC6-F47B-4C87-A62D-336BA89B3A84}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/switch object convectron 2</Property>
 	<Property Name="varPersistentID:{898EA13D-A036-4302-9BA6-4CD286332943}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/Terminal Voltage Set</Property>
-	<Property Name="varPersistentID:{89CAD7D2-0988-4662-9FE2-18FBBC72E7D1}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 switch gate valve in read</Property>
 	<Property Name="varPersistentID:{8A108362-A60B-4A86-B83A-785F30918F6F}" Type="Ref">/My Computer/Transmission shared var.lvlib/Analyzer magnetic field set</Property>
 	<Property Name="varPersistentID:{8A57FECB-7EDA-44FD-B0E8-62063EE7C14B}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI24</Property>
 	<Property Name="varPersistentID:{8A73D232-3A93-40A1-9248-5FF34890D203}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans Y- steerer V set</Property>
 	<Property Name="varPersistentID:{8ADCD626-03C5-44FB-87A7-2E1BCA7BCB3C}" Type="Ref">/SCA-cRIO/local SCA shared var lib - old.lvlib/Wait Position Max Count</Property>
-	<Property Name="varPersistentID:{8B02D7C7-B80F-4BDF-9D3A-D56E5817C8EA}" Type="Ref">/My Computer/R45 shared var.lvlib/r45 end x steerer set</Property>
 	<Property Name="varPersistentID:{8B042FF7-4352-4D64-83C1-4C49C2E6FA42}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/ESA ion gauge 1</Property>
 	<Property Name="varPersistentID:{8B298ABE-9E41-4388-A4D1-EC0C123279CC}" Type="Ref">/SCA-cRIO/Chassis/Mod4/AO7</Property>
 	<Property Name="varPersistentID:{8B2B42B7-20A8-497A-A715-D3C7F845A2AA}" Type="Ref">/My Computer/LowEnd shared var.lvlib/x steerer</Property>
 	<Property Name="varPersistentID:{8B31D5E4-9E72-4BB8-8A4E-F1755C10492B}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 2 memory total</Property>
 	<Property Name="varPersistentID:{8B5C0BB1-4262-4759-B32E-E2190256E245}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Str Current3</Property>
 	<Property Name="varPersistentID:{8B7C9A06-3984-403C-8427-118A5C552DC7}" Type="Ref">/My Computer/R30 shared var.lvlib/ESA ion gauge</Property>
+	<Property Name="varPersistentID:{8B9BBB95-0926-4D52-8FA9-EDF01B0D7083}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Detector Convectron Gauge 1</Property>
 	<Property Name="varPersistentID:{8BDB5FAB-648B-4274-9D23-D9931057AECE}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/Analyze image vac gauge cluster</Property>
 	<Property Name="varPersistentID:{8BDD5FB3-94B6-4B3C-B3E9-C1667DD3219D}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Step Window Radius</Property>
 	<Property Name="varPersistentID:{8C213FBA-9239-43DF-9312-CBAB7692E8F7}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Sample Wheel Convectron</Property>
-	<Property Name="varPersistentID:{8C2C747E-465A-4604-BE84-93B6D61F1F90}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 X steerer read</Property>
-	<Property Name="varPersistentID:{8C4C6A1C-913F-4A09-B18E-636E04F39161}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Detector AP OUT</Property>
 	<Property Name="varPersistentID:{8C4EE16F-DC17-4C78-9B95-32BAC003D3BC}" Type="Ref">/Tankexit/he lib.lvlib/AI26</Property>
 	<Property Name="varPersistentID:{8CC44E56-5FE7-4489-BE80-E5CD9883C6D4}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/ExB Readback voltage -</Property>
 	<Property Name="varPersistentID:{8CC815BD-4A83-4758-A4F1-A5926F730F29}" Type="Ref">/inj-image-rio/injfield_var.lvlib/rare or stable?</Property>
 	<Property Name="varPersistentID:{8D61F7B1-C8D2-4C1A-A5FB-DB68AE0EE033}" Type="Ref">/SCA-cRIO/Chassis/Mod7/Sample Rod DOWN sensor</Property>
+	<Property Name="varPersistentID:{8D89065C-3CB7-4153-A0F1-062805544D71}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Down-Steerer I read</Property>
 	<Property Name="varPersistentID:{8DC42414-6324-4E84-A445-6CA37C1EFA57}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI29</Property>
-	<Property Name="varPersistentID:{8E02EDCA-3E20-4518-9A9E-4F4BEAF44176}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/ION SOURCE ion gauge1</Property>
+	<Property Name="varPersistentID:{8E02EDCA-3E20-4518-9A9E-4F4BEAF44176}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/ION SOURCE ion gauge1</Property>
 	<Property Name="varPersistentID:{8E239FB4-9B80-46CB-A26E-9BF1C5C503BB}" Type="Ref">/SCA-cRIO/global SCA shared var lib - old.lvlib/Retract Rod insertion</Property>
 	<Property Name="varPersistentID:{8E3FFF12-3992-4015-8B31-AA2B9BEAE382}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Quad A I read</Property>
 	<Property Name="varPersistentID:{8E405AE5-1837-4F7E-BE66-82E5CE988AFA}" Type="Ref">/Tankexit/he lib.lvlib/AO10</Property>
 	<Property Name="varPersistentID:{8E4AA1F0-BB62-4D11-8449-AEEE8866CF75}" Type="Ref">/My Computer/Transmission shared var.lvlib/Analyzer magnetic field read</Property>
 	<Property Name="varPersistentID:{8E77D7C9-6E40-4428-B3DF-24B987280FA0}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/error out</Property>
 	<Property Name="varPersistentID:{8E7D9872-45FA-412B-95D1-294DF7F0AB63}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Switch Image Vac Cluster</Property>
-	<Property Name="varPersistentID:{8F3261DF-EDEB-4955-AF14-6E4062BC8060}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/CG value switch object</Property>
 	<Property Name="varPersistentID:{8F4ED244-0C0A-4988-8411-5E40A1389722}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI18</Property>
 	<Property Name="varPersistentID:{8F750A53-5EB2-4208-8066-3DC34393AA98}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/proportional gain (Kc)</Property>
 	<Property Name="varPersistentID:{8F84FBE1-EB08-478C-BAF3-BD52D5FAE904}" Type="Ref">/SCA-cRIO/global SCA shared var lib - old.lvlib/Timeouts-Kubley</Property>
 	<Property Name="varPersistentID:{8F88D359-8D6A-413A-A8FB-96A217C6D463}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/ESA Current readback</Property>
+	<Property Name="varPersistentID:{8FADB04B-E3DE-46BE-AD8F-EB5BAC34C399}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 2 Reset</Property>
 	<Property Name="varPersistentID:{903A2541-4FBD-4BFA-8032-A8A9DC4BB824}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/chop voltage</Property>
 	<Property Name="varPersistentID:{908205CB-157F-40CB-B720-76E922ED9C4D}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/x steerer read voltage</Property>
 	<Property Name="varPersistentID:{909468F7-3F6D-4133-8A5F-1C653B20E139}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI23</Property>
 	<Property Name="varPersistentID:{90C32635-AFD6-4EA0-B33C-5B776880959C}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/output high</Property>
 	<Property Name="varPersistentID:{90E172BA-AE15-449D-BE74-ED3BECC7C9C2}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI24</Property>
-	<Property Name="varPersistentID:{90FC11C5-2870-4C9F-B162-316FC5CC0760}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set pump out system</Property>
-	<Property Name="varPersistentID:{910F0592-5704-4D35-AAD7-DFAB780881DB}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/immersion lens I read</Property>
+	<Property Name="varPersistentID:{90F2EF57-E8A2-45C9-987F-6FFA568712E7}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/output low</Property>
+	<Property Name="varPersistentID:{90FC11C5-2870-4C9F-B162-316FC5CC0760}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set pump out system</Property>
+	<Property Name="varPersistentID:{910F0592-5704-4D35-AAD7-DFAB780881DB}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/immersion lens I read</Property>
 	<Property Name="varPersistentID:{918AC017-EC3F-48D5-A360-B6B74E80B58C}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Memory total</Property>
 	<Property Name="varPersistentID:{91DCBD7F-C9C7-4287-A6B9-C48D55816FB8}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans X+ steerer V set</Property>
+	<Property Name="varPersistentID:{9207D4FC-55F9-4B36-9B56-96EC5BB669C8}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/Vac cluster 3 Interlock bypass</Property>
+	<Property Name="varPersistentID:{9235D782-14ED-4C43-BEEF-99CB5E404DE2}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Turbo 2 GV</Property>
+	<Property Name="varPersistentID:{929B6251-90AE-4194-AD13-E64D661D7D8B}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 2 voltage set</Property>
 	<Property Name="varPersistentID:{92AB11C2-6F6D-49B3-B264-E545297446DA}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI26</Property>
 	<Property Name="varPersistentID:{92B8FC7A-5552-4C81-91F0-EE1C50DDD9EB}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/stable1 or stable 2</Property>
 	<Property Name="varPersistentID:{932577F6-9DE9-493E-9FDA-572D13804099}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/dt (s)</Property>
-	<Property Name="varPersistentID:{93288DA7-1412-4218-96BB-69442E3FF895}" Type="Ref">/My Computer/R45 shared var.lvlib/r45_1 faraday cup read</Property>
+	<Property Name="varPersistentID:{93288DA7-1412-4218-96BB-69442E3FF895}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Switch Mag FC status</Property>
 	<Property Name="varPersistentID:{93ABF674-4599-41F8-A97C-0C66D635C0A9}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Quad A readback</Property>
 	<Property Name="varPersistentID:{93CBC370-DA42-470C-8780-0A6D46BBAAD9}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Waist X-</Property>
-	<Property Name="varPersistentID:{93D08806-7BEF-4539-9F4C-807D36E66171}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Tank entrance convectron2</Property>
 	<Property Name="varPersistentID:{93E25E1B-6EBD-49BA-AF9A-79D735BDBCF6}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Y- Steerer V read</Property>
+	<Property Name="varPersistentID:{9416F165-1A3D-4119-9801-EB2534913751}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Detector Ion Gauge 1</Property>
 	<Property Name="varPersistentID:{94491799-62E9-4772-9E2A-ED3C7541D474}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer X-2 Current</Property>
+	<Property Name="varPersistentID:{94B3FF45-032C-4F8B-94B8-CAB50259BCA7}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Detector vac gauge cluster</Property>
 	<Property Name="varPersistentID:{94DE21D5-F5C4-460A-A250-59D255D976D7}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/X- steerer voltage readback</Property>
 	<Property Name="varPersistentID:{950841A7-62CD-4DB5-90A3-215326F4C9DC}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/analyze image ion gauge 2</Property>
 	<Property Name="varPersistentID:{9521066B-24A4-4C11-91FC-0334B4A4C161}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/CPO Gain</Property>
@@ -726,13 +747,16 @@
 	<Property Name="varPersistentID:{96931CCA-0B97-4C8E-B479-5B7C5DBC0468}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 cpu total</Property>
 	<Property Name="varPersistentID:{96F1760D-E477-4CFC-BB4E-981D9D63E115}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI19</Property>
 	<Property Name="varPersistentID:{97D63683-F1D1-4D1C-959F-8E1C4236B34F}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/dt out (s)</Property>
-	<Property Name="varPersistentID:{97E41ABB-14F5-4A39-813B-85A3A7BD5131}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/listofstuff</Property>
+	<Property Name="varPersistentID:{97E41ABB-14F5-4A39-813B-85A3A7BD5131}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/listofstuff</Property>
 	<Property Name="varPersistentID:{986983A8-6B0B-40DE-AED4-2AB7E747890C}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/Detector FC IN</Property>
 	<Property Name="varPersistentID:{9871BB03-CBFD-4B54-84F9-B2FA95915199}" Type="Ref">/Tankexit/he lib.lvlib/AO9</Property>
 	<Property Name="varPersistentID:{98BAE5F4-E1D2-400E-A24F-FFB5A88427A0}" Type="Ref">/My Computer/R30 shared var.lvlib/ESA V set</Property>
 	<Property Name="varPersistentID:{98D50CC2-F0FC-4DAD-A0A3-6A23BBE33DA1}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO29</Property>
 	<Property Name="varPersistentID:{98FC79FE-1AB2-4A3C-A191-033C3B43544A}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer X+2</Property>
+	<Property Name="varPersistentID:{9967A153-7BB2-4CEA-B380-28D3B2CE3291}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/setpoint low</Property>
+	<Property Name="varPersistentID:{9995A581-BC87-4311-9528-4908CD90BBAE}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Left-Steerer I read</Property>
 	<Property Name="varPersistentID:{9A1A883C-65CC-4045-9DA4-1B3160BDF392}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/Analyze image Ion Gauge</Property>
+	<Property Name="varPersistentID:{9A3E67C5-83B2-4830-81E3-0828EF4F9A3E}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Left-Steerer V read</Property>
 	<Property Name="varPersistentID:{9A8FC976-6CB9-4E91-9CBB-C655DCE11C01}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/Le Suppressor</Property>
 	<Property Name="varPersistentID:{9ADCDAB9-4DBB-4643-BDB5-B6BE07B56FE9}" Type="Ref">/Tankexit/he lib.lvlib/AI13</Property>
 	<Property Name="varPersistentID:{9B155266-B277-4800-B167-70322C9867F3}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/ion gauge source cross1</Property>
@@ -741,12 +765,12 @@
 	<Property Name="varPersistentID:{9B8FCD4F-D9AB-4845-87CA-4885B7AF8B7A}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/ExB- voltage set</Property>
 	<Property Name="varPersistentID:{9B9497B0-65EB-4609-B41E-1D33FD53E0AD}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Steerer Y+</Property>
 	<Property Name="varPersistentID:{9BB7A7A4-38CB-4849-829B-182AA50E0A41}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/Switch magnet AP</Property>
-	<Property Name="varPersistentID:{9BCC682F-7DF9-4C73-8236-ABF586DEFFA9}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/cathode set</Property>
+	<Property Name="varPersistentID:{9BCC682F-7DF9-4C73-8236-ABF586DEFFA9}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/cathode set</Property>
 	<Property Name="varPersistentID:{9C1BB7C5-E36D-4338-AE3C-4A750A8289CF}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer Y-1</Property>
 	<Property Name="varPersistentID:{9C3BDC87-A406-4824-886A-6F2FBE25278E}" Type="Ref">/My Computer/HighEnd shared var.lvlib/He Quad B</Property>
 	<Property Name="varPersistentID:{9C89AC08-1F43-4CB0-98DB-EAC0ADB4D360}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/ESA V read</Property>
 	<Property Name="varPersistentID:{9CBAFC8E-9C99-4BA5-B67F-AD4BC1367F5D}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Steerer Current ReadbacksY-</Property>
-	<Property Name="varPersistentID:{9CCF8501-7F97-4B50-936E-CA7DEB9A6CD3}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/CG detector</Property>
+	<Property Name="varPersistentID:{9CCF8501-7F97-4B50-936E-CA7DEB9A6CD3}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/CG detector</Property>
 	<Property Name="varPersistentID:{9CD27E8C-20DD-4E6A-9C11-40E68414BCA5}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/einzel 2 read voltage</Property>
 	<Property Name="varPersistentID:{9CD86431-4BA6-4843-8BF9-55D7F6BF5EFF}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 1 cpu total</Property>
 	<Property Name="varPersistentID:{9CDE152B-4C41-43D5-8967-0B460636E2F1}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/manual control</Property>
@@ -755,24 +779,24 @@
 	<Property Name="varPersistentID:{9D572CDC-DC98-485F-B2B7-934BB0B18C6C}" Type="Ref">/My Computer/LowEnd shared var.lvlib/source einzel 1</Property>
 	<Property Name="varPersistentID:{9D67BBBB-0F87-4508-B8BC-3D6324C8B050}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Waist Y+</Property>
 	<Property Name="varPersistentID:{9D856D36-A6A9-4487-9632-0F6A2C4316CD}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Switch Image FC Actuator</Property>
-	<Property Name="varPersistentID:{9D98631E-063C-490A-ADEF-AD48D192DF65}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/wheel  value</Property>
+	<Property Name="varPersistentID:{9D98631E-063C-490A-ADEF-AD48D192DF65}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/wheel  value</Property>
+	<Property Name="varPersistentID:{9DA37E06-F111-4A2A-8807-3CF7DB7E7B75}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Switching Magnet GV</Property>
 	<Property Name="varPersistentID:{9E5CE441-5DCB-49BE-8120-73B41D766214}" Type="Ref">/SCA-cRIO/Chassis/Mod5/Immersion Lens I read</Property>
 	<Property Name="varPersistentID:{9E8D91E0-BB8F-4B3E-AC59-1BD847CBCC51}" Type="Ref">/SCA-cRIO/local SCA shared var lib - old.lvlib/Sample Rod Min Count</Property>
-	<Property Name="varPersistentID:{9EB35E5E-0ABA-4236-AF38-5B013795BA33}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set cold cathode on</Property>
+	<Property Name="varPersistentID:{9EB35E5E-0ABA-4236-AF38-5B013795BA33}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set cold cathode on</Property>
 	<Property Name="varPersistentID:{9ED02351-1E60-4D0A-90F0-F22361EAF21D}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Steerer X+1 Voltage</Property>
 	<Property Name="varPersistentID:{9EFC9AD8-4DBC-4941-B6F4-3908EECA6CCB}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/chop value</Property>
 	<Property Name="varPersistentID:{9F2D345E-A318-494D-930A-B00BE476E742}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer X-2 Current</Property>
-	<Property Name="varPersistentID:{9F63B2A5-B99A-46CF-8C34-4490B0AB38B0}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/exb readbacks 2 I+</Property>
+	<Property Name="varPersistentID:{9F63B2A5-B99A-46CF-8C34-4490B0AB38B0}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/exb readbacks 2 I+</Property>
 	<Property Name="varPersistentID:{9F7368A6-7C55-4E03-821D-5BA58C026E16}" Type="Ref">/My Computer/beamline sections.lvlib/R30  library.lvlib/cup location</Property>
-	<Property Name="varPersistentID:{9F9F5567-A720-4D58-8437-2E44DB077DFA}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/r45 1 turbo detector in read</Property>
+	<Property Name="varPersistentID:{9F9F5567-A720-4D58-8437-2E44DB077DFA}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/r45 1 turbo detector in read</Property>
 	<Property Name="varPersistentID:{9FDEAC1B-F819-436E-AA5C-10E1CE905A89}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI14</Property>
 	<Property Name="varPersistentID:{9FFE820D-76BE-4836-82DB-956C0A76DD82}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/switch object ion gauge1</Property>
 	<Property Name="varPersistentID:{A02D3619-DAC6-4217-99C8-976A0B07517F}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Steerer Voltage ReadbackY+</Property>
-	<Property Name="varPersistentID:{A045651E-0D05-4160-A945-8C75B01F4BE9}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/convectron source cross2</Property>
 	<Property Name="varPersistentID:{A045A004-522C-4CDA-B6EA-4BD69FB45A85}" Type="Ref">/SCA-cRIO/Chassis/Mod8/DO7</Property>
-	<Property Name="varPersistentID:{A089EDC2-9C80-49D2-B9A9-6DB093533078}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/rezero</Property>
+	<Property Name="varPersistentID:{A089EDC2-9C80-49D2-B9A9-6DB093533078}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/rezero</Property>
 	<Property Name="varPersistentID:{A0F1C50D-7FB6-466A-A60E-427B9EDAA216}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/manual control</Property>
-	<Property Name="varPersistentID:{A12938EE-A2A1-4172-B7D3-4ABAFE15AC17}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set sc close</Property>
+	<Property Name="varPersistentID:{A12938EE-A2A1-4172-B7D3-4ABAFE15AC17}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set sc close</Property>
 	<Property Name="varPersistentID:{A1A40803-7B82-4F2E-8257-4346D7B33961}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Steerer X-</Property>
 	<Property Name="varPersistentID:{A1C20287-C816-408A-9E0C-360D086DAB8A}" Type="Ref">/Tankexit/he lib.lvlib/DI4</Property>
 	<Property Name="varPersistentID:{A1D10A1A-088B-4C18-9013-A08D0AD7608B}" Type="Ref">/My Computer/flat top.lvlib/Flat topped Control</Property>
@@ -780,31 +804,33 @@
 	<Property Name="varPersistentID:{A1F7E6FA-8262-4FA3-B011-C2F771084772}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans ExB+ I read</Property>
 	<Property Name="varPersistentID:{A20A8BFE-DE59-49E5-8697-E36574B19DFA}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/trans steerer Y+ Voltage readback</Property>
 	<Property Name="varPersistentID:{A21D9482-613D-4F48-BF99-6BF7943A8EC7}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Switch magnet FC</Property>
-	<Property Name="varPersistentID:{A23C0470-F27F-4A5B-ACEE-03563F9020B8}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Switch magnet AP IN</Property>
+	<Property Name="varPersistentID:{A23C0470-F27F-4A5B-ACEE-03563F9020B8}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Switch magnet AP status</Property>
 	<Property Name="varPersistentID:{A27CF0B0-20F9-4A5A-9123-5A517D3E0B7D}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Y+ Steerer V set</Property>
 	<Property Name="varPersistentID:{A2F03272-4917-4C30-B423-DAEE544573BE}" Type="Ref">/My Computer/LowEnd shared var.lvlib/inj obj apt out</Property>
 	<Property Name="varPersistentID:{A2F30AFF-1575-4371-84C8-3CB57EE056DE}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Tank entrance ion gauge</Property>
 	<Property Name="varPersistentID:{A318CB91-4BF4-41E2-8B30-55F0B96A2613}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/output high</Property>
 	<Property Name="varPersistentID:{A3B9BA86-2629-4C5D-82B7-454814FA34E1}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/dt out (s)</Property>
+	<Property Name="varPersistentID:{A3D1DE58-2F60-4E36-A34D-B303E720E169}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Down-Steerer V read</Property>
 	<Property Name="varPersistentID:{A450F0C4-646F-4D38-833B-2D5D715E7F9A}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer Y1 +</Property>
 	<Property Name="varPersistentID:{A489BF17-487A-4DE3-A5FA-387755052E7E}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Inj image Steerer Voltage X+</Property>
+	<Property Name="varPersistentID:{A4C7CFF1-BF07-499E-9247-35C88B1C25F3}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/dt (s)</Property>
 	<Property Name="varPersistentID:{A4CC680A-48F0-48AC-AF25-B1D329F3A326}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Einzel Voltage</Property>
 	<Property Name="varPersistentID:{A4E1B893-AF31-4563-A524-0CDD029B7BB8}" Type="Ref">/My Computer/InjectorA shared var.lvlib/BPM 2 X 10</Property>
 	<Property Name="varPersistentID:{A50821D9-B2E4-4883-8B6D-C92B790045B1}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Steerer Voltage ReadbackY-</Property>
-	<Property Name="varPersistentID:{A50B28BE-D2FE-478A-85C0-69571D21AB5E}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/R45 Switch ion gauge</Property>
 	<Property Name="varPersistentID:{A5692557-571E-4557-9688-C76B981821AA}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/setpoint</Property>
-	<Property Name="varPersistentID:{A5BC439A-F575-4E89-9B78-1C52100ED5C3}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/read retract out</Property>
-	<Property Name="varPersistentID:{A62410D8-92CE-464E-B60A-97F4E0AEC4C8}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/exb readbacks2 V+</Property>
+	<Property Name="varPersistentID:{A5840D70-62E3-471F-B9AC-D1B2A54D8E20}" Type="Ref">/My Computer/R45 shared var.lvlib/Up-Steerer V set</Property>
+	<Property Name="varPersistentID:{A5BC439A-F575-4E89-9B78-1C52100ED5C3}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/read retract out</Property>
+	<Property Name="varPersistentID:{A62410D8-92CE-464E-B60A-97F4E0AEC4C8}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/exb readbacks2 V+</Property>
 	<Property Name="varPersistentID:{A63CDC19-34E5-487A-B229-C7A459D87B6B}" Type="Ref">/Tankexit/he lib.lvlib/tank exit convectron2</Property>
+	<Property Name="varPersistentID:{A67BAEAB-A768-4B92-BD35-C2B5D3810225}" Type="Ref">/R45-2-cRIO/local R45_2 shared var lib.lvlib/Actuator-Sensor loop error</Property>
 	<Property Name="varPersistentID:{A6CE2ED9-AC1C-487B-A142-6DD3336E0436}" Type="Ref">/Tankexit/he lib.lvlib/HE Quad Current B</Property>
-	<Property Name="varPersistentID:{A71850DC-DF66-480D-B941-F0147AB7082E}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/steerer 2 rio 2</Property>
-	<Property Name="varPersistentID:{A7401FB4-0E5C-4452-A88E-ED38F0A698D6}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/ION SOURCE covectron2</Property>
+	<Property Name="varPersistentID:{A71850DC-DF66-480D-B941-F0147AB7082E}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/steerer 2 rio 2</Property>
 	<Property Name="varPersistentID:{A762487F-3644-4D03-8D0F-0FDFFE6DCAA4}" Type="Ref">/inj-image-rio/injfield_var.lvlib/preacc</Property>
-	<Property Name="varPersistentID:{A79DF3F3-A80B-4B13-A605-5E3618267C02}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/wheel offset plus</Property>
+	<Property Name="varPersistentID:{A79DF3F3-A80B-4B13-A605-5E3618267C02}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/wheel offset plus</Property>
 	<Property Name="varPersistentID:{A7F8FA42-D557-44DB-9126-7C54C7437AD2}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Insert Rod Status</Property>
 	<Property Name="varPersistentID:{A85226C9-E6E2-4ADD-8E7C-7A343900F012}" Type="Ref">/My Computer/SCA shared var - old.lvlib/read rod up</Property>
 	<Property Name="varPersistentID:{A86746C8-E27A-4C79-8B1A-FF69E4E49186}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Preacc Voltage11</Property>
-	<Property Name="varPersistentID:{A86A7D6C-6951-4083-ADB4-995A1B3436D1}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/Exb2</Property>
+	<Property Name="varPersistentID:{A86A7D6C-6951-4083-ADB4-995A1B3436D1}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/Exb2</Property>
 	<Property Name="varPersistentID:{A88AF6C4-1B89-429D-AF46-0D5EAAE0D2D8}" Type="Ref">/SCA-cRIO/local SCA shared var lib - old.lvlib/Insert Rod Max Count</Property>
 	<Property Name="varPersistentID:{A88F76D7-1457-4B58-ACFB-76E5B9408B53}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI5</Property>
 	<Property Name="varPersistentID:{A8DDA8C9-5F3F-4C1C-8104-CA904DFCA132}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Ion Source Vac Cluster</Property>
@@ -813,22 +839,23 @@
 	<Property Name="varPersistentID:{A932AA05-5D59-4B9A-8801-711F5BF0C59B}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans Y+ steerer V set</Property>
 	<Property Name="varPersistentID:{A97A3B93-C52C-42C7-B6B2-C929ABE885B0}" Type="Ref">/SCA-cRIO/Chassis/Mod7/Sample Rod UP sensor</Property>
 	<Property Name="varPersistentID:{AA2502C5-1441-4585-AB5C-F8925FF9FD70}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Insert Rod Bypass</Property>
+	<Property Name="varPersistentID:{AA480AEA-B415-450F-AB91-BE9B87F7BD96}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Turbo 1 GV</Property>
+	<Property Name="varPersistentID:{AA8E0BB1-FD7D-40DD-84A6-EE6C186D2524}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Detector Ion Gauge 2</Property>
+	<Property Name="varPersistentID:{AAD15E54-B2ED-4959-82C2-A61F2C3FCFA6}" Type="Ref">/My Computer/R45 shared var.lvlib/Right-Steerer V set</Property>
 	<Property Name="varPersistentID:{AAF7613F-41E8-4E56-8CAC-CE0159AC8B62}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{AB49EECB-C6E2-435A-BCAC-56A72E6996D9}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer Voltage Y1+</Property>
 	<Property Name="varPersistentID:{AB6450E0-1AAD-48A1-A2BF-30DBC7689A99}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Wasit X-Current</Property>
 	<Property Name="varPersistentID:{AB7528B0-77E9-41D3-B5E4-96BE36CD5E17}" Type="Ref">/Trans-cRIO/local trans shared var.lvlib/Analyzer Magnet Loop error</Property>
-	<Property Name="varPersistentID:{AB8A12E1-173B-43C0-BD0A-4A46986F268A}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/IG gauge waist</Property>
-	<Property Name="varPersistentID:{ABCDB5A4-667A-41A1-B532-86A63906E00D}" Type="Ref">/My Computer/R45 shared var.lvlib/gfm set</Property>
+	<Property Name="varPersistentID:{AB8A12E1-173B-43C0-BD0A-4A46986F268A}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/IG gauge waist</Property>
+	<Property Name="varPersistentID:{ABCDB5A4-667A-41A1-B532-86A63906E00D}" Type="Ref">/My Computer/R45 shared var.lvlib/GFM field set</Property>
 	<Property Name="varPersistentID:{ABEDAAD5-C90F-4F9F-BDCA-73355D627980}" Type="Ref">/Tankexit/he lib.lvlib/AI27</Property>
 	<Property Name="varPersistentID:{AC2E16FC-39D2-4C6A-8A26-DA6421DB84B8}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/setpoint high</Property>
-	<Property Name="varPersistentID:{ACB2A591-DA23-42DB-AE1B-AD53BFB3EF97}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 X steerer set</Property>
 	<Property Name="varPersistentID:{ACB34219-A06D-42E3-AB25-68D53F94E9FC}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/output low</Property>
 	<Property Name="varPersistentID:{ACB75383-902D-44FF-8085-4457F6BBB996}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/Y+ steerer voltage set</Property>
 	<Property Name="varPersistentID:{ACE50242-D3E0-49BB-B282-CE10D1D73F5A}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/proportional gain (Kc)</Property>
 	<Property Name="varPersistentID:{AD49460B-5FD5-4D26-B41B-8F751047E191}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{AD6BA412-516D-4F37-ABEF-6A9BD1A0C02E}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI16</Property>
 	<Property Name="varPersistentID:{AD8665BE-086C-4BFA-A17A-27EAE4FEF3B1}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/X- steerer current readback</Property>
-	<Property Name="varPersistentID:{AD8F49A5-4837-4658-923B-F0A4C4115A11}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 switch cryo gate valve in read</Property>
 	<Property Name="varPersistentID:{AD90B327-9E9F-4629-B0F1-832877372C98}" Type="Ref">/SCA-cRIO/Chassis/Mod7/Wheel GV CLOSED sensor</Property>
 	<Property Name="varPersistentID:{ADA2C59D-20DC-4083-9902-844731D3573A}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI12</Property>
 	<Property Name="varPersistentID:{ADB0D1A6-DC01-4A18-9E55-40D6348FEADA}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/error out</Property>
@@ -836,10 +863,10 @@
 	<Property Name="varPersistentID:{AE077B74-FB61-4558-A741-5568590DBEE6}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Preacc current11</Property>
 	<Property Name="varPersistentID:{AE09A3C6-1FCD-43BA-8F44-022E5F35FD73}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Wasit Y- Current</Property>
 	<Property Name="varPersistentID:{AE1086B3-075D-4D55-9EFE-7EADDA35A207}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Str Current4</Property>
-	<Property Name="varPersistentID:{AE3A86BB-7B9B-4356-A243-5C1514649C35}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set sc open</Property>
+	<Property Name="varPersistentID:{AE3A86BB-7B9B-4356-A243-5C1514649C35}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set sc open</Property>
 	<Property Name="varPersistentID:{AE521EAA-A408-458A-978F-34737B1210F2}" Type="Ref">/My Computer/SCA shared var - old.lvlib/immersion lens v set</Property>
 	<Property Name="varPersistentID:{AE8706F1-D6AE-4944-A777-ACAA874109AF}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI19</Property>
-	<Property Name="varPersistentID:{AF48FAD2-1011-4B40-94DE-ECC89C2664EE}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/R30 Detector ion gauge</Property>
+	<Property Name="varPersistentID:{AE8DC5D3-E830-45FA-AAF8-0944B4C1105B}" Type="Ref">/My Computer/R45 shared var.lvlib/Up-Steerer I read</Property>
 	<Property Name="varPersistentID:{AF56BB9B-41CF-4EF3-8ECE-B73EE53AA24B}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Y- Steerer V read</Property>
 	<Property Name="varPersistentID:{AFB5905F-D37F-425A-AE85-E035BCB7BBA7}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI22</Property>
 	<Property Name="varPersistentID:{AFD8B79A-EA24-4DD9-A8CF-7E89E8060FB0}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer Y-2</Property>
@@ -853,17 +880,15 @@
 	<Property Name="varPersistentID:{B1DCFE38-787B-4A83-9639-2500523CBE22}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/auto? (T)</Property>
 	<Property Name="varPersistentID:{B1F3AE05-1B1A-4D1E-97BB-CA9E7E8C214E}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO3</Property>
 	<Property Name="varPersistentID:{B24F77A3-E70B-49AF-B25F-861E90AE893D}" Type="Ref">/My Computer/SCA shared var - old.lvlib/sample number</Property>
-	<Property Name="varPersistentID:{B26B19E0-0CEF-4C42-8B3F-377EDA7D1643}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/tank entrance ion guage</Property>
-	<Property Name="varPersistentID:{B278189D-8A61-46ED-80D5-97F8073EC3C7}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 #2 faraday cup1</Property>
+	<Property Name="varPersistentID:{B278189D-8A61-46ED-80D5-97F8073EC3C7}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Detector FC Actuator</Property>
 	<Property Name="varPersistentID:{B2AFE881-80FD-40CF-B71E-1A05C1ECC5BF}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/reinitialize? (F)</Property>
 	<Property Name="varPersistentID:{B2B07F52-9B11-457F-8239-A9C19101D059}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO12</Property>
-	<Property Name="varPersistentID:{B2C0E3A2-C39F-4B38-9121-4773C234D877}" Type="Ref">/My Computer/R45 shared var.lvlib/exb readbacks 1 I +</Property>
-	<Property Name="varPersistentID:{B2DBCD60-2D80-41B7-BF4B-ED4B8280FF67}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/immersion lens v set</Property>
-	<Property Name="varPersistentID:{B30B3C1C-6A0A-46E3-8FF7-60ECB96637D6}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/position</Property>
+	<Property Name="varPersistentID:{B2C0E3A2-C39F-4B38-9121-4773C234D877}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 1+ I read</Property>
+	<Property Name="varPersistentID:{B2DBCD60-2D80-41B7-BF4B-ED4B8280FF67}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/immersion lens v set</Property>
+	<Property Name="varPersistentID:{B30B3C1C-6A0A-46E3-8FF7-60ECB96637D6}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/position</Property>
 	<Property Name="varPersistentID:{B354B631-3802-4F5F-83B3-56E2000C0784}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/X- steerer voltage set</Property>
 	<Property Name="varPersistentID:{B3685404-BC61-4C4E-870E-A2FCD8A412C3}" Type="Ref">/inj-image-rio/injfield_var.lvlib/inj cup set value</Property>
 	<Property Name="varPersistentID:{B36BA2D9-2FAD-42F4-89F9-7589826B1160}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Waist X+</Property>
-	<Property Name="varPersistentID:{B3801381-57FD-4DA3-98A6-8C02573C6E60}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 switch cryo gate valve set</Property>
 	<Property Name="varPersistentID:{B3AAD7EF-EA84-4751-8CE8-AEE1B93BB988}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 ESA ion gauge</Property>
 	<Property Name="varPersistentID:{B3D44CFD-2716-48F6-8505-1F35EFCC3B05}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Inj image Steerer current  Y-</Property>
 	<Property Name="varPersistentID:{B442198E-83CD-436D-A32A-E6BF0E17D590}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/ion gauge source cross2</Property>
@@ -874,7 +899,7 @@
 	<Property Name="varPersistentID:{B4ED881E-6B4A-4913-8ECC-277C34EC724F}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Steerer Voltage Y2-</Property>
 	<Property Name="varPersistentID:{B5CE1469-969D-42E4-A2C0-F08C9E710DE8}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/reset injector</Property>
 	<Property Name="varPersistentID:{B5D30609-ACB6-4024-B0E0-00F150926EF3}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO26</Property>
-	<Property Name="varPersistentID:{B5E8EA09-6396-454A-85F6-AC978233833D}" Type="Ref">/My Computer/R45 shared var.lvlib/exb readbacks 2 V-</Property>
+	<Property Name="varPersistentID:{B5E8EA09-6396-454A-85F6-AC978233833D}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 2- V read</Property>
 	<Property Name="varPersistentID:{B6043697-B829-4C06-AD53-6C6CB125D403}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer Voltage X1+</Property>
 	<Property Name="varPersistentID:{B62EDD6A-FB6D-48F1-95D6-22E2720AF578}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Immersion Lens V read</Property>
 	<Property Name="varPersistentID:{B630186F-3316-4466-868F-5C820271B208}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/inj cup fc</Property>
@@ -883,12 +908,14 @@
 	<Property Name="varPersistentID:{B6A41830-5B3F-4469-90D2-183269EEF369}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/dt (s)</Property>
 	<Property Name="varPersistentID:{B6F4C323-C6C8-4F13-9236-0E36B61C7EF6}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/output</Property>
 	<Property Name="varPersistentID:{B701D0EE-CBB7-454C-A9EA-53ADB5C5CA33}" Type="Ref">/My Computer/SCA shared var - new.lvlib/SM Command</Property>
+	<Property Name="varPersistentID:{B70A8E50-097A-4974-84FC-1E6D7B3B2FBA}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Turbo 2 GV Status</Property>
 	<Property Name="varPersistentID:{B71C4251-426B-4257-B7BD-422258E47686}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/setpoint high</Property>
+	<Property Name="varPersistentID:{B754AE05-30E4-4AB8-B366-B89556A9D094}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 2- V read</Property>
 	<Property Name="varPersistentID:{B7AE95DF-4D24-4638-B8A6-4A6FCA976919}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/analyze image convectron 1</Property>
 	<Property Name="varPersistentID:{B7F4868E-F29B-4481-8011-EC684761812A}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Extractor V Set</Property>
 	<Property Name="varPersistentID:{B7FFEDF3-DFD5-42F8-AD49-2A6AB7D3FF40}" Type="Ref">/My Computer/LowEnd shared var.lvlib/digital outputs</Property>
 	<Property Name="varPersistentID:{B81965D7-57E5-4649-9CBD-B3F68CE4291D}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Str Current6</Property>
-	<Property Name="varPersistentID:{B82079EE-6A48-4FEA-A909-9E98637C8D29}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/ION SOURCE ion gauge2</Property>
+	<Property Name="varPersistentID:{B82079EE-6A48-4FEA-A909-9E98637C8D29}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/ION SOURCE ion gauge2</Property>
 	<Property Name="varPersistentID:{B88719F6-9779-4495-9500-78DDBA6B2970}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Detector Aperture Actuator</Property>
 	<Property Name="varPersistentID:{B88D6313-DCA0-4394-A7B1-BB4B46E90067}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer Y-2</Property>
 	<Property Name="varPersistentID:{B8986DD2-4CAC-491D-93B7-DC4A59FDD846}" Type="Ref">/My Computer/LowEnd shared var.lvlib/inj cup out</Property>
@@ -901,50 +928,53 @@
 	<Property Name="varPersistentID:{B99DA5C1-2CCA-4513-A35E-DE904B2A88A7}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Stable Field</Property>
 	<Property Name="varPersistentID:{B9CAFF9C-AD84-4EE1-983F-84939B659EF8}" Type="Ref">/My Computer/HighEnd shared var.lvlib/He Quad A Voltage</Property>
 	<Property Name="varPersistentID:{B9F16F3D-6EC0-44E9-BDA7-B199FD8406C2}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO24</Property>
-	<Property Name="varPersistentID:{BA044D7C-77DB-4B5C-A938-888E58DD70C2}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/extractor voltage read</Property>
-	<Property Name="varPersistentID:{BA31952A-F9AA-4179-A38F-56F1728AF749}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/R45 Detector cup in</Property>
-	<Property Name="varPersistentID:{BA8139A4-D58B-4731-9F2F-1803C4E65021}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/HE Waist ion gauge2</Property>
+	<Property Name="varPersistentID:{BA044D7C-77DB-4B5C-A938-888E58DD70C2}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/extractor voltage read</Property>
+	<Property Name="varPersistentID:{BA31952A-F9AA-4179-A38F-56F1728AF749}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/R45 Detector cup in</Property>
 	<Property Name="varPersistentID:{BA9DD642-807E-434D-9740-739F4568F43B}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Immersion HV Enable</Property>
 	<Property Name="varPersistentID:{BAA2BAE2-CE56-4BCA-AD44-8A34D5DA7818}" Type="Ref">/Tankexit/he lib.lvlib/AI10</Property>
 	<Property Name="varPersistentID:{BAC01791-D610-47B3-9919-E8ADF7BB157C}" Type="Ref">/My Computer/SCA shared var - new.lvlib/SCA-RT error</Property>
 	<Property Name="varPersistentID:{BB42F3EA-2011-483F-BD57-414CA6AE341E}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/exb+</Property>
 	<Property Name="varPersistentID:{BBE5ACB3-68F7-4998-AD1F-489920120C8E}" Type="Ref">/Trans-cRIO/local trans shared var.lvlib/Control Loop error</Property>
-	<Property Name="varPersistentID:{BBEEBFC7-D323-4907-90C7-67E230821A42}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Y steerer read</Property>
-	<Property Name="varPersistentID:{BC37E5F5-186C-421E-9B5D-195B56E1C811}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/ig gauge trip</Property>
+	<Property Name="varPersistentID:{BC37E5F5-186C-421E-9B5D-195B56E1C811}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/ig gauge trip</Property>
+	<Property Name="varPersistentID:{BC5C6B7F-4E63-44F1-A136-853978AD8E0C}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 X-Steerer Mag current set</Property>
 	<Property Name="varPersistentID:{BC9DD6E7-6D37-4D22-9AD7-6379EDE9E27A}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/einzel 2 set voltage</Property>
 	<Property Name="varPersistentID:{BCB9E940-11C0-41A3-8168-A8FC3ACD4FAC}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/Corona</Property>
-	<Property Name="varPersistentID:{BD8BCDB2-A7B0-4520-B048-4F31FA9BF075}" Type="Ref">/My Computer/R45 shared var.lvlib/gfm read</Property>
+	<Property Name="varPersistentID:{BCD94469-0E8E-4089-9C09-6BDEC5FCBC8B}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 2- I read</Property>
+	<Property Name="varPersistentID:{BD8BCDB2-A7B0-4520-B048-4F31FA9BF075}" Type="Ref">/My Computer/R45 shared var.lvlib/GFM field read</Property>
 	<Property Name="varPersistentID:{BE01982F-4EBF-46ED-8734-A687F3782424}" Type="Ref">/My Computer/SCA shared var - old.lvlib/cold cathode</Property>
 	<Property Name="varPersistentID:{BE2422BC-6CD9-4BCC-9FB2-19C2BE90813D}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Sample Rod status</Property>
-	<Property Name="varPersistentID:{BE53239E-71F9-48E5-A3E8-84CEF1B4A4A4}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/read rod up</Property>
+	<Property Name="varPersistentID:{BE455ABC-5C84-4CC3-BD22-AC74F47A0A7A}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 1 voltage set</Property>
+	<Property Name="varPersistentID:{BE53239E-71F9-48E5-A3E8-84CEF1B4A4A4}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/read rod up</Property>
+	<Property Name="varPersistentID:{BE891B61-E270-4700-9F89-ADCD31629B66}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Quad Ion Gauge 2</Property>
 	<Property Name="varPersistentID:{BEBCC49C-B61A-4BF7-9464-77E9942919D3}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Steerer X+1 Current</Property>
 	<Property Name="varPersistentID:{BECC62DB-4A82-4BBF-8918-206A88E88202}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/Switch magnet readback</Property>
 	<Property Name="varPersistentID:{BED24A00-B2C1-49C6-8113-D2D36B76F695}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer X-2 Voltage</Property>
 	<Property Name="varPersistentID:{BEEBF947-E0BC-44BF-8420-09BCBFE6128A}" Type="Ref">/My Computer/SCA shared var - old.lvlib/set insert out</Property>
 	<Property Name="varPersistentID:{BEF191DD-0F70-449F-ABBC-65B0E71AF70B}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer Y+2</Property>
-	<Property Name="varPersistentID:{BF077A8E-EBEE-446F-8CF5-937EEE62F218}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/indextest</Property>
-	<Property Name="varPersistentID:{BF4AAAAB-5197-4511-80B4-03679B6E2C5D}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set retract in</Property>
-	<Property Name="varPersistentID:{BF9B96D5-8552-483B-ADB6-8DE632550680}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/cg gauge trip</Property>
+	<Property Name="varPersistentID:{BF077A8E-EBEE-446F-8CF5-937EEE62F218}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/indextest</Property>
+	<Property Name="varPersistentID:{BF4AAAAB-5197-4511-80B4-03679B6E2C5D}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set retract in</Property>
+	<Property Name="varPersistentID:{BF9B96D5-8552-483B-ADB6-8DE632550680}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/cg gauge trip</Property>
 	<Property Name="varPersistentID:{BFB5D6C0-445D-4435-9FFD-B5FC98C6DA19}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/output low</Property>
 	<Property Name="varPersistentID:{C088DBED-AB8E-42D1-A1A4-67EBB48A7C22}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Stable field 2</Property>
 	<Property Name="varPersistentID:{C0B4DC4F-854E-4431-B169-E2F3DF071CC9}" Type="Ref">/SCA-cRIO/global SCA shared var lib - old.lvlib/Random Change</Property>
 	<Property Name="varPersistentID:{C0CF4EB8-8152-4C81-B586-A2683E40B50D}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/error in</Property>
-	<Property Name="varPersistentID:{C0D169F6-EBC6-4911-8716-FB705776C70D}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set rod down</Property>
-	<Property Name="varPersistentID:{C0E915D4-B2F4-49D6-8288-FD97548B81DF}" Type="Ref">/My Computer/R45 shared var.lvlib/exb readbacks 1 I -</Property>
+	<Property Name="varPersistentID:{C0D169F6-EBC6-4911-8716-FB705776C70D}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set rod down</Property>
+	<Property Name="varPersistentID:{C0E915D4-B2F4-49D6-8288-FD97548B81DF}" Type="Ref">/My Computer/R45 shared var.lvlib/ExB 1- I read</Property>
 	<Property Name="varPersistentID:{C18C957B-4DD7-4E37-98FA-E95BB3B02BBB}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/X+ Steerer V read</Property>
+	<Property Name="varPersistentID:{C19D1501-D2B5-4FD0-8BCF-27199B605DEC}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Right-Steerer I read</Property>
 	<Property Name="varPersistentID:{C22FE63E-6278-47DD-9E98-D2801A001600}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Analyze magnet object</Property>
 	<Property Name="varPersistentID:{C245A012-D777-47AD-B0E4-4439913A13CC}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Preacc Voltage11</Property>
 	<Property Name="varPersistentID:{C26BA9A4-D26D-4CCF-8EF7-17CCD010C55D}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/proportional gain (Kc)</Property>
 	<Property Name="varPersistentID:{C273B4B1-1DD8-41F5-8361-D4BF3DC20044}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI14</Property>
 	<Property Name="varPersistentID:{C304A5C6-D56B-4DDE-B19F-5ABE110CC679}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE waist fc</Property>
 	<Property Name="varPersistentID:{C30E4C6D-DB8A-48D4-B5A0-BBE22BF8EA24}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/integral time (Ti, min)</Property>
-	<Property Name="varPersistentID:{C38A5803-E1B7-4752-AD8B-14663938AC59}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/gate valve r45 turbo exb in read</Property>
+	<Property Name="varPersistentID:{C38A5803-E1B7-4752-AD8B-14663938AC59}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/gate valve r45 turbo exb in read</Property>
 	<Property Name="varPersistentID:{C39D3008-9BDD-48B8-8911-D8E69E3F081D}" Type="Ref">/My Computer/SCA shared var - old.lvlib/read rod  down</Property>
 	<Property Name="varPersistentID:{C3A0B948-3F59-445D-AB44-7BE94F05DE25}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/switch object convectron 1</Property>
 	<Property Name="varPersistentID:{C3A4CE70-CBA2-444F-93C1-CA6CBCDA9E5F}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Wheel GV Bypass</Property>
 	<Property Name="varPersistentID:{C3D4A849-01B2-4EE1-948A-9BD4A1784A6E}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Inj image Steerer Voltage Y-</Property>
 	<Property Name="varPersistentID:{C3FB3F9A-7AC2-417B-B7F9-AB81EC5DE85C}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/injector magnet value</Property>
-	<Property Name="varPersistentID:{C40540D9-2DE2-4288-BAA4-BB3DAC4018DB}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/start random sample change</Property>
+	<Property Name="varPersistentID:{C40540D9-2DE2-4288-BAA4-BB3DAC4018DB}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/start random sample change</Property>
 	<Property Name="varPersistentID:{C42F49DA-6CC4-47E3-A00C-59ABE6D4A049}" Type="Ref">/SCA-cRIO/Chassis/Mod4/AO8</Property>
 	<Property Name="varPersistentID:{C42FCA72-EA8E-405A-837D-EAA8CABA60E3}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/ESA Voltage set</Property>
 	<Property Name="varPersistentID:{C480AAB4-59F8-4264-973E-26927795CD8F}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Str Current1</Property>
@@ -977,18 +1007,19 @@
 	<Property Name="varPersistentID:{C8C26ED6-D315-4B56-A898-23FF819E37A2}" Type="Ref">/inj-image-rio/injfield_var.lvlib/reset injector</Property>
 	<Property Name="varPersistentID:{C932BF80-8EB9-4F47-8132-6611BC6F0B97}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Steerer X-1 Voltage</Property>
 	<Property Name="varPersistentID:{C94ABB62-1A20-40D2-8AD0-1D508B070C26}" Type="Ref">/Tankexit/he lib.lvlib/Analyze magnet object</Property>
-	<Property Name="varPersistentID:{C95C6700-3AA2-4530-A016-25355AEB2EF4}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 detector ap in</Property>
+	<Property Name="varPersistentID:{C95C6700-3AA2-4530-A016-25355AEB2EF4}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Detector Aperture Status</Property>
 	<Property Name="varPersistentID:{C9CDACD9-F505-4671-9EF9-263ABC6D2114}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/setpoint</Property>
 	<Property Name="varPersistentID:{C9E3FE97-C691-4277-AFD5-A706B6C94E38}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer Y+</Property>
 	<Property Name="varPersistentID:{CA1FF10F-0E63-4C4E-B4A8-4DFABE91FFEC}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Command Monitor loop error</Property>
 	<Property Name="varPersistentID:{CA945986-F5F1-4DD7-AB92-20CF09837FEB}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/ion gauge</Property>
 	<Property Name="varPersistentID:{CB2B3AFC-AF13-44C6-8482-1340F3620507}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Cup</Property>
 	<Property Name="varPersistentID:{CB3F4370-C7A8-42AB-A82B-5320035F9DAA}" Type="Ref">/My Computer/SCA shared var - old.lvlib/cathode voltage read</Property>
-	<Property Name="varPersistentID:{CB9B5E73-86D9-47ED-9A80-C460E14FEC1F}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/r45 1 gate valve detector in read</Property>
-	<Property Name="varPersistentID:{CBA0D852-65AF-4350-946A-0073C4A67FAF}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/cathode current read</Property>
+	<Property Name="varPersistentID:{CB9B5E73-86D9-47ED-9A80-C460E14FEC1F}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/r45 1 gate valve detector in read</Property>
+	<Property Name="varPersistentID:{CBA0D852-65AF-4350-946A-0073C4A67FAF}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/cathode current read</Property>
 	<Property Name="varPersistentID:{CBAC9287-63A0-4178-B542-FD42B5C6F905}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/setpoint</Property>
 	<Property Name="varPersistentID:{CBB8BE4D-E9CA-4ADF-9914-84D3C77A62F3}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/X- Steerer I read</Property>
-	<Property Name="varPersistentID:{CBC6775E-55E7-4B2E-A09A-4FF51F918DF4}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Tank entrance ion gauge1</Property>
+	<Property Name="varPersistentID:{CBB8ED7A-C57C-4041-BED1-72747CA2543E}" Type="Ref">/R45-2-cRIO/local R45_2 shared var lib.lvlib/ExB 1 PS loop error</Property>
+	<Property Name="varPersistentID:{CBE2B41D-B35E-46CF-AEE3-6BD62F9C9476}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 1 Magnet current set</Property>
 	<Property Name="varPersistentID:{CC1941A9-9A18-4F81-A32C-45AFFBC59786}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Steerer Voltage Y1+</Property>
 	<Property Name="varPersistentID:{CC589E33-CC8D-47E6-82AC-B344552AF3B7}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Tank entrance ion gauge1</Property>
 	<Property Name="varPersistentID:{CCC83CB4-0EE4-4B61-8929-05190A264651}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/ESA convectron 1</Property>
@@ -1003,45 +1034,50 @@
 	<Property Name="varPersistentID:{CDE4FD20-558D-4262-9DF7-624AABD84F7D}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Einzel</Property>
 	<Property Name="varPersistentID:{CE130642-94A4-4BE7-89F8-A21852F10FE8}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO6</Property>
 	<Property Name="varPersistentID:{CE1A76BA-9DE0-48DD-9B22-96E74F27EF4D}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/process variable</Property>
-	<Property Name="varPersistentID:{CE73BD2C-A086-4EBF-9ED4-64BF63A07116}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 beamline gate valve in read</Property>
+	<Property Name="varPersistentID:{CE5D69F5-5818-4BF8-A924-648A5F488576}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/GFM field set</Property>
+	<Property Name="varPersistentID:{CE825FC2-4E43-43DD-8616-1269990BEC3C}" Type="Ref">/My Computer/R45 shared var.lvlib/Right-Steerer V read</Property>
 	<Property Name="varPersistentID:{CE98A0CF-F267-4769-887B-4CA147F51179}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Sensor Loop error</Property>
 	<Property Name="varPersistentID:{CEA8A351-0C7F-4FEA-8CAD-47310C849ABE}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI26</Property>
 	<Property Name="varPersistentID:{CEAA1405-060A-4E00-A08B-530A5B2469D6}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/ESA</Property>
 	<Property Name="varPersistentID:{CED5D2F4-FE06-41A5-8683-D0E285C7534A}" Type="Ref">/Tankexit/he lib.lvlib/HE Waist ion gauge2</Property>
 	<Property Name="varPersistentID:{CF038A8D-DBDC-4882-9DA7-895398F9BA29}" Type="Ref">/My Computer/SCA shared var - old.lvlib/extractor voltage read</Property>
 	<Property Name="varPersistentID:{CF2B873C-31ED-4773-BFEC-06BE4D115E39}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Requested Sample</Property>
-	<Property Name="varPersistentID:{CF90F170-4E31-49F6-AB77-ABB3DD8870DD}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/r45 end x steerer set</Property>
+	<Property Name="varPersistentID:{CF90F170-4E31-49F6-AB77-ABB3DD8870DD}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/r45 end x steerer set</Property>
 	<Property Name="varPersistentID:{CFABCB5A-5C29-4DB2-9B8E-0816026EF9E6}" Type="Ref">/Tankexit/he lib.lvlib/Tank Exit Steerer Voltage X1+</Property>
 	<Property Name="varPersistentID:{CFBC7103-09CE-4AA0-B73B-D05263F58B0C}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Detector FC Actuator</Property>
 	<Property Name="varPersistentID:{CFE8F466-37CB-47F4-95F4-CBE4C0DD6791}" Type="Ref">/Tankexit/he lib.lvlib/analyze magnet set</Property>
-	<Property Name="varPersistentID:{CFFF9F0A-804D-4292-86D2-16766442BF50}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/switch object convectron1</Property>
-	<Property Name="varPersistentID:{D0041C39-C2CA-4A78-9A73-4EE767A806EC}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/encoder set</Property>
+	<Property Name="varPersistentID:{D0041C39-C2CA-4A78-9A73-4EE767A806EC}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/encoder set</Property>
 	<Property Name="varPersistentID:{D05B3E39-671E-458A-94CD-0C6E92CEEDE7}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/INJ Image Einzel Voltage</Property>
-	<Property Name="varPersistentID:{D0C7EB1A-B63F-455B-8412-58CA5088DBF5}" Type="Ref">/My Computer/R30 shared var.lvlib/Switch magnet object ion gauge</Property>
+	<Property Name="varPersistentID:{D0C7EB1A-B63F-455B-8412-58CA5088DBF5}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Switch magnet Image ion gauge</Property>
 	<Property Name="varPersistentID:{D0D362EF-B82D-4596-80F7-125CA7AC88DE}" Type="Ref">/SCA-cRIO/Chassis/Mod4/AO9</Property>
+	<Property Name="varPersistentID:{D0D5742F-39B5-4330-8D03-8206631AEDD7}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB Slot Ion Gauge 1</Property>
 	<Property Name="varPersistentID:{D0EF3A3D-4611-42BF-9304-FE40EA807F72}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Y+ Steerer I read</Property>
 	<Property Name="varPersistentID:{D0F47AAB-E08E-4BA6-9433-C4EE58AF0FC0}" Type="Ref">/SCA-cRIO/Chassis/Mod4/AO4</Property>
 	<Property Name="varPersistentID:{D10F4CF3-4773-445E-884F-2952F2BFAE00}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Cathode V read</Property>
 	<Property Name="varPersistentID:{D119A2D5-F161-439D-9E42-FA943EAC0D64}" Type="Ref">/My Computer/SCA shared var - old.lvlib/set insert in</Property>
+	<Property Name="varPersistentID:{D1BDDFC5-0B27-4D98-B4ED-A1EE5D8719F6}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 1+ V read</Property>
 	<Property Name="varPersistentID:{D1EFF565-1B52-498A-A115-3CA6C8E2463A}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Waist Y+ Voltage</Property>
 	<Property Name="varPersistentID:{D1F02738-AD27-4AE8-A4B8-7A62F5F67558}" Type="Ref">/My Computer/InjectorA shared var.lvlib/BPM 2</Property>
 	<Property Name="varPersistentID:{D20C3CA0-D346-4811-A5BA-5EE8B93A2535}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/SM Config Update?</Property>
 	<Property Name="varPersistentID:{D24C3F7D-4A73-4E05-8432-C5B70E5A29F3}" Type="Ref">/My Computer/SCA shared var - old.lvlib/set retract out</Property>
-	<Property Name="varPersistentID:{D24EEEA1-36B7-493D-A6C6-37357CFACCA4}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/cold cathode on</Property>
+	<Property Name="varPersistentID:{D24EEEA1-36B7-493D-A6C6-37357CFACCA4}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/cold cathode on</Property>
+	<Property Name="varPersistentID:{D253EDCA-180E-4427-A382-EFB836A2608C}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB Slot Ion Gauge 2</Property>
 	<Property Name="varPersistentID:{D277F698-307D-44CE-BDCA-E2083FCE88F8}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Wheel GV Status</Property>
+	<Property Name="varPersistentID:{D2E87098-26D8-48E3-B431-ED836FA049A8}" Type="Ref">/R45-1-cRIO/local R45_1 shared var lib.lvlib/HV control loop error</Property>
+	<Property Name="varPersistentID:{D2F74911-F440-4D84-AE17-E4ECA54809BA}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB Slot vac gauge cluster</Property>
 	<Property Name="varPersistentID:{D36E877C-9C38-419F-ABF8-0A2303022F93}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Steerer Y+</Property>
 	<Property Name="varPersistentID:{D37177B2-C452-4A59-89BC-8F8E380B4BB3}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI10</Property>
+	<Property Name="varPersistentID:{D3DDBC56-259E-4913-90CA-0970BAEB5634}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Beamline GV 3</Property>
 	<Property Name="varPersistentID:{D481847E-0B65-4CA8-A5B7-E5C8F252862D}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/beta</Property>
 	<Property Name="varPersistentID:{D4EF1870-E63E-4AFB-9D7C-4FB7759D425D}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Extractor V read</Property>
 	<Property Name="varPersistentID:{D521264E-0421-48B9-A4D6-D66B671E2002}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/inj image cryo</Property>
+	<Property Name="varPersistentID:{D56DB750-EF15-4F48-A4A3-60E77C03200B}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 2+ V read</Property>
 	<Property Name="varPersistentID:{D5D07F80-6826-4E5E-A749-ABAD8E2B7DBF}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans Y- steerer V read</Property>
 	<Property Name="varPersistentID:{D5EA5387-9E3C-4CAA-B154-AAB403E0263B}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI27</Property>
-	<Property Name="varPersistentID:{D614E9AF-BCDC-440E-9965-1D6311754318}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 switch gate valve set</Property>
 	<Property Name="varPersistentID:{D62E0D6B-D7C4-4DDE-9855-E6F7BA2D6CD0}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Vac Readback Loop error</Property>
 	<Property Name="varPersistentID:{D66B7518-6E47-443B-9DA5-5A6B12688642}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/setpoint low</Property>
 	<Property Name="varPersistentID:{D67BE972-F8FD-445D-B8FB-B55B22680213}" Type="Ref">/Tankexit/he lib.lvlib/DI5</Property>
-	<Property Name="varPersistentID:{D6B316F5-9C11-4787-B564-296DF07DB885}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/stop random sample change</Property>
-	<Property Name="varPersistentID:{D6EB574F-04E4-4746-914F-0A37674494DB}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/analyze image ion gauge1</Property>
+	<Property Name="varPersistentID:{D6B316F5-9C11-4787-B564-296DF07DB885}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/stop random sample change</Property>
 	<Property Name="varPersistentID:{D7DCE091-89A3-41AF-8DA1-52946D2C615E}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/r30 Quad B</Property>
 	<Property Name="varPersistentID:{D810CC55-8BEB-4643-8056-BF2848AD537C}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/Corona</Property>
 	<Property Name="varPersistentID:{D816B79E-74DC-4B7E-B7B5-63C0B66928D8}" Type="Ref">/Tankexit/he lib.lvlib/AO13</Property>
@@ -1055,25 +1091,29 @@
 	<Property Name="varPersistentID:{D9D53A31-62E6-4C5C-8D8A-58F7AFE6CF45}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/R30-1-RT Error</Property>
 	<Property Name="varPersistentID:{D9DF06D9-8235-45DE-B857-A10C07F333DE}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer Y-2 Current</Property>
 	<Property Name="varPersistentID:{D9F2D2BB-C8D2-4A5E-879C-BA56E7584A92}" Type="Ref">/SCA-cRIO/Chassis/Mod4/AO5</Property>
-	<Property Name="varPersistentID:{D9FFE09C-B015-49A0-998B-C25529973226}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/Exb2 magnet</Property>
+	<Property Name="varPersistentID:{D9FFE09C-B015-49A0-998B-C25529973226}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/Exb2 magnet</Property>
 	<Property Name="varPersistentID:{DA823578-7002-47BA-9B97-61D3EC4B35F8}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/chop index</Property>
 	<Property Name="varPersistentID:{DAC2D565-0E1E-431F-9D0F-DB18600222C7}" Type="Ref">/SCA-cRIO/Chassis/Mod7/DI10</Property>
 	<Property Name="varPersistentID:{DAD67902-44C7-4670-9500-AB18A7EB3F6A}" Type="Ref">/My Computer/LowEnd shared var.lvlib/cathode on</Property>
 	<Property Name="varPersistentID:{DAE9AFD9-DF16-498C-B865-25A62E59FD30}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/ExB+ voltage set</Property>
 	<Property Name="varPersistentID:{DB552FC1-0A14-405A-9812-113AA226A46A}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/linearity</Property>
 	<Property Name="varPersistentID:{DBAF9912-00F9-45E0-9B46-63CB41402F81}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/LE Steerer X+1 Current</Property>
+	<Property Name="varPersistentID:{DBE562B9-CF2B-469E-8047-AC7B5754144C}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Turbo 1 GV Status</Property>
 	<Property Name="varPersistentID:{DC3216B0-1A14-4D0F-88AC-BADA7B62D64A}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/setpoint</Property>
 	<Property Name="varPersistentID:{DC8F0B00-B593-4BFD-A754-CA805F7BA776}" Type="Ref">/SCA-cRIO/global SCA shared var lib - old.lvlib/Start Wheel Rotation</Property>
+	<Property Name="varPersistentID:{DC9283EA-656B-447C-B7AD-5B6653D83E60}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB Slot Convectron Gauge 2</Property>
 	<Property Name="varPersistentID:{DCA9B4F9-A3CF-441A-A200-F8CCE312B0BE}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Rotate Wheel timeout</Property>
 	<Property Name="varPersistentID:{DCB9565B-BE65-443F-9C5C-196522A30DA4}" Type="Ref">/My Computer/HighEnd shared var.lvlib/He Quad B Voltage</Property>
 	<Property Name="varPersistentID:{DCC474F5-CD31-4C86-BFC6-0ADF94C835E5}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO19</Property>
 	<Property Name="varPersistentID:{DD7273B7-94D7-4B61-8CF0-E143FDCEAA56}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Y+ Steerer V read</Property>
+	<Property Name="varPersistentID:{DD7295D4-0DB3-491F-BD0E-8772535C2C9D}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Beamline GV 2</Property>
 	<Property Name="varPersistentID:{DDC3B76B-0778-4BBA-AD50-59E523F1D4FB}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/Bias Current</Property>
 	<Property Name="varPersistentID:{DE40699D-4F9F-43A9-BE5B-6CB4C14BDA0A}" Type="Ref">/My Computer/LowEnd shared var.lvlib/Le Steerer Y+</Property>
 	<Property Name="varPersistentID:{DE4CAF06-CFB7-4AAB-B7D2-CA523763CBE3}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/Detector AP OUT</Property>
 	<Property Name="varPersistentID:{DE922BF0-8031-41DF-B690-9D0CF4742640}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans ion gauge</Property>
 	<Property Name="varPersistentID:{DF0BC1B1-04E6-4C1C-AD03-2BD1E58E906F}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Mag Steerer I read</Property>
-	<Property Name="varPersistentID:{DF539CE3-AF15-46B1-923D-9EB0E732E6A4}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/gate valve r45  waist turbo out read</Property>
+	<Property Name="varPersistentID:{DF14E8F0-B5CE-4D90-84D7-308479FD8033}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/Vac cluster 2 Interlock bypass</Property>
+	<Property Name="varPersistentID:{DF539CE3-AF15-46B1-923D-9EB0E732E6A4}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/gate valve r45  waist turbo out read</Property>
 	<Property Name="varPersistentID:{DF5D94B0-2280-4753-BB71-BDD92EFE2FF9}" Type="Ref">/Tankexit/he lib.lvlib/DI27</Property>
 	<Property Name="varPersistentID:{DF971CBA-44B4-4B1F-8E0E-6868EC96F821}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/einzel 1 read voltage</Property>
 	<Property Name="varPersistentID:{DFE9EF44-0350-43BE-8F44-5913019289D3}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/integral time (Ti, min)</Property>
@@ -1084,14 +1124,13 @@
 	<Property Name="varPersistentID:{E09737A7-7CDF-46AB-8318-8F484DA3533D}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer Y2-</Property>
 	<Property Name="varPersistentID:{E0F2CA03-7B59-43D9-9C48-D4C897160892}" Type="Ref">/My Computer/flat top.lvlib/Controls</Property>
 	<Property Name="varPersistentID:{E10FB74E-701C-4C97-973C-3C95A7E58B5B}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Immersion Lens V read</Property>
-	<Property Name="varPersistentID:{E1445A2C-0D81-417D-B2E0-AC91061346C8}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Trans ion gauge</Property>
 	<Property Name="varPersistentID:{E146A417-DC74-4007-8C4F-A37B80B6991E}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Motor Status</Property>
 	<Property Name="varPersistentID:{E16FE420-F496-4005-BA66-159CD1891C90}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Einzel Current</Property>
 	<Property Name="varPersistentID:{E1708923-EBD9-48C0-8293-2047DAFB4EB3}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Detector AP</Property>
-	<Property Name="varPersistentID:{E176950E-DE64-45C2-A868-524B4B6D21A3}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set vent system</Property>
+	<Property Name="varPersistentID:{E176950E-DE64-45C2-A868-524B4B6D21A3}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set vent system</Property>
+	<Property Name="varPersistentID:{E18105A0-F927-46FA-A8B5-C1C22B72B5AF}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Up-Steerer V read</Property>
 	<Property Name="varPersistentID:{E189E5A2-ECAB-4E08-BCF7-1CE56B730C27}" Type="Ref">/My Computer/beamline sections.lvlib/transmission.lvlib/HE FC output array</Property>
 	<Property Name="varPersistentID:{E19D5EB0-FDD5-4EE8-9C93-8FC8AFA71E89}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/R30-1-FPGA Error</Property>
-	<Property Name="varPersistentID:{E1EE318F-32A9-45EB-B615-B7AAA0BDA78A}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/Ion Source cross ion gauge</Property>
 	<Property Name="varPersistentID:{E24A8E1E-2C34-4AC0-BE0F-6E45DA20A139}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer X+2</Property>
 	<Property Name="varPersistentID:{E25312AD-4D81-4B08-A9BD-E74A1BA3C0AF}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Cup</Property>
 	<Property Name="varPersistentID:{E263E90E-5437-47D6-8E59-9D148F15B6A7}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/SM Command</Property>
@@ -1106,6 +1145,7 @@
 	<Property Name="varPersistentID:{E453433A-C379-47F4-86F0-B0649C4EEE6D}" Type="Ref">/My Computer/SCA shared var - old.lvlib/read retract in</Property>
 	<Property Name="varPersistentID:{E470DCA2-1518-4255-8719-FC59743932EA}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO25</Property>
 	<Property Name="varPersistentID:{E4B33F45-615D-4BAB-8EEB-C935A0B3A35A}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Y- Steerer V set</Property>
+	<Property Name="varPersistentID:{E4B825C8-B5F9-4A60-9AF3-B29B9C3AA0EC}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45-2-FPGA Error</Property>
 	<Property Name="varPersistentID:{E4B98434-B3F9-404A-88CF-99FD6F7A4281}" Type="Ref">/My Computer/InjectorA shared var.lvlib/einzel 1 set voltage</Property>
 	<Property Name="varPersistentID:{E4E33514-A182-4EF8-BCAD-66E23C22BBF3}" Type="Ref">/My Computer/SCA shared var - old.lvlib/immersion lens I read</Property>
 	<Property Name="varPersistentID:{E51C9A1D-9BCC-4DA8-A8F2-08789870EA9D}" Type="Ref">/Tankexit/he lib.lvlib/DI11</Property>
@@ -1124,14 +1164,14 @@
 	<Property Name="varPersistentID:{E6D6BFA2-F72F-4B73-89E8-1D0A92CD234E}" Type="Ref">/SCA-cRIO/Chassis/Mod8/Immersion HV Enable</Property>
 	<Property Name="varPersistentID:{E6D968D7-7FC8-4532-A7CD-93DF8239D337}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/setpoint low</Property>
 	<Property Name="varPersistentID:{E7A8DCC6-DF48-4BD6-9687-6A41C119F3C4}" Type="Ref">/Tankexit/he lib.lvlib/AI30</Property>
+	<Property Name="varPersistentID:{E7B56503-081C-4902-B700-8A9A7DDBA0B1}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/R45-1-RT Error</Property>
 	<Property Name="varPersistentID:{E7CD4DAD-A92F-467E-8F72-60954336417F}" Type="Ref">/My Computer/CONnie shared var.lvlib/Oven I read</Property>
 	<Property Name="varPersistentID:{E8291F53-FBE1-461F-91FD-0180A80DF0A8}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Switch Magnet/dt (s)</Property>
-	<Property Name="varPersistentID:{E8579227-6680-4DA8-A627-641318879BE3}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 switch image ion gauge</Property>
 	<Property Name="varPersistentID:{E8A4D164-6359-48C0-84F7-515B442CD270}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Stable field 2</Property>
-	<Property Name="varPersistentID:{E8AF48B8-F126-41E8-AE0C-4E1E78D6CA87}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set insert in</Property>
+	<Property Name="varPersistentID:{E8AF48B8-F126-41E8-AE0C-4E1E78D6CA87}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set insert in</Property>
 	<Property Name="varPersistentID:{E8E4C3FB-9461-4B61-9A70-4EDCFEB61A25}" Type="Ref">/R30-cRIO/old - RT-R30.vi/PID/beta</Property>
 	<Property Name="varPersistentID:{E91B3049-43A8-4BE4-ABF9-9C7581E623E0}" Type="Ref">/Tankexit/he lib.lvlib/DO7</Property>
-	<Property Name="varPersistentID:{E92497F4-C1DC-4F8F-BBC1-1A729DE9A4BA}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/end test</Property>
+	<Property Name="varPersistentID:{E92497F4-C1DC-4F8F-BBC1-1A729DE9A4BA}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/end test</Property>
 	<Property Name="varPersistentID:{E92DC237-4E5B-4674-8D7A-96D2EBC5F685}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Y- Steerer I read</Property>
 	<Property Name="varPersistentID:{E94A1DCA-F22B-4B0F-8E72-A631823DAD7B}" Type="Ref">/Tankexit/he lib.lvlib/HE Quad Current A</Property>
 	<Property Name="varPersistentID:{E9F3FA53-A629-40FA-9EEC-3261938B6330}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans ExB- V set</Property>
@@ -1141,7 +1181,6 @@
 	<Property Name="varPersistentID:{EA96278B-03AF-4CA5-8A95-266CE08CADD4}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/manual control</Property>
 	<Property Name="varPersistentID:{EAD5FCC9-FA2F-469F-B3F6-63BA3DE74987}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/INJ Image Einzel Current</Property>
 	<Property Name="varPersistentID:{EB18BE30-3CB3-4A08-8F7A-F5ABCBDDA949}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO14</Property>
-	<Property Name="varPersistentID:{EB1E323B-12B7-4EA3-A1AB-C7F8F46AE15A}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/switch object convectron2</Property>
 	<Property Name="varPersistentID:{EB89C65A-82C5-4520-A734-EE960732AD06}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Waist X- Voltage</Property>
 	<Property Name="varPersistentID:{EBA97942-D894-4DFB-8AD5-01F486168D10}" Type="Ref">/My Computer/flat top.lvlib/Beamline Section</Property>
 	<Property Name="varPersistentID:{EBEE3898-ABCB-4F91-B0C6-D37BD21F21E9}" Type="Ref">/My Computer/LowEnd shared var.lvlib/cup in</Property>
@@ -1154,37 +1193,39 @@
 	<Property Name="varPersistentID:{EC526CCD-CB38-4450-8AE1-3BAAF81BC65B}" Type="Ref">/Tankexit/he lib.lvlib/DI3</Property>
 	<Property Name="varPersistentID:{EC67F1F3-5110-413B-8FAF-4EEA3BDC92F2}" Type="Ref">/My Computer/InjectorA shared var.lvlib/source pressure</Property>
 	<Property Name="varPersistentID:{ECD76D47-C7B0-42EC-84AC-2021262C4AAD}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/He Suppressor</Property>
-	<Property Name="varPersistentID:{ECF55E2E-A4E2-4743-A1F4-BBABBEA5A7BE}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/convectron source cross1</Property>
 	<Property Name="varPersistentID:{ED4AE18E-AE9F-4794-974F-0FED04B46EDD}" Type="Ref">/Tankexit/he lib.lvlib/DO4</Property>
 	<Property Name="varPersistentID:{ED4D3324-D46B-4B66-8A88-146B69330C08}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/exb-</Property>
 	<Property Name="varPersistentID:{ED62128F-FDA0-4486-8B08-D7EF1471F1FF}" Type="Ref">/My Computer/LowEnd shared var.lvlib/inj cup fc</Property>
 	<Property Name="varPersistentID:{EE28090E-0436-4FEF-9C2C-B05A11AD15F8}" Type="Ref">/inj-image-rio/realtimecurrent.vi/PID/dt out (s)</Property>
-	<Property Name="varPersistentID:{EE9D4696-B8B0-4E54-A9EB-1F75B5238219}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set insert out</Property>
+	<Property Name="varPersistentID:{EE544531-8B42-469D-BA3B-C2C8A477C5B1}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB Slot Aperture insert</Property>
+	<Property Name="varPersistentID:{EE9D4696-B8B0-4E54-A9EB-1F75B5238219}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set insert out</Property>
 	<Property Name="varPersistentID:{EEB44771-C792-4185-9A5A-ABBAA214B43F}" Type="Ref">/Tankexit/he lib.lvlib/HE Waist ion gauge1</Property>
-	<Property Name="varPersistentID:{EEE4ECB5-7E38-4B4B-9131-386896D552DD}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set cold cathode off</Property>
+	<Property Name="varPersistentID:{EEE4ECB5-7E38-4B4B-9131-386896D552DD}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set cold cathode off</Property>
 	<Property Name="varPersistentID:{EF0A9682-D7AC-43BB-9EC6-4EB48343E314}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Requested Sample</Property>
 	<Property Name="varPersistentID:{EF8697C8-78CF-4665-92DD-67DA3B95C30B}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Switch Image Aperture Status</Property>
 	<Property Name="varPersistentID:{EFF23FD7-07BA-43DC-90AC-6DF714281AE3}" Type="Ref">/Tankexit/he lib.lvlib/DI22</Property>
 	<Property Name="varPersistentID:{EFFF4914-564C-4B68-9F8A-6E712D9EBF30}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Detector ion gauge 1</Property>
-	<Property Name="varPersistentID:{F057FC29-3D89-4683-AED2-9DBDB51ED1FA}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/bellows ion gauge2</Property>
-	<Property Name="varPersistentID:{F0CD5052-4130-43C5-9918-ED6646A8D057}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/start sample change</Property>
+	<Property Name="varPersistentID:{F0CD5052-4130-43C5-9918-ED6646A8D057}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/start sample change</Property>
 	<Property Name="varPersistentID:{F1077E3B-8FFF-404C-9717-2D7E141EA6E1}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Wasit X-Current</Property>
-	<Property Name="varPersistentID:{F1695AD4-30A1-4FB1-BA8A-E0855EBDA0C5}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/analyze image ion gauge2</Property>
 	<Property Name="varPersistentID:{F177F723-B596-4E58-90B4-865779807562}" Type="Ref">/SCA-cRIO/global SCA shared var lib - old.lvlib/Insert Rod retraction</Property>
 	<Property Name="varPersistentID:{F183D461-D1BC-4594-9EF9-9A9F5DC9BC27}" Type="Ref">/source-rio/SHARED VAR BPM.lvlib/convectron source cross1</Property>
 	<Property Name="varPersistentID:{F18E4D11-A521-455F-A4D2-95AFB14EC50C}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Einzel</Property>
 	<Property Name="varPersistentID:{F1A0D3DC-0F9A-4A5A-8CD6-AB5951694A48}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Retract Rod Status</Property>
 	<Property Name="varPersistentID:{F1D8BE5B-093F-4599-8C82-EAF4D8C2ECB5}" Type="Ref">/Trans-cRIO/Trans_RT-old.vi/PID/dt (s)</Property>
 	<Property Name="varPersistentID:{F1F571E3-CB80-4168-9447-27A83A2C864B}" Type="Ref">/My Computer/SCA shared var - new.lvlib/SCA Status</Property>
-	<Property Name="varPersistentID:{F201BEAD-55AD-47A5-8065-61425683B61D}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/r45 1 turbo detector set</Property>
-	<Property Name="varPersistentID:{F2419A83-A60C-4F37-9A9B-AA4900C8BECC}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/set rod up1</Property>
+	<Property Name="varPersistentID:{F1F895E7-52F7-4EC9-9DC3-2B86C96DFE9B}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Switch Mag FC actuator</Property>
+	<Property Name="varPersistentID:{F201BEAD-55AD-47A5-8065-61425683B61D}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/r45 1 turbo detector set</Property>
+	<Property Name="varPersistentID:{F2419A83-A60C-4F37-9A9B-AA4900C8BECC}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/set rod up1</Property>
+	<Property Name="varPersistentID:{F2BC550A-AA48-4480-A335-F8E45F5FC329}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/output</Property>
+	<Property Name="varPersistentID:{F2CCE193-4417-4BD9-8F90-762413845DDD}" Type="Ref">/R45-2-cRIO/R45_2-RT.vi/PID - GFM/proportional gain (Kc)</Property>
 	<Property Name="varPersistentID:{F301B4F7-96B4-4F48-944D-4A206B6BAE5B}" Type="Ref">/SCA-cRIO/Chassis/Mod8/Wheel GV Actuator</Property>
-	<Property Name="varPersistentID:{F313BD64-1DB4-4627-AD1A-9CF4FD29E165}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 switch image ion gauge</Property>
+	<Property Name="varPersistentID:{F313BD64-1DB4-4627-AD1A-9CF4FD29E165}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Switch Image Vac Cluster</Property>
 	<Property Name="varPersistentID:{F34634A0-2E42-4BF1-B6D5-3A766E2A0405}" Type="Ref">/SCA-cRIO/Chassis/Mod4/Immersion Lens V set</Property>
 	<Property Name="varPersistentID:{F3599B68-10E2-4942-8696-CA89EB9AD449}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Steerer X-</Property>
+	<Property Name="varPersistentID:{F370C4E6-FDBA-4988-9F9F-F7C75230AD28}" Type="Ref">/My Computer/R45 shared var.lvlib/Right-Steerer I read</Property>
 	<Property Name="varPersistentID:{F3AC5F70-26CB-4C14-8143-59FEE02C83F5}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/trans steerer Y- Current</Property>
 	<Property Name="varPersistentID:{F3BE756F-5220-482D-BFE9-64D83F3ADCB8}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer X+1</Property>
-	<Property Name="varPersistentID:{F3D28755-7580-4D54-BCEB-BA188798FCEA}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/exb readbacks 1 I -</Property>
+	<Property Name="varPersistentID:{F3D28755-7580-4D54-BCEB-BA188798FCEA}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/exb readbacks 1 I -</Property>
 	<Property Name="varPersistentID:{F3E432C3-F94F-4EDE-A469-8FB3A97BA123}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/output low</Property>
 	<Property Name="varPersistentID:{F3E4922B-6C2A-4343-BCF5-C3656C719E7B}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/Current State</Property>
 	<Property Name="varPersistentID:{F45D93D8-0E89-4768-B44B-9E27DC79ABB2}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/le waist ion gauge</Property>
@@ -1196,34 +1237,35 @@
 	<Property Name="varPersistentID:{F4E50968-D505-41E7-AAFA-C131B6CCF753}" Type="Ref">/inj-image-rio/injfield_var.lvlib/Steerer X+</Property>
 	<Property Name="varPersistentID:{F4F12818-7FD4-4273-AD65-E77D759580C6}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Rotate Wheel Minimum Time</Property>
 	<Property Name="varPersistentID:{F520EBFF-77DC-4799-8B45-C52C91289911}" Type="Ref">/My Computer/LowEnd shared var.lvlib/LE Waist Y+</Property>
-	<Property Name="varPersistentID:{F52207AE-DCD5-414E-A6F7-3CC9B6819A91}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/count</Property>
+	<Property Name="varPersistentID:{F52207AE-DCD5-414E-A6F7-3CC9B6819A91}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/count</Property>
 	<Property Name="varPersistentID:{F588A830-6E31-4E90-A920-FE6C69AAE37D}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Settings Update loop error</Property>
 	<Property Name="varPersistentID:{F5B91FE1-8F8F-4EDD-BAC6-B24535E7462F}" Type="Ref">/SCA-cRIO/global SCA shared var lib.lvlib/SCA settings</Property>
+	<Property Name="varPersistentID:{F5DBCAFD-B25D-4C2F-9D57-09D8A3ECE4D0}" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib/Right-Steerer V set</Property>
 	<Property Name="varPersistentID:{F5EF9D21-AA1C-4ADF-91A6-4387A0B864D2}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Inj image Steerer current  X-</Property>
 	<Property Name="varPersistentID:{F62140D1-8E9E-415C-8EB8-9BFB86FBFCBB}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Mag Steerer V read</Property>
 	<Property Name="varPersistentID:{F63CABAC-ECBD-438D-8E50-5A64BBD5FEF4}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/switch magnet set field</Property>
 	<Property Name="varPersistentID:{F6523585-1DBD-4282-9C26-E11A946AA2AF}" Type="Ref">/Tankexit/he lib.lvlib/AI12</Property>
 	<Property Name="varPersistentID:{F65C62BC-A664-4717-B300-FE54A5F9737C}" Type="Ref">/My Computer/HighEnd shared var.lvlib/He Quad A</Property>
 	<Property Name="varPersistentID:{F65CAE46-15AF-4D78-BD50-BBDFEFF3C33F}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/dt out (s)</Property>
-	<Property Name="varPersistentID:{F6878C82-5026-4653-AAA1-97CC25062CC5}" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib/exb readbacks 2 V-</Property>
+	<Property Name="varPersistentID:{F668934B-3BB4-4632-9DF0-8B557A2AD05F}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 Detector Aperture Position</Property>
+	<Property Name="varPersistentID:{F6878C82-5026-4653-AAA1-97CC25062CC5}" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib/exb readbacks 2 V-</Property>
 	<Property Name="varPersistentID:{F6BEBFA6-69B3-457D-A74F-4667A3966645}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/Trans-RT Error</Property>
-	<Property Name="varPersistentID:{F6E26FB2-228B-4534-B6B2-C37EB7BC2BDE}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/interlock r45 CG 1</Property>
 	<Property Name="varPersistentID:{F74028BF-D414-4351-8778-4025DE4D9DE4}" Type="Ref">/R30-cRIO/global R30_1 shared var lib.lvlib/Y- Steerer V set</Property>
 	<Property Name="varPersistentID:{F74583E8-2429-4F40-B99D-8163D7D37C15}" Type="Ref">/SCA-cRIO/Chassis/Mod5/Cathode V read</Property>
 	<Property Name="varPersistentID:{F7A0E3FA-10BF-4A6D-A9DF-BC3BECC12C30}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Inj image Steerer Voltage X+</Property>
 	<Property Name="varPersistentID:{F7BE296E-537C-4DC7-8133-D61CCD8FA178}" Type="Ref">/low-end-rio/lerealtimeshared var.lvlib/Le Steerer Y+2</Property>
-	<Property Name="varPersistentID:{F7FF315C-7A51-4C6E-A26C-90145A5BCA65}" Type="Ref">/My Computer/R45 shared var.lvlib/r45_1 faraday cup</Property>
+	<Property Name="varPersistentID:{F7FF315C-7A51-4C6E-A26C-90145A5BCA65}" Type="Ref">/My Computer/R45 shared var.lvlib/R45 Switch Mag FC actuator</Property>
 	<Property Name="varPersistentID:{F8354A97-302A-4E5B-8612-1747D2425B00}" Type="Ref">/Tankexit/he lib.lvlib/DI28</Property>
 	<Property Name="varPersistentID:{F83C0858-F4C0-466A-998D-5CE44289B605}" Type="Ref">/My Computer/SCA shared var - old.lvlib/read insert out</Property>
 	<Property Name="varPersistentID:{F8798267-295E-4A51-90EF-6D9D18123C87}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/R30 Detector ion gauge</Property>
 	<Property Name="varPersistentID:{F879D885-A938-4955-9CDB-E953FD344D1F}" Type="Ref">/Control-Room-Rio/shared var lib.lvlib/Le Inductor</Property>
 	<Property Name="varPersistentID:{F8DFE4E9-6F65-4033-89B0-F36354EC1953}" Type="Ref">/Trans-cRIO/Trans_RT.vi/PID - Analyzer Magnet/error in</Property>
+	<Property Name="varPersistentID:{F93C7A7C-BD44-4A8B-A4F4-733F71ABFF89}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45-2-RT Error</Property>
 	<Property Name="varPersistentID:{F94D1483-FBFA-4653-A6A7-EE5F005ECA59}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI9</Property>
 	<Property Name="varPersistentID:{F9AB05FE-E62F-4348-AEC9-29D48DE9C9AE}" Type="Ref">/My Computer/SCA shared var - old.lvlib/read sc gv open</Property>
 	<Property Name="varPersistentID:{F9AE7DFD-6460-49D1-BE39-2A3B4A211746}" Type="Ref">/My Computer/HighEnd shared var.lvlib/Tank Exit Steerer Voltage X1-</Property>
 	<Property Name="varPersistentID:{F9E07339-0758-4E37-A604-327BC077BD84}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/analyze image ion gauge2</Property>
-	<Property Name="varPersistentID:{F9E269B4-7D41-4812-A86D-C5FF9C0AB591}" Type="Ref">/SCA-cRIO/shared var lib.lvlib/cathode voltage read</Property>
-	<Property Name="varPersistentID:{FA08C468-0AC3-4539-920F-E1B611367BEC}" Type="Ref">/My Computer/Ion Gauges shared var.lvlib/HE Waist Convectron1</Property>
+	<Property Name="varPersistentID:{F9E269B4-7D41-4812-A86D-C5FF9C0AB591}" Type="Ref">/SCA-cRIO/old - shared var lib.lvlib/cathode voltage read</Property>
 	<Property Name="varPersistentID:{FA4AAC5D-0338-4322-B3ED-22633C080C3E}" Type="Ref">/My Computer/R30 shared var.lvlib/R30 Y+ Steerer V set</Property>
 	<Property Name="varPersistentID:{FA4E8515-EED0-4930-A423-D2DA535BD7D2}" Type="Ref">/Trans-cRIO/old - trans rio shared var.lvlib/analyze magnets power supply set value</Property>
 	<Property Name="varPersistentID:{FA565EA5-42B6-46B5-B34A-4227C7FB6DEC}" Type="Ref">/Tankexit/he lib.lvlib/DI23</Property>
@@ -1245,9 +1287,9 @@
 	<Property Name="varPersistentID:{FE820F09-291B-4038-8E54-2986DCE44279}" Type="Ref">/inj-image-rio/injfield_var.lvlib/inj image cryo</Property>
 	<Property Name="varPersistentID:{FE8261F4-3D57-44B5-8E0B-57021FA28375}" Type="Ref">/My Computer/InjectorA-Image shared var.lvlib/Inj image Steerer current  Y+</Property>
 	<Property Name="varPersistentID:{FE83A6FB-F32C-4C3A-8041-AFB656856DF5}" Type="Ref">/SCA-cRIO/Chassis/Mod6/DIO30</Property>
+	<Property Name="varPersistentID:{FE85F1F3-602F-4D93-B5F0-AC35EE237D32}" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib/R45 ExB 1+ I read</Property>
 	<Property Name="varPersistentID:{FF36DA0D-69CB-4D64-8AF2-E0CEE5FB4940}" Type="Ref">/Trans-cRIO/local trans shared var.lvlib/Switch Magnet Loop error</Property>
 	<Property Name="varPersistentID:{FF94C4A7-1FFB-47F6-84BE-64AD9F315CB8}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/switch magnet read field</Property>
-	<Property Name="varPersistentID:{FFBB21B5-C224-43A1-B5AD-4A0E701DFD8E}" Type="Ref">/R45-1-cRIO/shared var r45_1.lvlib/R45 Y steerer read</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -1277,6 +1319,7 @@
 			<Item Name="prev-save-load-enum.ctl" Type="VI" URL="../control vi/controls/prev-save-load-enum.ctl"/>
 			<Item Name="Flat top control settings.ctl" Type="VI" URL="../control vi/controls/Flat top control settings.ctl"/>
 			<Item Name="flat top states.ctl" Type="VI" URL="../control vi/controls/flat top states.ctl"/>
+			<Item Name="GP307 cluster.ctl" Type="VI" URL="../cRIO code/SCA/controls/GP307 cluster.ctl"/>
 		</Item>
 		<Item Name="Control_MAIN.vi" Type="VI" URL="../Control_MAIN.vi"/>
 		<Item Name="main.lvlib" Type="Library" URL="../control vi/main/main/main.lvlib"/>
@@ -1298,7 +1341,6 @@
 		<Item Name="Transmission shared var.lvlib" Type="Library" URL="../Shared Variable libraries/Transmission shared var.lvlib"/>
 		<Item Name="R30 shared var.lvlib" Type="Library" URL="../Shared Variable libraries/R30 shared var.lvlib"/>
 		<Item Name="R45 shared var.lvlib" Type="Library" URL="../Shared Variable libraries/R45 shared var.lvlib"/>
-		<Item Name="Ion Gauges shared var.lvlib" Type="Library" URL="../Shared Variable libraries/Ion Gauges shared var.lvlib"/>
 		<Item Name="keithly1.lvlib" Type="Library" URL="../control vi/keithley/keithly1.lvlib"/>
 		<Item Name="Desktop Icon.ico" Type="Document" URL="../Desktop Icon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -1386,7 +1428,6 @@
 			<Item Name="SCA steerers.ctl" Type="VI" URL="../control vi/controls/SCA steerers.ctl"/>
 			<Item Name="SCA broadcast status.ctl" Type="VI" URL="../cRIO code/SCA/controls/SCA broadcast status.ctl"/>
 			<Item Name="SCA commands.ctl" Type="VI" URL="../cRIO code/SCA/controls/SCA commands.ctl"/>
-			<Item Name="GP307 cluster.ctl" Type="VI" URL="../cRIO code/SCA/controls/GP307 cluster.ctl"/>
 			<Item Name="Vertical Rod states.ctl" Type="VI" URL="../cRIO code/SCA/controls/Vertical Rod states.ctl"/>
 			<Item Name="Horizontal Rod states.ctl" Type="VI" URL="../cRIO code/SCA/controls/Horizontal Rod states.ctl"/>
 			<Item Name="SCA Bypass control.ctl" Type="VI" URL="../cRIO code/SCA/controls/SCA Bypass control.ctl"/>
@@ -1394,7 +1435,8 @@
 			<Item Name="Sample Changer Settings.ctl" Type="VI" URL="../cRIO code/SCA/controls/Sample Changer Settings.ctl"/>
 			<Item Name="FC beamlines.ctl" Type="VI" URL="../control vi/controls/FC beamlines.ctl"/>
 			<Item Name="GV states.ctl" Type="VI" URL="../control vi/controls/GV states.ctl"/>
-			<Item Name="GV states.ctl" Type="VI" URL="../cRIO code/SCA/controls/GV states.ctl"/>
+			<Item Name="Aperture states.ctl" Type="VI" URL="../control vi/controls/Aperture states.ctl"/>
+			<Item Name="Faraday cup states.ctl" Type="VI" URL="../control vi/controls/Faraday cup states.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PRIME Control 2017a Executable" Type="EXE">
@@ -1412,7 +1454,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{A1072F29-B050-4625-AE8E-82EE0705F16F}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Control software 2010_control software_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">84</Property>
+				<Property Name="Bld_version.build" Type="Int">86</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PRIME Control 2017a.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/PRIME Control 2017a Executable/NI_AB_PROJECTNAME.exe</Property>
@@ -1425,7 +1467,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Desktop Icon.ico</Property>
 				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/My Computer/Ion Gauges shared var.lvlib</Property>
+				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref"></Property>
 				<Property Name="Exe_Vardep[1].LibDeploy" Type="Bool">true</Property>
 				<Property Name="Exe_Vardep[1].LibItemID" Type="Ref">/My Computer/SCA shared var - old.lvlib</Property>
 				<Property Name="Exe_Vardep[10].LibDeploy" Type="Bool">true</Property>
@@ -1455,7 +1497,7 @@
 				<Property Name="Exe_Vardep[8].LibDeploy" Type="Bool">true</Property>
 				<Property Name="Exe_Vardep[8].LibItemID" Type="Ref">/My Computer/R45 shared var.lvlib</Property>
 				<Property Name="Exe_Vardep[9].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[9].LibItemID" Type="Ref">/Rio-R45-2/r45_2shared var.lvlib</Property>
+				<Property Name="Exe_Vardep[9].LibItemID" Type="Ref">/R45-2-cRIO/r45_2shared var.lvlib</Property>
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
 				<Property Name="Exe_VardepLibItemCount" Type="Int">16</Property>
 				<Property Name="Source[0].itemID" Type="Str">{CBFA9D9E-90CE-405C-831D-7FA908E0793F}</Property>
@@ -1630,7 +1672,7 @@
 				<Property Name="Source[37].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[37].type" Type="Str">VI</Property>
 				<Property Name="Source[38].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[38].itemID" Type="Ref">/My Computer/Ion Gauges shared var.lvlib</Property>
+				<Property Name="Source[38].itemID" Type="Ref"></Property>
 				<Property Name="Source[38].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[38].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[38].type" Type="Str">Library</Property>
@@ -1694,60 +1736,72 @@
 				<Property Name="Destination[1].tag" Type="Str">{7ED654AD-8005-488B-B15D-639F942014A0}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{BBDD90FA-BCEE-4886-ABCF-2A04950ADC03}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2016 f2</Property>
-				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI LabVIEW Runtime 2016 Non-English Support.</Property>
-				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{72AEEB03-DF6A-4C90-B44E-22B1E74CF14F}</Property>
-				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI mDNS Responder 14.0</Property>
-				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[0].SoftDep[12].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[12].productName" Type="Str">NI Deployment Framework 2016</Property>
-				<Property Name="DistPart[0].SoftDep[12].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[0].SoftDep[13].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[13].productName" Type="Str">NI Error Reporting 2016</Property>
-				<Property Name="DistPart[0].SoftDep[13].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI System Web Server 16.0</Property>
-				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
-				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
-				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
-				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 5.8</Property>
-				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI TDM Streaming 16.0</Property>
-				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2016</Property>
-				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{6A61A967-C04E-47A1-8D08-DF27332A78AB}</Property>
-				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
-				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
-				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
-				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
-				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
-				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[0].SoftDepCount" Type="Int">14</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
-				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{060A0DD9-6B7B-4AC4-A621-A7A37D08E989}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 16.0</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{A1B6434D-04EC-46E1-A91C-3FD26D026343}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-Serial Runtime 15.0</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{272BF3A9-7DBB-47EE-B2B8-CB893AA8166B}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 16.0</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{BBDD90FA-BCEE-4886-ABCF-2A04950ADC03}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2016 f2</Property>
+				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI LabVIEW Runtime 2016 Non-English Support.</Property>
+				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{72AEEB03-DF6A-4C90-B44E-22B1E74CF14F}</Property>
+				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[3].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[11].productName" Type="Str">NI mDNS Responder 14.0</Property>
+				<Property Name="DistPart[3].SoftDep[11].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[3].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[12].productName" Type="Str">NI Deployment Framework 2016</Property>
+				<Property Name="DistPart[3].SoftDep[12].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[3].SoftDep[13].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[13].productName" Type="Str">NI Error Reporting 2016</Property>
+				<Property Name="DistPart[3].SoftDep[13].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI System Web Server 16.0</Property>
+				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{F34FFCA8-C4CB-47CC-8B81-C4E95E227355}</Property>
+				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI Logos 5.8</Property>
+				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI TDM Streaming 16.0</Property>
+				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2016</Property>
+				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{6A61A967-C04E-47A1-8D08-DF27332A78AB}</Property>
+				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2016</Property>
+				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{718F68F2-14F0-4656-A29E-617F12A7343B}</Property>
+				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">14</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{E7DBF016-365A-40B6-9526-B4D0B4830F51}</Property>
+				<Property Name="DistPartCount" Type="Int">4</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/PRIME Control 2017a Installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">PRIME Control 2017a Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{45DC76C9-248C-48AE-BCE7-A157893B195C}</Property>
 				<Property Name="INST_productName" Type="Str">PRIME Control 2017a</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.79</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.81</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -5442,6 +5496,7 @@ DirectoryIndex index.htm
 		<Item Name="Legacy-monitor.vi" Type="VI" URL="../cRIO code/SCA/Legacy-monitor.vi"/>
 		<Item Name="local SCA shared var lib - old.lvlib" Type="Library" URL="../cRIO code/SCA/local SCA shared var lib - old.lvlib"/>
 		<Item Name="local SCA shared var lib.lvlib" Type="Library" URL="../cRIO code/SCA/local SCA shared var lib.lvlib"/>
+		<Item Name="old - shared var lib.lvlib" Type="Library" URL="../cRIO code/SCA/old - shared var lib.lvlib"/>
 		<Item Name="SCA-RT.vi" Type="VI" URL="../cRIO code/SCA/SCA-RT.vi">
 			<Item Name="Read" Type="IIO Function Block"/>
 			<Item Name="Straight-Line Move" Type="IIO Function Block"/>
@@ -5455,7 +5510,6 @@ DirectoryIndex index.htm
 		<Item Name="SCA-RT_old.vi" Type="VI" URL="../cRIO code/SCA/SCA-RT_old.vi">
 			<Item Name="Straight-Line Move" Type="IIO Function Block"/>
 		</Item>
-		<Item Name="shared var lib.lvlib" Type="Library" URL="../cRIO code/SCA/shared var lib.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -5469,17 +5523,16 @@ DirectoryIndex index.htm
 			</Item>
 			<Item Name="Encoder bit cluster.ctl" Type="VI" URL="../cRIO code/SCA/controls/Encoder bit cluster.ctl"/>
 			<Item Name="Encoder-Decoder.vi" Type="VI" URL="../cRIO code/SCA/Encoder-Decoder.vi"/>
-			<Item Name="Gate Valve Readback.ctl" Type="VI" URL="../cRIO code/SCA/controls/Gate Valve Readback.ctl"/>
+			<Item Name="Gate Valve Readback.ctl" Type="VI" URL="../control vi/controls/Gate Valve Readback.ctl"/>
 			<Item Name="GP307 cluster.ctl" Type="VI" URL="../cRIO code/SCA/controls/GP307 cluster.ctl"/>
 			<Item Name="GP307 Read-RT.vi" Type="VI" URL="../cRIO code/SCA/GP307 Read-RT.vi"/>
-			<Item Name="GV states.ctl" Type="VI" URL="../cRIO code/SCA/controls/GV states.ctl"/>
+			<Item Name="GV states.ctl" Type="VI" URL="../control vi/controls/GV states.ctl"/>
 			<Item Name="GV status converter.vi" Type="VI" URL="../cRIO code/SCA/GV status converter.vi"/>
 			<Item Name="Horizontal Rod Sensor-State converter.vi" Type="VI" URL="../cRIO code/SCA/Horizontal Rod Sensor-State converter.vi"/>
 			<Item Name="Horizontal Rod states.ctl" Type="VI" URL="../cRIO code/SCA/controls/Horizontal Rod states.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Minimum Times.ctl" Type="VI" URL="../cRIO code/SCA/controls/Minimum Times.ctl"/>
 			<Item Name="Modify array of SCA states.vi" Type="VI" URL="../cRIO code/SCA/Modify array of SCA states.vi"/>
-			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/16.0/nimclv.dll"/>
 			<Item Name="Sample Changer Settings.ctl" Type="VI" URL="../cRIO code/SCA/controls/Sample Changer Settings.ctl"/>
 			<Item Name="SCA broadcast status.ctl" Type="VI" URL="../cRIO code/SCA/controls/SCA broadcast status.ctl"/>
 			<Item Name="SCA Bypass control.ctl" Type="VI" URL="../cRIO code/SCA/controls/SCA Bypass control.ctl"/>
@@ -5507,7 +5560,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{17BFA60D-18FB-48DF-A391-E89935112CF9}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
@@ -5521,7 +5574,7 @@ DirectoryIndex index.htm
 				<Property Name="Destination[2].path" Type="Path">/c/ni-rt/system/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C875B994-D5B3-4C5A-8A78-8F31E9323A04}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8BE3382A-59D2-4BAD-98B1-9813D2AAB492}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/SCA-cRIO/SCA-RT_new.vi</Property>
@@ -5541,7 +5594,9 @@ DirectoryIndex index.htm
 				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/SCA-cRIO/SCA-RT_new.html</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">SCA_RT-new</Property>
 				<Property Name="TgtF_internalName" Type="Str">SCA_RT-new</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
@@ -12483,6 +12538,7 @@ DirectoryIndex index.htm
 		<Item Name="global trans shared var.lvlib" Type="Library" URL="../cRIO code/Transmission/global trans shared var.lvlib"/>
 		<Item Name="local trans shared var.lvlib" Type="Library" URL="../cRIO code/Transmission/local trans shared var.lvlib"/>
 		<Item Name="old - trans rio shared var.lvlib" Type="Library" URL="../cRIO code/Transmission/old - trans rio shared var.lvlib"/>
+		<Item Name="Trans-RT.html" Type="Document" URL="../cRIO code/Trans-RT.html"/>
 		<Item Name="Trans_RT-old.vi" Type="VI" URL="../cRIO code/Transmission/Trans_RT-old.vi">
 			<Item Name="PID" Type="IIO Function Block">
 				<Item Name="auto? (T)" Type="Variable"/>
@@ -12637,7 +12693,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F1E50D45-3CD2-4A01-9DC9-6964E6B51AE6}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -12648,10 +12704,10 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">www</Property>
-				<Property Name="Destination[2].path" Type="Path">/home/lvuser/natinst/bin/www</Property>
+				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{985D3795-EB17-4E1F-9368-54E6407B7080}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{576FC4F3-6145-4B74-9540-41FB97868250}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Trans-cRIO/Trans_RT.vi</Property>
@@ -12667,7 +12723,10 @@ DirectoryIndex index.htm
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/Trans-cRIO/Trans-RT.html</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">RT-Trans</Property>
 				<Property Name="TgtF_internalName" Type="Str">RT-Trans</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
@@ -14009,12 +14068,18 @@ DirectoryIndex index.htm
 				<Item Name="setpoint low" Type="Variable"/>
 			</Item>
 		</Item>
+		<Item Name="R30-1_RT.html" Type="Document" URL="../cRIO code/R30-1_RT.html"/>
 		<Item Name="R30_1-RT.vi" Type="VI" URL="../../../../PRIME Lab 2017b/Control/PRIME Control 2017b/Beamline sections/R30/R30_1/R30_1-RT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="Aperture Readback.ctl" Type="VI" URL="../control vi/controls/Aperture Readback.ctl"/>
 			<Item Name="Aperture states.ctl" Type="VI" URL="../../../../PRIME Lab 2017b/Control/PRIME Control 2017b/Controls/Aperture states.ctl"/>
@@ -14046,7 +14111,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5C0DEB48-77DC-485E-89E5-1D88E3273ED7}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
@@ -14057,10 +14122,10 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">www</Property>
-				<Property Name="Destination[2].path" Type="Path">/home/lvuser/natinst/bin/www</Property>
+				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{EAEBD2AC-6D8C-4C9D-846C-9BD49CAA7C75}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C6C66D18-D5FB-4D16-96A3-4B4F822540D0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/R30-cRIO/R30_1-RT.vi</Property>
@@ -14076,7 +14141,10 @@ DirectoryIndex index.htm
 				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/R30-cRIO/R30-1_RT.html</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">RT-R30-1</Property>
 				<Property Name="TgtF_internalName" Type="Str">RT-R30-1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
@@ -14116,7 +14184,7 @@ DirectoryIndex index.htm
 		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
-		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -14175,8 +14243,8 @@ DirectoryIndex index.htm
 			<Property Name="crio.Type" Type="Str">cRIO-9067</Property>
 			<Item Name="FPGA-R45-1" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{00B28321-FDDD-456F-9FC8-5974331CB9F3}resource=/crio_Mod7/DI26;0;ReadMethodType=bool{02151CEB-4129-43F8-BB68-F349030B677D}resource=/crio_Mod7/DI10;0;ReadMethodType=bool{054CD58F-F931-46DD-8C67-B12D3752C8F1}resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{0604027A-022E-4C49-8CE3-D8A9571B31CA}resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{08501657-9450-42D3-923D-F3FFFF0CE9EE}resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{08A88688-2BFD-46C0-85BE-C8D2C4247F1B}resource=/crio_Mod7/DI0;0;ReadMethodType=bool{0AD6285B-762E-42DB-83F2-48BFEC98CA5E}resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{112B5852-E1F9-41B9-8048-F627BF26BD52}resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{11A6E886-5030-4D5F-B165-80473211EFC0}resource=/crio_Mod1/DO0;0;WriteMethodType=bool{12993A5B-02D2-4786-B325-DFFEEC742637}resource=/crio_Mod7/DI1;0;ReadMethodType=bool{12D7403C-8925-4EDF-921B-13F5C4CB9FC2}resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{131E3C57-0365-4745-99AB-67453C5883A9}resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{1405335A-D6A4-4DC1-8048-E8378AD1DB85}resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{198F3C57-4F1E-4427-9A01-4EBBE9495CD8}resource=/crio_Mod7/DI12;0;ReadMethodType=bool{1A4D1C84-F68C-49E8-A9CD-DA7C296129EC}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=bool{1D048C84-2B5F-4D20-A73C-6856B66F60FA}resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{1FB3BA60-F547-47B3-AFE7-E88752DA0263}resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{211A4CB5-6ED4-4D50-AEDC-228052CDF836}resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32{21D38085-326F-40DA-A223-E140F23675AB}resource=/crio_Mod1/DI0;0;ReadMethodType=bool{253CB73D-2B8D-41F9-AA7D-9F42BB2F8876}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{2AE64FFC-6A0C-450E-9F8F-B407FA30BF13}resource=/crio_Mod7/DI13;0;ReadMethodType=bool{2DC83631-34FF-449F-BC80-469D3E1E0D0A}resource=/crio_Mod7/DI24;0;ReadMethodType=bool{2F8C460B-7C1D-4C89-8B8C-3C2A9BA62EE7}resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{32674448-A6BA-4E79-AB9A-23082855D7A6}resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{3369E861-FED3-44AD-A98A-38E821DEA3B8}resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{35D25199-03CA-4CB3-8E97-E0EB485287A4}resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{36399B2C-B5F7-4886-A7C1-74B670CE58A9}resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{36C6D79F-4C7D-4837-9BAA-B1523D01FB01}resource=/crio_Mod7/DI30;0;ReadMethodType=bool{376F326A-CA1F-4215-B3F8-9118F08144D3}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{3D0ADD36-4508-4976-84CD-EACEE39AE09C}resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{44B860F6-7930-414C-9DBD-E72CD8F3D49E}resource=/crio_Mod7/DI17;0;ReadMethodType=bool{4555D579-FC0F-4F52-AF9D-D406F98FD8D6}resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8{45565F3C-A65A-4A70-A6A8-81B2D600C697}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=bool{45B39832-8093-4C94-A7BB-37F6BABA7035}resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{489A4830-BE6B-4D19-ACBF-5822DEA27849}resource=/crio_Mod7/DI16;0;ReadMethodType=bool{4931024E-C39D-429C-ACEB-9F95F3112817}resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8{5097331B-96B0-4C08-8927-45D5355219BE}resource=/crio_Mod7/DI18;0;ReadMethodType=bool{51A98587-B709-49D3-8E67-479C6C241717}resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{52574047-C6FE-488A-8963-48597281D86E}cRIO Subresource{5276CAB5-4B1D-40E9-AD1B-A98D775CA7B6}resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8{545FC722-98CE-48F8-91AE-3F2FD1AB3782}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=0,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=0,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=0,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=0,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=0,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=0,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{5A8D6038-295E-4BDD-A71E-DA0D5E93E8D0}resource=/crio_Mod7/DI31;0;ReadMethodType=bool{5C4D2AF7-066C-41AA-A0E0-2C04E5BF0353}resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{5D9C4FEC-2DAA-436B-806D-9D8C54F7A168}resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{5ECBB9EF-082F-4F22-A235-5748CBD01C64}resource=/Scan Clock;0;ReadMethodType=bool{5FA66A9B-20A2-4F06-8681-7D62F170E0CA}resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{5FD192EC-C4B3-44C4-8256-9508BA93601C}resource=/crio_Mod7/DI5;0;ReadMethodType=bool{64253823-B5CD-465D-9528-D31F8F3E2BCC}resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6474D3CB-E9E2-4356-B06D-7A4AC52B8601}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{66104C1B-6FF5-407B-A094-8658EC4B51D4}resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{6956270E-C51C-4928-A262-6835649D6202}resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{6D4A1245-4CAD-49EE-B5FB-FA488C59C44E}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{6D8AD95C-1FED-47DF-AA15-B676C8165A33}resource=/crio_Mod7/DI6;0;ReadMethodType=bool{6E7C7E0E-A2AE-47FB-8DAA-16675A4E786F}resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6E847955-14BF-4BF8-8A70-80661CAE2BA4}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8{7B17FCB7-FCFF-4C2A-98F8-F48E65CA6FC1}cRIO Subresource{80CC52BA-641C-49EB-9E08-F304C2CBE57E}resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{817F759C-95C6-4EFA-AC70-105A21E7ABAD}resource=/crio_Mod7/DI21;0;ReadMethodType=bool{827E434B-8D3B-413D-BE10-43345261E48F}resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{83193765-8F08-4C00-9208-62469BC29501}resource=/crio_Mod7/DI29;0;ReadMethodType=bool{83455FE7-9DE5-4182-B364-2E2D29A6B82E}resource=/crio_Mod7/DI15;0;ReadMethodType=bool{83B1FE4F-418D-4D96-B17E-233924FE1F5B}resource=/crio_Mod7/DI20;0;ReadMethodType=bool{85579669-8E69-476E-9E1A-B262320FF718}resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{85DBEB6D-7A97-49FE-A08D-1C308C91BA89}resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{8793410F-12B7-41D0-8BF8-3A876066E910}resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{892B0EDA-49DB-4460-9B78-652852FE5639}resource=/crio_Mod7/DI2;0;ReadMethodType=bool{8B2D4470-17E8-441F-90F0-98669753B280}resource=/crio_Mod1/Trig;0;ReadMethodType=bool{8D78DF81-54BC-4D47-8E26-95C6C9412EC8}resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9037DC80-1DE4-47C5-B6BF-6C78FDE2F4BB}resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9344D6D5-0848-4D4A-A97D-AEF25C33DE28}resource=/crio_Mod7/DI25;0;ReadMethodType=bool{93CF486C-8614-47CF-B58A-2757E34ECDB0}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{95FA1C79-5D10-4FF6-9EE4-4BA0BDB6096D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=bool{9DBA9E42-D1AF-4376-830B-B3B9A616230E}resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9E5B41F1-DA45-45F3-AE4A-CE43800B2F23}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=bool{A0F1BC10-BF12-49B5-9CDC-842A6760342C}resource=/crio_Mod7/DI3;0;ReadMethodType=bool{A167D988-B11D-4E51-A154-EE5001DF3849}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{A2385256-5E88-4A0E-922C-80C88D768FD6}resource=/crio_Mod7/DI19;0;ReadMethodType=bool{A498611C-4B55-4EAE-9B85-E9C5F5C2E083}resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A5C57FAB-488B-4E6A-9711-26BB8092E5D9}resource=/crio_Mod7/DI9;0;ReadMethodType=bool{AA966E18-ADD9-42F0-96B6-2F8FD7B8413A}resource=/crio_Mod7/DI8;0;ReadMethodType=bool{AC977544-9C3A-4497-BF7C-2E4492B0B461}resource=/crio_Mod7/DI27;0;ReadMethodType=bool{B070F3AF-651F-43E2-AF47-527450E910E7}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=bool{B588FDC9-E271-455B-98F2-6B9984FFF081}resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B5B0D438-9638-477E-8E65-7D71A179B4E9}resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{B9A6DCD9-5CFE-47C1-AEAB-B98A99613C4A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{BC1DBCD2-CB97-418B-A4E5-0346D960609A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=bool{C0F43796-A917-4A37-8AD8-C256A9915E95}resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{C37DCF57-E0D1-4E24-9E83-9F4ED18F94AA}resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{C9C484A3-7C97-45BA-A828-F65756D91F26}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=bool{CAD7A0CD-F656-4565-AA6B-95F86A08C480}resource=/crio_Mod7/DI23;0;ReadMethodType=bool{CB7373E9-981D-4600-883B-CD3575176FEA}resource=/crio_Mod7/DI7;0;ReadMethodType=bool{CE022D75-3254-45A1-B33C-6B82E540D77C}resource=/crio_Mod7/DI4;0;ReadMethodType=bool{CEE1D6FE-7352-4F5B-A5CB-7D3C68F0A74D}resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D9D1F45E-9270-45DD-88D5-05B1CD515D47}resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D9DD3074-667E-4430-9A01-B7DC6DA63555}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{DF8C6395-1DF1-4F80-B498-41625820A5B6}resource=/crio_Mod7/DI11;0;ReadMethodType=bool{E0916FC9-8D29-4386-AE97-AB170783D152}resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E11FADFB-EC3C-488B-BC4C-477923FF3112}resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E153EFFD-7581-47A6-80D0-78C870D3739B}resource=/crio_Mod7/DI22;0;ReadMethodType=bool{E293D918-824B-46A1-A805-27B1BEFC4E92}resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E2D70479-65AF-4C5C-A9C3-35B9CFA05575}resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E56698B9-5D17-4AB4-8BAA-007B004DF1C8}resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E6103629-B695-41FB-8D06-2FA21CD593A0}cRIO Subresource{E661D10B-740D-4C6C-B98A-193375DC585F}cRIO Subresource{E981B371-7C83-4DD1-9F52-C7E84572479D}resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{EA57C6D1-44EF-40E5-B84B-8212EEC8ED28}resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{EC7D6D6F-789C-47B8-BB1C-4A08D6B93EF6}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=bool{F53A4C73-3449-45CF-BE32-947A83C62CE4}resource=/crio_Mod7/DI28;0;ReadMethodType=bool{F7BB57C1-6E3D-44BA-8333-DD9AFD260CEA}resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{F83B037C-0A58-4880-9396-B6459CEDBF81}resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8{F9C237D6-99E9-4842-B69F-AE12B69D10B7}resource=/crio_Mod7/DI14;0;ReadMethodType=bool{FD75CF6C-DC3B-4AC3-BEA9-5195ECA2CF62}resource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9067/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9067FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9067/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9067FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Mod1/AI0resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI10resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI11resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI12resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI13resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI14resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI15resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI16resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI17resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI18resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI19resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI1resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI20resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI21resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI22resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI23resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI24resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI25resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI26resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI27resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI28resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI29resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI2resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI30resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI31resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI3resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI4resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI5resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI6resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI7resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI8resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI9resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/DI0resource=/crio_Mod1/DI0;0;ReadMethodType=boolMod1/DO0resource=/crio_Mod1/DO0;0;WriteMethodType=boolMod1/Trigresource=/crio_Mod1/Trig;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=0,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=0,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=0,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=0,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=0,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=0,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO0resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO10resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO11resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO12resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO13resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO14resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO15resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO1resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO2resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO3resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO4resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO5resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO6resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO7resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO8resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO9resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DI0resource=/crio_Mod7/DI0;0;ReadMethodType=boolMod7/DI10resource=/crio_Mod7/DI10;0;ReadMethodType=boolMod7/DI11resource=/crio_Mod7/DI11;0;ReadMethodType=boolMod7/DI12resource=/crio_Mod7/DI12;0;ReadMethodType=boolMod7/DI13resource=/crio_Mod7/DI13;0;ReadMethodType=boolMod7/DI14resource=/crio_Mod7/DI14;0;ReadMethodType=boolMod7/DI15:8resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8Mod7/DI15resource=/crio_Mod7/DI15;0;ReadMethodType=boolMod7/DI16resource=/crio_Mod7/DI16;0;ReadMethodType=boolMod7/DI17resource=/crio_Mod7/DI17;0;ReadMethodType=boolMod7/DI18resource=/crio_Mod7/DI18;0;ReadMethodType=boolMod7/DI19resource=/crio_Mod7/DI19;0;ReadMethodType=boolMod7/DI1resource=/crio_Mod7/DI1;0;ReadMethodType=boolMod7/DI20resource=/crio_Mod7/DI20;0;ReadMethodType=boolMod7/DI21resource=/crio_Mod7/DI21;0;ReadMethodType=boolMod7/DI22resource=/crio_Mod7/DI22;0;ReadMethodType=boolMod7/DI23:16resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8Mod7/DI23resource=/crio_Mod7/DI23;0;ReadMethodType=boolMod7/DI24resource=/crio_Mod7/DI24;0;ReadMethodType=boolMod7/DI25resource=/crio_Mod7/DI25;0;ReadMethodType=boolMod7/DI26resource=/crio_Mod7/DI26;0;ReadMethodType=boolMod7/DI27resource=/crio_Mod7/DI27;0;ReadMethodType=boolMod7/DI28resource=/crio_Mod7/DI28;0;ReadMethodType=boolMod7/DI29resource=/crio_Mod7/DI29;0;ReadMethodType=boolMod7/DI2resource=/crio_Mod7/DI2;0;ReadMethodType=boolMod7/DI30resource=/crio_Mod7/DI30;0;ReadMethodType=boolMod7/DI31:0resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32Mod7/DI31:24resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8Mod7/DI31resource=/crio_Mod7/DI31;0;ReadMethodType=boolMod7/DI3resource=/crio_Mod7/DI3;0;ReadMethodType=boolMod7/DI4resource=/crio_Mod7/DI4;0;ReadMethodType=boolMod7/DI5resource=/crio_Mod7/DI5;0;ReadMethodType=boolMod7/DI6resource=/crio_Mod7/DI6;0;ReadMethodType=boolMod7/DI7:0resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8Mod7/DI7resource=/crio_Mod7/DI7;0;ReadMethodType=boolMod7/DI8resource=/crio_Mod7/DI8;0;ReadMethodType=boolMod7/DI9resource=/crio_Mod7/DI9;0;ReadMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/CH0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH3ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH4ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH5ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH6ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod8/CH7ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool</Property>
+				<Property Name="configString.guid" Type="Str">{01D04A80-8B71-4B84-9493-2AD9AF011C7F}resource=/crio_Mod7/DI8;0;ReadMethodType=bool{0340FB0B-FF06-4F1C-BF7E-5A262D4CD3AF}resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{07981E1E-B675-4857-8007-FA025B86CF96}resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8{0B61532A-8A1C-496A-889B-EB55C5BA62C3}resource=/crio_Mod7/DI27;0;ReadMethodType=bool{105203D5-9D8B-4D4F-ACD1-61FA97C5D24B}resource=/crio_Mod7/DI19;0;ReadMethodType=bool{1892FABF-C15B-4FCF-85EB-83F32F4EF4B8}resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{18AC92F6-71C9-4922-8713-C8AD1F2477A3}resource=/crio_Mod7/DI12;0;ReadMethodType=bool{1D7D8810-FBC2-4F93-9904-FA251CCE7D73}resource=/crio_Mod7/DI24;0;ReadMethodType=bool{244B0D22-73BD-4B0C-84A3-C4FAC270C779}resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{253CB73D-2B8D-41F9-AA7D-9F42BB2F8876}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{2690F3CD-4383-409B-B261-2EF8646A4B04}resource=/crio_Mod7/DI4;0;ReadMethodType=bool{2D552846-6C4D-4482-A9F6-2474BBF5F58F}resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{2E25F8A0-109D-48F9-98BC-B3E5DE5070E9}resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{32DD3E5A-A22B-4D80-B5DF-5D7B07372298}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=bool{3553E375-D895-4097-9E90-DE6F842E53A9}resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{376F326A-CA1F-4215-B3F8-9118F08144D3}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{3861E5FA-5752-4010-8A79-1E374F8800E2}resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{3CC0881C-766D-48B3-A8A1-40A08DAA2D3F}resource=/crio_Mod7/DI7;0;ReadMethodType=bool{40322C86-3E48-4665-89B0-9007B3FAE8EB}resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{422CEED8-B9BE-44B9-8FBA-E2CA3F8CB7C7}resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{44A4C7E7-3E6E-4B9B-B3B7-73260333EFC0}resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{45E7CC8F-DB4B-4B75-AACB-73C9B8E902A0}resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{47B6C8F2-AF64-455A-8191-554EE2D7189F}resource=/crio_Mod7/DI17;0;ReadMethodType=bool{4A5F75F8-D41B-4FD5-9F62-93645B1B963A}resource=/crio_Mod7/DI13;0;ReadMethodType=bool{4BFB28D7-8BD1-4F6D-8CB7-B19C1D3585D4}resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4C28E465-5449-4CC7-BBBF-68CE3A1E6C4B}resource=/crio_Mod1/DO0;0;WriteMethodType=bool{4D0D0D2A-357E-4470-BAD8-6DA681CFCD3E}resource=/crio_Mod7/DI26;0;ReadMethodType=bool{4DB7C69E-8620-44A8-A55F-783E249D2F01}resource=/crio_Mod7/DI14;0;ReadMethodType=bool{4E4A0537-985A-42A5-996E-41B3A84A2C7B}resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4FC66E5E-F74E-487E-8B4D-68A638D4F2D0}resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{50A66BA6-4045-40D2-9111-5EAAEBAE4214}resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{52574047-C6FE-488A-8963-48597281D86E}cRIO Subresource{53628EBC-EE22-4E0E-BC22-B5221AA0FCFD}resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{545FC722-98CE-48F8-91AE-3F2FD1AB3782}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=0,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=0,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=0,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=0,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=0,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=0,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{5563ED5B-85E9-429E-8CE8-40761C7DE9F2}resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{55EB0E5E-DA44-457F-911A-03F366A0E910}resource=/crio_Mod1/DI0;0;ReadMethodType=bool{5626EFB9-DD3F-4DF6-8931-B7AEBB01CDF2}resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{579B7D1C-C3BA-4425-B5F1-7FDE3FFA1CA6}resource=/crio_Mod7/DI9;0;ReadMethodType=bool{5909F1EE-F188-4E09-9F3F-BEDDE62DFA08}resource=/crio_Mod7/DI11;0;ReadMethodType=bool{5A3FA917-2F32-4601-AA31-8855872805DE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=bool{5DEA43EF-3B3C-4747-B04F-EB8FFB2FB10A}resource=/crio_Mod7/DI25;0;ReadMethodType=bool{5ECBB9EF-082F-4F22-A235-5748CBD01C64}resource=/Scan Clock;0;ReadMethodType=bool{5F34EA67-4400-492C-A2B1-E716E2EDC47F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=bool{64539AF5-9394-4F25-A2AD-B71C848286BE}resource=/crio_Mod7/DI30;0;ReadMethodType=bool{6474D3CB-E9E2-4356-B06D-7A4AC52B8601}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{688B6338-1A18-4230-BE60-69399D8A0D21}resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{6C529830-2F58-48A1-A2D4-D213B1985CEB}resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6D4A1245-4CAD-49EE-B5FB-FA488C59C44E}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{73E6B120-30BF-441F-9905-29A7ACCDE78F}resource=/crio_Mod7/DI18;0;ReadMethodType=bool{750A8ABD-1250-4A7E-A6E2-CB2073F7108B}resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{79F0D18C-7A3D-4E51-8300-9CA6BDDC9B90}resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{7B17FCB7-FCFF-4C2A-98F8-F48E65CA6FC1}cRIO Subresource{7F0426F0-4D79-4F2C-82D9-DABC94104E06}resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{80A55D50-CBC3-4E69-B3A5-3918DC8FA092}resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8{8DE13D47-A966-42B8-88C4-9AD379E36DFC}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=bool{8E7C312F-15A3-49F1-9448-BF32BA179C8F}resource=/crio_Mod7/DI5;0;ReadMethodType=bool{8F6A0116-CC32-4B98-AA45-57B7D07EDF64}resource=/crio_Mod7/DI31;0;ReadMethodType=bool{90D49B9C-53E5-48F6-8E86-B41B399EDB04}resource=/crio_Mod7/DI21;0;ReadMethodType=bool{91F6361F-B176-4724-AC6D-AA6B82F1FDFE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=bool{93CF486C-8614-47CF-B58A-2757E34ECDB0}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{93E6BCEB-AC94-4CF7-B460-6D223B2A555F}resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{9546E05F-4311-42D1-8844-9EF297033A64}resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{95AB76C3-9699-4F0C-8CC0-F5F39C734D92}resource=/crio_Mod7/DI10;0;ReadMethodType=bool{9A556A21-787D-4365-88F7-ECD8CCA6D853}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8{9D021FCF-5C63-415B-A801-F007B20179FD}resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9E302D56-1220-4144-9684-C8578A5567F7}resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32{9FC5CA57-9252-424B-8E5E-1B57FBCAB600}resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A167D988-B11D-4E51-A154-EE5001DF3849}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{A4A48A9B-45FD-4DC8-8681-94D5736B55B4}resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A5949D55-FB50-45F1-9D84-689FA673E348}resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A5AE2FDB-5765-4345-B693-5B5135C337BB}resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8{AC4FF064-3A34-443B-BA9C-1349A967CEB5}resource=/crio_Mod7/DI16;0;ReadMethodType=bool{AC5D9256-08C9-4C8F-B5BB-BFA450D393F9}resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{AF93DC8D-6610-4D52-9E89-7B2E1B46AA66}resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{AFDDF02F-093A-4F5E-BD8D-091F0F47C3E1}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=bool{B089467F-6D6F-47C1-B00D-3D86B55805F7}resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B0D09FB8-C390-4658-B69B-5E71001EE700}resource=/crio_Mod7/DI20;0;ReadMethodType=bool{B3C0A5CA-DB81-4930-BA33-E6E4C130936E}resource=/crio_Mod7/DI0;0;ReadMethodType=bool{B7804482-174C-4665-AC4D-B4C80B45349B}resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B9A6DCD9-5CFE-47C1-AEAB-B98A99613C4A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{BDBC7E9B-6561-44E8-99F0-BA1E32356E12}resource=/crio_Mod7/DI29;0;ReadMethodType=bool{C082B1D4-C704-4A3B-9F99-5AAA5B7DF19A}resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{C0D96DED-DD5D-4438-99F7-5A186671CA5B}resource=/crio_Mod7/DI23;0;ReadMethodType=bool{C215509E-A474-419A-A502-C7B11E384EDE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=bool{C2C8F8A9-DDDB-4936-B181-55A044F6C540}resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{C48AB8C3-AF2E-4802-8C1D-AA42183AC68C}resource=/crio_Mod7/DI15;0;ReadMethodType=bool{C58E33D1-A44B-4273-8924-2CCA1E88D5BB}resource=/crio_Mod7/DI22;0;ReadMethodType=bool{D06110C3-2ABB-4DFB-A96E-4CD29D27116B}resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D082705C-BB6B-4742-8598-A1F046917293}resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D56E7CCA-7B9B-4028-83D1-757D324A625E}resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D5A3DE9B-FA38-4554-9181-E159D4B2ABB6}resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D9DD3074-667E-4430-9A01-B7DC6DA63555}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{DA74ECC1-6983-41F0-828B-48271A735546}resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{DBD97399-2704-4319-A11D-7AE0BCDDC71C}resource=/crio_Mod7/DI6;0;ReadMethodType=bool{DE99FA4C-476C-4810-B402-B7A59983453E}resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{DEE94954-713B-4ED5-8FF2-E5DD067BF7C6}resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E12206C8-1E1E-4E99-B00C-3D215BFF943B}resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E18E751B-4831-4304-BD6C-1BB1FD821660}resource=/crio_Mod7/DI1;0;ReadMethodType=bool{E35CB726-D2A2-444E-A4A8-82FF21EB9D93}resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E6103629-B695-41FB-8D06-2FA21CD593A0}cRIO Subresource{E661D10B-740D-4C6C-B98A-193375DC585F}cRIO Subresource{E8DB0CCD-6F2E-49E9-A8E2-2FD27E787110}resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8{E91298C9-EC32-4566-A327-FDC356A04D1A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=bool{E98C250F-9754-4488-84D8-4A188EBBFF10}resource=/crio_Mod7/DI2;0;ReadMethodType=bool{EF7CD3F0-D0B1-4B6B-9D3E-141B63DD1A00}resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{F1F4A7C3-2240-4E0F-A231-5BD27F25A7A4}resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{F6A5EE98-A80F-4BA8-B162-BCEEE7963980}resource=/crio_Mod1/Trig;0;ReadMethodType=bool{F907A2A7-6649-4E57-9C63-AB01238BC28F}resource=/crio_Mod7/DI3;0;ReadMethodType=bool{FBFF42E5-C62E-494A-BA71-B7B1207E2044}resource=/crio_Mod7/DI28;0;ReadMethodType=bool{FC4C9496-87FE-4472-906C-B2AAF37DC27B}resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{FD75CF6C-DC3B-4AC3-BEA9-5195ECA2CF62}resource=/Chassis Temperature;0;ReadMethodType=i16{FF881DD5-BF75-403C-B3D5-EB86E10809CA}resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlcRIO-9067/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9067FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Beamline GV 1 CLOSED sensorresource=/crio_Mod7/DI7;0;ReadMethodType=boolBeamline GV 1 OPEN sensorresource=/crio_Mod7/DI6;0;ReadMethodType=boolBeamline GV 1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=boolChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9067/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9067FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Cryo GVArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=boolCryo Pump GV CLOSED sensorresource=/crio_Mod7/DI13;0;ReadMethodType=boolCryo Pump GV OPEN sensorresource=/crio_Mod7/DI12;0;ReadMethodType=boolDown Steerer Current readresource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlDown Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=boolDown Steerer Voltage readresource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlDown Steerer Voltage setresource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlLeft Steerer Current readresource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlLeft Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=boolLeft Steerer Voltage readresource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlLeft Steerer Voltage setresource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod1/AI10resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI11resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI12resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI13resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI14resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI15resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI16resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI17resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI18resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI19resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI20resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI21resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI22resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI23resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI24resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI25resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI26resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI27resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI28resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI29resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI30resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI31resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI8resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI9resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/DI0resource=/crio_Mod1/DI0;0;ReadMethodType=boolMod1/DO0resource=/crio_Mod1/DO0;0;WriteMethodType=boolMod1/Trigresource=/crio_Mod1/Trig;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=0,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=0,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=0,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=0,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=0,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=0,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO10resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO11resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO12resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO13resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO14resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO15resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO4resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO5resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO6resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO7resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO8resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO9resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DI10resource=/crio_Mod7/DI10;0;ReadMethodType=boolMod7/DI11resource=/crio_Mod7/DI11;0;ReadMethodType=boolMod7/DI14resource=/crio_Mod7/DI14;0;ReadMethodType=boolMod7/DI15:8resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8Mod7/DI15resource=/crio_Mod7/DI15;0;ReadMethodType=boolMod7/DI16resource=/crio_Mod7/DI16;0;ReadMethodType=boolMod7/DI17resource=/crio_Mod7/DI17;0;ReadMethodType=boolMod7/DI18resource=/crio_Mod7/DI18;0;ReadMethodType=boolMod7/DI19resource=/crio_Mod7/DI19;0;ReadMethodType=boolMod7/DI20resource=/crio_Mod7/DI20;0;ReadMethodType=boolMod7/DI21resource=/crio_Mod7/DI21;0;ReadMethodType=boolMod7/DI22resource=/crio_Mod7/DI22;0;ReadMethodType=boolMod7/DI23:16resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8Mod7/DI23resource=/crio_Mod7/DI23;0;ReadMethodType=boolMod7/DI24resource=/crio_Mod7/DI24;0;ReadMethodType=boolMod7/DI25resource=/crio_Mod7/DI25;0;ReadMethodType=boolMod7/DI26resource=/crio_Mod7/DI26;0;ReadMethodType=boolMod7/DI27resource=/crio_Mod7/DI27;0;ReadMethodType=boolMod7/DI28resource=/crio_Mod7/DI28;0;ReadMethodType=boolMod7/DI29resource=/crio_Mod7/DI29;0;ReadMethodType=boolMod7/DI30resource=/crio_Mod7/DI30;0;ReadMethodType=boolMod7/DI31:0resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32Mod7/DI31:24resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8Mod7/DI31resource=/crio_Mod7/DI31;0;ReadMethodType=boolMod7/DI7:0resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8Mod7/DI8resource=/crio_Mod7/DI8;0;ReadMethodType=boolMod7/DI9resource=/crio_Mod7/DI9;0;ReadMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/CH7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceRight Steerer Current readresource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlRight Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=boolRight Steerer Voltage readresource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlRight Steerer Voltage setresource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSwitch Magnet Aperture ActuatorArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=boolSwitch Magnet Aperture IN sensorresource=/crio_Mod7/DI2;0;ReadMethodType=boolSwitch Magnet Aperture OUT sensorresource=/crio_Mod7/DI3;0;ReadMethodType=boolSwitch Magnet FC ActuatorArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=boolSwitch Magnet FC IN sensorresource=/crio_Mod7/DI0;0;ReadMethodType=boolSwitch Magnet FC OUT sensorresource=/crio_Mod7/DI1;0;ReadMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUp Steerer Current readresource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlUp Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=boolUp Steerer Voltage readresource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlUp Steerer Voltage setresource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolVac cluster 1 Convectron Gauge Interlockresource=/crio_Mod7/DI5;0;ReadMethodType=boolVac cluster 1 Ion Gauge Interlockresource=/crio_Mod7/DI4;0;ReadMethodType=bool</Property>
 				<Property Name="Mode" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">0</Property>
 				<Property Name="NI.LV.FPGA.CLIPDeclarationSet" Type="Xml">
@@ -14247,77 +14315,41 @@ DirectoryIndex index.htm
 					</Item>
 				</Item>
 				<Item Name="Mod1" Type="Folder">
-					<Item Name="Mod1/AI0" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod1/AI0</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{8D78DF81-54BC-4D47-8E26-95C6C9412EC8}</Property>
-					</Item>
-					<Item Name="Mod1/AI1" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod1/AI1</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{5FA66A9B-20A2-4F06-8681-7D62F170E0CA}</Property>
-					</Item>
-					<Item Name="Mod1/AI2" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod1/AI2</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{35D25199-03CA-4CB3-8E97-E0EB485287A4}</Property>
-					</Item>
-					<Item Name="Mod1/AI3" Type="Elemental IO">
+					<Item Name="Down Steerer Current read" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod1/AI3</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E2D70479-65AF-4C5C-A9C3-35B9CFA05575}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B7804482-174C-4665-AC4D-B4C80B45349B}</Property>
 					</Item>
-					<Item Name="Mod1/AI4" Type="Elemental IO">
+					<Item Name="Down Steerer Voltage read" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod1/AI4</Value>
+   <Value>/crio_Mod1/AI2</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{131E3C57-0365-4745-99AB-67453C5883A9}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{5626EFB9-DD3F-4DF6-8931-B7AEBB01CDF2}</Property>
 					</Item>
-					<Item Name="Mod1/AI5" Type="Elemental IO">
+					<Item Name="Left Steerer Current read" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod1/AI5</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{D9D1F45E-9270-45DD-88D5-05B1CD515D47}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B089467F-6D6F-47C1-B00D-3D86B55805F7}</Property>
 					</Item>
-					<Item Name="Mod1/AI6" Type="Elemental IO">
+					<Item Name="Left Steerer Voltage read" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod1/AI6</Value>
+   <Value>/crio_Mod1/AI4</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{80CC52BA-641C-49EB-9E08-F304C2CBE57E}</Property>
-					</Item>
-					<Item Name="Mod1/AI7" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod1/AI7</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1FB3BA60-F547-47B3-AFE7-E88752DA0263}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A5949D55-FB50-45F1-9D84-689FA673E348}</Property>
 					</Item>
 					<Item Name="Mod1/AI8" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14326,7 +14358,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{9037DC80-1DE4-47C5-B6BF-6C78FDE2F4BB}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9D021FCF-5C63-415B-A801-F007B20179FD}</Property>
 					</Item>
 					<Item Name="Mod1/AI9" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14335,7 +14367,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{5D9C4FEC-2DAA-436B-806D-9D8C54F7A168}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2D552846-6C4D-4482-A9F6-2474BBF5F58F}</Property>
 					</Item>
 					<Item Name="Mod1/AI10" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14344,7 +14376,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C37DCF57-E0D1-4E24-9E83-9F4ED18F94AA}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9FC5CA57-9252-424B-8E5E-1B57FBCAB600}</Property>
 					</Item>
 					<Item Name="Mod1/AI11" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14353,7 +14385,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{9DBA9E42-D1AF-4376-830B-B3B9A616230E}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{688B6338-1A18-4230-BE60-69399D8A0D21}</Property>
 					</Item>
 					<Item Name="Mod1/AI12" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14362,7 +14394,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{112B5852-E1F9-41B9-8048-F627BF26BD52}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{D5A3DE9B-FA38-4554-9181-E159D4B2ABB6}</Property>
 					</Item>
 					<Item Name="Mod1/AI13" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14371,7 +14403,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{66104C1B-6FF5-407B-A094-8658EC4B51D4}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{244B0D22-73BD-4B0C-84A3-C4FAC270C779}</Property>
 					</Item>
 					<Item Name="Mod1/AI14" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14380,7 +14412,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E0916FC9-8D29-4386-AE97-AB170783D152}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{45E7CC8F-DB4B-4B75-AACB-73C9B8E902A0}</Property>
 					</Item>
 					<Item Name="Mod1/AI15" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14389,7 +14421,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{0AD6285B-762E-42DB-83F2-48BFEC98CA5E}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{FC4C9496-87FE-4472-906C-B2AAF37DC27B}</Property>
 					</Item>
 					<Item Name="Mod1/AI16" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14398,7 +14430,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6956270E-C51C-4928-A262-6835649D6202}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DA74ECC1-6983-41F0-828B-48271A735546}</Property>
 					</Item>
 					<Item Name="Mod1/AI17" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14407,7 +14439,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{85DBEB6D-7A97-49FE-A08D-1C308C91BA89}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{D082705C-BB6B-4742-8598-A1F046917293}</Property>
 					</Item>
 					<Item Name="Mod1/AI18" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14416,7 +14448,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C0F43796-A917-4A37-8AD8-C256A9915E95}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{FF881DD5-BF75-403C-B3D5-EB86E10809CA}</Property>
 					</Item>
 					<Item Name="Mod1/AI19" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14425,7 +14457,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E293D918-824B-46A1-A805-27B1BEFC4E92}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F1F4A7C3-2240-4E0F-A231-5BD27F25A7A4}</Property>
 					</Item>
 					<Item Name="Mod1/AI20" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14434,7 +14466,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1D048C84-2B5F-4D20-A73C-6856B66F60FA}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{EF7CD3F0-D0B1-4B6B-9D3E-141B63DD1A00}</Property>
 					</Item>
 					<Item Name="Mod1/AI21" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14443,7 +14475,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E56698B9-5D17-4AB4-8BAA-007B004DF1C8}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AC5D9256-08C9-4C8F-B5BB-BFA450D393F9}</Property>
 					</Item>
 					<Item Name="Mod1/AI22" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14452,7 +14484,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{3D0ADD36-4508-4976-84CD-EACEE39AE09C}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{53628EBC-EE22-4E0E-BC22-B5221AA0FCFD}</Property>
 					</Item>
 					<Item Name="Mod1/AI23" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14461,7 +14493,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E981B371-7C83-4DD1-9F52-C7E84572479D}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{5563ED5B-85E9-429E-8CE8-40761C7DE9F2}</Property>
 					</Item>
 					<Item Name="Mod1/AI24" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14470,7 +14502,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{0604027A-022E-4C49-8CE3-D8A9571B31CA}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DEE94954-713B-4ED5-8FF2-E5DD067BF7C6}</Property>
 					</Item>
 					<Item Name="Mod1/AI25" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14479,7 +14511,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{B588FDC9-E271-455B-98F2-6B9984FFF081}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DE99FA4C-476C-4810-B402-B7A59983453E}</Property>
 					</Item>
 					<Item Name="Mod1/AI26" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14488,7 +14520,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{45B39832-8093-4C94-A7BB-37F6BABA7035}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{E35CB726-D2A2-444E-A4A8-82FF21EB9D93}</Property>
 					</Item>
 					<Item Name="Mod1/AI27" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14497,7 +14529,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E11FADFB-EC3C-488B-BC4C-477923FF3112}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A4A48A9B-45FD-4DC8-8681-94D5736B55B4}</Property>
 					</Item>
 					<Item Name="Mod1/AI28" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14506,7 +14538,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{3369E861-FED3-44AD-A98A-38E821DEA3B8}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AF93DC8D-6610-4D52-9E89-7B2E1B46AA66}</Property>
 					</Item>
 					<Item Name="Mod1/AI29" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14515,7 +14547,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{CEE1D6FE-7352-4F5B-A5CB-7D3C68F0A74D}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{C2C8F8A9-DDDB-4936-B181-55A044F6C540}</Property>
 					</Item>
 					<Item Name="Mod1/AI30" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14524,7 +14556,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{12D7403C-8925-4EDF-921B-13F5C4CB9FC2}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{C082B1D4-C704-4A3B-9F99-5AAA5B7DF19A}</Property>
 					</Item>
 					<Item Name="Mod1/AI31" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14533,7 +14565,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1405335A-D6A4-4DC1-8048-E8378AD1DB85}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{50A66BA6-4045-40D2-9111-5EAAEBAE4214}</Property>
 					</Item>
 					<Item Name="Mod1/DI0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14542,7 +14574,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{21D38085-326F-40DA-A223-E140F23675AB}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{55EB0E5E-DA44-457F-911A-03F366A0E910}</Property>
 					</Item>
 					<Item Name="Mod1/DO0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14551,7 +14583,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{11A6E886-5030-4D5F-B165-80473211EFC0}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4C28E465-5449-4CC7-BBBF-68CE3A1E6C4B}</Property>
 					</Item>
 					<Item Name="Mod1/Trig" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14560,45 +14592,64 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{8B2D4470-17E8-441F-90F0-98669753B280}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F6A5EE98-A80F-4BA8-B162-BCEEE7963980}</Property>
 					</Item>
-				</Item>
-				<Item Name="Mod2" Type="Folder">
-					<Item Name="Mod2/AO0" Type="Elemental IO">
+					<Item Name="Right Steerer Current read" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
-   <Value>/crio_Mod2/AO0</Value>
+   <Value>/crio_Mod1/AI7</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{F7BB57C1-6E3D-44BA-8333-DD9AFD260CEA}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3553E375-D895-4097-9E90-DE6F842E53A9}</Property>
 					</Item>
-					<Item Name="Mod2/AO1" Type="Elemental IO">
+					<Item Name="Right Steerer Voltage read" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod1/AI6</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{7F0426F0-4D79-4F2C-82D9-DABC94104E06}</Property>
+					</Item>
+					<Item Name="Up Steerer Current read" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod1/AI1</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{0340FB0B-FF06-4F1C-BF7E-5A262D4CD3AF}</Property>
+					</Item>
+					<Item Name="Up Steerer Voltage read" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod1/AI0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{44A4C7E7-3E6E-4B9B-B3B7-73260333EFC0}</Property>
+					</Item>
+				</Item>
+				<Item Name="Mod2" Type="Folder">
+					<Property Name="NI.SortType" Type="Int">0</Property>
+					<Item Name="Down Steerer Voltage set" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod2/AO1</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{2F8C460B-7C1D-4C89-8B8C-3C2A9BA62EE7}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3861E5FA-5752-4010-8A79-1E374F8800E2}</Property>
 					</Item>
-					<Item Name="Mod2/AO2" Type="Elemental IO">
+					<Item Name="Left Steerer Voltage set" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod2/AO2</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{054CD58F-F931-46DD-8C67-B12D3752C8F1}</Property>
-					</Item>
-					<Item Name="Mod2/AO3" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod2/AO3</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{B5B0D438-9638-477E-8E65-7D71A179B4E9}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{422CEED8-B9BE-44B9-8FBA-E2CA3F8CB7C7}</Property>
 					</Item>
 					<Item Name="Mod2/AO4" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14607,7 +14658,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{08501657-9450-42D3-923D-F3FFFF0CE9EE}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9546E05F-4311-42D1-8844-9EF297033A64}</Property>
 					</Item>
 					<Item Name="Mod2/AO5" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14616,7 +14667,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{EA57C6D1-44EF-40E5-B84B-8212EEC8ED28}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{79F0D18C-7A3D-4E51-8300-9CA6BDDC9B90}</Property>
 					</Item>
 					<Item Name="Mod2/AO6" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14625,7 +14676,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6E7C7E0E-A2AE-47FB-8DAA-16675A4E786F}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{750A8ABD-1250-4A7E-A6E2-CB2073F7108B}</Property>
 					</Item>
 					<Item Name="Mod2/AO7" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14634,7 +14685,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{32674448-A6BA-4E79-AB9A-23082855D7A6}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{6C529830-2F58-48A1-A2D4-D213B1985CEB}</Property>
 					</Item>
 					<Item Name="Mod2/AO8" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14643,7 +14694,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{A498611C-4B55-4EAE-9B85-E9C5F5C2E083}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4BFB28D7-8BD1-4F6D-8CB7-B19C1D3585D4}</Property>
 					</Item>
 					<Item Name="Mod2/AO9" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14652,7 +14703,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{85579669-8E69-476E-9E1A-B262320FF718}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4FC66E5E-F74E-487E-8B4D-68A638D4F2D0}</Property>
 					</Item>
 					<Item Name="Mod2/AO10" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14661,7 +14712,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{64253823-B5CD-465D-9528-D31F8F3E2BCC}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4E4A0537-985A-42A5-996E-41B3A84A2C7B}</Property>
 					</Item>
 					<Item Name="Mod2/AO11" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14670,7 +14721,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{827E434B-8D3B-413D-BE10-43345261E48F}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{93E6BCEB-AC94-4CF7-B460-6D223B2A555F}</Property>
 					</Item>
 					<Item Name="Mod2/AO12" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14679,7 +14730,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{8793410F-12B7-41D0-8BF8-3A876066E910}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{E12206C8-1E1E-4E99-B00C-3D215BFF943B}</Property>
 					</Item>
 					<Item Name="Mod2/AO13" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14688,7 +14739,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{36399B2C-B5F7-4886-A7C1-74B670CE58A9}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2E25F8A0-109D-48F9-98BC-B3E5DE5070E9}</Property>
 					</Item>
 					<Item Name="Mod2/AO14" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14697,7 +14748,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{5C4D2AF7-066C-41AA-A0E0-2C04E5BF0353}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1892FABF-C15B-4FCF-85EB-83F32F4EF4B8}</Property>
 					</Item>
 					<Item Name="Mod2/AO15" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14706,81 +14757,63 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{51A98587-B709-49D3-8E67-479C6C241717}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{40322C86-3E48-4665-89B0-9007B3FAE8EB}</Property>
+					</Item>
+					<Item Name="Right Steerer Voltage set" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod2/AO3</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{D56E7CCA-7B9B-4028-83D1-757D324A625E}</Property>
+					</Item>
+					<Item Name="Up Steerer Voltage set" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod2/AO0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{D06110C3-2ABB-4DFB-A96E-4CD29D27116B}</Property>
 					</Item>
 				</Item>
 				<Item Name="Mod7" Type="Folder">
-					<Item Name="Mod7/DI0" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod7/DI0</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{08A88688-2BFD-46C0-85BE-C8D2C4247F1B}</Property>
-					</Item>
-					<Item Name="Mod7/DI1" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod7/DI1</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{12993A5B-02D2-4786-B325-DFFEEC742637}</Property>
-					</Item>
-					<Item Name="Mod7/DI2" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod7/DI2</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{892B0EDA-49DB-4460-9B78-652852FE5639}</Property>
-					</Item>
-					<Item Name="Mod7/DI3" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod7/DI3</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{A0F1BC10-BF12-49B5-9CDC-842A6760342C}</Property>
-					</Item>
-					<Item Name="Mod7/DI4" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod7/DI4</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{CE022D75-3254-45A1-B33C-6B82E540D77C}</Property>
-					</Item>
-					<Item Name="Mod7/DI5" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod7/DI5</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{5FD192EC-C4B3-44C4-8256-9508BA93601C}</Property>
-					</Item>
-					<Item Name="Mod7/DI6" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod7/DI6</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6D8AD95C-1FED-47DF-AA15-B676C8165A33}</Property>
-					</Item>
-					<Item Name="Mod7/DI7" Type="Elemental IO">
+					<Item Name="Beamline GV 1 CLOSED sensor" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod7/DI7</Value>
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{CB7373E9-981D-4600-883B-CD3575176FEA}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3CC0881C-766D-48B3-A8A1-40A08DAA2D3F}</Property>
+					</Item>
+					<Item Name="Beamline GV 1 OPEN sensor" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod7/DI6</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DBD97399-2704-4319-A11D-7AE0BCDDC71C}</Property>
+					</Item>
+					<Item Name="Cryo Pump GV CLOSED sensor" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod7/DI13</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4A5F75F8-D41B-4FD5-9F62-93645B1B963A}</Property>
+					</Item>
+					<Item Name="Cryo Pump GV OPEN sensor" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod7/DI12</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{18AC92F6-71C9-4922-8713-C8AD1F2477A3}</Property>
 					</Item>
 					<Item Name="Mod7/DI7:0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14789,7 +14822,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{F83B037C-0A58-4880-9396-B6459CEDBF81}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A5AE2FDB-5765-4345-B693-5B5135C337BB}</Property>
 					</Item>
 					<Item Name="Mod7/DI8" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14798,7 +14831,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{AA966E18-ADD9-42F0-96B6-2F8FD7B8413A}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{01D04A80-8B71-4B84-9493-2AD9AF011C7F}</Property>
 					</Item>
 					<Item Name="Mod7/DI9" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14807,7 +14840,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{A5C57FAB-488B-4E6A-9711-26BB8092E5D9}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{579B7D1C-C3BA-4425-B5F1-7FDE3FFA1CA6}</Property>
 					</Item>
 					<Item Name="Mod7/DI10" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14816,7 +14849,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{02151CEB-4129-43F8-BB68-F349030B677D}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{95AB76C3-9699-4F0C-8CC0-F5F39C734D92}</Property>
 					</Item>
 					<Item Name="Mod7/DI11" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14825,25 +14858,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{DF8C6395-1DF1-4F80-B498-41625820A5B6}</Property>
-					</Item>
-					<Item Name="Mod7/DI12" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod7/DI12</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{198F3C57-4F1E-4427-9A01-4EBBE9495CD8}</Property>
-					</Item>
-					<Item Name="Mod7/DI13" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="resource">
-   <Value>/crio_Mod7/DI13</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{2AE64FFC-6A0C-450E-9F8F-B407FA30BF13}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{5909F1EE-F188-4E09-9F3F-BEDDE62DFA08}</Property>
 					</Item>
 					<Item Name="Mod7/DI14" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14852,7 +14867,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{F9C237D6-99E9-4842-B69F-AE12B69D10B7}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4DB7C69E-8620-44A8-A55F-783E249D2F01}</Property>
 					</Item>
 					<Item Name="Mod7/DI15" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14861,7 +14876,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{83455FE7-9DE5-4182-B364-2E2D29A6B82E}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{C48AB8C3-AF2E-4802-8C1D-AA42183AC68C}</Property>
 					</Item>
 					<Item Name="Mod7/DI15:8" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14870,7 +14885,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{4555D579-FC0F-4F52-AF9D-D406F98FD8D6}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{80A55D50-CBC3-4E69-B3A5-3918DC8FA092}</Property>
 					</Item>
 					<Item Name="Mod7/DI16" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14879,7 +14894,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{489A4830-BE6B-4D19-ACBF-5822DEA27849}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AC4FF064-3A34-443B-BA9C-1349A967CEB5}</Property>
 					</Item>
 					<Item Name="Mod7/DI17" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14888,7 +14903,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{44B860F6-7930-414C-9DBD-E72CD8F3D49E}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{47B6C8F2-AF64-455A-8191-554EE2D7189F}</Property>
 					</Item>
 					<Item Name="Mod7/DI18" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14897,7 +14912,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{5097331B-96B0-4C08-8927-45D5355219BE}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{73E6B120-30BF-441F-9905-29A7ACCDE78F}</Property>
 					</Item>
 					<Item Name="Mod7/DI19" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14906,7 +14921,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{A2385256-5E88-4A0E-922C-80C88D768FD6}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{105203D5-9D8B-4D4F-ACD1-61FA97C5D24B}</Property>
 					</Item>
 					<Item Name="Mod7/DI20" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14915,7 +14930,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{83B1FE4F-418D-4D96-B17E-233924FE1F5B}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B0D09FB8-C390-4658-B69B-5E71001EE700}</Property>
 					</Item>
 					<Item Name="Mod7/DI21" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14924,7 +14939,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{817F759C-95C6-4EFA-AC70-105A21E7ABAD}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{90D49B9C-53E5-48F6-8E86-B41B399EDB04}</Property>
 					</Item>
 					<Item Name="Mod7/DI22" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14933,7 +14948,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{E153EFFD-7581-47A6-80D0-78C870D3739B}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{C58E33D1-A44B-4273-8924-2CCA1E88D5BB}</Property>
 					</Item>
 					<Item Name="Mod7/DI23" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14942,7 +14957,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{CAD7A0CD-F656-4565-AA6B-95F86A08C480}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{C0D96DED-DD5D-4438-99F7-5A186671CA5B}</Property>
 					</Item>
 					<Item Name="Mod7/DI23:16" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14951,7 +14966,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{4931024E-C39D-429C-ACEB-9F95F3112817}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{07981E1E-B675-4857-8007-FA025B86CF96}</Property>
 					</Item>
 					<Item Name="Mod7/DI24" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14960,7 +14975,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{2DC83631-34FF-449F-BC80-469D3E1E0D0A}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1D7D8810-FBC2-4F93-9904-FA251CCE7D73}</Property>
 					</Item>
 					<Item Name="Mod7/DI25" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14969,7 +14984,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{9344D6D5-0848-4D4A-A97D-AEF25C33DE28}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{5DEA43EF-3B3C-4747-B04F-EB8FFB2FB10A}</Property>
 					</Item>
 					<Item Name="Mod7/DI26" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14978,7 +14993,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{00B28321-FDDD-456F-9FC8-5974331CB9F3}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{4D0D0D2A-357E-4470-BAD8-6DA681CFCD3E}</Property>
 					</Item>
 					<Item Name="Mod7/DI27" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14987,7 +15002,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{AC977544-9C3A-4497-BF7C-2E4492B0B461}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{0B61532A-8A1C-496A-889B-EB55C5BA62C3}</Property>
 					</Item>
 					<Item Name="Mod7/DI28" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -14996,7 +15011,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{F53A4C73-3449-45CF-BE32-947A83C62CE4}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{FBFF42E5-C62E-494A-BA71-B7B1207E2044}</Property>
 					</Item>
 					<Item Name="Mod7/DI29" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -15005,7 +15020,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{83193765-8F08-4C00-9208-62469BC29501}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{BDBC7E9B-6561-44E8-99F0-BA1E32356E12}</Property>
 					</Item>
 					<Item Name="Mod7/DI30" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -15014,7 +15029,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{36C6D79F-4C7D-4837-9BAA-B1523D01FB01}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{64539AF5-9394-4F25-A2AD-B71C848286BE}</Property>
 					</Item>
 					<Item Name="Mod7/DI31" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -15023,7 +15038,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{5A8D6038-295E-4BDD-A71E-DA0D5E93E8D0}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{8F6A0116-CC32-4B98-AA45-57B7D07EDF64}</Property>
 					</Item>
 					<Item Name="Mod7/DI31:0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -15032,7 +15047,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{211A4CB5-6ED4-4D50-AEDC-228052CDF836}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9E302D56-1220-4144-9684-C8578A5567F7}</Property>
 					</Item>
 					<Item Name="Mod7/DI31:24" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -15041,35 +15056,65 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{5276CAB5-4B1D-40E9-AD1B-A98D775CA7B6}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{E8DB0CCD-6F2E-49E9-A8E2-2FD27E787110}</Property>
+					</Item>
+					<Item Name="Switch Magnet Aperture IN sensor" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod7/DI2</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{E98C250F-9754-4488-84D8-4A188EBBFF10}</Property>
+					</Item>
+					<Item Name="Switch Magnet Aperture OUT sensor" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod7/DI3</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{F907A2A7-6649-4E57-9C63-AB01238BC28F}</Property>
+					</Item>
+					<Item Name="Switch Magnet FC IN sensor" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod7/DI0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{B3C0A5CA-DB81-4930-BA33-E6E4C130936E}</Property>
+					</Item>
+					<Item Name="Switch Magnet FC OUT sensor" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod7/DI1</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{E18E751B-4831-4304-BD6C-1BB1FD821660}</Property>
+					</Item>
+					<Item Name="Vac cluster 1 Convectron Gauge Interlock" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod7/DI5</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{8E7C312F-15A3-49F1-9448-BF32BA179C8F}</Property>
+					</Item>
+					<Item Name="Vac cluster 1 Ion Gauge Interlock" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="resource">
+   <Value>/crio_Mod7/DI4</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2690F3CD-4383-409B-B261-2EF8646A4B04}</Property>
 					</Item>
 				</Item>
 				<Item Name="Mod8" Type="Folder">
-					<Item Name="Mod8/CH0" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/crio_Mod8/CH0</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{BC1DBCD2-CB97-418B-A4E5-0346D960609A}</Property>
-					</Item>
-					<Item Name="Mod8/CH1" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/crio_Mod8/CH1</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{9E5B41F1-DA45-45F3-AE4A-CE43800B2F23}</Property>
-					</Item>
-					<Item Name="Mod8/CH2" Type="Elemental IO">
+					<Item Name="Beamline GV 1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -15079,9 +15124,9 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{45565F3C-A65A-4A70-A6A8-81B2D600C697}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{E91298C9-EC32-4566-A327-FDC356A04D1A}</Property>
 					</Item>
-					<Item Name="Mod8/CH3" Type="Elemental IO">
+					<Item Name="Cryo GV" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -15091,21 +15136,9 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{1A4D1C84-F68C-49E8-A9CD-DA7C296129EC}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{32DD3E5A-A22B-4D80-B5DF-5D7B07372298}</Property>
 					</Item>
-					<Item Name="Mod8/CH4" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/crio_Mod8/CH4</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{C9C484A3-7C97-45BA-A828-F65756D91F26}</Property>
-					</Item>
-					<Item Name="Mod8/CH5" Type="Elemental IO">
+					<Item Name="Down Steerer HV Enable" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -15115,9 +15148,9 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{B070F3AF-651F-43E2-AF47-527450E910E7}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{91F6361F-B176-4724-AC6D-AA6B82F1FDFE}</Property>
 					</Item>
-					<Item Name="Mod8/CH6" Type="Elemental IO">
+					<Item Name="Left Steerer HV Enable" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -15127,19 +15160,7 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{EC7D6D6F-789C-47B8-BB1C-4A08D6B93EF6}</Property>
-					</Item>
-					<Item Name="Mod8/CH7" Type="Elemental IO">
-						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
-   <Attribute name="ArbitrationForOutputData">
-   <Value>NeverArbitrate</Value>
-   </Attribute>
-   <Attribute name="resource">
-   <Value>/crio_Mod8/CH7</Value>
-   </Attribute>
-</AttributeSet>
-</Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{95FA1C79-5D10-4FF6-9EE4-4BA0BDB6096D}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{8DE13D47-A966-42B8-88C4-9AD379E36DFC}</Property>
 					</Item>
 					<Item Name="Mod8/CH7:0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -15151,7 +15172,55 @@ DirectoryIndex index.htm
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6E847955-14BF-4BF8-8A70-80661CAE2BA4}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{9A556A21-787D-4365-88F7-ECD8CCA6D853}</Property>
+					</Item>
+					<Item Name="Right Steerer HV Enable" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Mod8/CH7</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{C215509E-A474-419A-A502-C7B11E384EDE}</Property>
+					</Item>
+					<Item Name="Switch Magnet Aperture Actuator" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Mod8/CH1</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{5F34EA67-4400-492C-A2B1-E716E2EDC47F}</Property>
+					</Item>
+					<Item Name="Switch Magnet FC Actuator" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Mod8/CH0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{5A3FA917-2F32-4601-AA31-8855872805DE}</Property>
+					</Item>
+					<Item Name="Up Steerer HV Enable" Type="Elemental IO">
+						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/crio_Mod8/CH4</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{AFDDF02F-093A-4F5E-BD8D-091F0F47C3E1}</Property>
 					</Item>
 				</Item>
 				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
@@ -15172,9 +15241,9 @@ DirectoryIndex index.htm
 					<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 					<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 				</Item>
-				<Item Name="FPGA-R45-1.vi" Type="VI" URL="../cRIO code/R45-1/FPGA-R45-1.vi">
-					<Property Name="configString.guid" Type="Str">{00B28321-FDDD-456F-9FC8-5974331CB9F3}resource=/crio_Mod7/DI26;0;ReadMethodType=bool{02151CEB-4129-43F8-BB68-F349030B677D}resource=/crio_Mod7/DI10;0;ReadMethodType=bool{054CD58F-F931-46DD-8C67-B12D3752C8F1}resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{0604027A-022E-4C49-8CE3-D8A9571B31CA}resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{08501657-9450-42D3-923D-F3FFFF0CE9EE}resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{08A88688-2BFD-46C0-85BE-C8D2C4247F1B}resource=/crio_Mod7/DI0;0;ReadMethodType=bool{0AD6285B-762E-42DB-83F2-48BFEC98CA5E}resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{112B5852-E1F9-41B9-8048-F627BF26BD52}resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{11A6E886-5030-4D5F-B165-80473211EFC0}resource=/crio_Mod1/DO0;0;WriteMethodType=bool{12993A5B-02D2-4786-B325-DFFEEC742637}resource=/crio_Mod7/DI1;0;ReadMethodType=bool{12D7403C-8925-4EDF-921B-13F5C4CB9FC2}resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{131E3C57-0365-4745-99AB-67453C5883A9}resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{1405335A-D6A4-4DC1-8048-E8378AD1DB85}resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{198F3C57-4F1E-4427-9A01-4EBBE9495CD8}resource=/crio_Mod7/DI12;0;ReadMethodType=bool{1A4D1C84-F68C-49E8-A9CD-DA7C296129EC}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=bool{1D048C84-2B5F-4D20-A73C-6856B66F60FA}resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{1FB3BA60-F547-47B3-AFE7-E88752DA0263}resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{211A4CB5-6ED4-4D50-AEDC-228052CDF836}resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32{21D38085-326F-40DA-A223-E140F23675AB}resource=/crio_Mod1/DI0;0;ReadMethodType=bool{253CB73D-2B8D-41F9-AA7D-9F42BB2F8876}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{2AE64FFC-6A0C-450E-9F8F-B407FA30BF13}resource=/crio_Mod7/DI13;0;ReadMethodType=bool{2DC83631-34FF-449F-BC80-469D3E1E0D0A}resource=/crio_Mod7/DI24;0;ReadMethodType=bool{2F8C460B-7C1D-4C89-8B8C-3C2A9BA62EE7}resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{32674448-A6BA-4E79-AB9A-23082855D7A6}resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{3369E861-FED3-44AD-A98A-38E821DEA3B8}resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{35D25199-03CA-4CB3-8E97-E0EB485287A4}resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{36399B2C-B5F7-4886-A7C1-74B670CE58A9}resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{36C6D79F-4C7D-4837-9BAA-B1523D01FB01}resource=/crio_Mod7/DI30;0;ReadMethodType=bool{376F326A-CA1F-4215-B3F8-9118F08144D3}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{3D0ADD36-4508-4976-84CD-EACEE39AE09C}resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{44B860F6-7930-414C-9DBD-E72CD8F3D49E}resource=/crio_Mod7/DI17;0;ReadMethodType=bool{4555D579-FC0F-4F52-AF9D-D406F98FD8D6}resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8{45565F3C-A65A-4A70-A6A8-81B2D600C697}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=bool{45B39832-8093-4C94-A7BB-37F6BABA7035}resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{489A4830-BE6B-4D19-ACBF-5822DEA27849}resource=/crio_Mod7/DI16;0;ReadMethodType=bool{4931024E-C39D-429C-ACEB-9F95F3112817}resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8{5097331B-96B0-4C08-8927-45D5355219BE}resource=/crio_Mod7/DI18;0;ReadMethodType=bool{51A98587-B709-49D3-8E67-479C6C241717}resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{52574047-C6FE-488A-8963-48597281D86E}cRIO Subresource{5276CAB5-4B1D-40E9-AD1B-A98D775CA7B6}resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8{545FC722-98CE-48F8-91AE-3F2FD1AB3782}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=0,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=0,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=0,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=0,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=0,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=0,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{5A8D6038-295E-4BDD-A71E-DA0D5E93E8D0}resource=/crio_Mod7/DI31;0;ReadMethodType=bool{5C4D2AF7-066C-41AA-A0E0-2C04E5BF0353}resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{5D9C4FEC-2DAA-436B-806D-9D8C54F7A168}resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{5ECBB9EF-082F-4F22-A235-5748CBD01C64}resource=/Scan Clock;0;ReadMethodType=bool{5FA66A9B-20A2-4F06-8681-7D62F170E0CA}resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{5FD192EC-C4B3-44C4-8256-9508BA93601C}resource=/crio_Mod7/DI5;0;ReadMethodType=bool{64253823-B5CD-465D-9528-D31F8F3E2BCC}resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6474D3CB-E9E2-4356-B06D-7A4AC52B8601}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{66104C1B-6FF5-407B-A094-8658EC4B51D4}resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{6956270E-C51C-4928-A262-6835649D6202}resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{6D4A1245-4CAD-49EE-B5FB-FA488C59C44E}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{6D8AD95C-1FED-47DF-AA15-B676C8165A33}resource=/crio_Mod7/DI6;0;ReadMethodType=bool{6E7C7E0E-A2AE-47FB-8DAA-16675A4E786F}resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6E847955-14BF-4BF8-8A70-80661CAE2BA4}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8{7B17FCB7-FCFF-4C2A-98F8-F48E65CA6FC1}cRIO Subresource{80CC52BA-641C-49EB-9E08-F304C2CBE57E}resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{817F759C-95C6-4EFA-AC70-105A21E7ABAD}resource=/crio_Mod7/DI21;0;ReadMethodType=bool{827E434B-8D3B-413D-BE10-43345261E48F}resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{83193765-8F08-4C00-9208-62469BC29501}resource=/crio_Mod7/DI29;0;ReadMethodType=bool{83455FE7-9DE5-4182-B364-2E2D29A6B82E}resource=/crio_Mod7/DI15;0;ReadMethodType=bool{83B1FE4F-418D-4D96-B17E-233924FE1F5B}resource=/crio_Mod7/DI20;0;ReadMethodType=bool{85579669-8E69-476E-9E1A-B262320FF718}resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{85DBEB6D-7A97-49FE-A08D-1C308C91BA89}resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{8793410F-12B7-41D0-8BF8-3A876066E910}resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{892B0EDA-49DB-4460-9B78-652852FE5639}resource=/crio_Mod7/DI2;0;ReadMethodType=bool{8B2D4470-17E8-441F-90F0-98669753B280}resource=/crio_Mod1/Trig;0;ReadMethodType=bool{8D78DF81-54BC-4D47-8E26-95C6C9412EC8}resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9037DC80-1DE4-47C5-B6BF-6C78FDE2F4BB}resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9344D6D5-0848-4D4A-A97D-AEF25C33DE28}resource=/crio_Mod7/DI25;0;ReadMethodType=bool{93CF486C-8614-47CF-B58A-2757E34ECDB0}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{95FA1C79-5D10-4FF6-9EE4-4BA0BDB6096D}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=bool{9DBA9E42-D1AF-4376-830B-B3B9A616230E}resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9E5B41F1-DA45-45F3-AE4A-CE43800B2F23}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=bool{A0F1BC10-BF12-49B5-9CDC-842A6760342C}resource=/crio_Mod7/DI3;0;ReadMethodType=bool{A167D988-B11D-4E51-A154-EE5001DF3849}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{A2385256-5E88-4A0E-922C-80C88D768FD6}resource=/crio_Mod7/DI19;0;ReadMethodType=bool{A498611C-4B55-4EAE-9B85-E9C5F5C2E083}resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A5C57FAB-488B-4E6A-9711-26BB8092E5D9}resource=/crio_Mod7/DI9;0;ReadMethodType=bool{AA966E18-ADD9-42F0-96B6-2F8FD7B8413A}resource=/crio_Mod7/DI8;0;ReadMethodType=bool{AC977544-9C3A-4497-BF7C-2E4492B0B461}resource=/crio_Mod7/DI27;0;ReadMethodType=bool{B070F3AF-651F-43E2-AF47-527450E910E7}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=bool{B588FDC9-E271-455B-98F2-6B9984FFF081}resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B5B0D438-9638-477E-8E65-7D71A179B4E9}resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{B9A6DCD9-5CFE-47C1-AEAB-B98A99613C4A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{BC1DBCD2-CB97-418B-A4E5-0346D960609A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=bool{C0F43796-A917-4A37-8AD8-C256A9915E95}resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{C37DCF57-E0D1-4E24-9E83-9F4ED18F94AA}resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{C9C484A3-7C97-45BA-A828-F65756D91F26}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=bool{CAD7A0CD-F656-4565-AA6B-95F86A08C480}resource=/crio_Mod7/DI23;0;ReadMethodType=bool{CB7373E9-981D-4600-883B-CD3575176FEA}resource=/crio_Mod7/DI7;0;ReadMethodType=bool{CE022D75-3254-45A1-B33C-6B82E540D77C}resource=/crio_Mod7/DI4;0;ReadMethodType=bool{CEE1D6FE-7352-4F5B-A5CB-7D3C68F0A74D}resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D9D1F45E-9270-45DD-88D5-05B1CD515D47}resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D9DD3074-667E-4430-9A01-B7DC6DA63555}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{DF8C6395-1DF1-4F80-B498-41625820A5B6}resource=/crio_Mod7/DI11;0;ReadMethodType=bool{E0916FC9-8D29-4386-AE97-AB170783D152}resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E11FADFB-EC3C-488B-BC4C-477923FF3112}resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E153EFFD-7581-47A6-80D0-78C870D3739B}resource=/crio_Mod7/DI22;0;ReadMethodType=bool{E293D918-824B-46A1-A805-27B1BEFC4E92}resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E2D70479-65AF-4C5C-A9C3-35B9CFA05575}resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E56698B9-5D17-4AB4-8BAA-007B004DF1C8}resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E6103629-B695-41FB-8D06-2FA21CD593A0}cRIO Subresource{E661D10B-740D-4C6C-B98A-193375DC585F}cRIO Subresource{E981B371-7C83-4DD1-9F52-C7E84572479D}resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{EA57C6D1-44EF-40E5-B84B-8212EEC8ED28}resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{EC7D6D6F-789C-47B8-BB1C-4A08D6B93EF6}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=bool{F53A4C73-3449-45CF-BE32-947A83C62CE4}resource=/crio_Mod7/DI28;0;ReadMethodType=bool{F7BB57C1-6E3D-44BA-8333-DD9AFD260CEA}resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{F83B037C-0A58-4880-9396-B6459CEDBF81}resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8{F9C237D6-99E9-4842-B69F-AE12B69D10B7}resource=/crio_Mod7/DI14;0;ReadMethodType=bool{FD75CF6C-DC3B-4AC3-BEA9-5195ECA2CF62}resource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9067/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9067FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9067/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9067FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Mod1/AI0resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI10resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI11resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI12resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI13resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI14resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI15resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI16resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI17resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI18resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI19resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI1resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI20resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI21resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI22resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI23resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI24resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI25resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI26resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI27resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI28resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI29resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI2resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI30resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI31resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI3resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI4resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI5resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI6resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI7resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI8resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI9resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/DI0resource=/crio_Mod1/DI0;0;ReadMethodType=boolMod1/DO0resource=/crio_Mod1/DO0;0;WriteMethodType=boolMod1/Trigresource=/crio_Mod1/Trig;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=0,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=0,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=0,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=0,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=0,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=0,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO0resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO10resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO11resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO12resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO13resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO14resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO15resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO1resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO2resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO3resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO4resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO5resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO6resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO7resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO8resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO9resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DI0resource=/crio_Mod7/DI0;0;ReadMethodType=boolMod7/DI10resource=/crio_Mod7/DI10;0;ReadMethodType=boolMod7/DI11resource=/crio_Mod7/DI11;0;ReadMethodType=boolMod7/DI12resource=/crio_Mod7/DI12;0;ReadMethodType=boolMod7/DI13resource=/crio_Mod7/DI13;0;ReadMethodType=boolMod7/DI14resource=/crio_Mod7/DI14;0;ReadMethodType=boolMod7/DI15:8resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8Mod7/DI15resource=/crio_Mod7/DI15;0;ReadMethodType=boolMod7/DI16resource=/crio_Mod7/DI16;0;ReadMethodType=boolMod7/DI17resource=/crio_Mod7/DI17;0;ReadMethodType=boolMod7/DI18resource=/crio_Mod7/DI18;0;ReadMethodType=boolMod7/DI19resource=/crio_Mod7/DI19;0;ReadMethodType=boolMod7/DI1resource=/crio_Mod7/DI1;0;ReadMethodType=boolMod7/DI20resource=/crio_Mod7/DI20;0;ReadMethodType=boolMod7/DI21resource=/crio_Mod7/DI21;0;ReadMethodType=boolMod7/DI22resource=/crio_Mod7/DI22;0;ReadMethodType=boolMod7/DI23:16resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8Mod7/DI23resource=/crio_Mod7/DI23;0;ReadMethodType=boolMod7/DI24resource=/crio_Mod7/DI24;0;ReadMethodType=boolMod7/DI25resource=/crio_Mod7/DI25;0;ReadMethodType=boolMod7/DI26resource=/crio_Mod7/DI26;0;ReadMethodType=boolMod7/DI27resource=/crio_Mod7/DI27;0;ReadMethodType=boolMod7/DI28resource=/crio_Mod7/DI28;0;ReadMethodType=boolMod7/DI29resource=/crio_Mod7/DI29;0;ReadMethodType=boolMod7/DI2resource=/crio_Mod7/DI2;0;ReadMethodType=boolMod7/DI30resource=/crio_Mod7/DI30;0;ReadMethodType=boolMod7/DI31:0resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32Mod7/DI31:24resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8Mod7/DI31resource=/crio_Mod7/DI31;0;ReadMethodType=boolMod7/DI3resource=/crio_Mod7/DI3;0;ReadMethodType=boolMod7/DI4resource=/crio_Mod7/DI4;0;ReadMethodType=boolMod7/DI5resource=/crio_Mod7/DI5;0;ReadMethodType=boolMod7/DI6resource=/crio_Mod7/DI6;0;ReadMethodType=boolMod7/DI7:0resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8Mod7/DI7resource=/crio_Mod7/DI7;0;ReadMethodType=boolMod7/DI8resource=/crio_Mod7/DI8;0;ReadMethodType=boolMod7/DI9resource=/crio_Mod7/DI9;0;ReadMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/CH0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH3ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH4ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH5ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH6ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod8/CH7ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool</Property>
+				<Item Name="Glassman Control.ctl" Type="VI" URL="../control vi/controls/Glassman Control.ctl">
+					<Property Name="configString.guid" Type="Str">{01D04A80-8B71-4B84-9493-2AD9AF011C7F}resource=/crio_Mod7/DI8;0;ReadMethodType=bool{0340FB0B-FF06-4F1C-BF7E-5A262D4CD3AF}resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{07981E1E-B675-4857-8007-FA025B86CF96}resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8{0B61532A-8A1C-496A-889B-EB55C5BA62C3}resource=/crio_Mod7/DI27;0;ReadMethodType=bool{105203D5-9D8B-4D4F-ACD1-61FA97C5D24B}resource=/crio_Mod7/DI19;0;ReadMethodType=bool{1892FABF-C15B-4FCF-85EB-83F32F4EF4B8}resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{18AC92F6-71C9-4922-8713-C8AD1F2477A3}resource=/crio_Mod7/DI12;0;ReadMethodType=bool{1D7D8810-FBC2-4F93-9904-FA251CCE7D73}resource=/crio_Mod7/DI24;0;ReadMethodType=bool{244B0D22-73BD-4B0C-84A3-C4FAC270C779}resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{253CB73D-2B8D-41F9-AA7D-9F42BB2F8876}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{2690F3CD-4383-409B-B261-2EF8646A4B04}resource=/crio_Mod7/DI4;0;ReadMethodType=bool{2D552846-6C4D-4482-A9F6-2474BBF5F58F}resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{2E25F8A0-109D-48F9-98BC-B3E5DE5070E9}resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{32DD3E5A-A22B-4D80-B5DF-5D7B07372298}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=bool{3553E375-D895-4097-9E90-DE6F842E53A9}resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{376F326A-CA1F-4215-B3F8-9118F08144D3}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{3861E5FA-5752-4010-8A79-1E374F8800E2}resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{3CC0881C-766D-48B3-A8A1-40A08DAA2D3F}resource=/crio_Mod7/DI7;0;ReadMethodType=bool{40322C86-3E48-4665-89B0-9007B3FAE8EB}resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{422CEED8-B9BE-44B9-8FBA-E2CA3F8CB7C7}resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{44A4C7E7-3E6E-4B9B-B3B7-73260333EFC0}resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{45E7CC8F-DB4B-4B75-AACB-73C9B8E902A0}resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{47B6C8F2-AF64-455A-8191-554EE2D7189F}resource=/crio_Mod7/DI17;0;ReadMethodType=bool{4A5F75F8-D41B-4FD5-9F62-93645B1B963A}resource=/crio_Mod7/DI13;0;ReadMethodType=bool{4BFB28D7-8BD1-4F6D-8CB7-B19C1D3585D4}resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4C28E465-5449-4CC7-BBBF-68CE3A1E6C4B}resource=/crio_Mod1/DO0;0;WriteMethodType=bool{4D0D0D2A-357E-4470-BAD8-6DA681CFCD3E}resource=/crio_Mod7/DI26;0;ReadMethodType=bool{4DB7C69E-8620-44A8-A55F-783E249D2F01}resource=/crio_Mod7/DI14;0;ReadMethodType=bool{4E4A0537-985A-42A5-996E-41B3A84A2C7B}resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4FC66E5E-F74E-487E-8B4D-68A638D4F2D0}resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{50A66BA6-4045-40D2-9111-5EAAEBAE4214}resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{52574047-C6FE-488A-8963-48597281D86E}cRIO Subresource{53628EBC-EE22-4E0E-BC22-B5221AA0FCFD}resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{545FC722-98CE-48F8-91AE-3F2FD1AB3782}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=0,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=0,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=0,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=0,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=0,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=0,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{5563ED5B-85E9-429E-8CE8-40761C7DE9F2}resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{55EB0E5E-DA44-457F-911A-03F366A0E910}resource=/crio_Mod1/DI0;0;ReadMethodType=bool{5626EFB9-DD3F-4DF6-8931-B7AEBB01CDF2}resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{579B7D1C-C3BA-4425-B5F1-7FDE3FFA1CA6}resource=/crio_Mod7/DI9;0;ReadMethodType=bool{5909F1EE-F188-4E09-9F3F-BEDDE62DFA08}resource=/crio_Mod7/DI11;0;ReadMethodType=bool{5A3FA917-2F32-4601-AA31-8855872805DE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=bool{5DEA43EF-3B3C-4747-B04F-EB8FFB2FB10A}resource=/crio_Mod7/DI25;0;ReadMethodType=bool{5ECBB9EF-082F-4F22-A235-5748CBD01C64}resource=/Scan Clock;0;ReadMethodType=bool{5F34EA67-4400-492C-A2B1-E716E2EDC47F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=bool{64539AF5-9394-4F25-A2AD-B71C848286BE}resource=/crio_Mod7/DI30;0;ReadMethodType=bool{6474D3CB-E9E2-4356-B06D-7A4AC52B8601}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{688B6338-1A18-4230-BE60-69399D8A0D21}resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{6C529830-2F58-48A1-A2D4-D213B1985CEB}resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6D4A1245-4CAD-49EE-B5FB-FA488C59C44E}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{73E6B120-30BF-441F-9905-29A7ACCDE78F}resource=/crio_Mod7/DI18;0;ReadMethodType=bool{750A8ABD-1250-4A7E-A6E2-CB2073F7108B}resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{79F0D18C-7A3D-4E51-8300-9CA6BDDC9B90}resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{7B17FCB7-FCFF-4C2A-98F8-F48E65CA6FC1}cRIO Subresource{7F0426F0-4D79-4F2C-82D9-DABC94104E06}resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{80A55D50-CBC3-4E69-B3A5-3918DC8FA092}resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8{8DE13D47-A966-42B8-88C4-9AD379E36DFC}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=bool{8E7C312F-15A3-49F1-9448-BF32BA179C8F}resource=/crio_Mod7/DI5;0;ReadMethodType=bool{8F6A0116-CC32-4B98-AA45-57B7D07EDF64}resource=/crio_Mod7/DI31;0;ReadMethodType=bool{90D49B9C-53E5-48F6-8E86-B41B399EDB04}resource=/crio_Mod7/DI21;0;ReadMethodType=bool{91F6361F-B176-4724-AC6D-AA6B82F1FDFE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=bool{93CF486C-8614-47CF-B58A-2757E34ECDB0}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{93E6BCEB-AC94-4CF7-B460-6D223B2A555F}resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{9546E05F-4311-42D1-8844-9EF297033A64}resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{95AB76C3-9699-4F0C-8CC0-F5F39C734D92}resource=/crio_Mod7/DI10;0;ReadMethodType=bool{9A556A21-787D-4365-88F7-ECD8CCA6D853}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8{9D021FCF-5C63-415B-A801-F007B20179FD}resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9E302D56-1220-4144-9684-C8578A5567F7}resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32{9FC5CA57-9252-424B-8E5E-1B57FBCAB600}resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A167D988-B11D-4E51-A154-EE5001DF3849}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{A4A48A9B-45FD-4DC8-8681-94D5736B55B4}resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A5949D55-FB50-45F1-9D84-689FA673E348}resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A5AE2FDB-5765-4345-B693-5B5135C337BB}resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8{AC4FF064-3A34-443B-BA9C-1349A967CEB5}resource=/crio_Mod7/DI16;0;ReadMethodType=bool{AC5D9256-08C9-4C8F-B5BB-BFA450D393F9}resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{AF93DC8D-6610-4D52-9E89-7B2E1B46AA66}resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{AFDDF02F-093A-4F5E-BD8D-091F0F47C3E1}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=bool{B089467F-6D6F-47C1-B00D-3D86B55805F7}resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B0D09FB8-C390-4658-B69B-5E71001EE700}resource=/crio_Mod7/DI20;0;ReadMethodType=bool{B3C0A5CA-DB81-4930-BA33-E6E4C130936E}resource=/crio_Mod7/DI0;0;ReadMethodType=bool{B7804482-174C-4665-AC4D-B4C80B45349B}resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B9A6DCD9-5CFE-47C1-AEAB-B98A99613C4A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{BDBC7E9B-6561-44E8-99F0-BA1E32356E12}resource=/crio_Mod7/DI29;0;ReadMethodType=bool{C082B1D4-C704-4A3B-9F99-5AAA5B7DF19A}resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{C0D96DED-DD5D-4438-99F7-5A186671CA5B}resource=/crio_Mod7/DI23;0;ReadMethodType=bool{C215509E-A474-419A-A502-C7B11E384EDE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=bool{C2C8F8A9-DDDB-4936-B181-55A044F6C540}resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{C48AB8C3-AF2E-4802-8C1D-AA42183AC68C}resource=/crio_Mod7/DI15;0;ReadMethodType=bool{C58E33D1-A44B-4273-8924-2CCA1E88D5BB}resource=/crio_Mod7/DI22;0;ReadMethodType=bool{D06110C3-2ABB-4DFB-A96E-4CD29D27116B}resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D082705C-BB6B-4742-8598-A1F046917293}resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D56E7CCA-7B9B-4028-83D1-757D324A625E}resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D5A3DE9B-FA38-4554-9181-E159D4B2ABB6}resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D9DD3074-667E-4430-9A01-B7DC6DA63555}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{DA74ECC1-6983-41F0-828B-48271A735546}resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{DBD97399-2704-4319-A11D-7AE0BCDDC71C}resource=/crio_Mod7/DI6;0;ReadMethodType=bool{DE99FA4C-476C-4810-B402-B7A59983453E}resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{DEE94954-713B-4ED5-8FF2-E5DD067BF7C6}resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E12206C8-1E1E-4E99-B00C-3D215BFF943B}resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E18E751B-4831-4304-BD6C-1BB1FD821660}resource=/crio_Mod7/DI1;0;ReadMethodType=bool{E35CB726-D2A2-444E-A4A8-82FF21EB9D93}resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E6103629-B695-41FB-8D06-2FA21CD593A0}cRIO Subresource{E661D10B-740D-4C6C-B98A-193375DC585F}cRIO Subresource{E8DB0CCD-6F2E-49E9-A8E2-2FD27E787110}resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8{E91298C9-EC32-4566-A327-FDC356A04D1A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=bool{E98C250F-9754-4488-84D8-4A188EBBFF10}resource=/crio_Mod7/DI2;0;ReadMethodType=bool{EF7CD3F0-D0B1-4B6B-9D3E-141B63DD1A00}resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{F1F4A7C3-2240-4E0F-A231-5BD27F25A7A4}resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{F6A5EE98-A80F-4BA8-B162-BCEEE7963980}resource=/crio_Mod1/Trig;0;ReadMethodType=bool{F907A2A7-6649-4E57-9C63-AB01238BC28F}resource=/crio_Mod7/DI3;0;ReadMethodType=bool{FBFF42E5-C62E-494A-BA71-B7B1207E2044}resource=/crio_Mod7/DI28;0;ReadMethodType=bool{FC4C9496-87FE-4472-906C-B2AAF37DC27B}resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{FD75CF6C-DC3B-4AC3-BEA9-5195ECA2CF62}resource=/Chassis Temperature;0;ReadMethodType=i16{FF881DD5-BF75-403C-B3D5-EB86E10809CA}resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlcRIO-9067/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9067FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Beamline GV 1 CLOSED sensorresource=/crio_Mod7/DI7;0;ReadMethodType=boolBeamline GV 1 OPEN sensorresource=/crio_Mod7/DI6;0;ReadMethodType=boolBeamline GV 1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=boolChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9067/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9067FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Cryo GVArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=boolCryo Pump GV CLOSED sensorresource=/crio_Mod7/DI13;0;ReadMethodType=boolCryo Pump GV OPEN sensorresource=/crio_Mod7/DI12;0;ReadMethodType=boolDown Steerer Current readresource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlDown Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=boolDown Steerer Voltage readresource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlDown Steerer Voltage setresource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlLeft Steerer Current readresource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlLeft Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=boolLeft Steerer Voltage readresource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlLeft Steerer Voltage setresource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod1/AI10resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI11resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI12resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI13resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI14resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI15resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI16resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI17resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI18resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI19resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI20resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI21resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI22resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI23resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI24resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI25resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI26resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI27resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI28resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI29resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI30resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI31resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI8resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI9resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/DI0resource=/crio_Mod1/DI0;0;ReadMethodType=boolMod1/DO0resource=/crio_Mod1/DO0;0;WriteMethodType=boolMod1/Trigresource=/crio_Mod1/Trig;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=0,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=0,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=0,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=0,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=0,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=0,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO10resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO11resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO12resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO13resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO14resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO15resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO4resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO5resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO6resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO7resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO8resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO9resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DI10resource=/crio_Mod7/DI10;0;ReadMethodType=boolMod7/DI11resource=/crio_Mod7/DI11;0;ReadMethodType=boolMod7/DI14resource=/crio_Mod7/DI14;0;ReadMethodType=boolMod7/DI15:8resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8Mod7/DI15resource=/crio_Mod7/DI15;0;ReadMethodType=boolMod7/DI16resource=/crio_Mod7/DI16;0;ReadMethodType=boolMod7/DI17resource=/crio_Mod7/DI17;0;ReadMethodType=boolMod7/DI18resource=/crio_Mod7/DI18;0;ReadMethodType=boolMod7/DI19resource=/crio_Mod7/DI19;0;ReadMethodType=boolMod7/DI20resource=/crio_Mod7/DI20;0;ReadMethodType=boolMod7/DI21resource=/crio_Mod7/DI21;0;ReadMethodType=boolMod7/DI22resource=/crio_Mod7/DI22;0;ReadMethodType=boolMod7/DI23:16resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8Mod7/DI23resource=/crio_Mod7/DI23;0;ReadMethodType=boolMod7/DI24resource=/crio_Mod7/DI24;0;ReadMethodType=boolMod7/DI25resource=/crio_Mod7/DI25;0;ReadMethodType=boolMod7/DI26resource=/crio_Mod7/DI26;0;ReadMethodType=boolMod7/DI27resource=/crio_Mod7/DI27;0;ReadMethodType=boolMod7/DI28resource=/crio_Mod7/DI28;0;ReadMethodType=boolMod7/DI29resource=/crio_Mod7/DI29;0;ReadMethodType=boolMod7/DI30resource=/crio_Mod7/DI30;0;ReadMethodType=boolMod7/DI31:0resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32Mod7/DI31:24resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8Mod7/DI31resource=/crio_Mod7/DI31;0;ReadMethodType=boolMod7/DI7:0resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8Mod7/DI8resource=/crio_Mod7/DI8;0;ReadMethodType=boolMod7/DI9resource=/crio_Mod7/DI9;0;ReadMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/CH7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceRight Steerer Current readresource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlRight Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=boolRight Steerer Voltage readresource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlRight Steerer Voltage setresource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSwitch Magnet Aperture ActuatorArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=boolSwitch Magnet Aperture IN sensorresource=/crio_Mod7/DI2;0;ReadMethodType=boolSwitch Magnet Aperture OUT sensorresource=/crio_Mod7/DI3;0;ReadMethodType=boolSwitch Magnet FC ActuatorArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=boolSwitch Magnet FC IN sensorresource=/crio_Mod7/DI0;0;ReadMethodType=boolSwitch Magnet FC OUT sensorresource=/crio_Mod7/DI1;0;ReadMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUp Steerer Current readresource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlUp Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=boolUp Steerer Voltage readresource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlUp Steerer Voltage setresource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolVac cluster 1 Convectron Gauge Interlockresource=/crio_Mod7/DI5;0;ReadMethodType=boolVac cluster 1 Ion Gauge Interlockresource=/crio_Mod7/DI4;0;ReadMethodType=bool</Property>
 				</Item>
 				<Item Name="IP Builder" Type="IP Builder Target">
 					<Item Name="Dependencies" Type="Dependencies"/>
@@ -15331,32 +15400,145 @@ DirectoryIndex index.htm
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{93CF486C-8614-47CF-B58A-2757E34ECDB0}</Property>
 				</Item>
+				<Item Name="R45_1-FPGA.vi" Type="VI" URL="../cRIO code/R45-1/R45_1-FPGA.vi">
+					<Property Name="BuildSpec" Type="Str">{EC2F0D4F-59A9-4E21-98D8-A7DACFDFDEA4}</Property>
+					<Property Name="configString.guid" Type="Str">{01D04A80-8B71-4B84-9493-2AD9AF011C7F}resource=/crio_Mod7/DI8;0;ReadMethodType=bool{0340FB0B-FF06-4F1C-BF7E-5A262D4CD3AF}resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{07981E1E-B675-4857-8007-FA025B86CF96}resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8{0B61532A-8A1C-496A-889B-EB55C5BA62C3}resource=/crio_Mod7/DI27;0;ReadMethodType=bool{105203D5-9D8B-4D4F-ACD1-61FA97C5D24B}resource=/crio_Mod7/DI19;0;ReadMethodType=bool{1892FABF-C15B-4FCF-85EB-83F32F4EF4B8}resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{18AC92F6-71C9-4922-8713-C8AD1F2477A3}resource=/crio_Mod7/DI12;0;ReadMethodType=bool{1D7D8810-FBC2-4F93-9904-FA251CCE7D73}resource=/crio_Mod7/DI24;0;ReadMethodType=bool{244B0D22-73BD-4B0C-84A3-C4FAC270C779}resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{253CB73D-2B8D-41F9-AA7D-9F42BB2F8876}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{2690F3CD-4383-409B-B261-2EF8646A4B04}resource=/crio_Mod7/DI4;0;ReadMethodType=bool{2D552846-6C4D-4482-A9F6-2474BBF5F58F}resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{2E25F8A0-109D-48F9-98BC-B3E5DE5070E9}resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{32DD3E5A-A22B-4D80-B5DF-5D7B07372298}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=bool{3553E375-D895-4097-9E90-DE6F842E53A9}resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{376F326A-CA1F-4215-B3F8-9118F08144D3}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{3861E5FA-5752-4010-8A79-1E374F8800E2}resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{3CC0881C-766D-48B3-A8A1-40A08DAA2D3F}resource=/crio_Mod7/DI7;0;ReadMethodType=bool{40322C86-3E48-4665-89B0-9007B3FAE8EB}resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{422CEED8-B9BE-44B9-8FBA-E2CA3F8CB7C7}resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{44A4C7E7-3E6E-4B9B-B3B7-73260333EFC0}resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{45E7CC8F-DB4B-4B75-AACB-73C9B8E902A0}resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{47B6C8F2-AF64-455A-8191-554EE2D7189F}resource=/crio_Mod7/DI17;0;ReadMethodType=bool{4A5F75F8-D41B-4FD5-9F62-93645B1B963A}resource=/crio_Mod7/DI13;0;ReadMethodType=bool{4BFB28D7-8BD1-4F6D-8CB7-B19C1D3585D4}resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4C28E465-5449-4CC7-BBBF-68CE3A1E6C4B}resource=/crio_Mod1/DO0;0;WriteMethodType=bool{4D0D0D2A-357E-4470-BAD8-6DA681CFCD3E}resource=/crio_Mod7/DI26;0;ReadMethodType=bool{4DB7C69E-8620-44A8-A55F-783E249D2F01}resource=/crio_Mod7/DI14;0;ReadMethodType=bool{4E4A0537-985A-42A5-996E-41B3A84A2C7B}resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{4FC66E5E-F74E-487E-8B4D-68A638D4F2D0}resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{50A66BA6-4045-40D2-9111-5EAAEBAE4214}resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{52574047-C6FE-488A-8963-48597281D86E}cRIO Subresource{53628EBC-EE22-4E0E-BC22-B5221AA0FCFD}resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{545FC722-98CE-48F8-91AE-3F2FD1AB3782}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=0,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=0,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=0,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=0,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=0,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=0,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{5563ED5B-85E9-429E-8CE8-40761C7DE9F2}resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{55EB0E5E-DA44-457F-911A-03F366A0E910}resource=/crio_Mod1/DI0;0;ReadMethodType=bool{5626EFB9-DD3F-4DF6-8931-B7AEBB01CDF2}resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{579B7D1C-C3BA-4425-B5F1-7FDE3FFA1CA6}resource=/crio_Mod7/DI9;0;ReadMethodType=bool{5909F1EE-F188-4E09-9F3F-BEDDE62DFA08}resource=/crio_Mod7/DI11;0;ReadMethodType=bool{5A3FA917-2F32-4601-AA31-8855872805DE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=bool{5DEA43EF-3B3C-4747-B04F-EB8FFB2FB10A}resource=/crio_Mod7/DI25;0;ReadMethodType=bool{5ECBB9EF-082F-4F22-A235-5748CBD01C64}resource=/Scan Clock;0;ReadMethodType=bool{5F34EA67-4400-492C-A2B1-E716E2EDC47F}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=bool{64539AF5-9394-4F25-A2AD-B71C848286BE}resource=/crio_Mod7/DI30;0;ReadMethodType=bool{6474D3CB-E9E2-4356-B06D-7A4AC52B8601}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{688B6338-1A18-4230-BE60-69399D8A0D21}resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{6C529830-2F58-48A1-A2D4-D213B1985CEB}resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{6D4A1245-4CAD-49EE-B5FB-FA488C59C44E}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{73E6B120-30BF-441F-9905-29A7ACCDE78F}resource=/crio_Mod7/DI18;0;ReadMethodType=bool{750A8ABD-1250-4A7E-A6E2-CB2073F7108B}resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{79F0D18C-7A3D-4E51-8300-9CA6BDDC9B90}resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{7B17FCB7-FCFF-4C2A-98F8-F48E65CA6FC1}cRIO Subresource{7F0426F0-4D79-4F2C-82D9-DABC94104E06}resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{80A55D50-CBC3-4E69-B3A5-3918DC8FA092}resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8{8DE13D47-A966-42B8-88C4-9AD379E36DFC}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=bool{8E7C312F-15A3-49F1-9448-BF32BA179C8F}resource=/crio_Mod7/DI5;0;ReadMethodType=bool{8F6A0116-CC32-4B98-AA45-57B7D07EDF64}resource=/crio_Mod7/DI31;0;ReadMethodType=bool{90D49B9C-53E5-48F6-8E86-B41B399EDB04}resource=/crio_Mod7/DI21;0;ReadMethodType=bool{91F6361F-B176-4724-AC6D-AA6B82F1FDFE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=bool{93CF486C-8614-47CF-B58A-2757E34ECDB0}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{93E6BCEB-AC94-4CF7-B460-6D223B2A555F}resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{9546E05F-4311-42D1-8844-9EF297033A64}resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{95AB76C3-9699-4F0C-8CC0-F5F39C734D92}resource=/crio_Mod7/DI10;0;ReadMethodType=bool{9A556A21-787D-4365-88F7-ECD8CCA6D853}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8{9D021FCF-5C63-415B-A801-F007B20179FD}resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9E302D56-1220-4144-9684-C8578A5567F7}resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32{9FC5CA57-9252-424B-8E5E-1B57FBCAB600}resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A167D988-B11D-4E51-A154-EE5001DF3849}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{A4A48A9B-45FD-4DC8-8681-94D5736B55B4}resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A5949D55-FB50-45F1-9D84-689FA673E348}resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A5AE2FDB-5765-4345-B693-5B5135C337BB}resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8{AC4FF064-3A34-443B-BA9C-1349A967CEB5}resource=/crio_Mod7/DI16;0;ReadMethodType=bool{AC5D9256-08C9-4C8F-B5BB-BFA450D393F9}resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{AF93DC8D-6610-4D52-9E89-7B2E1B46AA66}resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{AFDDF02F-093A-4F5E-BD8D-091F0F47C3E1}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=bool{B089467F-6D6F-47C1-B00D-3D86B55805F7}resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B0D09FB8-C390-4658-B69B-5E71001EE700}resource=/crio_Mod7/DI20;0;ReadMethodType=bool{B3C0A5CA-DB81-4930-BA33-E6E4C130936E}resource=/crio_Mod7/DI0;0;ReadMethodType=bool{B7804482-174C-4665-AC4D-B4C80B45349B}resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B9A6DCD9-5CFE-47C1-AEAB-B98A99613C4A}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{BDBC7E9B-6561-44E8-99F0-BA1E32356E12}resource=/crio_Mod7/DI29;0;ReadMethodType=bool{C082B1D4-C704-4A3B-9F99-5AAA5B7DF19A}resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{C0D96DED-DD5D-4438-99F7-5A186671CA5B}resource=/crio_Mod7/DI23;0;ReadMethodType=bool{C215509E-A474-419A-A502-C7B11E384EDE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=bool{C2C8F8A9-DDDB-4936-B181-55A044F6C540}resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{C48AB8C3-AF2E-4802-8C1D-AA42183AC68C}resource=/crio_Mod7/DI15;0;ReadMethodType=bool{C58E33D1-A44B-4273-8924-2CCA1E88D5BB}resource=/crio_Mod7/DI22;0;ReadMethodType=bool{D06110C3-2ABB-4DFB-A96E-4CD29D27116B}resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D082705C-BB6B-4742-8598-A1F046917293}resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D56E7CCA-7B9B-4028-83D1-757D324A625E}resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D5A3DE9B-FA38-4554-9181-E159D4B2ABB6}resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D9DD3074-667E-4430-9A01-B7DC6DA63555}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{DA74ECC1-6983-41F0-828B-48271A735546}resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{DBD97399-2704-4319-A11D-7AE0BCDDC71C}resource=/crio_Mod7/DI6;0;ReadMethodType=bool{DE99FA4C-476C-4810-B402-B7A59983453E}resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{DEE94954-713B-4ED5-8FF2-E5DD067BF7C6}resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E12206C8-1E1E-4E99-B00C-3D215BFF943B}resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{E18E751B-4831-4304-BD6C-1BB1FD821660}resource=/crio_Mod7/DI1;0;ReadMethodType=bool{E35CB726-D2A2-444E-A4A8-82FF21EB9D93}resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{E6103629-B695-41FB-8D06-2FA21CD593A0}cRIO Subresource{E661D10B-740D-4C6C-B98A-193375DC585F}cRIO Subresource{E8DB0CCD-6F2E-49E9-A8E2-2FD27E787110}resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8{E91298C9-EC32-4566-A327-FDC356A04D1A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=bool{E98C250F-9754-4488-84D8-4A188EBBFF10}resource=/crio_Mod7/DI2;0;ReadMethodType=bool{EF7CD3F0-D0B1-4B6B-9D3E-141B63DD1A00}resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{F1F4A7C3-2240-4E0F-A231-5BD27F25A7A4}resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{F6A5EE98-A80F-4BA8-B162-BCEEE7963980}resource=/crio_Mod1/Trig;0;ReadMethodType=bool{F907A2A7-6649-4E57-9C63-AB01238BC28F}resource=/crio_Mod7/DI3;0;ReadMethodType=bool{FBFF42E5-C62E-494A-BA71-B7B1207E2044}resource=/crio_Mod7/DI28;0;ReadMethodType=bool{FC4C9496-87FE-4472-906C-B2AAF37DC27B}resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{FD75CF6C-DC3B-4AC3-BEA9-5195ECA2CF62}resource=/Chassis Temperature;0;ReadMethodType=i16{FF881DD5-BF75-403C-B3D5-EB86E10809CA}resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlcRIO-9067/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9067FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Beamline GV 1 CLOSED sensorresource=/crio_Mod7/DI7;0;ReadMethodType=boolBeamline GV 1 OPEN sensorresource=/crio_Mod7/DI6;0;ReadMethodType=boolBeamline GV 1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=boolChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9067/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9067FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Cryo GVArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=boolCryo Pump GV CLOSED sensorresource=/crio_Mod7/DI13;0;ReadMethodType=boolCryo Pump GV OPEN sensorresource=/crio_Mod7/DI12;0;ReadMethodType=boolDown Steerer Current readresource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlDown Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=boolDown Steerer Voltage readresource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlDown Steerer Voltage setresource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlLeft Steerer Current readresource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlLeft Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=boolLeft Steerer Voltage readresource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlLeft Steerer Voltage setresource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod1/AI10resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI11resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI12resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI13resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI14resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI15resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI16resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI17resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI18resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI19resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI20resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI21resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI22resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI23resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI24resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI25resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI26resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI27resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI28resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI29resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI30resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI31resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI8resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI9resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/DI0resource=/crio_Mod1/DI0;0;ReadMethodType=boolMod1/DO0resource=/crio_Mod1/DO0;0;WriteMethodType=boolMod1/Trigresource=/crio_Mod1/Trig;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=0,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=0,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=0,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=0,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=0,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=0,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO10resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO11resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO12resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO13resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO14resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO15resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO4resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO5resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO6resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO7resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO8resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO9resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DI10resource=/crio_Mod7/DI10;0;ReadMethodType=boolMod7/DI11resource=/crio_Mod7/DI11;0;ReadMethodType=boolMod7/DI14resource=/crio_Mod7/DI14;0;ReadMethodType=boolMod7/DI15:8resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8Mod7/DI15resource=/crio_Mod7/DI15;0;ReadMethodType=boolMod7/DI16resource=/crio_Mod7/DI16;0;ReadMethodType=boolMod7/DI17resource=/crio_Mod7/DI17;0;ReadMethodType=boolMod7/DI18resource=/crio_Mod7/DI18;0;ReadMethodType=boolMod7/DI19resource=/crio_Mod7/DI19;0;ReadMethodType=boolMod7/DI20resource=/crio_Mod7/DI20;0;ReadMethodType=boolMod7/DI21resource=/crio_Mod7/DI21;0;ReadMethodType=boolMod7/DI22resource=/crio_Mod7/DI22;0;ReadMethodType=boolMod7/DI23:16resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8Mod7/DI23resource=/crio_Mod7/DI23;0;ReadMethodType=boolMod7/DI24resource=/crio_Mod7/DI24;0;ReadMethodType=boolMod7/DI25resource=/crio_Mod7/DI25;0;ReadMethodType=boolMod7/DI26resource=/crio_Mod7/DI26;0;ReadMethodType=boolMod7/DI27resource=/crio_Mod7/DI27;0;ReadMethodType=boolMod7/DI28resource=/crio_Mod7/DI28;0;ReadMethodType=boolMod7/DI29resource=/crio_Mod7/DI29;0;ReadMethodType=boolMod7/DI30resource=/crio_Mod7/DI30;0;ReadMethodType=boolMod7/DI31:0resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32Mod7/DI31:24resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8Mod7/DI31resource=/crio_Mod7/DI31;0;ReadMethodType=boolMod7/DI7:0resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8Mod7/DI8resource=/crio_Mod7/DI8;0;ReadMethodType=boolMod7/DI9resource=/crio_Mod7/DI9;0;ReadMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/CH7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourceRight Steerer Current readresource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlRight Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=boolRight Steerer Voltage readresource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlRight Steerer Voltage setresource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSwitch Magnet Aperture ActuatorArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=boolSwitch Magnet Aperture IN sensorresource=/crio_Mod7/DI2;0;ReadMethodType=boolSwitch Magnet Aperture OUT sensorresource=/crio_Mod7/DI3;0;ReadMethodType=boolSwitch Magnet FC ActuatorArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=boolSwitch Magnet FC IN sensorresource=/crio_Mod7/DI0;0;ReadMethodType=boolSwitch Magnet FC OUT sensorresource=/crio_Mod7/DI1;0;ReadMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUp Steerer Current readresource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlUp Steerer HV EnableArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=boolUp Steerer Voltage readresource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlUp Steerer Voltage setresource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlUSER FPGA LEDArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/USER FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolVac cluster 1 Convectron Gauge Interlockresource=/crio_Mod7/DI5;0;ReadMethodType=boolVac cluster 1 Ion Gauge Interlockresource=/crio_Mod7/DI4;0;ReadMethodType=bool</Property>
+					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">D:\Repo\PRIME Lab 2017a\Builds\cRIOs\R45-1-cRIO\FPGA\PRIMEControl2017_FPGA-R45-1_FPGA-R45-1_ICkNri1NZgg.lvbitx</Property>
+				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
+						<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
 				</Item>
-				<Item Name="Build Specifications" Type="Build"/>
+				<Item Name="Build Specifications" Type="Build">
+					<Item Name="FPGA-R45-1" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
+						<Property Name="BuildSpecDecription" Type="Str"></Property>
+						<Property Name="BuildSpecName" Type="Str">FPGA-R45-1</Property>
+						<Property Name="Comp.BitfileName" Type="Str">PRIMEControl2017_FPGA-R45-1_FPGA-R45-1_ICkNri1NZgg.lvbitx</Property>
+						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
+						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
+						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
+						<Property Name="Comp.Version.Build" Type="Int">0</Property>
+						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
+						<Property Name="Comp.Version.Major" Type="Int">1</Property>
+						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
+						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
+						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
+						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
+						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
+						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
+						<Property Name="Comp.Xilinx.MapEffort" Type="Str">default(noTiming)</Property>
+						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
+						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
+						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
+						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
+						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/cRIOs/R45-1-cRIO/FPGA</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/cRIOs/R45-1-cRIO/FPGA/PRIMEControl2017_FPGA-R45-1_FPGA-R45-1_ICkNri1NZgg.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path"></Property>
+						<Property Name="ProjectPath" Type="Path">/D/Repo/PRIME Lab 2017a/CONnie/PRIME Control 2017a/PRIME Control 2017a.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">false</Property>
+						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
+						<Property Name="SupportDownload" Type="Bool">true</Property>
+						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
+						<Property Name="TargetName" Type="Str">FPGA-R45-1</Property>
+						<Property Name="TopLevelVI" Type="Ref">/R45-1-cRIO/Chassis/FPGA-R45-1/R45_1-FPGA.vi</Property>
+					</Item>
+				</Item>
 			</Item>
 		</Item>
-		<Item Name="global R45-1 shared var.lvlib" Type="Library" URL="../cRIO code/R45-1/global R45-1 shared var.lvlib"/>
-		<Item Name="local R45-1 shared var.lvlib" Type="Library" URL="../cRIO code/R45-1/local R45-1 shared var.lvlib"/>
+		<Item Name="global R45_1 shared var lib.lvlib" Type="Library" URL="../cRIO code/R45-1/global R45_1 shared var lib.lvlib"/>
+		<Item Name="local R45_1 shared var lib.lvlib" Type="Library" URL="../cRIO code/R45-1/local R45_1 shared var lib.lvlib"/>
 		<Item Name="R45-1_RT.html" Type="Document" URL="../cRIO code/R45-1_RT.html"/>
-		<Item Name="RT-R45-1.vi" Type="VI" URL="../cRIO code/R45-1/RT-R45-1.vi"/>
-		<Item Name="shared var r45_1.lvlib" Type="Library" URL="../cRIO code/R45-1/shared var r45_1.lvlib"/>
+		<Item Name="R45_1-RT.vi" Type="VI" URL="../cRIO code/R45-1/R45_1-RT.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
+				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 			</Item>
-			<Item Name="10kv set steerer1.vi" Type="VI" URL="../cRIO code/R45-1/10kv set steerer1.vi"/>
+			<Item Name="Aperture Readback.ctl" Type="VI" URL="../control vi/controls/Aperture Readback.ctl"/>
+			<Item Name="Aperture states.ctl" Type="VI" URL="../control vi/controls/Aperture states.ctl"/>
+			<Item Name="Aperture status converter.vi" Type="VI" URL="../control vi/sub-VIs/Aperture status converter.vi"/>
+			<Item Name="Cryo Readback.ctl" Type="VI" URL="../control vi/controls/Cryo Readback.ctl"/>
+			<Item Name="Faraday Cup Readback.ctl" Type="VI" URL="../control vi/controls/Faraday Cup Readback.ctl"/>
+			<Item Name="Faraday cup states.ctl" Type="VI" URL="../control vi/controls/Faraday cup states.ctl"/>
+			<Item Name="Faraday status converter.vi" Type="VI" URL="../control vi/sub-VIs/Faraday status converter.vi"/>
+			<Item Name="Glassman Control.ctl" Type="VI" URL="../control vi/controls/Glassman Control.ctl"/>
+			<Item Name="GP307 cluster.ctl" Type="VI" URL="../cRIO code/SCA/controls/GP307 cluster.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="RT-R45-1" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{69325F1B-9042-4F97-BB07-223D07BC49CB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{81C659D1-2F5E-4D7B-BF71-21962A45744A}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{1E0A797F-60EC-4EAB-811A-28C27E3FA6AE}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RT-R45-1</Property>
+				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/cRIOs/NI_AB_TARGETNAME/RT</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{82B852F9-D5EB-4110-8F3C-DC6A9198AC98}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
+				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].destName" Type="Str">www</Property>
+				<Property Name="Destination[2].path" Type="Path">/var/local/natinst/labview/www</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{569226BF-7F39-4EAD-8B32-0FAE47F1AB15}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/R45-1-cRIO/R45_1-RT.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/R45-1-cRIO/R45-1_RT.html</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/R45-1-cRIO/local R45_1 shared var lib.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/R45-1-cRIO/global R45_1 shared var lib.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">RT-R45-1</Property>
+				<Property Name="TgtF_internalName" Type="Str">RT-R45-1</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
+				<Property Name="TgtF_productName" Type="Str">RT-R45-1</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B5D71B33-4793-4B5E-8917-2BA45B1FF9CB}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
+			</Item>
+		</Item>
 	</Item>
-	<Item Name="Rio-R45-2" Type="RT CompactRIO">
-		<Property Name="alias.name" Type="Str">Rio-R45-2</Property>
+	<Item Name="R45-2-cRIO" Type="RT CompactRIO">
+		<Property Name="alias.name" Type="Str">R45-2-cRIO</Property>
 		<Property Name="alias.value" Type="Str">192.168.1.9</Property>
 		<Property Name="CCSymbols" Type="Str">OS,VxWorks;CPU,PowerPC;TARGET_TYPE,RT;DeviceCode,729D;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">729D</Property>
@@ -15448,7 +15630,7 @@ DirectoryIndex index.htm
 			<Item Name="FPGA Target 8" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">true</Property>
 				<Property Name="configString.guid" Type="Str">{00AC9169-23E3-48CF-A11E-E4B4D80D29C4}resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{0562BA6C-2051-44CF-8D95-DB2BFA253249}resource=/crio_Mod7/DI2;0;ReadMethodType=bool{07ED917C-41BA-454C-BFE7-3ED805EA1F9E}resource=/crio_Mod7/DI31;0;ReadMethodType=bool{088AC67A-CBA4-4328-8898-C37A96C73B80}resource=/crio_Mod7/DI8;0;ReadMethodType=bool{0CE30778-2719-432A-9061-2AC6D00092F5}resource=/Scan Clock;0;ReadMethodType=bool{0EC9D185-0ED4-446F-8FF8-277D161227B3}resource=/crio_Mod7/DI5;0;ReadMethodType=bool{10F42641-3658-4958-8A9E-DC85CA40BA84}resource=/crio_Mod7/DI27;0;ReadMethodType=bool{18E50269-5220-48F3-BFF9-623931D0A994}resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{1C53EC44-027A-4BF7-9C7B-F591A1248D4B}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8{1D172ED6-F313-4C73-981E-9BEB475CDEC2}resource=/crio_Mod7/DI28;0;ReadMethodType=bool{1D4B6A28-BA30-4319-A0E5-A24EA50FC903}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=bool{1E23978F-889B-4BBA-B1A7-D6DD32D8025D}resource=/crio_Mod7/DI26;0;ReadMethodType=bool{2414B9DB-D516-476A-992A-C7768A3FABEB}resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{26627547-DD9F-45EE-B0F6-581F35FF07BF}resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{29EB9E1F-451A-482C-9DDB-F4E307FECB63}resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{2A13CA20-A07C-49F8-944F-8D653E69C624}cRIO Subresource{2E51904D-3703-4ACB-AA1D-A8A6EDBAA984}resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{2EF6CE05-F00D-4031-B794-8DBE259E145D}cRIO Subresource{2FF67440-CBA3-43A6-BC90-F6AA65B2B370}resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{310F8323-28CF-4783-BABF-CC8990F70A6E}resource=/crio_Mod7/DI17;0;ReadMethodType=bool{340ACB54-A0FD-4302-96FC-04ECC0569023}resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{346A8B75-76AA-4CFD-BD35-3DF8330A7D05}resource=/crio_Mod7/DI9;0;ReadMethodType=bool{3C5273D5-2073-4E51-AD03-DA12CD8F9BB0}resource=/crio_Mod1/DI0;0;ReadMethodType=bool{42DB62F4-2637-46B3-82BA-683E82FB20BB}resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{43B7EA8A-B61C-431D-BC2C-39FEF38F1854}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{45A7F273-27E9-42A9-A9B1-7CA055407528}resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{4655A3E1-6394-4825-ACCE-0C245EACC068}resource=/crio_Mod1/Trig;0;ReadMethodType=bool{4AA9ADBC-1309-4232-A801-2D0B805B3638}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=bool{4EBC5B71-8D17-43CC-B354-B820CE3BC520}resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{4FC353CF-8A04-4968-8353-E4BAEAEA0F47}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{556D073A-CA18-4A9B-9AAB-53CC3EFD0578}resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{55E5CA09-ECA3-4793-AD61-FFFFA75741B7}resource=/crio_Mod7/DI20;0;ReadMethodType=bool{578CF99A-A45C-475C-9248-D831CF2742CD}resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{57E59B88-EB43-4117-B7BA-1B859C284295}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=bool{597F32AC-88A8-4F92-8B79-6072FC41641D}resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{5AE77D24-64A2-4450-84FE-01C54A7E5C3A}resource=/crio_Mod7/DI19;0;ReadMethodType=bool{5CF38987-48BB-460C-8127-843BA1BCEA7A}resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{5E792DA7-9753-4DDE-BA89-B6A9BC755192}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=bool{5EF25A29-6AE0-4704-9EFF-BB906580A0CE}resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8{5F84BF61-69B6-486B-A608-CCB13DCCA995}resource=/crio_Mod7/DI6;0;ReadMethodType=bool{6018CB89-D8C3-4FDC-BDA6-28820E30D427}resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8{6442331A-195C-4790-92BB-910A7F9AE00B}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{65709114-D8AD-40ED-BF53-3692D93F0CF8}resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{65ED38B3-619C-43F8-801A-13CDB6D8B0BE}resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{668D6C33-8A82-4F3D-9870-C53E02A7DA5D}resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{6AE1D4A8-494F-41A8-8506-471F1511A4A6}resource=/crio_Mod7/DI24;0;ReadMethodType=bool{6C376416-944D-49A0-BB29-E6B2CFDEF9FE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=bool{6E1ABB30-A1AC-45B8-A1B5-F4664C350520}resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{739AA0BE-4195-4EC3-B64A-0438C39A2987}resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{74F5C688-6AEC-4410-8CBA-8FED0138D80A}resource=/crio_Mod7/DI22;0;ReadMethodType=bool{75693457-37DA-4C3E-AA7F-066722A41D0C}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{7839B614-75EB-4878-8623-1B64CC03B910}resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8{79797C73-0E49-4329-80C2-22E7B733E0A3}cRIO Subresource{7A60D7B8-2505-4257-BC7D-EFB76017BBE1}resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{7D75BB9B-8D14-4E66-B4DF-348C4D16632F}cRIO Subresource{7E024C3B-2A10-4B58-BC38-B85310BE7B33}resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{7EB4919B-B186-4CED-9C2D-3A44C63C88AC}resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{80FCA87F-17C6-46C8-8C6E-65865B585733}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{81265DBD-25F5-4662-A345-B4E5C2D05053}resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{81D1F74C-5289-4D5A-A7FA-886A2F1B61F2}resource=/crio_Mod7/DI23;0;ReadMethodType=bool{863632F6-5ACB-47DD-BB34-6B45D6BD4732}resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{8739E18A-9450-422C-8150-C5F9C97A2379}resource=/crio_Mod7/DI10;0;ReadMethodType=bool{87DC8802-FDA4-4B6A-9CDD-58A4E1E13682}resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{8AA6DC53-1925-4F33-A4D1-60AA85649856}resource=/crio_Mod7/DI0;0;ReadMethodType=bool{906CD54E-DF94-4803-855E-9CF080C97A78}resource=/crio_Mod7/DI21;0;ReadMethodType=bool{909F73DD-F0AC-45B1-BB14-DB48BAD34290}resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9580C4C6-E625-455D-A347-B13FE35C7194}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{9A11B742-731C-460F-903E-BD7254C88002}resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9A8C429B-400C-4E0E-B10E-2A3956046A53}resource=/crio_Mod7/DI1;0;ReadMethodType=bool{9C9769F7-8CBF-4F22-B348-5D4F3F081BB6}resource=/crio_Mod7/DI7;0;ReadMethodType=bool{9EA17425-50D7-4773-AD00-D4A78D76492F}resource=/crio_Mod7/DI11;0;ReadMethodType=bool{9FE03BB6-EB97-4DD4-BC54-8507F9FE67E1}resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A12E5343-ADED-4275-856F-97FB19033FF3}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{A419D5B1-8C3E-4F52-80CD-523D9C192797}resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A92802EF-3ED7-4B40-9B34-0EBAE059AC96}resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A93B42B8-78AB-4E62-AE74-6DDF5FF21DC0}resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{AD285319-22F4-48EC-A519-78B571792770}resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{AD302824-D9F1-4CDC-99AB-93EF5678C4DD}cRIO Subresource{AE24488F-09CA-4696-9E8A-3BC0BD6A1E3C}resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B224B2F6-C3DB-47EB-BD70-263A5F42EA3A}resource=/crio_Mod7/DI15;0;ReadMethodType=bool{B368656E-88D9-4DFD-B974-0D8BE8347C2A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=bool{B84B2C54-B755-40E9-A619-B94FFC3B7941}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=bool{BA8AE6CF-653E-42D0-B782-49913C02C5A5}resource=/crio_Mod7/DI18;0;ReadMethodType=bool{BBA17476-1A6E-4EF7-9F35-83A2B43C3734}resource=/crio_Mod7/DI14;0;ReadMethodType=bool{BC9D47E0-C058-4D0B-BE97-778A0897577B}resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{BDBF8B21-D486-45CF-9162-745C25CF1CF5}resource=/crio_Mod7/DI25;0;ReadMethodType=bool{BDD65E6C-930F-4253-BB6E-61BAB384F6B6}resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{BF3F0C1B-EA6C-4D57-B65E-C6FBDAC052E4}cRIO Subresource{BFDF7680-184E-41CC-BCC6-C2308F5990AC}resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{BFF4F283-E0C8-43E0-8D4D-87C2A9B4EEB2}resource=/crio_Mod7/DI3;0;ReadMethodType=bool{C0B8DD8E-235A-4AA3-8BEF-A3B24A1EB330}resource=/Chassis Temperature;0;ReadMethodType=i16{C1A76E82-D15F-472A-928C-388402647FF1}resource=/crio_Mod7/DI12;0;ReadMethodType=bool{C48E3192-3E28-4B10-A5DF-CD86291AFF00}resource=/crio_Mod7/DI16;0;ReadMethodType=bool{C4C6ABF5-EFB6-4A26-8BB7-5D6D52D01A6B}resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{CEEA9F01-C332-41DC-85BE-E1C34568AA5A}resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{CFAF5CAD-37CC-4355-9AC8-7C2B1994128C}cRIO Subresource{D53F920F-11B4-4E1A-B95E-DCFA54EAD72C}resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D64F3F43-8941-4F7C-B68B-7FD23A7AC5BE}resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D6DA1818-E058-4071-A58F-01BAE39A71BE}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{D74CF84C-A356-4B8E-A691-72B9D0AF38CA}resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D7869BE1-3BB9-4075-A477-C079CAF09ECA}resource=/crio_Mod7/DI4;0;ReadMethodType=bool{D7948EFC-5D6C-4552-8A14-582F37A8E2B4}resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{DAA9330F-6B30-402B-8F22-993B5FE050B4}resource=/crio_Mod7/DI29;0;ReadMethodType=bool{DD9E6572-D270-41E4-BB1D-8BF9CBEB1069}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{DDEA50D2-B0A1-4EA1-9236-E00752A3A3AB}resource=/crio_Mod1/DO0;0;WriteMethodType=bool{E0AA61C6-ECFF-4145-A12C-228C5DB8F043}cRIO Subresource{E5391A9D-F701-4DD3-B813-D62932158804}resource=/crio_Mod7/DI13;0;ReadMethodType=bool{E7F71143-FE9F-459D-9EC5-B27E818CDDA7}resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8{ECD4F51B-F1D8-4A13-8962-10DC69681A69}resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{EE0FD02E-F038-46EC-B3A9-D2685B4F9E74}resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32{F2945574-6F4F-457F-A6EE-EE4F72BC0C00}resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{F2EB5D56-ABC4-46AD-8EBE-9156C471B18F}resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{F45FADBA-3E24-4297-A1EA-EF20FBA8B5E0}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=bool{F5885582-F843-43EC-8500-338FA12BCA1E}resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{FC33A41A-0DA9-4B20-BE2F-45563BA717F0}resource=/crio_Mod7/DI30;0;ReadMethodType=bool{FE7867E9-1952-4787-B9D8-FC8E8B31C6F8}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=2,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=2,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=2,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=2,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=2,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=2,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{FF18C3DB-5BAE-4EA7-9870-60B36EF708B6}resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlcRIO-9074/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9074/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]ExB 1- I readresource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1- V readresource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1+ I readresource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1+ V readresource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2- I readresource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2- V readresource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2+ I readresource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2+ V readresource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1/AI10resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI11resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI12resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI13resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI14resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI15resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI16resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI17resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI18resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI19resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI20resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI21resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI22resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI23resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI24resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI25resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI26resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI27resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI28resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI29resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI30resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI31resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI8resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI9resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/DI0resource=/crio_Mod1/DI0;0;ReadMethodType=boolMod1/DO0resource=/crio_Mod1/DO0;0;WriteMethodType=boolMod1/Trigresource=/crio_Mod1/Trig;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=2,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=2,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=2,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=2,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=2,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=2,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO0resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO10resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO11resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO12resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO13resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO14resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO15resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO1resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO2resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO3resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO4resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO5resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO6resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO7resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO8resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO9resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DI0resource=/crio_Mod7/DI0;0;ReadMethodType=boolMod7/DI10resource=/crio_Mod7/DI10;0;ReadMethodType=boolMod7/DI11resource=/crio_Mod7/DI11;0;ReadMethodType=boolMod7/DI12resource=/crio_Mod7/DI12;0;ReadMethodType=boolMod7/DI13resource=/crio_Mod7/DI13;0;ReadMethodType=boolMod7/DI14resource=/crio_Mod7/DI14;0;ReadMethodType=boolMod7/DI15:8resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8Mod7/DI15resource=/crio_Mod7/DI15;0;ReadMethodType=boolMod7/DI16resource=/crio_Mod7/DI16;0;ReadMethodType=boolMod7/DI17resource=/crio_Mod7/DI17;0;ReadMethodType=boolMod7/DI18resource=/crio_Mod7/DI18;0;ReadMethodType=boolMod7/DI19resource=/crio_Mod7/DI19;0;ReadMethodType=boolMod7/DI1resource=/crio_Mod7/DI1;0;ReadMethodType=boolMod7/DI20resource=/crio_Mod7/DI20;0;ReadMethodType=boolMod7/DI21resource=/crio_Mod7/DI21;0;ReadMethodType=boolMod7/DI22resource=/crio_Mod7/DI22;0;ReadMethodType=boolMod7/DI23:16resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8Mod7/DI23resource=/crio_Mod7/DI23;0;ReadMethodType=boolMod7/DI24resource=/crio_Mod7/DI24;0;ReadMethodType=boolMod7/DI25resource=/crio_Mod7/DI25;0;ReadMethodType=boolMod7/DI26resource=/crio_Mod7/DI26;0;ReadMethodType=boolMod7/DI27resource=/crio_Mod7/DI27;0;ReadMethodType=boolMod7/DI28resource=/crio_Mod7/DI28;0;ReadMethodType=boolMod7/DI29resource=/crio_Mod7/DI29;0;ReadMethodType=boolMod7/DI2resource=/crio_Mod7/DI2;0;ReadMethodType=boolMod7/DI30resource=/crio_Mod7/DI30;0;ReadMethodType=boolMod7/DI31:0resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32Mod7/DI31:24resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8Mod7/DI31resource=/crio_Mod7/DI31;0;ReadMethodType=boolMod7/DI3resource=/crio_Mod7/DI3;0;ReadMethodType=boolMod7/DI4resource=/crio_Mod7/DI4;0;ReadMethodType=boolMod7/DI5resource=/crio_Mod7/DI5;0;ReadMethodType=boolMod7/DI6resource=/crio_Mod7/DI6;0;ReadMethodType=boolMod7/DI7:0resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8Mod7/DI7resource=/crio_Mod7/DI7;0;ReadMethodType=boolMod7/DI8resource=/crio_Mod7/DI8;0;ReadMethodType=boolMod7/DI9resource=/crio_Mod7/DI9;0;ReadMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/CH0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH3ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH4ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH5ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH6ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod8/CH7ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort1cRIO SubresourcePort2cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
+				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9074/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Detector Aperture IN sensorresource=/crio_Mod7/DI2;0;ReadMethodType=boolDetector Aperture OUT sensorresource=/crio_Mod7/DI3;0;ReadMethodType=boolDetector ApertureArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=boolDetector FC IN sensorresource=/crio_Mod7/DI0;0;ReadMethodType=boolDetector FC OUT sensorresource=/crio_Mod7/DI1;0;ReadMethodType=boolDetector FCArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=boolExB 1- I readresource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1- V readresource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1- V setresource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlExB 1+ I readresource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1+ V readresource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1+ V setresource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlExB 2- I readresource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2- V readresource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2- V setresource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlExB 2+ I readresource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2+ V readresource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2+ V setresource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1/AI10resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI11resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI12resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI13resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI14resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI15resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI16resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI17resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI18resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI19resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI20resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI21resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI22resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI23resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI24resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI25resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI26resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI27resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI28resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI29resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI30resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI31resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI8resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI9resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/DI0resource=/crio_Mod1/DI0;0;ReadMethodType=boolMod1/DO0resource=/crio_Mod1/DO0;0;WriteMethodType=boolMod1/Trigresource=/crio_Mod1/Trig;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=2,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=2,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=2,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=2,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=2,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=2,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO10resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO11resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO12resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO13resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO14resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO15resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO4resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO5resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO6resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO7resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO8resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO9resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DI10resource=/crio_Mod7/DI10;0;ReadMethodType=boolMod7/DI11resource=/crio_Mod7/DI11;0;ReadMethodType=boolMod7/DI12resource=/crio_Mod7/DI12;0;ReadMethodType=boolMod7/DI13resource=/crio_Mod7/DI13;0;ReadMethodType=boolMod7/DI14resource=/crio_Mod7/DI14;0;ReadMethodType=boolMod7/DI15:8resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8Mod7/DI15resource=/crio_Mod7/DI15;0;ReadMethodType=boolMod7/DI16resource=/crio_Mod7/DI16;0;ReadMethodType=boolMod7/DI17resource=/crio_Mod7/DI17;0;ReadMethodType=boolMod7/DI18resource=/crio_Mod7/DI18;0;ReadMethodType=boolMod7/DI19resource=/crio_Mod7/DI19;0;ReadMethodType=boolMod7/DI20resource=/crio_Mod7/DI20;0;ReadMethodType=boolMod7/DI21resource=/crio_Mod7/DI21;0;ReadMethodType=boolMod7/DI22resource=/crio_Mod7/DI22;0;ReadMethodType=boolMod7/DI23:16resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8Mod7/DI23resource=/crio_Mod7/DI23;0;ReadMethodType=boolMod7/DI24resource=/crio_Mod7/DI24;0;ReadMethodType=boolMod7/DI25resource=/crio_Mod7/DI25;0;ReadMethodType=boolMod7/DI26resource=/crio_Mod7/DI26;0;ReadMethodType=boolMod7/DI27resource=/crio_Mod7/DI27;0;ReadMethodType=boolMod7/DI28resource=/crio_Mod7/DI28;0;ReadMethodType=boolMod7/DI29resource=/crio_Mod7/DI29;0;ReadMethodType=boolMod7/DI30resource=/crio_Mod7/DI30;0;ReadMethodType=boolMod7/DI31:0resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32Mod7/DI31:24resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8Mod7/DI31resource=/crio_Mod7/DI31;0;ReadMethodType=boolMod7/DI4resource=/crio_Mod7/DI4;0;ReadMethodType=boolMod7/DI5resource=/crio_Mod7/DI5;0;ReadMethodType=boolMod7/DI6resource=/crio_Mod7/DI6;0;ReadMethodType=boolMod7/DI7:0resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8Mod7/DI7resource=/crio_Mod7/DI7;0;ReadMethodType=boolMod7/DI8resource=/crio_Mod7/DI8;0;ReadMethodType=boolMod7/DI9resource=/crio_Mod7/DI9;0;ReadMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/CH1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH3ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH4ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH5ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH6ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod8/CH7ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort1cRIO SubresourcePort2cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">cRIO-9074/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
 				<Property Name="NI.SortType" Type="Int">3</Property>
@@ -15821,7 +16003,7 @@ DirectoryIndex index.htm
 					</Item>
 				</Item>
 				<Item Name="Mod2" Type="Folder">
-					<Item Name="Mod2/AO0" Type="Elemental IO">
+					<Item Name="ExB 1- V set" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod2/AO0</Value>
@@ -15830,7 +16012,7 @@ DirectoryIndex index.htm
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{6E1ABB30-A1AC-45B8-A1B5-F4664C350520}</Property>
 					</Item>
-					<Item Name="Mod2/AO1" Type="Elemental IO">
+					<Item Name="ExB 1+ V set" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod2/AO1</Value>
@@ -15839,7 +16021,7 @@ DirectoryIndex index.htm
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{42DB62F4-2637-46B3-82BA-683E82FB20BB}</Property>
 					</Item>
-					<Item Name="Mod2/AO2" Type="Elemental IO">
+					<Item Name="ExB 2- V set" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod2/AO2</Value>
@@ -15848,7 +16030,7 @@ DirectoryIndex index.htm
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{A419D5B1-8C3E-4F52-80CD-523D9C192797}</Property>
 					</Item>
-					<Item Name="Mod2/AO3" Type="Elemental IO">
+					<Item Name="ExB 2+ V set" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod2/AO3</Value>
@@ -15967,7 +16149,7 @@ DirectoryIndex index.htm
 					</Item>
 				</Item>
 				<Item Name="Mod7" Type="Folder">
-					<Item Name="Mod7/DI0" Type="Elemental IO">
+					<Item Name="Detector FC IN sensor" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod7/DI0</Value>
@@ -15976,7 +16158,7 @@ DirectoryIndex index.htm
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{8AA6DC53-1925-4F33-A4D1-60AA85649856}</Property>
 					</Item>
-					<Item Name="Mod7/DI1" Type="Elemental IO">
+					<Item Name="Detector FC OUT sensor" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod7/DI1</Value>
@@ -15985,7 +16167,7 @@ DirectoryIndex index.htm
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{9A8C429B-400C-4E0E-B10E-2A3956046A53}</Property>
 					</Item>
-					<Item Name="Mod7/DI2" Type="Elemental IO">
+					<Item Name="Detector Aperture IN sensor" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod7/DI2</Value>
@@ -15994,7 +16176,7 @@ DirectoryIndex index.htm
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{0562BA6C-2051-44CF-8D95-DB2BFA253249}</Property>
 					</Item>
-					<Item Name="Mod7/DI3" Type="Elemental IO">
+					<Item Name="Detector Aperture OUT sensor" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="resource">
    <Value>/crio_Mod7/DI3</Value>
@@ -16302,7 +16484,7 @@ DirectoryIndex index.htm
 					</Item>
 				</Item>
 				<Item Name="Mod8" Type="Folder">
-					<Item Name="Mod8/CH0" Type="Elemental IO">
+					<Item Name="Detector FC" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -16326,7 +16508,7 @@ DirectoryIndex index.htm
 </Property>
 						<Property Name="FPGA.PersistentID" Type="Str">{4AA9ADBC-1309-4232-A801-2D0B805B3638}</Property>
 					</Item>
-					<Item Name="Mod8/CH2" Type="Elemental IO">
+					<Item Name="Detector Aperture" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
    <Attribute name="ArbitrationForOutputData">
    <Value>NeverArbitrate</Value>
@@ -16637,10 +16819,15 @@ DirectoryIndex index.htm
 					<Property Name="cRIOModule.EnableSpecialtyDigital" Type="Str">false</Property>
 					<Property Name="FPGA.PersistentID" Type="Str">{9580C4C6-E625-455D-A347-B13FE35C7194}</Property>
 				</Item>
-				<Item Name="R45crio2_fpga.vi" Type="VI" URL="../control vi/R45/Crio 2/fpga/R45crio2_fpga.vi">
+				<Item Name="R45_2-FPGA.vi" Type="VI" URL="../cRIO code/R45-2/R45_2-FPGA.vi">
+					<Property Name="BuildSpec" Type="Str">{0A3CA135-4FBF-4EE2-A739-F6BB46437503}</Property>
 					<Property Name="configString.guid" Type="Str">{00AC9169-23E3-48CF-A11E-E4B4D80D29C4}resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{0562BA6C-2051-44CF-8D95-DB2BFA253249}resource=/crio_Mod7/DI2;0;ReadMethodType=bool{07ED917C-41BA-454C-BFE7-3ED805EA1F9E}resource=/crio_Mod7/DI31;0;ReadMethodType=bool{088AC67A-CBA4-4328-8898-C37A96C73B80}resource=/crio_Mod7/DI8;0;ReadMethodType=bool{0CE30778-2719-432A-9061-2AC6D00092F5}resource=/Scan Clock;0;ReadMethodType=bool{0EC9D185-0ED4-446F-8FF8-277D161227B3}resource=/crio_Mod7/DI5;0;ReadMethodType=bool{10F42641-3658-4958-8A9E-DC85CA40BA84}resource=/crio_Mod7/DI27;0;ReadMethodType=bool{18E50269-5220-48F3-BFF9-623931D0A994}resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{1C53EC44-027A-4BF7-9C7B-F591A1248D4B}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8{1D172ED6-F313-4C73-981E-9BEB475CDEC2}resource=/crio_Mod7/DI28;0;ReadMethodType=bool{1D4B6A28-BA30-4319-A0E5-A24EA50FC903}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=bool{1E23978F-889B-4BBA-B1A7-D6DD32D8025D}resource=/crio_Mod7/DI26;0;ReadMethodType=bool{2414B9DB-D516-476A-992A-C7768A3FABEB}resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{26627547-DD9F-45EE-B0F6-581F35FF07BF}resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{29EB9E1F-451A-482C-9DDB-F4E307FECB63}resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{2A13CA20-A07C-49F8-944F-8D653E69C624}cRIO Subresource{2E51904D-3703-4ACB-AA1D-A8A6EDBAA984}resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{2EF6CE05-F00D-4031-B794-8DBE259E145D}cRIO Subresource{2FF67440-CBA3-43A6-BC90-F6AA65B2B370}resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{310F8323-28CF-4783-BABF-CC8990F70A6E}resource=/crio_Mod7/DI17;0;ReadMethodType=bool{340ACB54-A0FD-4302-96FC-04ECC0569023}resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{346A8B75-76AA-4CFD-BD35-3DF8330A7D05}resource=/crio_Mod7/DI9;0;ReadMethodType=bool{3C5273D5-2073-4E51-AD03-DA12CD8F9BB0}resource=/crio_Mod1/DI0;0;ReadMethodType=bool{42DB62F4-2637-46B3-82BA-683E82FB20BB}resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{43B7EA8A-B61C-431D-BC2C-39FEF38F1854}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{45A7F273-27E9-42A9-A9B1-7CA055407528}resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{4655A3E1-6394-4825-ACCE-0C245EACC068}resource=/crio_Mod1/Trig;0;ReadMethodType=bool{4AA9ADBC-1309-4232-A801-2D0B805B3638}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=bool{4EBC5B71-8D17-43CC-B354-B820CE3BC520}resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{4FC353CF-8A04-4968-8353-E4BAEAEA0F47}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{556D073A-CA18-4A9B-9AAB-53CC3EFD0578}resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{55E5CA09-ECA3-4793-AD61-FFFFA75741B7}resource=/crio_Mod7/DI20;0;ReadMethodType=bool{578CF99A-A45C-475C-9248-D831CF2742CD}resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{57E59B88-EB43-4117-B7BA-1B859C284295}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=bool{597F32AC-88A8-4F92-8B79-6072FC41641D}resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{5AE77D24-64A2-4450-84FE-01C54A7E5C3A}resource=/crio_Mod7/DI19;0;ReadMethodType=bool{5CF38987-48BB-460C-8127-843BA1BCEA7A}resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{5E792DA7-9753-4DDE-BA89-B6A9BC755192}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=bool{5EF25A29-6AE0-4704-9EFF-BB906580A0CE}resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8{5F84BF61-69B6-486B-A608-CCB13DCCA995}resource=/crio_Mod7/DI6;0;ReadMethodType=bool{6018CB89-D8C3-4FDC-BDA6-28820E30D427}resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8{6442331A-195C-4790-92BB-910A7F9AE00B}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{65709114-D8AD-40ED-BF53-3692D93F0CF8}resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{65ED38B3-619C-43F8-801A-13CDB6D8B0BE}resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{668D6C33-8A82-4F3D-9870-C53E02A7DA5D}resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{6AE1D4A8-494F-41A8-8506-471F1511A4A6}resource=/crio_Mod7/DI24;0;ReadMethodType=bool{6C376416-944D-49A0-BB29-E6B2CFDEF9FE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=bool{6E1ABB30-A1AC-45B8-A1B5-F4664C350520}resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{739AA0BE-4195-4EC3-B64A-0438C39A2987}resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{74F5C688-6AEC-4410-8CBA-8FED0138D80A}resource=/crio_Mod7/DI22;0;ReadMethodType=bool{75693457-37DA-4C3E-AA7F-066722A41D0C}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{7839B614-75EB-4878-8623-1B64CC03B910}resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8{79797C73-0E49-4329-80C2-22E7B733E0A3}cRIO Subresource{7A60D7B8-2505-4257-BC7D-EFB76017BBE1}resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{7D75BB9B-8D14-4E66-B4DF-348C4D16632F}cRIO Subresource{7E024C3B-2A10-4B58-BC38-B85310BE7B33}resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{7EB4919B-B186-4CED-9C2D-3A44C63C88AC}resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{80FCA87F-17C6-46C8-8C6E-65865B585733}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{81265DBD-25F5-4662-A345-B4E5C2D05053}resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{81D1F74C-5289-4D5A-A7FA-886A2F1B61F2}resource=/crio_Mod7/DI23;0;ReadMethodType=bool{863632F6-5ACB-47DD-BB34-6B45D6BD4732}resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{8739E18A-9450-422C-8150-C5F9C97A2379}resource=/crio_Mod7/DI10;0;ReadMethodType=bool{87DC8802-FDA4-4B6A-9CDD-58A4E1E13682}resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{8AA6DC53-1925-4F33-A4D1-60AA85649856}resource=/crio_Mod7/DI0;0;ReadMethodType=bool{906CD54E-DF94-4803-855E-9CF080C97A78}resource=/crio_Mod7/DI21;0;ReadMethodType=bool{909F73DD-F0AC-45B1-BB14-DB48BAD34290}resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9580C4C6-E625-455D-A347-B13FE35C7194}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{9A11B742-731C-460F-903E-BD7254C88002}resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9A8C429B-400C-4E0E-B10E-2A3956046A53}resource=/crio_Mod7/DI1;0;ReadMethodType=bool{9C9769F7-8CBF-4F22-B348-5D4F3F081BB6}resource=/crio_Mod7/DI7;0;ReadMethodType=bool{9EA17425-50D7-4773-AD00-D4A78D76492F}resource=/crio_Mod7/DI11;0;ReadMethodType=bool{9FE03BB6-EB97-4DD4-BC54-8507F9FE67E1}resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A12E5343-ADED-4275-856F-97FB19033FF3}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{A419D5B1-8C3E-4F52-80CD-523D9C192797}resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A92802EF-3ED7-4B40-9B34-0EBAE059AC96}resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A93B42B8-78AB-4E62-AE74-6DDF5FF21DC0}resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{AD285319-22F4-48EC-A519-78B571792770}resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{AD302824-D9F1-4CDC-99AB-93EF5678C4DD}cRIO Subresource{AE24488F-09CA-4696-9E8A-3BC0BD6A1E3C}resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B224B2F6-C3DB-47EB-BD70-263A5F42EA3A}resource=/crio_Mod7/DI15;0;ReadMethodType=bool{B368656E-88D9-4DFD-B974-0D8BE8347C2A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=bool{B84B2C54-B755-40E9-A619-B94FFC3B7941}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=bool{BA8AE6CF-653E-42D0-B782-49913C02C5A5}resource=/crio_Mod7/DI18;0;ReadMethodType=bool{BBA17476-1A6E-4EF7-9F35-83A2B43C3734}resource=/crio_Mod7/DI14;0;ReadMethodType=bool{BC9D47E0-C058-4D0B-BE97-778A0897577B}resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{BDBF8B21-D486-45CF-9162-745C25CF1CF5}resource=/crio_Mod7/DI25;0;ReadMethodType=bool{BDD65E6C-930F-4253-BB6E-61BAB384F6B6}resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{BF3F0C1B-EA6C-4D57-B65E-C6FBDAC052E4}cRIO Subresource{BFDF7680-184E-41CC-BCC6-C2308F5990AC}resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{BFF4F283-E0C8-43E0-8D4D-87C2A9B4EEB2}resource=/crio_Mod7/DI3;0;ReadMethodType=bool{C0B8DD8E-235A-4AA3-8BEF-A3B24A1EB330}resource=/Chassis Temperature;0;ReadMethodType=i16{C1A76E82-D15F-472A-928C-388402647FF1}resource=/crio_Mod7/DI12;0;ReadMethodType=bool{C48E3192-3E28-4B10-A5DF-CD86291AFF00}resource=/crio_Mod7/DI16;0;ReadMethodType=bool{C4C6ABF5-EFB6-4A26-8BB7-5D6D52D01A6B}resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{CEEA9F01-C332-41DC-85BE-E1C34568AA5A}resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{CFAF5CAD-37CC-4355-9AC8-7C2B1994128C}cRIO Subresource{D53F920F-11B4-4E1A-B95E-DCFA54EAD72C}resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D64F3F43-8941-4F7C-B68B-7FD23A7AC5BE}resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D6DA1818-E058-4071-A58F-01BAE39A71BE}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{D74CF84C-A356-4B8E-A691-72B9D0AF38CA}resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D7869BE1-3BB9-4075-A477-C079CAF09ECA}resource=/crio_Mod7/DI4;0;ReadMethodType=bool{D7948EFC-5D6C-4552-8A14-582F37A8E2B4}resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{DAA9330F-6B30-402B-8F22-993B5FE050B4}resource=/crio_Mod7/DI29;0;ReadMethodType=bool{DD9E6572-D270-41E4-BB1D-8BF9CBEB1069}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{DDEA50D2-B0A1-4EA1-9236-E00752A3A3AB}resource=/crio_Mod1/DO0;0;WriteMethodType=bool{E0AA61C6-ECFF-4145-A12C-228C5DB8F043}cRIO Subresource{E5391A9D-F701-4DD3-B813-D62932158804}resource=/crio_Mod7/DI13;0;ReadMethodType=bool{E7F71143-FE9F-459D-9EC5-B27E818CDDA7}resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8{ECD4F51B-F1D8-4A13-8962-10DC69681A69}resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{EE0FD02E-F038-46EC-B3A9-D2685B4F9E74}resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32{F2945574-6F4F-457F-A6EE-EE4F72BC0C00}resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{F2EB5D56-ABC4-46AD-8EBE-9156C471B18F}resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{F45FADBA-3E24-4297-A1EA-EF20FBA8B5E0}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=bool{F5885582-F843-43EC-8500-338FA12BCA1E}resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{FC33A41A-0DA9-4B20-BE2F-45563BA717F0}resource=/crio_Mod7/DI30;0;ReadMethodType=bool{FE7867E9-1952-4787-B9D8-FC8E8B31C6F8}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=2,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=2,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=2,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=2,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=2,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=2,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{FF18C3DB-5BAE-4EA7-9870-60B36EF708B6}resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlcRIO-9074/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
-					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9074/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]ExB 1- I readresource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1- V readresource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1+ I readresource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1+ V readresource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2- I readresource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2- V readresource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2+ I readresource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2+ V readresource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1/AI10resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI11resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI12resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI13resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI14resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI15resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI16resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI17resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI18resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI19resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI20resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI21resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI22resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI23resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI24resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI25resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI26resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI27resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI28resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI29resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI30resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI31resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI8resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI9resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/DI0resource=/crio_Mod1/DI0;0;ReadMethodType=boolMod1/DO0resource=/crio_Mod1/DO0;0;WriteMethodType=boolMod1/Trigresource=/crio_Mod1/Trig;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=2,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=2,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=2,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=2,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=2,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=2,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO0resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO10resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO11resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO12resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO13resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO14resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO15resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO1resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO2resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO3resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO4resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO5resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO6resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO7resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO8resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO9resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DI0resource=/crio_Mod7/DI0;0;ReadMethodType=boolMod7/DI10resource=/crio_Mod7/DI10;0;ReadMethodType=boolMod7/DI11resource=/crio_Mod7/DI11;0;ReadMethodType=boolMod7/DI12resource=/crio_Mod7/DI12;0;ReadMethodType=boolMod7/DI13resource=/crio_Mod7/DI13;0;ReadMethodType=boolMod7/DI14resource=/crio_Mod7/DI14;0;ReadMethodType=boolMod7/DI15:8resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8Mod7/DI15resource=/crio_Mod7/DI15;0;ReadMethodType=boolMod7/DI16resource=/crio_Mod7/DI16;0;ReadMethodType=boolMod7/DI17resource=/crio_Mod7/DI17;0;ReadMethodType=boolMod7/DI18resource=/crio_Mod7/DI18;0;ReadMethodType=boolMod7/DI19resource=/crio_Mod7/DI19;0;ReadMethodType=boolMod7/DI1resource=/crio_Mod7/DI1;0;ReadMethodType=boolMod7/DI20resource=/crio_Mod7/DI20;0;ReadMethodType=boolMod7/DI21resource=/crio_Mod7/DI21;0;ReadMethodType=boolMod7/DI22resource=/crio_Mod7/DI22;0;ReadMethodType=boolMod7/DI23:16resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8Mod7/DI23resource=/crio_Mod7/DI23;0;ReadMethodType=boolMod7/DI24resource=/crio_Mod7/DI24;0;ReadMethodType=boolMod7/DI25resource=/crio_Mod7/DI25;0;ReadMethodType=boolMod7/DI26resource=/crio_Mod7/DI26;0;ReadMethodType=boolMod7/DI27resource=/crio_Mod7/DI27;0;ReadMethodType=boolMod7/DI28resource=/crio_Mod7/DI28;0;ReadMethodType=boolMod7/DI29resource=/crio_Mod7/DI29;0;ReadMethodType=boolMod7/DI2resource=/crio_Mod7/DI2;0;ReadMethodType=boolMod7/DI30resource=/crio_Mod7/DI30;0;ReadMethodType=boolMod7/DI31:0resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32Mod7/DI31:24resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8Mod7/DI31resource=/crio_Mod7/DI31;0;ReadMethodType=boolMod7/DI3resource=/crio_Mod7/DI3;0;ReadMethodType=boolMod7/DI4resource=/crio_Mod7/DI4;0;ReadMethodType=boolMod7/DI5resource=/crio_Mod7/DI5;0;ReadMethodType=boolMod7/DI6resource=/crio_Mod7/DI6;0;ReadMethodType=boolMod7/DI7:0resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8Mod7/DI7resource=/crio_Mod7/DI7;0;ReadMethodType=boolMod7/DI8resource=/crio_Mod7/DI8;0;ReadMethodType=boolMod7/DI9resource=/crio_Mod7/DI9;0;ReadMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/CH0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH2ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH3ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH4ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH5ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH6ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod8/CH7ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort1cRIO SubresourcePort2cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
-					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">D:\Users\wymanm\Desktop\CONnie - 2017a\PRIME Control 2017a\FPGA Bitfiles\Controlsoftware2_FPGATarget8_R45crio2fpga_v8BgrifJ-aU.lvbitx</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9074/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Detector Aperture IN sensorresource=/crio_Mod7/DI2;0;ReadMethodType=boolDetector Aperture OUT sensorresource=/crio_Mod7/DI3;0;ReadMethodType=boolDetector ApertureArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=boolDetector FC IN sensorresource=/crio_Mod7/DI0;0;ReadMethodType=boolDetector FC OUT sensorresource=/crio_Mod7/DI1;0;ReadMethodType=boolDetector FCArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=boolExB 1- I readresource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1- V readresource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1- V setresource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlExB 1+ I readresource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1+ V readresource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1+ V setresource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlExB 2- I readresource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2- V readresource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2- V setresource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlExB 2+ I readresource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2+ V readresource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2+ V setresource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1/AI10resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI11resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI12resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI13resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI14resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI15resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI16resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI17resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI18resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI19resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI20resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI21resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI22resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI23resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI24resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI25resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI26resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI27resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI28resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI29resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI30resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI31resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI8resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI9resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/DI0resource=/crio_Mod1/DI0;0;ReadMethodType=boolMod1/DO0resource=/crio_Mod1/DO0;0;WriteMethodType=boolMod1/Trigresource=/crio_Mod1/Trig;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=2,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=2,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=2,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=2,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=2,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=2,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO10resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO11resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO12resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO13resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO14resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO15resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO4resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO5resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO6resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO7resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO8resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO9resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DI10resource=/crio_Mod7/DI10;0;ReadMethodType=boolMod7/DI11resource=/crio_Mod7/DI11;0;ReadMethodType=boolMod7/DI12resource=/crio_Mod7/DI12;0;ReadMethodType=boolMod7/DI13resource=/crio_Mod7/DI13;0;ReadMethodType=boolMod7/DI14resource=/crio_Mod7/DI14;0;ReadMethodType=boolMod7/DI15:8resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8Mod7/DI15resource=/crio_Mod7/DI15;0;ReadMethodType=boolMod7/DI16resource=/crio_Mod7/DI16;0;ReadMethodType=boolMod7/DI17resource=/crio_Mod7/DI17;0;ReadMethodType=boolMod7/DI18resource=/crio_Mod7/DI18;0;ReadMethodType=boolMod7/DI19resource=/crio_Mod7/DI19;0;ReadMethodType=boolMod7/DI20resource=/crio_Mod7/DI20;0;ReadMethodType=boolMod7/DI21resource=/crio_Mod7/DI21;0;ReadMethodType=boolMod7/DI22resource=/crio_Mod7/DI22;0;ReadMethodType=boolMod7/DI23:16resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8Mod7/DI23resource=/crio_Mod7/DI23;0;ReadMethodType=boolMod7/DI24resource=/crio_Mod7/DI24;0;ReadMethodType=boolMod7/DI25resource=/crio_Mod7/DI25;0;ReadMethodType=boolMod7/DI26resource=/crio_Mod7/DI26;0;ReadMethodType=boolMod7/DI27resource=/crio_Mod7/DI27;0;ReadMethodType=boolMod7/DI28resource=/crio_Mod7/DI28;0;ReadMethodType=boolMod7/DI29resource=/crio_Mod7/DI29;0;ReadMethodType=boolMod7/DI30resource=/crio_Mod7/DI30;0;ReadMethodType=boolMod7/DI31:0resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32Mod7/DI31:24resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8Mod7/DI31resource=/crio_Mod7/DI31;0;ReadMethodType=boolMod7/DI4resource=/crio_Mod7/DI4;0;ReadMethodType=boolMod7/DI5resource=/crio_Mod7/DI5;0;ReadMethodType=boolMod7/DI6resource=/crio_Mod7/DI6;0;ReadMethodType=boolMod7/DI7:0resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8Mod7/DI7resource=/crio_Mod7/DI7;0;ReadMethodType=boolMod7/DI8resource=/crio_Mod7/DI8;0;ReadMethodType=boolMod7/DI9resource=/crio_Mod7/DI9;0;ReadMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/CH1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH3ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH4ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH5ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH6ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod8/CH7ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort1cRIO SubresourcePort2cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
+					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">D:\Repo\PRIME Lab 2017a\Builds\cRIOs\R45-2-cRIO\FPGA\Controlsoftware2_FPGATarget8_R45crio2fpga_v8BgrifJ-aU.lvbitx</Property>
+				</Item>
+				<Item Name="Glassman Readback.ctl" Type="VI" URL="../control vi/controls/Glassman Readback.ctl">
+					<Property Name="configString.guid" Type="Str">{00AC9169-23E3-48CF-A11E-E4B4D80D29C4}resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{0562BA6C-2051-44CF-8D95-DB2BFA253249}resource=/crio_Mod7/DI2;0;ReadMethodType=bool{07ED917C-41BA-454C-BFE7-3ED805EA1F9E}resource=/crio_Mod7/DI31;0;ReadMethodType=bool{088AC67A-CBA4-4328-8898-C37A96C73B80}resource=/crio_Mod7/DI8;0;ReadMethodType=bool{0CE30778-2719-432A-9061-2AC6D00092F5}resource=/Scan Clock;0;ReadMethodType=bool{0EC9D185-0ED4-446F-8FF8-277D161227B3}resource=/crio_Mod7/DI5;0;ReadMethodType=bool{10F42641-3658-4958-8A9E-DC85CA40BA84}resource=/crio_Mod7/DI27;0;ReadMethodType=bool{18E50269-5220-48F3-BFF9-623931D0A994}resource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{1C53EC44-027A-4BF7-9C7B-F591A1248D4B}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8{1D172ED6-F313-4C73-981E-9BEB475CDEC2}resource=/crio_Mod7/DI28;0;ReadMethodType=bool{1D4B6A28-BA30-4319-A0E5-A24EA50FC903}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=bool{1E23978F-889B-4BBA-B1A7-D6DD32D8025D}resource=/crio_Mod7/DI26;0;ReadMethodType=bool{2414B9DB-D516-476A-992A-C7768A3FABEB}resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{26627547-DD9F-45EE-B0F6-581F35FF07BF}resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{29EB9E1F-451A-482C-9DDB-F4E307FECB63}resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{2A13CA20-A07C-49F8-944F-8D653E69C624}cRIO Subresource{2E51904D-3703-4ACB-AA1D-A8A6EDBAA984}resource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{2EF6CE05-F00D-4031-B794-8DBE259E145D}cRIO Subresource{2FF67440-CBA3-43A6-BC90-F6AA65B2B370}resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{310F8323-28CF-4783-BABF-CC8990F70A6E}resource=/crio_Mod7/DI17;0;ReadMethodType=bool{340ACB54-A0FD-4302-96FC-04ECC0569023}resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{346A8B75-76AA-4CFD-BD35-3DF8330A7D05}resource=/crio_Mod7/DI9;0;ReadMethodType=bool{3C5273D5-2073-4E51-AD03-DA12CD8F9BB0}resource=/crio_Mod1/DI0;0;ReadMethodType=bool{42DB62F4-2637-46B3-82BA-683E82FB20BB}resource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{43B7EA8A-B61C-431D-BC2C-39FEF38F1854}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{45A7F273-27E9-42A9-A9B1-7CA055407528}resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{4655A3E1-6394-4825-ACCE-0C245EACC068}resource=/crio_Mod1/Trig;0;ReadMethodType=bool{4AA9ADBC-1309-4232-A801-2D0B805B3638}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=bool{4EBC5B71-8D17-43CC-B354-B820CE3BC520}resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{4FC353CF-8A04-4968-8353-E4BAEAEA0F47}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{556D073A-CA18-4A9B-9AAB-53CC3EFD0578}resource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{55E5CA09-ECA3-4793-AD61-FFFFA75741B7}resource=/crio_Mod7/DI20;0;ReadMethodType=bool{578CF99A-A45C-475C-9248-D831CF2742CD}resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{57E59B88-EB43-4117-B7BA-1B859C284295}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=bool{597F32AC-88A8-4F92-8B79-6072FC41641D}resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{5AE77D24-64A2-4450-84FE-01C54A7E5C3A}resource=/crio_Mod7/DI19;0;ReadMethodType=bool{5CF38987-48BB-460C-8127-843BA1BCEA7A}resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{5E792DA7-9753-4DDE-BA89-B6A9BC755192}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=bool{5EF25A29-6AE0-4704-9EFF-BB906580A0CE}resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8{5F84BF61-69B6-486B-A608-CCB13DCCA995}resource=/crio_Mod7/DI6;0;ReadMethodType=bool{6018CB89-D8C3-4FDC-BDA6-28820E30D427}resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8{6442331A-195C-4790-92BB-910A7F9AE00B}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{65709114-D8AD-40ED-BF53-3692D93F0CF8}resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{65ED38B3-619C-43F8-801A-13CDB6D8B0BE}resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{668D6C33-8A82-4F3D-9870-C53E02A7DA5D}resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{6AE1D4A8-494F-41A8-8506-471F1511A4A6}resource=/crio_Mod7/DI24;0;ReadMethodType=bool{6C376416-944D-49A0-BB29-E6B2CFDEF9FE}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=bool{6E1ABB30-A1AC-45B8-A1B5-F4664C350520}resource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{739AA0BE-4195-4EC3-B64A-0438C39A2987}resource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{74F5C688-6AEC-4410-8CBA-8FED0138D80A}resource=/crio_Mod7/DI22;0;ReadMethodType=bool{75693457-37DA-4C3E-AA7F-066722A41D0C}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{7839B614-75EB-4878-8623-1B64CC03B910}resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8{79797C73-0E49-4329-80C2-22E7B733E0A3}cRIO Subresource{7A60D7B8-2505-4257-BC7D-EFB76017BBE1}resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{7D75BB9B-8D14-4E66-B4DF-348C4D16632F}cRIO Subresource{7E024C3B-2A10-4B58-BC38-B85310BE7B33}resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{7EB4919B-B186-4CED-9C2D-3A44C63C88AC}resource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{80FCA87F-17C6-46C8-8C6E-65865B585733}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]{81265DBD-25F5-4662-A345-B4E5C2D05053}resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{81D1F74C-5289-4D5A-A7FA-886A2F1B61F2}resource=/crio_Mod7/DI23;0;ReadMethodType=bool{863632F6-5ACB-47DD-BB34-6B45D6BD4732}resource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{8739E18A-9450-422C-8150-C5F9C97A2379}resource=/crio_Mod7/DI10;0;ReadMethodType=bool{87DC8802-FDA4-4B6A-9CDD-58A4E1E13682}resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{8AA6DC53-1925-4F33-A4D1-60AA85649856}resource=/crio_Mod7/DI0;0;ReadMethodType=bool{906CD54E-DF94-4803-855E-9CF080C97A78}resource=/crio_Mod7/DI21;0;ReadMethodType=bool{909F73DD-F0AC-45B1-BB14-DB48BAD34290}resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9580C4C6-E625-455D-A347-B13FE35C7194}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{9A11B742-731C-460F-903E-BD7254C88002}resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{9A8C429B-400C-4E0E-B10E-2A3956046A53}resource=/crio_Mod7/DI1;0;ReadMethodType=bool{9C9769F7-8CBF-4F22-B348-5D4F3F081BB6}resource=/crio_Mod7/DI7;0;ReadMethodType=bool{9EA17425-50D7-4773-AD00-D4A78D76492F}resource=/crio_Mod7/DI11;0;ReadMethodType=bool{9FE03BB6-EB97-4DD4-BC54-8507F9FE67E1}resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A12E5343-ADED-4275-856F-97FB19033FF3}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E{A419D5B1-8C3E-4F52-80CD-523D9C192797}resource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{A92802EF-3ED7-4B40-9B34-0EBAE059AC96}resource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{A93B42B8-78AB-4E62-AE74-6DDF5FF21DC0}resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{AD285319-22F4-48EC-A519-78B571792770}resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{AD302824-D9F1-4CDC-99AB-93EF5678C4DD}cRIO Subresource{AE24488F-09CA-4696-9E8A-3BC0BD6A1E3C}resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{B224B2F6-C3DB-47EB-BD70-263A5F42EA3A}resource=/crio_Mod7/DI15;0;ReadMethodType=bool{B368656E-88D9-4DFD-B974-0D8BE8347C2A}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=bool{B84B2C54-B755-40E9-A619-B94FFC3B7941}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=bool{BA8AE6CF-653E-42D0-B782-49913C02C5A5}resource=/crio_Mod7/DI18;0;ReadMethodType=bool{BBA17476-1A6E-4EF7-9F35-83A2B43C3734}resource=/crio_Mod7/DI14;0;ReadMethodType=bool{BC9D47E0-C058-4D0B-BE97-778A0897577B}resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{BDBF8B21-D486-45CF-9162-745C25CF1CF5}resource=/crio_Mod7/DI25;0;ReadMethodType=bool{BDD65E6C-930F-4253-BB6E-61BAB384F6B6}resource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{BF3F0C1B-EA6C-4D57-B65E-C6FBDAC052E4}cRIO Subresource{BFDF7680-184E-41CC-BCC6-C2308F5990AC}resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{BFF4F283-E0C8-43E0-8D4D-87C2A9B4EEB2}resource=/crio_Mod7/DI3;0;ReadMethodType=bool{C0B8DD8E-235A-4AA3-8BEF-A3B24A1EB330}resource=/Chassis Temperature;0;ReadMethodType=i16{C1A76E82-D15F-472A-928C-388402647FF1}resource=/crio_Mod7/DI12;0;ReadMethodType=bool{C48E3192-3E28-4B10-A5DF-CD86291AFF00}resource=/crio_Mod7/DI16;0;ReadMethodType=bool{C4C6ABF5-EFB6-4A26-8BB7-5D6D52D01A6B}resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{CEEA9F01-C332-41DC-85BE-E1C34568AA5A}resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{CFAF5CAD-37CC-4355-9AC8-7C2B1994128C}cRIO Subresource{D53F920F-11B4-4E1A-B95E-DCFA54EAD72C}resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D64F3F43-8941-4F7C-B68B-7FD23A7AC5BE}resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{D6DA1818-E058-4071-A58F-01BAE39A71BE}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]{D74CF84C-A356-4B8E-A691-72B9D0AF38CA}resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{D7869BE1-3BB9-4075-A477-C079CAF09ECA}resource=/crio_Mod7/DI4;0;ReadMethodType=bool{D7948EFC-5D6C-4552-8A14-582F37A8E2B4}resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{DAA9330F-6B30-402B-8F22-993B5FE050B4}resource=/crio_Mod7/DI29;0;ReadMethodType=bool{DD9E6572-D270-41E4-BB1D-8BF9CBEB1069}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{DDEA50D2-B0A1-4EA1-9236-E00752A3A3AB}resource=/crio_Mod1/DO0;0;WriteMethodType=bool{E0AA61C6-ECFF-4145-A12C-228C5DB8F043}cRIO Subresource{E5391A9D-F701-4DD3-B813-D62932158804}resource=/crio_Mod7/DI13;0;ReadMethodType=bool{E7F71143-FE9F-459D-9EC5-B27E818CDDA7}resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8{ECD4F51B-F1D8-4A13-8962-10DC69681A69}resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{EE0FD02E-F038-46EC-B3A9-D2685B4F9E74}resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32{F2945574-6F4F-457F-A6EE-EE4F72BC0C00}resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctl{F2EB5D56-ABC4-46AD-8EBE-9156C471B18F}resource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{F45FADBA-3E24-4297-A1EA-EF20FBA8B5E0}ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=bool{F5885582-F843-43EC-8500-338FA12BCA1E}resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctl{FC33A41A-0DA9-4B20-BE2F-45563BA717F0}resource=/crio_Mod7/DI30;0;ReadMethodType=bool{FE7867E9-1952-4787-B9D8-FC8E8B31C6F8}[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=2,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=2,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=2,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=2,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=2,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=2,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]{FF18C3DB-5BAE-4EA7-9870-60B36EF708B6}resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlcRIO-9074/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EChassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9074/Clk40/truefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Detector Aperture IN sensorresource=/crio_Mod7/DI2;0;ReadMethodType=boolDetector Aperture OUT sensorresource=/crio_Mod7/DI3;0;ReadMethodType=boolDetector ApertureArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH2;0;ReadMethodType=bool;WriteMethodType=boolDetector FC IN sensorresource=/crio_Mod7/DI0;0;ReadMethodType=boolDetector FC OUT sensorresource=/crio_Mod7/DI1;0;ReadMethodType=boolDetector FCArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH0;0;ReadMethodType=bool;WriteMethodType=boolExB 1- I readresource=/crio_Mod1/AI1;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1- V readresource=/crio_Mod1/AI0;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1- V setresource=/crio_Mod2/AO0;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlExB 1+ I readresource=/crio_Mod1/AI3;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1+ V readresource=/crio_Mod1/AI2;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 1+ V setresource=/crio_Mod2/AO1;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlExB 2- I readresource=/crio_Mod1/AI5;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2- V readresource=/crio_Mod1/AI4;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2- V setresource=/crio_Mod2/AO2;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlExB 2+ I readresource=/crio_Mod1/AI7;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2+ V readresource=/crio_Mod1/AI6;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlExB 2+ V setresource=/crio_Mod2/AO3;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlFPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolMod1/AI10resource=/crio_Mod1/AI10;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI11resource=/crio_Mod1/AI11;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI12resource=/crio_Mod1/AI12;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI13resource=/crio_Mod1/AI13;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI14resource=/crio_Mod1/AI14;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI15resource=/crio_Mod1/AI15;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI16resource=/crio_Mod1/AI16;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI17resource=/crio_Mod1/AI17;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI18resource=/crio_Mod1/AI18;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI19resource=/crio_Mod1/AI19;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI20resource=/crio_Mod1/AI20;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI21resource=/crio_Mod1/AI21;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI22resource=/crio_Mod1/AI22;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI23resource=/crio_Mod1/AI23;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI24resource=/crio_Mod1/AI24;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI25resource=/crio_Mod1/AI25;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI26resource=/crio_Mod1/AI26;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI27resource=/crio_Mod1/AI27;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI28resource=/crio_Mod1/AI28;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI29resource=/crio_Mod1/AI29;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI30resource=/crio_Mod1/AI30;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI31resource=/crio_Mod1/AI31;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI8resource=/crio_Mod1/AI8;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/AI9resource=/crio_Mod1/AI9;0;ReadMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_26_5.ctlMod1/DI0resource=/crio_Mod1/DI0;0;ReadMethodType=boolMod1/DO0resource=/crio_Mod1/DO0;0;WriteMethodType=boolMod1/Trigresource=/crio_Mod1/Trig;0;ReadMethodType=boolMod1[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 1,crio.Type=NI 9205,cRIOModule.AI0.TerminalMode=2,cRIOModule.AI0.VoltageRange=0,cRIOModule.AI1.TerminalMode=0,cRIOModule.AI1.VoltageRange=0,cRIOModule.AI10.TerminalMode=0,cRIOModule.AI10.VoltageRange=0,cRIOModule.AI11.TerminalMode=0,cRIOModule.AI11.VoltageRange=0,cRIOModule.AI12.TerminalMode=0,cRIOModule.AI12.VoltageRange=0,cRIOModule.AI13.TerminalMode=0,cRIOModule.AI13.VoltageRange=0,cRIOModule.AI14.TerminalMode=0,cRIOModule.AI14.VoltageRange=0,cRIOModule.AI15.TerminalMode=0,cRIOModule.AI15.VoltageRange=0,cRIOModule.AI16.TerminalMode=2,cRIOModule.AI16.VoltageRange=0,cRIOModule.AI17.TerminalMode=0,cRIOModule.AI17.VoltageRange=0,cRIOModule.AI18.TerminalMode=2,cRIOModule.AI18.VoltageRange=0,cRIOModule.AI19.TerminalMode=0,cRIOModule.AI19.VoltageRange=0,cRIOModule.AI2.TerminalMode=2,cRIOModule.AI2.VoltageRange=0,cRIOModule.AI20.TerminalMode=0,cRIOModule.AI20.VoltageRange=0,cRIOModule.AI21.TerminalMode=0,cRIOModule.AI21.VoltageRange=0,cRIOModule.AI22.TerminalMode=0,cRIOModule.AI22.VoltageRange=0,cRIOModule.AI23.TerminalMode=0,cRIOModule.AI23.VoltageRange=0,cRIOModule.AI24.TerminalMode=0,cRIOModule.AI24.VoltageRange=0,cRIOModule.AI25.TerminalMode=0,cRIOModule.AI25.VoltageRange=0,cRIOModule.AI26.TerminalMode=0,cRIOModule.AI26.VoltageRange=0,cRIOModule.AI27.TerminalMode=0,cRIOModule.AI27.VoltageRange=0,cRIOModule.AI28.TerminalMode=0,cRIOModule.AI28.VoltageRange=0,cRIOModule.AI29.TerminalMode=0,cRIOModule.AI29.VoltageRange=0,cRIOModule.AI3.TerminalMode=0,cRIOModule.AI3.VoltageRange=0,cRIOModule.AI30.TerminalMode=0,cRIOModule.AI30.VoltageRange=0,cRIOModule.AI31.TerminalMode=0,cRIOModule.AI31.VoltageRange=0,cRIOModule.AI4.TerminalMode=2,cRIOModule.AI4.VoltageRange=0,cRIOModule.AI5.TerminalMode=0,cRIOModule.AI5.VoltageRange=0,cRIOModule.AI6.TerminalMode=2,cRIOModule.AI6.VoltageRange=0,cRIOModule.AI7.TerminalMode=0,cRIOModule.AI7.VoltageRange=0,cRIOModule.AI8.TerminalMode=0,cRIOModule.AI8.VoltageRange=0,cRIOModule.AI9.TerminalMode=0,cRIOModule.AI9.VoltageRange=0,cRIOModule.EnableCalProperties=false,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.MinConvTime=8.000000E+0,cRIOModule.RsiAttributes=[crioConfig.End]Mod2/AO10resource=/crio_Mod2/AO10;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO11resource=/crio_Mod2/AO11;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO12resource=/crio_Mod2/AO12;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO13resource=/crio_Mod2/AO13;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO14resource=/crio_Mod2/AO14;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO15resource=/crio_Mod2/AO15;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO4resource=/crio_Mod2/AO4;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO5resource=/crio_Mod2/AO5;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO6resource=/crio_Mod2/AO6;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO7resource=/crio_Mod2/AO7;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO8resource=/crio_Mod2/AO8;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2/AO9resource=/crio_Mod2/AO9;0;WriteMethodType=vi.lib\LabVIEW Targets\FPGA\cRIO\shared\nicrio_FXP_Controls\nicrio_FXP_S_20_5.ctlMod2[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 2,crio.Type=NI 9264,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod4[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 4,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod5[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 5,crio.Type=NI 9870,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.kBaudRateDivider1=384,cRIOModule.kBaudRateDivider2=384,cRIOModule.kBaudRateDivider3=384,cRIOModule.kBaudRateDivider4=384,cRIOModule.kBaudRatePrescaler1=1,cRIOModule.kBaudRatePrescaler2=1,cRIOModule.kBaudRatePrescaler3=1,cRIOModule.kBaudRatePrescaler4=1,cRIOModule.kDataBits1=4,cRIOModule.kDataBits2=4,cRIOModule.kDataBits3=4,cRIOModule.kDataBits4=4,cRIOModule.kDesiredBaudRate1=9.600000E+3,cRIOModule.kDesiredBaudRate2=9.600000E+3,cRIOModule.kDesiredBaudRate3=9.600000E+3,cRIOModule.kDesiredBaudRate4=9.600000E+3,cRIOModule.kFlowControl1=1,cRIOModule.kFlowControl2=1,cRIOModule.kFlowControl3=1,cRIOModule.kFlowControl4=1,cRIOModule.kParity1=1,cRIOModule.kParity2=1,cRIOModule.kParity3=1,cRIOModule.kParity4=1,cRIOModule.kStopBits1=1,cRIOModule.kStopBits2=1,cRIOModule.kStopBits3=1,cRIOModule.kStopBits4=1,cRIOModule.RsiAttributes=[crioConfig.End]Mod7/DI10resource=/crio_Mod7/DI10;0;ReadMethodType=boolMod7/DI11resource=/crio_Mod7/DI11;0;ReadMethodType=boolMod7/DI12resource=/crio_Mod7/DI12;0;ReadMethodType=boolMod7/DI13resource=/crio_Mod7/DI13;0;ReadMethodType=boolMod7/DI14resource=/crio_Mod7/DI14;0;ReadMethodType=boolMod7/DI15:8resource=/crio_Mod7/DI15:8;0;ReadMethodType=u8Mod7/DI15resource=/crio_Mod7/DI15;0;ReadMethodType=boolMod7/DI16resource=/crio_Mod7/DI16;0;ReadMethodType=boolMod7/DI17resource=/crio_Mod7/DI17;0;ReadMethodType=boolMod7/DI18resource=/crio_Mod7/DI18;0;ReadMethodType=boolMod7/DI19resource=/crio_Mod7/DI19;0;ReadMethodType=boolMod7/DI20resource=/crio_Mod7/DI20;0;ReadMethodType=boolMod7/DI21resource=/crio_Mod7/DI21;0;ReadMethodType=boolMod7/DI22resource=/crio_Mod7/DI22;0;ReadMethodType=boolMod7/DI23:16resource=/crio_Mod7/DI23:16;0;ReadMethodType=u8Mod7/DI23resource=/crio_Mod7/DI23;0;ReadMethodType=boolMod7/DI24resource=/crio_Mod7/DI24;0;ReadMethodType=boolMod7/DI25resource=/crio_Mod7/DI25;0;ReadMethodType=boolMod7/DI26resource=/crio_Mod7/DI26;0;ReadMethodType=boolMod7/DI27resource=/crio_Mod7/DI27;0;ReadMethodType=boolMod7/DI28resource=/crio_Mod7/DI28;0;ReadMethodType=boolMod7/DI29resource=/crio_Mod7/DI29;0;ReadMethodType=boolMod7/DI30resource=/crio_Mod7/DI30;0;ReadMethodType=boolMod7/DI31:0resource=/crio_Mod7/DI31:0;0;ReadMethodType=u32Mod7/DI31:24resource=/crio_Mod7/DI31:24;0;ReadMethodType=u8Mod7/DI31resource=/crio_Mod7/DI31;0;ReadMethodType=boolMod7/DI4resource=/crio_Mod7/DI4;0;ReadMethodType=boolMod7/DI5resource=/crio_Mod7/DI5;0;ReadMethodType=boolMod7/DI6resource=/crio_Mod7/DI6;0;ReadMethodType=boolMod7/DI7:0resource=/crio_Mod7/DI7:0;0;ReadMethodType=u8Mod7/DI7resource=/crio_Mod7/DI7;0;ReadMethodType=boolMod7/DI8resource=/crio_Mod7/DI8;0;ReadMethodType=boolMod7/DI9resource=/crio_Mod7/DI9;0;ReadMethodType=boolMod7[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 7,crio.Type=NI 9426,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Mod8/CH1ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH1;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH3ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH3;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH4ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH4;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH5ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH5;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH6ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH6;0;ReadMethodType=bool;WriteMethodType=boolMod8/CH7:0ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7:0;0;ReadMethodType=u8;WriteMethodType=u8Mod8/CH7ArbitrationForOutputData=NeverArbitrate;resource=/crio_Mod8/CH7;0;ReadMethodType=bool;WriteMethodType=boolMod8[crioConfig.Begin]crio.Calibration=1,crio.Location=Slot 8,crio.Type=NI 9485,cRIOModule.EnableDECoM=false,cRIOModule.EnableInputFifo=false,cRIOModule.EnableOutputFifo=false,cRIOModule.RsiAttributes=[crioConfig.End]Port1cRIO SubresourcePort1cRIO SubresourcePort2cRIO SubresourcePort2cRIO SubresourcePort3cRIO SubresourcePort3cRIO SubresourcePort4cRIO SubresourcePort4cRIO SubresourceScan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
@@ -16649,10 +16836,10 @@ DirectoryIndex index.htm
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
-					<Item Name="R45crio2_fpga" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
+					<Item Name="FPGA-R45-2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
-						<Property Name="BuildSpecName" Type="Str">R45crio2_fpga</Property>
+						<Property Name="BuildSpecName" Type="Str">FPGA-R45-2</Property>
 						<Property Name="Comp.BitfileName" Type="Str">Controlsoftware2_FPGATarget8_R45crio2fpga_v8BgrifJ-aU.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
@@ -16676,41 +16863,77 @@ DirectoryIndex index.htm
 						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
-						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/Users/wymanm/Desktop/CONnie - 2017a/PRIME Control 2017a/FPGA Bitfiles/Controlsoftware2_FPGATarget8_R45crio2fpga_v8BgrifJ-aU.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/Controlsoftware2_FPGATarget8_R45crio2fpga_v8BgrifJ-aU.lvbitx</Property>
-						<Property Name="ProjectPath" Type="Path">/C/control/Control software 2010.lvproj</Property>
-						<Property Name="RelativePath" Type="Bool">true</Property>
+						<Property Name="DestinationDirectory" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/cRIOs/R45-2-cRIO/FPGA</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/cRIOs/R45-2-cRIO/FPGA/Controlsoftware2_FPGATarget8_R45crio2fpga_v8BgrifJ-aU.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path"></Property>
+						<Property Name="ProjectPath" Type="Path">/D/Repo/PRIME Lab 2017a/CONnie/PRIME Control 2017a/PRIME Control 2017a.lvproj</Property>
+						<Property Name="RelativePath" Type="Bool">false</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">true</Property>
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
 						<Property Name="TargetName" Type="Str">FPGA Target 8</Property>
-						<Property Name="TopLevelVI" Type="Ref">/Rio-R45-2/Chassis/FPGA Target 8/R45crio2_fpga.vi</Property>
+						<Property Name="TopLevelVI" Type="Ref">/R45-2-cRIO/Chassis/FPGA Target 8/R45_2-FPGA.vi</Property>
 					</Item>
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="R45_2_realtime.vi" Type="VI" URL="../control vi/R45/Crio 2/Realtime/R45_2_realtime.vi"/>
+		<Item Name="R45_2-RT.vi" Type="VI" URL="../cRIO code/R45-2/R45_2-RT.vi">
+			<Item Name="PID - GFM" Type="IIO Function Block">
+				<Item Name="error in" Type="Variable"/>
+				<Item Name="setpoint" Type="Variable"/>
+				<Item Name="process variable" Type="Variable"/>
+				<Item Name="setpoint high" Type="Variable"/>
+				<Item Name="setpoint low" Type="Variable"/>
+				<Item Name="proportional gain (Kc)" Type="Variable"/>
+				<Item Name="integral time (Ti, min)" Type="Variable"/>
+				<Item Name="derivative time (Td, min)" Type="Variable"/>
+				<Item Name="dt (s)" Type="Variable"/>
+				<Item Name="output high" Type="Variable"/>
+				<Item Name="reinitialize? (F)" Type="Variable"/>
+				<Item Name="output low" Type="Variable"/>
+				<Item Name="beta" Type="Variable"/>
+				<Item Name="auto? (T)" Type="Variable"/>
+				<Item Name="linearity" Type="Variable"/>
+				<Item Name="manual control" Type="Variable"/>
+				<Item Name="error out" Type="Variable"/>
+				<Item Name="output" Type="Variable"/>
+				<Item Name="dt out (s)" Type="Variable"/>
+			</Item>
+		</Item>
+		<Item Name="global R45_2 shared var lib.lvlib" Type="Library" URL="../cRIO code/R45-2/global R45_2 shared var lib.lvlib"/>
+		<Item Name="local R45_2 shared var lib.lvlib" Type="Library" URL="../cRIO code/R45-2/local R45_2 shared var lib.lvlib"/>
+		<Item Name="R45-2_RT.html" Type="Document" URL="../cRIO code/R45-2_RT.html"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
+				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Faraday cup states.ctl" Type="VI" URL="../control vi/controls/Faraday cup states.ctl"/>
+			<Item Name="Aperture states.ctl" Type="VI" URL="../control vi/controls/Aperture states.ctl"/>
+			<Item Name="Faraday status converter.vi" Type="VI" URL="../control vi/sub-VIs/Faraday status converter.vi"/>
+			<Item Name="Aperture status converter.vi" Type="VI" URL="../control vi/sub-VIs/Aperture status converter.vi"/>
+			<Item Name="GP307 cluster.ctl" Type="VI" URL="../cRIO code/SCA/controls/GP307 cluster.ctl"/>
+			<Item Name="Glassman Control.ctl" Type="VI" URL="../control vi/controls/Glassman Control.ctl"/>
+			<Item Name="GV states.ctl" Type="VI" URL="../control vi/controls/GV states.ctl"/>
+			<Item Name="Glassman Readback.ctl" Type="VI" URL="../control vi/controls/Glassman Readback.ctl"/>
+			<Item Name="Faraday Cup Readback.ctl" Type="VI" URL="../control vi/controls/Faraday Cup Readback.ctl"/>
+			<Item Name="Aperture Readback.ctl" Type="VI" URL="../control vi/controls/Aperture Readback.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="R45_2" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+			<Item Name="RT-R45-2" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
 				<Property Name="App_INI_aliasGUID" Type="Str">{B76F2982-8190-4883-97FC-1D962ECC375D}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{41220D0E-B86E-4D60-AFC7-DD8091DE273D}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.Purdue University.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{AAFD3E71-87B2-4618-892B-D51EF46BEA1C}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">R45_2</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RT-R45-2</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/R45_2</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/cRIOs/NI_AB_TARGETNAME/RT</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{46074E10-8C0B-4B1E-A590-146558E06CCC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
@@ -16723,17 +16946,32 @@ DirectoryIndex index.htm
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/c/ni-rt/startup/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1DEB317A-38FE-43DF-BB33-3FC126DBA616}</Property>
+				<Property Name="Destination[2].destName" Type="Str">www</Property>
+				<Property Name="Destination[2].path" Type="Path">/c/ni-rt/system/www</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BFDCB0C8-DE5C-4A45-BBBC-A5DD2E400AF7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/Rio-R45-2/R45_2_realtime.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/R45-2-cRIO/R45_2-RT.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/R45-2-cRIO/global R45_2 shared var lib.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/R45-2-cRIO/local R45_2 shared var lib.lvlib</Property>
+				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/R45-2-cRIO/R45-2_RT.html</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Purdue University</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2010 Purdue University</Property>
 				<Property Name="TgtF_productName" Type="Str">My Real-Time Application</Property>

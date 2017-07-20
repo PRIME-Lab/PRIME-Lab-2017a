@@ -6,6 +6,8 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="10kv set steerer1.vi" Type="VI" URL="../../R45/realtime vi/10kv set steerer1.vi"/>
 	<Item Name="count rate shift.vi" Type="VI" URL="../../../data aquisition/shift/count rate shift.vi"/>
+	<Item Name="display AP status.vi" Type="VI" URL="../../faraday cup/display AP status.vi"/>
+	<Item Name="display FC status.vi" Type="VI" URL="../../faraday cup/display FC status.vi"/>
 	<Item Name="display in or out.vi" Type="VI" URL="../../faraday cup/display in or out.vi"/>
 	<Item Name="faraday switch.vi" Type="VI" URL="../../High energy end/faraday switch.vi"/>
 	<Item Name="get momentum-scaled.vi" Type="VI" URL="../../Features/get momentum-scaled.vi"/>
