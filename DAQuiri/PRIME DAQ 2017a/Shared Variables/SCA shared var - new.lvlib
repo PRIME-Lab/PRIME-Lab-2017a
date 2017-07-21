@@ -33,7 +33,7 @@
 		<Property Name="Path" Type="Str">/PRIME_DAQ_2017a.lvproj/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - new.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">SCA broadcast status.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../../../CONnie/PRIME Control 2017a/cRIO code/SCA/controls/SCA broadcast status.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../controls/SCA broadcast status.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#1D!!!!"9!A!!!!!!"!(I!]1!!!!!!!!!"'&amp;.$13"C=G^B:'.B=X1A=X2B&gt;(6T,G.U&lt;!":1"9!"!&gt;897FU;7ZH%%.I97ZH;7ZH)(.B&lt;8"M:8-75W&amp;N='RF)'.I97ZH:3"D&lt;WVQ&lt;'6U:1&gt;'97FM&gt;8*F!"241U%A9H*P972D98.U)(.U982V=Q!!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="SM Command" Type="Variable">
@@ -50,7 +50,7 @@
 		<Property Name="Path" Type="Str">/PRIME_DAQ_2017a.lvproj/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - new.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">SCA commands.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../../../../CONnie/PRIME Control 2017a/cRIO code/SCA/controls/SCA commands.ctl</Property>
+		<Property Name="typedefPath1" Type="PathRel">../../controls/SCA commands.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Y&gt;!%!!"9!A!!!!!!"!7)!]1!!!!!!!!!"%&amp;.$13"D&lt;WVN97ZE=SZD&gt;'Q"35!7!")%6W&amp;J&gt;!B4;(6U:'^X&lt;B*3:82S97.U)'FO=W6S&gt;#"S&lt;W1237ZT:8*U)'FO=W6S&gt;#"S&lt;W145G6U=G&amp;D&gt;#"S:82S97.U)(*P:"**&lt;H.F=H1A=G6U=G&amp;D&gt;#"S&lt;W135G6U=G&amp;D&gt;#"T97VQ&lt;'5A=G^E%5FO=W6S&gt;#"T97VQ&lt;'5A=G^E$5^Q:7YA&gt;WBF:7QA2V9/1WRP=W5A&gt;WBF:7QA2V934X"F&lt;C"J&lt;WYA=W^V=G.F)%&gt;7%U.M&lt;X.F)'FP&lt;C"T&lt;X6S9W5A2V905(6N=#"P&gt;81A=W^V=G.F#V:F&lt;H1A=W^V=G.F&amp;6*P&gt;'&amp;U:3"X;'6F&lt;#"S97ZE&lt;WVM?1R3&lt;X2B&gt;'5A&gt;WBF:7Q;5X2B=H1A=G&amp;O:'^N)(.B&lt;8"M:3"D;'&amp;O:W545X2B=H1A=W&amp;N='RF)'.I97ZH:1!!#V.$13"$&lt;WVN97ZE!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

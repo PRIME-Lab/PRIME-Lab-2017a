@@ -49,8 +49,266 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="PRIME DAQ 2017a" Type="Folder" URL="..">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="PRIME DAQ 2017a" Type="Folder">
+			<Item Name="boot" Type="Folder">
+				<Item Name="bootfile states.ctl" Type="VI" URL="../boot/bootfile states.ctl"/>
+				<Item Name="bootfile.vi" Type="VI" URL="../boot/bootfile.vi"/>
+				<Item Name="PIXIEmsg.txt" Type="Document" URL="../boot/PIXIEmsg.txt"/>
+				<Item Name="preload default boot.vi" Type="VI" URL="../boot/preload default boot.vi"/>
+				<Item Name="run script.vi" Type="VI" URL="../boot/run script.vi"/>
+			</Item>
+			<Item Name="controls" Type="Folder">
+				<Item Name="1d" Type="Folder">
+					<Item Name="1d state event control.ctl" Type="VI" URL="../controls/1d/1d state event control.ctl"/>
+				</Item>
+				<Item Name="db cluster.ctl" Type="VI" URL="../controls/db cluster.ctl"/>
+				<Item Name="display spectrum.ctl" Type="VI" URL="../controls/display spectrum.ctl"/>
+				<Item Name="experiment control.ctl" Type="VI" URL="../controls/experiment control.ctl"/>
+				<Item Name="main state control.ctl" Type="VI" URL="../controls/main state control.ctl"/>
+				<Item Name="pixie crates.ctl" Type="VI" URL="../controls/pixie crates.ctl"/>
+				<Item Name="rare event data.ctl" Type="VI" URL="../controls/rare event data.ctl"/>
+				<Item Name="read write shift control.ctl" Type="VI" URL="../controls/read write shift control.ctl"/>
+				<Item Name="SCA broadcast status.ctl" Type="VI" URL="../controls/SCA broadcast status.ctl"/>
+				<Item Name="SCA commands.ctl" Type="VI" URL="../controls/SCA commands.ctl"/>
+				<Item Name="stable data.ctl" Type="VI" URL="../controls/stable data.ctl"/>
+			</Item>
+			<Item Name="Drivers" Type="Folder">
+				<Item Name="Pixie.xop" Type="Document" URL="../Drivers/Pixie.xop"/>
+				<Item Name="Pixie4DLL.dll" Type="Document" URL="../Drivers/Pixie4DLL.dll"/>
+				<Item Name="PlxApi650.dll" Type="Document" URL="../Drivers/PlxApi650.dll"/>
+				<Item Name="Readme.txt" Type="Document" URL="../Drivers/Readme.txt"/>
+			</Item>
+			<Item Name="gather rare" Type="Folder">
+				<Item Name="1d.vi" Type="VI" URL="../gather rare/1d.vi"/>
+				<Item Name="2d 10Be.vi" Type="VI" URL="../gather rare/2d 10Be.vi"/>
+				<Item Name="2d.vi" Type="VI" URL="../gather rare/2d.vi"/>
+			</Item>
+			<Item Name="pixie2d" Type="Folder">
+				<Item Name="collectdata Folder" Type="Folder">
+					<Item Name="kubley" Type="Folder">
+						<Item Name="data acquisition 2009" Type="Folder">
+							<Item Name="pixie vis" Type="Folder">
+								<Item Name="sub vi" Type="Folder">
+									<Item Name="collectdata.vi" Type="VI" URL="../pixie2d/collectdata Folder/kubley/data acquisition 2009/pixie vis/sub vi/collectdata.vi"/>
+									<Item Name="pixie collect data.vi" Type="VI" URL="../pixie2d/collectdata Folder/kubley/data acquisition 2009/pixie vis/sub vi/pixie collect data.vi"/>
+								</Item>
+							</Item>
+						</Item>
+					</Item>
+					<Item Name="realtime data" Type="Folder">
+						<Item Name="pixie vis" Type="Folder">
+							<Item Name="controls" Type="Folder">
+								<Item Name="number of modules.ctl" Type="VI" URL="../pixie2d/collectdata Folder/realtime data/pixie vis/controls/number of modules.ctl"/>
+							</Item>
+						</Item>
+					</Item>
+				</Item>
+				<Item Name="controls" Type="Folder">
+					<Item Name="1d gate selection.ctl" Type="VI" URL="../pixie2d/controls/1d gate selection.ctl"/>
+					<Item Name="energy 2d selection.ctl" Type="VI" URL="../pixie2d/controls/energy 2d selection.ctl"/>
+				</Item>
+				<Item Name="kubley" Type="Folder">
+					<Item Name="data acquisition 2009" Type="Folder">
+						<Item Name="pixie vis" Type="Folder">
+							<Item Name="sub vi" Type="Folder">
+								<Item Name="1dparse.vi" Type="VI" URL="../pixie2d/kubley/data acquisition 2009/pixie vis/sub vi/1dparse.vi"/>
+								<Item Name="add vision spectrum.vi" Type="VI" URL="../pixie2d/kubley/data acquisition 2009/pixie vis/sub vi/add vision spectrum.vi"/>
+								<Item Name="gather 2d info vision.vi" Type="VI" URL="../pixie2d/kubley/data acquisition 2009/pixie vis/sub vi/gather 2d info vision.vi"/>
+								<Item Name="intensity plot.vi" Type="VI" URL="../pixie2d/kubley/data acquisition 2009/pixie vis/sub vi/intensity plot.vi"/>
+								<Item Name="pulser create 2d.vi" Type="VI" URL="../pixie2d/kubley/data acquisition 2009/pixie vis/sub vi/pulser create 2d.vi"/>
+								<Item Name="sum.vi" Type="VI" URL="../pixie2d/kubley/data acquisition 2009/pixie vis/sub vi/sum.vi"/>
+								<Item Name="update images count.vi" Type="VI" URL="../pixie2d/kubley/data acquisition 2009/pixie vis/sub vi/update images count.vi"/>
+							</Item>
+						</Item>
+						<Item Name="sub vis" Type="Folder">
+							<Item Name="shift registers" Type="Folder">
+								<Item Name="pixie gain shift.vi" Type="VI" URL="../pixie2d/kubley/data acquisition 2009/sub vis/shift registers/pixie gain shift.vi"/>
+							</Item>
+						</Item>
+					</Item>
+				</Item>
+				<Item Name="realtime data" Type="Folder">
+					<Item Name="pixie vis" Type="Folder">
+						<Item Name="sub vi" Type="Folder">
+							<Item Name="check 2d data.vi" Type="VI" URL="../pixie2d/realtime data/pixie vis/sub vi/check 2d data.vi"/>
+							<Item Name="get sort histo data.vi" Type="VI" URL="../pixie2d/realtime data/pixie vis/sub vi/get sort histo data.vi"/>
+							<Item Name="parse pixie data.vi" Type="VI" URL="../pixie2d/realtime data/pixie vis/sub vi/parse pixie data.vi"/>
+							<Item Name="pixie array size.vi" Type="VI" URL="../pixie2d/realtime data/pixie vis/sub vi/pixie array size.vi"/>
+							<Item Name="pixie divide peak height.vi" Type="VI" URL="../pixie2d/realtime data/pixie vis/sub vi/pixie divide peak height.vi"/>
+							<Item Name="truncate.vi" Type="VI" URL="../pixie2d/realtime data/pixie vis/sub vi/truncate.vi"/>
+						</Item>
+					</Item>
+				</Item>
+				<Item Name="sub vi" Type="Folder">
+					<Item Name="2d gate selection.vi" Type="VI" URL="../pixie2d/sub vi/2d gate selection.vi"/>
+					<Item Name="chopper.ctl" Type="VI" URL="../pixie2d/sub vi/chopper.ctl"/>
+					<Item Name="gather and display vision.vi" Type="VI" URL="../pixie2d/sub vi/gather and display vision.vi"/>
+					<Item Name="shift gate 1.vi" Type="VI" URL="../pixie2d/sub vi/shift gate 1.vi"/>
+					<Item Name="shift gate 2.vi" Type="VI" URL="../pixie2d/sub vi/shift gate 2.vi"/>
+					<Item Name="shift gate 3.vi" Type="VI" URL="../pixie2d/sub vi/shift gate 3.vi"/>
+					<Item Name="shift gate pulser.vi" Type="VI" URL="../pixie2d/sub vi/shift gate pulser.vi"/>
+					<Item Name="shift spectra 1.vi" Type="VI" URL="../pixie2d/sub vi/shift spectra 1.vi"/>
+					<Item Name="shift spectra 2.vi" Type="VI" URL="../pixie2d/sub vi/shift spectra 2.vi"/>
+					<Item Name="shift spectra 3.vi" Type="VI" URL="../pixie2d/sub vi/shift spectra 3.vi"/>
+					<Item Name="shift spectrum full.vi" Type="VI" URL="../pixie2d/sub vi/shift spectrum full.vi"/>
+					<Item Name="shift time.vi" Type="VI" URL="../pixie2d/sub vi/shift time.vi"/>
+					<Item Name="update images.vi" Type="VI" URL="../pixie2d/sub vi/update images.vi"/>
+				</Item>
+				<Item Name="view ROI already set Folder" Type="Folder">
+					<Item Name="sub vi" Type="Folder">
+						<Item Name="select gating" Type="Folder">
+							<Item Name="draw ROI on intensity plot.vi" Type="VI" URL="../pixie2d/view ROI already set Folder/sub vi/select gating/draw ROI on intensity plot.vi"/>
+							<Item Name="get 2d list.vi" Type="VI" URL="../pixie2d/view ROI already set Folder/sub vi/select gating/get 2d list.vi"/>
+							<Item Name="get array.vi" Type="VI" URL="../pixie2d/view ROI already set Folder/sub vi/select gating/get array.vi"/>
+							<Item Name="intensity gate sort.vi" Type="VI" URL="../pixie2d/view ROI already set Folder/sub vi/select gating/intensity gate sort.vi"/>
+							<Item Name="shift gate intf.vi" Type="VI" URL="../pixie2d/view ROI already set Folder/sub vi/select gating/shift gate intf.vi"/>
+							<Item Name="view ROI already set.vi" Type="VI" URL="../pixie2d/view ROI already set Folder/sub vi/select gating/view ROI already set.vi"/>
+						</Item>
+					</Item>
+				</Item>
+				<Item Name="get peak height.vi" Type="VI" URL="../pixie2d/get peak height.vi"/>
+			</Item>
+			<Item Name="Pixie4 VIs" Type="Folder">
+				<Item Name="Pixie4Boot.vi" Type="VI" URL="../Pixie4 VIs/Pixie4Boot.vi"/>
+				<Item Name="Pixie4Bootuser.vi" Type="VI" URL="../Pixie4 VIs/Pixie4Bootuser.vi"/>
+				<Item Name="Pixie4ReadRunStatistics.vi" Type="VI" URL="../Pixie4 VIs/Pixie4ReadRunStatistics.vi"/>
+				<Item Name="Pixie4SaveDSPParToFile.vi" Type="VI" URL="../Pixie4 VIs/Pixie4SaveDSPParToFile.vi"/>
+				<Item Name="Pixie4SetUserPar.vi" Type="VI" URL="../Pixie4 VIs/Pixie4SetUserPar.vi"/>
+			</Item>
+			<Item Name="record data" Type="Folder">
+				<Item Name="kubley" Type="Folder">
+					<Item Name="data acquisition 2009" Type="Folder">
+						<Item Name="sub vis" Type="Folder">
+							<Item Name="save data" Type="Folder">
+								<Item Name="cycle writer.vi" Type="VI" URL="../record data/kubley/data acquisition 2009/sub vis/save data/cycle writer.vi"/>
+								<Item Name="header write.vi" Type="VI" URL="../record data/kubley/data acquisition 2009/sub vis/save data/header write.vi"/>
+							</Item>
+						</Item>
+					</Item>
+				</Item>
+				<Item Name="realtime data" Type="Folder">
+					<Item Name="pixie vis" Type="Folder">
+						<Item Name="controls" Type="Folder">
+							<Item Name="header name control.ctl" Type="VI" URL="../record data/realtime data/pixie vis/controls/header name control.ctl"/>
+							<Item Name="measurement values.ctl" Type="VI" URL="../record data/realtime data/pixie vis/controls/measurement values.ctl"/>
+							<Item Name="sample info cluster.ctl" Type="VI" URL="../record data/realtime data/pixie vis/controls/sample info cluster.ctl"/>
+						</Item>
+					</Item>
+				</Item>
+				<Item Name="cycle ratio.vi" Type="VI" URL="../record data/cycle ratio.vi"/>
+				<Item Name="stable error and currents.vi" Type="VI" URL="../record data/stable error and currents.vi"/>
+			</Item>
+			<Item Name="Shared Variables" Type="Folder">
+				<Item Name="CONnie shared var.lvlib" Type="Library" URL="../Shared Variables/CONnie shared var.lvlib"/>
+				<Item Name="DAQuiri shared var.lvlib" Type="Library" URL="../Shared Variables/DAQuiri shared var.lvlib"/>
+				<Item Name="InjA-Image shared var.lvlib" Type="Library" URL="../Shared Variables/InjA-Image shared var.lvlib"/>
+				<Item Name="LowEnd shared var.lvlib" Type="Library" URL="../Shared Variables/LowEnd shared var.lvlib"/>
+				<Item Name="SCA shared var - new.lvlib" Type="Library" URL="../Shared Variables/SCA shared var - new.lvlib"/>
+				<Item Name="SCA shared var - old.lvlib" Type="Library" URL="../Shared Variables/SCA shared var - old.lvlib"/>
+			</Item>
+			<Item Name="spectrum" Type="Folder">
+				<Item Name="1d" Type="Folder">
+					<Item Name="get 1d spectrum data.vi" Type="VI" URL="../spectrum/1d/get 1d spectrum data.vi"/>
+					<Item Name="get 2d spectrum data.vi" Type="VI" URL="../spectrum/1d/get 2d spectrum data.vi"/>
+				</Item>
+				<Item Name="2d" Type="Folder">
+					<Item Name="realtime data" Type="Folder">
+						<Item Name="tools" Type="Folder">
+							<Item Name="fwhm test.vi" Type="VI" URL="../spectrum/2d/realtime data/tools/fwhm test.vi"/>
+							<Item Name="MCA Display.vi" Type="VI" URL="../spectrum/2d/realtime data/tools/MCA Display.vi"/>
+						</Item>
+					</Item>
+					<Item Name="shift" Type="Folder">
+						<Item Name="set gate shift.vi" Type="VI" URL="../spectrum/2d/shift/set gate shift.vi"/>
+					</Item>
+					<Item Name="sub vi" Type="Folder">
+						<Item Name="add gated region to graph.vi" Type="VI" URL="../spectrum/2d/sub vi/add gated region to graph.vi"/>
+						<Item Name="build intensity array.vi" Type="VI" URL="../spectrum/2d/sub vi/build intensity array.vi"/>
+					</Item>
+					<Item Name="select gating.vi" Type="VI" URL="../spectrum/2d/select gating.vi"/>
+				</Item>
+				<Item Name="controls" Type="Folder">
+					<Item Name="count control.ctl" Type="VI" URL="../spectrum/controls/count control.ctl"/>
+				</Item>
+				<Item Name="pulser" Type="Folder">
+					<Item Name="count pulses.vi" Type="VI" URL="../spectrum/pulser/count pulses.vi"/>
+				</Item>
+			</Item>
+			<Item Name="stable current" Type="Folder">
+				<Item Name="kubley" Type="Folder">
+					<Item Name="data acquisition 2009" Type="Folder">
+						<Item Name="beamline" Type="Folder">
+							<Item Name="controls" Type="Folder">
+								<Item Name="stable state combo.ctl" Type="VI" URL="../stable current/kubley/data acquisition 2009/beamline/controls/stable state combo.ctl"/>
+							</Item>
+						</Item>
+					</Item>
+					<Item Name="stable settings.vi" Type="VI" URL="../stable current/kubley/stable settings.vi"/>
+				</Item>
+				<Item Name="realtime data" Type="Folder">
+					<Item Name="stable current" Type="Folder">
+						<Item Name="divert beam.vi" Type="VI" URL="../stable current/realtime data/stable current/divert beam.vi"/>
+						<Item Name="pulse creation 2nd.vi" Type="VI" URL="../stable current/realtime data/stable current/pulse creation 2nd.vi"/>
+						<Item Name="pulse creation.vi" Type="VI" URL="../stable current/realtime data/stable current/pulse creation.vi"/>
+					</Item>
+				</Item>
+				<Item Name="shift" Type="Folder">
+					<Item Name="offset shift.vi" Type="VI" URL="../stable current/shift/offset shift.vi"/>
+				</Item>
+				<Item Name="stable controls" Type="Folder">
+					<Item Name="stable cluster.ctl" Type="VI" URL="../stable current/stable controls/stable cluster.ctl"/>
+				</Item>
+				<Item Name="35Cl + 37Cl inj - 35Cl HE.vi" Type="VI" URL="../stable current/35Cl + 37Cl inj - 35Cl HE.vi"/>
+				<Item Name="35Cl + 37Cl measure stable current.vi" Type="VI" URL="../stable current/35Cl + 37Cl measure stable current.vi"/>
+				<Item Name="Copy of shared var source.lvlib" Type="Library" URL="../stable current/Copy of shared var source.lvlib"/>
+				<Item Name="current to counts.vi" Type="VI" URL="../stable current/current to counts.vi"/>
+				<Item Name="error deadtime.vi" Type="VI" URL="../stable current/error deadtime.vi"/>
+				<Item Name="error stable.vi" Type="VI" URL="../stable current/error stable.vi"/>
+				<Item Name="error sum.vi" Type="VI" URL="../stable current/error sum.vi"/>
+				<Item Name="error tails.vi" Type="VI" URL="../stable current/error tails.vi"/>
+				<Item Name="measure stable current with transmission.vi" Type="VI" URL="../stable current/measure stable current with transmission.vi"/>
+				<Item Name="measure stable current.vi" Type="VI" URL="../stable current/measure stable current.vi"/>
+				<Item Name="measure stable current.vit" Type="VI" URL="../stable current/measure stable current.vit"/>
+				<Item Name="shared variables library.lvlib" Type="Library" URL="../stable current/shared variables library.lvlib"/>
+				<Item Name="stable current error.vi" Type="VI" URL="../stable current/stable current error.vi"/>
+				<Item Name="stable current.vi" Type="VI" URL="../stable current/stable current.vi"/>
+				<Item Name="stable test.lvlib" Type="Library" URL="../stable current/stable test.lvlib"/>
+				<Item Name="stable test.vi" Type="VI" URL="../stable current/stable test.vi"/>
+			</Item>
+			<Item Name="wheel" Type="Folder">
+				<Item Name="database tools" Type="Folder">
+					<Item Name="create db readback string.vi" Type="VI" URL="../wheel/database tools/create db readback string.vi"/>
+					<Item Name="database input.vi" Type="VI" URL="../wheel/database tools/database input.vi"/>
+					<Item Name="input into database.vi" Type="VI" URL="../wheel/database tools/input into database.vi"/>
+					<Item Name="input readbacks into cluster.vi" Type="VI" URL="../wheel/database tools/input readbacks into cluster.vi"/>
+					<Item Name="PIXIEmsg.txt" Type="Document" URL="../wheel/database tools/PIXIEmsg.txt"/>
+					<Item Name="simple db query1.vi" Type="VI" URL="../wheel/database tools/simple db query1.vi"/>
+					<Item Name="sort db drop data.vi" Type="VI" URL="../wheel/database tools/sort db drop data.vi"/>
+				</Item>
+				<Item Name="edit run order" Type="Folder">
+					<Item Name="create wheel page.vi" Type="VI" URL="../wheel/edit run order/create wheel page.vi"/>
+					<Item Name="shift page wheel.vi" Type="VI" URL="../wheel/edit run order/shift page wheel.vi"/>
+					<Item Name="shift wheel.vi" Type="VI" URL="../wheel/edit run order/shift wheel.vi"/>
+				</Item>
+				<Item Name="complete wheel.vi" Type="VI" URL="../wheel/complete wheel.vi"/>
+				<Item Name="create run list.vi" Type="VI" URL="../wheel/create run list.vi"/>
+				<Item Name="Create run.vi" Type="VI" URL="../wheel/Create run.vi"/>
+				<Item Name="datarunorder.ctl" Type="VI" URL="../wheel/datarunorder.ctl"/>
+				<Item Name="develop run order.vi" Type="VI" URL="../wheel/develop run order.vi"/>
+				<Item Name="get current index.vi" Type="VI" URL="../wheel/get current index.vi"/>
+				<Item Name="get db wheel info.vi" Type="VI" URL="../wheel/get db wheel info.vi"/>
+				<Item Name="get wheel popup db.vi" Type="VI" URL="../wheel/get wheel popup db.vi"/>
+				<Item Name="load wheel.vi" Type="VI" URL="../wheel/load wheel.vi"/>
+				<Item Name="popupwheel.vi" Type="VI" URL="../wheel/popupwheel.vi"/>
+				<Item Name="remove void rows.vi" Type="VI" URL="../wheel/remove void rows.vi"/>
+				<Item Name="run order display.vi" Type="VI" URL="../wheel/run order display.vi"/>
+				<Item Name="Sort group type.vi" Type="VI" URL="../wheel/Sort group type.vi"/>
+				<Item Name="sort sample information.vi" Type="VI" URL="../wheel/sort sample information.vi"/>
+				<Item Name="sort wheel table.vi" Type="VI" URL="../wheel/sort wheel table.vi"/>
+			</Item>
+			<Item Name="DAQ desktop icon.ico" Type="Document" URL="../DAQ desktop icon.ico"/>
+			<Item Name="DAQ run-time menu.rtm" Type="Document" URL="../DAQ run-time menu.rtm"/>
+			<Item Name="DAQ_Main.vi" Type="VI" URL="../DAQ_Main.vi"/>
 		</Item>
 		<Item Name="user.lib" Type="Folder" URL="/&lt;userlib&gt;">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -484,23 +742,26 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="SCA commands.ctl" Type="VI" URL="../../../CONnie/PRIME Control 2017a/cRIO code/SCA/controls/SCA commands.ctl"/>
-			<Item Name="SCA broadcast status.ctl" Type="VI" URL="../../../CONnie/PRIME Control 2017a/cRIO code/SCA/controls/SCA broadcast status.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="PRIME DAQ 2017a Executable" Type="EXE">
-				<Property Name="App_INI_aliasGUID" Type="Str">{46BAE6AA-1B80-4937-ADAC-0B7AF6999546}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{CDEDD72E-69D4-44D2-AD1B-939C047090C9}</Property>
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{887B6A7C-C10A-4AC2-945B-FAE548256F21}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{44F7D1E7-F900-4973-9DC2-F7600203B85C}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{F7B5FA11-28E0-4926-A285-2CA0A3273718}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Slightly updated version of Lois for use on new PCs until new Slow/Fast system completed.</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{2AD0673D-59F3-4E27-93BF-312C61676F19}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">PRIME DAQ 2017a Executable</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/PRIME DAQ 2017a Executable</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{C492DB72-8071-49C7-8548-EFB0546A2257}</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A9008A26-F1B1-4F7D-9E25-15995D6717C7}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">DAQ_2017a.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/PRIME DAQ 2017a Executable/DAQ_2017a.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">PRIME_DAQ.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/PRIME DAQ 2017a Executable/PRIME_DAQ.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -509,53 +770,48 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/PRIME DAQ 2017a/DAQ desktop icon.ico</Property>
-				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/Copy of shared var source.lvlib</Property>
-				<Property Name="Exe_Vardep[1].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[1].LibItemID" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/shared variables library.lvlib</Property>
-				<Property Name="Exe_Vardep[2].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[2].LibItemID" Type="Ref">/My Computer/PRIME DAQ 2017a/stable current/stable test.lvlib</Property>
-				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
-				<Property Name="Exe_VardepLibItemCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{06118068-EA86-4B1A-AD53-C3E8176B58AE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2B67864F-66DD-486A-8CCA-EEF59AFE4837}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/boot/run script.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/boot/preload default boot.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/DAQ_Main.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/boot/preload default boot.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/DAQ_Main.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/spectrum/2d/select gating.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/spectrum/2d/select gating.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/wheel/run order display.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/wheel/run order display.vi</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/controls/SCA broadcast status.ctl</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
-				<Property Name="TgtF_companyName" Type="Str">PRIMELab</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/PRIME DAQ 2017a/controls/SCA commands.ctl</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">PRIME DAQ 2017a Executable</Property>
 				<Property Name="TgtF_internalName" Type="Str">PRIME DAQ 2017a Executable</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
 				<Property Name="TgtF_productName" Type="Str">PRIME DAQ 2017a Executable</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{616AEBA8-6445-4119-A3EF-17F528B03A8A}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">DAQ_2017a.exe</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{1D476A6F-74B1-4966-88AC-16D278FFEBDD}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">PRIME_DAQ.exe</Property>
 			</Item>
 			<Item Name="PRIME DAQ 2017a Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">PRIME DAQ</Property>
+				<Property Name="Destination[0].name" Type="Str">PRIME_DAQ_2017a</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{96B8D755-7641-4A5D-A5F0-5324D46D8385}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{3903E623-58B7-4EA5-AED2-0C1C4BE8ED8A}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
@@ -617,33 +873,28 @@
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/PRIME DAQ 2017a Installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">PRIME DAQ 2017a Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{96B8D755-7641-4A5D-A5F0-5324D46D8385}</Property>
-				<Property Name="INST_productName" Type="Str">PRIME DAQ 2017a</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.39</Property>
+				<Property Name="INST_defaultDir" Type="Str">{3903E623-58B7-4EA5-AED2-0C1C4BE8ED8A}</Property>
+				<Property Name="INST_productName" Type="Str">PRIME_DAQ_2017a</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
-				<Property Name="MSI_arpCompany" Type="Str">PRIME Lab</Property>
-				<Property Name="MSI_arpContact" Type="Str">Max Wyman</Property>
-				<Property Name="MSI_arpPhone" Type="Str">765-496-6894</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
-				<Property Name="MSI_distID" Type="Str">{0BB9FF24-9120-44C3-AEF3-8A5D36103B54}</Property>
+				<Property Name="MSI_distID" Type="Str">{DB6A65B5-DEF1-4FEC-83E4-46B54571D36E}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{025BA2E4-A0CC-4041-83A8-8AC7D80874DB}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">PRIME DAQ 2017a will be installed. This version of the PRIME Lab's DAQ software works with the Pixie4 and PXI crates and is an upgraded version (meant for Windows 7 and built in LabVIEW 2016) of the old Windows XP/LabVIEW 2009 version.</Property>
-				<Property Name="MSI_windowTitle" Type="Str">PRIME DAQ 2017a Installer</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{B0BEDA29-DBC0-45EA-B78B-9F1F47AF2BF0}</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{96B8D755-7641-4A5D-A5F0-5324D46D8385}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{96B8D755-7641-4A5D-A5F0-5324D46D8385}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">DAQ_2017a.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">2</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">DAQ_2017a</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">PRIME DAQ 2017a</Property>
+				<Property Name="Source[0].dest" Type="Str">{3903E623-58B7-4EA5-AED2-0C1C4BE8ED8A}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{3903E623-58B7-4EA5-AED2-0C1C4BE8ED8A}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">PRIME_DAQ.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">PRIME_DAQ</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">PRIME_DAQ_2017a</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{616AEBA8-6445-4119-A3EF-17F528B03A8A}</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{1D476A6F-74B1-4966-88AC-16D278FFEBDD}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
 				<Property Name="Source[0].name" Type="Str">PRIME DAQ 2017a Executable</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/PRIME DAQ 2017a Executable</Property>
