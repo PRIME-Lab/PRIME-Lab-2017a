@@ -8,7 +8,7 @@
 	<Property Name="Database Name" Type="Str">2013_R45</Property>
 	<Property Name="Database Path" Type="Str">d:\labview hist data\r45</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">false</Property>
-	<Property Name="Enable Data Logging" Type="Bool">true</Property>
+	<Property Name="Enable Data Logging" Type="Bool">false</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(^!!!*Q(C=\&gt;8"&lt;2MR%!813:"$A*T51;!7JA7VI";G"6V^6!P4AFJ1#^/#7F!,TN/'-(++=IC2(-TVS+O`80+:3[QDNP9VYEO]0GP@@NM_LD_\`K4&amp;2`NI`\;^0.WE\\ZH0]8D2;2'N3K6]:DK&gt;?1D(`H)2T\SFL?]Z3VP?=N,8P+3F\TE*5^ZSF/?]J3H@$PE)1^ZS*('Z'/C-?A99(2'C@%R0--T0-0D;QT0]!T0]!S0,D%]QT-]QT-]&lt;IPB':\B':\B-&gt;1GG?W1]QS0Y;.ZGK&gt;ZGK&gt;Z4"H.UQ"NMD:Q'Q1DWM6WUDT.UTR/IXG;JXG;JXF=DO:JHO:JHO:RS\9KP7E?BZT(-&amp;%]R6-]R6-]BI\C+:\C+:\C-6U54`%52*GQ$)Y1Z;&lt;3I8QJHO,R+YKH?)KH?)L(J?U*V&lt;9S$]XDE0-E4`)E4`)EDS%C?:)H?:)H?1Q&lt;S:-]S:-]S7/K3*\E3:Y%3:/;0N*A[=&lt;5+18*YW@&lt;,&lt;E^J&gt;YEO2U2;`0'WJ3R.FOM422L=]2[[,%?:KS(&amp;'PR9SVKL-7+N1CR`LB9[&amp;C97*0%OPH2-?Y_&lt;_KK,OKM4OKI$GKP&gt;I^&lt;`X,(_`U?N^MNLN&gt;L8#[8/*`0=4K&gt;YHA]RO&amp;QC0V_(\P&gt;\OUV].XR^E,Y_6Z[=@YH^5\`3`_$&gt;W.]DF`(N59`!/&lt;!-PQ!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
@@ -395,7 +395,7 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"9!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="GFM field set" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -742,6 +742,66 @@
 		<Property Name="typedefName1" Type="Str">Faraday cup states.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../control vi/controls/Faraday cup states.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"U=!!!!"9!A!!!!!!"!&amp;Y!]1!!!!!!!!!"&amp;E:B=G&amp;E98EA9X6Q)(.U982F=SZD&gt;'Q!0U!7!!-22E-A=X2B&gt;(6T)(6O9WRF98)&amp;2E-A;7Y'2E-A&lt;X6U!!!32G&amp;S972B?3"$&gt;8!A5X2B&gt;(6T!!!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R45-1-FPGA Error" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\R45-1-FPGA Error</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!![.A!!!"9!A!!!!!!%!!1!)1!&amp;!!-!!!A!-0````]!$!"1!!-!!!!"!!)!!1!$!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R45-1-RT Error" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.80\global R45_1 shared var lib\R45-1-RT Error</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!![.A!!!"9!A!!!!!!%!!1!)1!&amp;!!-!!!A!-0````]!$!"1!!-!!!!"!!)!!1!$!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R45-2-FPGA Error" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45-2-FPGA Error</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!![.A!!!"9!A!!!!!!%!!1!)1!&amp;!!-!!!A!-0````]!$!"1!!-!!!!"!!)!!1!$!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="R45-2-RT Error" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:AccessType" Type="Str">read/write</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">1</Property>
+		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
+		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.9\global R45_2 shared var lib\R45-2-RT Error</Property>
+		<Property Name="Network:UseBinding" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!![.A!!!"9!A!!!!!!%!!1!)1!&amp;!!-!!!A!-0````]!$!"1!!-!!!!"!!)!!1!$!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="reset exb 2" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
