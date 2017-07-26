@@ -13,6 +13,7 @@
 	<Item Name="get momentum-scaled.vi" Type="VI" URL="../../Features/get momentum-scaled.vi"/>
 	<Item Name="get value.vi" Type="VI" URL="../../Features/features/get value.vi"/>
 	<Item Name="get velocity-scaled.vi" Type="VI" URL="../../Features/get velocity-scaled.vi"/>
+	<Item Name="GFM monitor.vi" Type="VI" URL="../../Tools/GFM monitor.vi"/>
 	<Item Name="Injector global.vi" Type="VI" URL="../../Features/features/field/Injector global.vi"/>
 	<Item Name="K-ratio calc.vi" Type="VI" URL="../../Features/K-ratio calc.vi"/>
 	<Item Name="Scale injector.vi" Type="VI" URL="../../Features/features/field/Scale injector.vi"/>

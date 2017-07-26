@@ -12,5 +12,4 @@
 	<Item Name="small current measurement.vi" Type="VI" URL="../../../Tools/small current measurement.vi"/>
 	<Item Name="flat top.vi" Type="VI" URL="../../../Tools/flat top.vi"/>
 	<Item Name="scan injector.vi" Type="VI" URL="../../../Tools/scan injector.vi"/>
-	<Item Name="GFM monitor.vi" Type="VI" URL="../../../Tools/GFM monitor.vi"/>
 </Library>
