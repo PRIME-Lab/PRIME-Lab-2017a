@@ -1,4 +1,4 @@
-7/27/2017 3:10:50 PM
+7/28/2017 4:39:28 PM
 [General]
 Project: D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\PRIME Control 2017a.lvproj
 Target: My Computer
@@ -13,7 +13,7 @@ D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Current measuremen
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\count rate.vi	7/11/2017 3:20:33 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\data aquisition\shift\count rate shift.vi	7/12/2017 11:29:00 AM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Large current measurement readings.vi	7/20/2017 11:38:58 AM
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\Source A.vi	7/24/2017 1:21:56 PM
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\Source A.vi	7/28/2017 2:36:55 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\injector magnet.vi	7/24/2017 2:31:30 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\R45.vi	7/26/2017 1:58:14 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\Scale.vi	7/14/2017 10:35:00 AM
@@ -23,9 +23,9 @@ D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\terminal vol
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\Transmission.vi	7/25/2017 4:27:21 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\HighEnd.vi	7/24/2017 1:57:23 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\LowEnd.vi	7/24/2017 1:09:38 PM
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\R30.vi	7/25/2017 4:29:44 PM
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\R30.vi	7/28/2017 10:30:43 AM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\flat top.vi	7/11/2017 5:50:24 PM
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Sample changer.vi	7/27/2017 2:56:47 PM
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Sample changer.vi	7/28/2017 11:57:27 AM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\scan injector.vi	6/14/2017 3:54:29 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Operations Monitor.vi	7/24/2017 3:09:50 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\Scale - molecular.vi	7/20/2017 11:33:22 AM
@@ -36,7 +36,7 @@ D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\Con
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\Transmission shared var.lvlib	7/25/2017 7:12:07 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\HighEnd shared var.lvlib	7/24/2017 2:42:45 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\InjectorA-Image shared var.lvlib	7/24/2017 2:42:46 PM	1.0.0.0
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\R30 shared var.lvlib	7/25/2017 7:12:07 PM	1.0.0.0
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\R30 shared var.lvlib	7/28/2017 2:22:05 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\beamline sections.lvlib	7/12/2017 11:29:00 AM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\InjectorA shared var.lvlib	7/11/2017 3:34:52 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\LowEnd shared var.lvlib	7/24/2017 2:42:46 PM	1.0.0.0
@@ -46,9 +46,9 @@ D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\main.lvl
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\R45 shared var.lvlib	7/25/2017 7:12:08 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\DAQuiri shared var.lvlib	7/24/2017 2:42:45 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\SCA shared var - old.lvlib	7/24/2017 2:42:46 PM	1.0.0.0
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\SCA shared var - new.lvlib	7/27/2017 10:22:43 AM	1.0.0.0
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\SCA shared var - new.lvlib	7/28/2017 2:22:05 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\CONnie shared var.lvlib	7/24/2017 2:42:46 PM	1.0.0.0
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\Transmission\old - trans rio shared var.lvlib	7/19/2017 1:10:54 PM	1.0.0.0
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\Transmission\global trans shared var.lvlib	7/19/2017 1:10:32 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\High energy end\He rio\HE Shared Variable\he lib.lvlib	12/20/2016 11:35:02 AM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\SaveLoad.lvlib	5/23/2017 7:22:53 PM	1.0.0.0
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\NI_Data Type.lvlib	6/8/2016 10:42:34 PM	1.0.0.0
@@ -64,15 +64,195 @@ D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Transmission\trans
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\R30\R30  library.lvlib	5/1/2017 2:18:10 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485_32.dll	11/5/2013 1:03:50 PM
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\resource\lvanlys.dll	6/8/2016 6:04:12 PM
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	6/8/2016 8:44:15 PM	99
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_DisplayManager_Actions.ctl	6/9/2016 3:20:52 AM	6
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\StdLib\HashTable\VariantBased\NIMS_VariantHashTable_Insert.vi	6/9/2016 3:22:36 AM	26
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\StdLib\HashTable\VariantBased\NIMS_VariantHashTable_Replace.vi	6/9/2016 3:22:38 AM	22
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_ManageDisplayBuffers.vi	6/9/2016 3:20:52 AM	23
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\Action.ctl	6/9/2016 3:20:56 AM	7
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Struct\NIMS_Struct_Global.vi	6/9/2016 3:21:54 AM	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Struct\NIMS_Struct_GetFieldNames.vi	6/9/2016 3:21:54 AM	9
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Constants\MC_Global_Global.vi	6/9/2016 3:19:42 AM	278
+C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_RunTimeType_From StrictType (excl LVString)_BBF44FB49F834B71AF7A14CCEDF8BECD.lvgen\NIMS_RunTimeType_From StrictType (excl LVString)_BBF44FB49F834B71AF7A14CCEDF8BECD_000.vi	6/9/2016 4:47:45 AM	30
+C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_VariantTo2DData_AED9D9ABF80D436DB1EBE7150B0AFB04.lvgen\NIMS_VariantTo2DData_AED9D9ABF80D436DB1EBE7150B0AFB04_003.vi	6/9/2016 4:48:50 AM	44
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath\Plug In\_Char\NIMS_CH_character datatype.ctl	6/9/2016 3:22:58 AM	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_And Array Elements.vi	6/9/2016 3:22:30 AM	6
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\RunTimeType\NIMS_RunTimeType_Get Plug-In Name.vi	6/9/2016 3:21:52 AM	13
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath\Plug In\_Char\NIMS_CH_Character 2D to String 2D.vi	6/9/2016 3:22:58 AM	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Display_1D_Array_String.vi	6/9/2016 3:20:52 AM	34
+C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_And Array Elements_631861BECDC54B97B1BA31611A562819.lvgen\NIMS_And Array Elements_631861BECDC54B97B1BA31611A562819_000.vi	6/9/2016 4:47:39 AM	6
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\UIManager\MC_UIManager_Actions.ctl	6/9/2016 3:21:00 AM	13
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\whitespace.ctl	6/8/2016 8:31:45 PM	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Trim Whitespace.vi	6/8/2016 8:31:47 PM	33
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Align_Complex_Data.vi	6/9/2016 3:20:52 AM	13
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\common\IM_msg.ctl	6/9/2016 1:51:02 AM	9
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\common\IM_refnum_cluster.ctl	6/9/2016 1:51:02 AM	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Extract Conversion Specifier.vi	6/9/2016 3:19:26 AM	14
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Validate Specifier String.vi	6/9/2016 3:19:30 AM	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Convert Specifier String.vi	6/9/2016 3:19:26 AM	11
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Split Format String.vi	6/9/2016 3:19:28 AM	34
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Convert Exp String.vi	6/9/2016 3:19:24 AM	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Convert Decimal Symbol.vi	6/9/2016 3:19:24 AM	9
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Pad Zero Ahead Under Precision.vi	6/9/2016 3:19:28 AM	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Truncate String to Fit Width.vi	6/9/2016 3:19:30 AM	17
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Pad Decimal Point.vi	6/9/2016 3:42:32 AM	14
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Exp Specifier.vi	6/9/2016 3:42:32 AM	64
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under G Specifier.vi	6/9/2016 3:42:32 AM	57
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under String Specifier.vi	6/9/2016 3:19:26 AM	32
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Char Specifier.vi	6/9/2016 3:19:26 AM	38
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Pad Zero Ahead Under Sharp Flag.vi	6/9/2016 3:19:28 AM	14
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Decimal Specifier.vi	6/9/2016 3:19:26 AM	44
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Octal Specifier.vi	6/9/2016 3:19:26 AM	53
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Unsigned Specifier.vi	6/9/2016 3:19:26 AM	43
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Hex Specifier.vi	6/9/2016 3:42:32 AM	58
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under No Specifier.vi	6/9/2016 3:19:26 AM	29
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Align_Real_Data.vi	6/9/2016 3:20:52 AM	29
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Struct\NIMS_StructGetField.vi	6/9/2016 3:21:54 AM	18
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\PlugInManager\MC_PlugInDisplayVIType.ctl	6/9/2016 3:20:56 AM	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath\Functions\Error Handling\error.ctl	6/9/2016 3:22:42 AM	59
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\Utility\RunTimeEnginePaths.ctl	6/9/2016 3:22:38 AM	110
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\file.llb\Dflt Data Dir.vi	6/8/2016 8:44:34 PM	10
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\sub-VIs\cRIO ping.vi	5/20/2017 10:29:49 AM	4
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Clear Errors.vi	6/8/2016 8:57:39 PM	24
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\NIMS_ThrowDWarn.vi	6/9/2016 3:07:16 AM	38
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\Utility\GetRunTimeEnginePath.vi	6/9/2016 3:22:38 AM	426
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\PlugInManager\MC_PlugInFolderPath.vi	6/9/2016 3:20:56 AM	6
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\miscctls.llb\LVRowAndColumnTypeDef.ctl	6/8/2016 10:39:44 PM	1
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\dlg_ctls.llb\Space Constant.vi	6/8/2016 8:44:43 PM	19
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\PlugInManager\MC_GetPlugInDisplayVI.vi	6/9/2016 3:20:56 AM	27
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_VariantTo2DData.vi	6/9/2016 3:22:36 AM	43
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\VariableFlags.ctl	6/9/2016 3:20:58 AM	1
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\VariableType.ctl	6/9/2016 3:20:58 AM	1
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\ClickedVariableIsStruct.vi	6/9/2016 3:20:58 AM	20
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Get Dims (Matrix).vi	6/9/2016 3:22:32 AM	28
+C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_Get Dims (Vector)_A2EDA302BA1D47449C1BA3CB58D8106E.lvgen\NIMS_Get Dims (Vector)_A2EDA302BA1D47449C1BA3CB58D8106E_000.vi	6/9/2016 4:47:39 AM	26
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Get Dims (Vector).vi	6/9/2016 3:22:34 AM	26
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Get Scalar - Matrix.vi	6/9/2016 3:22:34 AM	29
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Is Row or Col Vector - Matrix.vi	6/9/2016 3:22:34 AM	21
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Get Column Vector - Matrix.vi	6/9/2016 3:22:32 AM	27
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Get Row Vector - Matrix.vi	6/9/2016 3:22:34 AM	25
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\RunTimeType\NIMS_RunTimeType_From StrictType (excl LVString).vi	6/9/2016 3:21:52 AM	29
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\NodeEndStatement\NIMS_NodeEndStatement_Output.vi	6/9/2016 3:21:02 AM	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath\Functions\Error Handling\Untranslate Error.vi	6/9/2016 3:22:42 AM	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Constants\MC_Global_NamesAndDefaultValues.vi	6/9/2016 3:19:42 AM	28
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\GlobalManager\MC_GlobalManager_Actions.ctl	6/9/2016 3:20:54 AM	4
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\GlobalRegistration\MC_Register_VI_In_Memory.vi	6/9/2016 3:20:54 AM	56
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\WorkSpace\UID Generator.vi	6/9/2016 3:21:00 AM	18
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\UIManager\MC_UIManager.vi	6/9/2016 3:21:00 AM	26
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Display_1D_Array_Complex.vi	6/9/2016 3:20:52 AM	84
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\GlobalManager\MC_GlobalManager.vi	6/9/2016 3:20:54 AM	17
+D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\half extended piston (push).ctl	4/21/2017 2:39:35 PM	4
+D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\half extended piston (push-in).ctl	4/21/2017 2:39:32 PM	5
+D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\Sample Rod (mid).ctl	4/21/2017 2:39:34 PM	6
+D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\Sample Rod (up-cathode).ctl	4/21/2017 2:39:34 PM	7
+D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\Sample Rod (down).ctl	4/21/2017 2:39:32 PM	6
+D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\Wheel Gate Valve.ctl	7/18/2017 4:48:08 PM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\GV states.ctl	3/1/2017 12:01:48 PM	2
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\SCA Bypass control.ctl	4/12/2017 8:47:16 AM	2
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\SCA commands.ctl	6/16/2017 12:48:05 PM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\Horizontal Rod states.ctl	9/28/2016 11:44:16 AM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\SCA broadcast status.ctl	7/18/2017 2:32:24 PM	2
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\Vertical Rod states.ctl	9/28/2016 11:44:16 AM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\data aquisition\shift\count rate shift.vi	7/12/2017 11:29:00 AM	5
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\FC beamlines.ctl	7/19/2017 10:21:32 AM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Transmission\Switch magnet  fc open.vi	7/20/2017 10:18:14 AM	10
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\R30\detector fc open.vi	7/20/2017 10:18:16 AM	13
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\faraday cup\display in or out.vi	7/12/2017 11:29:00 AM	8
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\Faraday cup states.ctl	3/1/2017 12:04:20 PM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\faraday cup\display FC status.vi	7/20/2017 10:17:50 AM	13
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\control_main_events.ctl	5/3/2017 3:26:03 PM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\run vis.vi	7/26/2017 12:48:25 PM	70
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\beamline selection.ctl	5/2/2017 11:33:20 AM	12
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\case selection.vi	5/4/2017 9:53:32 AM	15
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\select vi.vi	6/14/2017 11:51:11 AM	9
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\pop vi.vi	5/4/2017 9:51:10 AM	9
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\upper subpanel selection.ctl	7/26/2017 12:49:38 PM	9
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\feature select.vi	7/26/2017 12:50:37 PM	38
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\upper pop.vi	7/26/2017 12:50:40 PM	15
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\saveloadprev.ctl	5/22/2017 12:42:51 PM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Current measurements\shift currents.vi	7/12/2017 11:29:00 AM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\file.llb\Write Spreadsheet String.vi	6/8/2016 9:52:46 PM	13
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\file.llb\Write Delimited Spreadsheet (DBL).vi	6/8/2016 8:58:31 PM	59
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Analysis\8numeric.llb\Peak Detector (obs 2010).vi	6/8/2016 10:05:26 PM	200
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\low energy end\Low energy end\steerer split.vi	1/10/2017 11:56:04 AM	10
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\low energy end\Low energy end\steerer range.vi	1/10/2017 11:56:03 AM	5
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\low energy end\Low energy end\steerer set.vi	1/10/2017 11:56:07 AM	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Analysis\baseanly.llb\Mean (DBL).vi	6/8/2016 8:00:20 PM	42
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\flat top\flat top measure.vi	7/11/2017 3:20:33 PM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\SCA steerers.ctl	7/6/2017 10:16:03 AM	1
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL Wait ms.vi	1/10/2017 11:56:04 AM	17
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Instr\_visa.llb\VISA Open Access Mode.ctl	6/8/2016 11:13:18 PM	3
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL CheckSum Append.vi	1/10/2017 11:56:04 AM	12
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL Verify Checksum.vi	1/10/2017 11:56:06 AM	10
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL GEN Convert Errors.vi	1/10/2017 11:56:03 AM	6
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL SCPI Error Query.vi	1/10/2017 11:56:06 AM	9
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL Write Read Instrument.vi	1/10/2017 11:56:06 AM	79
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\ZPL Initialize.vi	1/10/2017 11:56:05 AM	165
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Configuration\ZPL Config Voltage Limit.vi	1/10/2017 11:56:06 AM	19
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Configuration\ZPL Config Current Limit.vi	1/10/2017 11:56:05 AM	19
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Configuration\ZPL Config Output ON-OFF.vi	1/10/2017 11:56:05 AM	18
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Action_Status\ZPL Read Set Current.vi	1/10/2017 11:56:06 AM	24
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Action_Status\ZPL Read Set Voltage.vi	1/10/2017 11:56:05 AM	21
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Data\ZPL Meas Output Current.vi	1/10/2017 11:56:05 AM	20
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Data\ZPL Meas Output Voltage.vi	1/10/2017 11:56:06 AM	19
+D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Data\ZPL Meas Output Power.vi	1/10/2017 11:56:06 AM	23
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\flat top\sort names.vi	6/6/2017 10:49:04 AM	11
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\flat top\sort all.vi	7/11/2017 3:31:27 PM	13
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\Flat top control settings.ctl	6/9/2017 11:33:14 AM	5
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\flat top states.ctl	6/8/2017 5:44:46 PM	2
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\features\field\Injector global.vi	7/12/2017 11:29:00 AM	5
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\features\field\Scale injector.vi	7/12/2017 11:29:00 AM	11
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\set value.vi	7/14/2017 10:50:54 AM	26
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\scale states.ctl	6/14/2017 6:03:44 PM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Receive Message.vi	1/10/2017 11:56:07 AM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Send Message.vi	1/10/2017 11:56:05 AM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Channel String.vi	1/10/2017 11:56:03 AM	11
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Read SCPI Error Queue (GPIB).vi	1/10/2017 11:56:05 AM	6
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Instr\_gpibsup.llb\Parse Address String.vi	6/8/2016 11:13:16 PM	5
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Error Query Global.vi	1/10/2017 11:56:06 AM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Initialize.vi	1/10/2017 11:56:04 AM	4
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Error Query.vi	1/10/2017 11:56:06 AM	4
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 OpenClose Chan.vi	1/10/2017 11:56:04 AM	6
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Card Configure.vi	1/10/2017 11:56:04 AM	2
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Arm Lay 1 Config.vi	1/10/2017 11:56:05 AM	5
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Arm Lay 2 Config.vi	1/10/2017 11:56:06 AM	2
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Trig Layer Config.vi	1/10/2017 11:56:06 AM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\errclust.llb\IVI Error Message Builder.vi	6/8/2016 11:08:18 PM	18
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 IVI Error Converter.vi	1/10/2017 11:56:06 AM	60
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 Initialize.vi	1/10/2017 11:56:06 AM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 Configure DC Current Sense.vi	1/10/2017 11:56:06 AM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 Write Instrument Data.vi	1/10/2017 11:56:03 AM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 Read.vi	1/10/2017 11:56:06 AM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 Close.vi	1/10/2017 11:56:06 AM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\R45\realtime vi\10kv set steerer1.vi	7/12/2017 11:29:00 AM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Transmission\HE steerer split.vi	1/10/2017 11:56:03 AM	9
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\low energy end\Low energy end\Einzel Range.vi	1/10/2017 11:56:06 AM	5
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Transmission\Quad Range.vi	1/10/2017 11:56:06 AM	6
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\prev-save-load-enum.ctl	5/22/2017 12:36:19 PM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\SLP-cluster-to-enum.vi	5/22/2017 12:45:29 PM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\load error enhancer.vi	5/23/2017 7:17:46 PM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\Type Definitions\Data Type.ctl	6/8/2016 9:43:04 PM	22
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\express\express shared\ex_CorrectErrorChain.vi	6/8/2016 7:31:46 PM	13
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\express\express input\FileDialogBlock.llb\subFile Dialog.vi	6/8/2016 8:45:30 PM	16
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\Type Definitions\Type Definition Info.ctl	6/8/2016 9:43:02 PM	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\Private\GetRefnumInfoInternal.vi	6/8/2016 9:43:02 PM	21
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\Private\MDTFlavorToTypeEnum.vi	6/8/2016 9:43:02 PM	19
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\Get Type Information.vi	6/8/2016 7:58:34 PM	63
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\Variant-to-String.vi	5/24/2017 2:49:03 PM	9
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\get settings string.vi	5/23/2017 4:20:35 PM	6
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\features\get value.vi	6/13/2017 5:52:52 PM	18
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\get momentum-scaled.vi	6/14/2017 9:52:34 AM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\get velocity-scaled.vi	6/14/2017 10:22:02 AM	4
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\set settings from string.vi	5/24/2017 2:48:59 PM	29
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\SaveLoadPreview-main.vi	7/14/2017 10:45:32 AM	67
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\SaveLoadPrev-section.vi	5/23/2017 1:32:39 PM	38
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\DialogType.ctl	6/8/2016 8:31:45 PM	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Error Code Database.vi	6/8/2016 8:31:47 PM	36
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\ErrorHandling\NIMS_Finalize Error.vi	6/9/2016 3:19:54 AM	27
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\TagReturnType.ctl	6/8/2016 8:31:41 PM	3
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Check Special Tags.vi	6/8/2016 8:31:46 PM	22
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Set String Value.vi	6/8/2016 8:31:41 PM	2
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\GetRTHostConnectedProp.vi	6/8/2016 8:31:42 PM	2
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Error Code Database.vi	6/8/2016 8:31:47 PM	36
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\whitespace.ctl	6/8/2016 8:31:45 PM	15
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Trim Whitespace.vi	6/8/2016 8:31:47 PM	33
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Search and Replace Pattern.vi	6/8/2016 8:57:37 PM	34
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Find Tag.vi	6/8/2016 8:31:41 PM	9
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Set Bold Text.vi	6/8/2016 8:31:41 PM	18
@@ -89,262 +269,80 @@ C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.ll
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\GetHelpDir.vi	6/8/2016 8:31:41 PM	4
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\BuildHelpPath.vi	6/8/2016 8:31:41 PM	5
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Not Found Dialog.vi	6/8/2016 8:31:45 PM	12
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\SCA commands.ctl	6/16/2017 12:48:05 PM	1
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\stop vis.vi	7/26/2017 12:48:48 PM	34
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\event_ctls.llb\eventvkey.ctl	6/8/2016 8:31:45 PM	10
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\ErrWarn.ctl	6/8/2016 8:31:41 PM	19
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\set value.vi	7/14/2017 10:50:54 AM	26
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Details Display Dialog.vi	6/8/2016 8:31:45 PM	310
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\General Error Handler Core CORE.vi	6/8/2016 8:31:45 PM	354
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\General Error Handler.vi	6/8/2016 8:57:31 PM	201
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Simple Error Handler.vi	6/8/2016 8:57:31 PM	44
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\dlg_ctls.llb\Space Constant.vi	6/8/2016 8:44:43 PM	19
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\miscctls.llb\LVRowAndColumnTypeDef.ctl	6/8/2016 10:39:44 PM	1
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\Faraday cup states.ctl	3/1/2017 12:04:20 PM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\flat top states.ctl	6/8/2017 5:44:46 PM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\beamline selection.ctl	5/2/2017 11:33:20 AM	12
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\Flat top control settings.ctl	6/9/2017 11:33:14 AM	5
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\SCA broadcast status.ctl	7/18/2017 2:32:24 PM	2
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Analysis\baseanly.llb\Mean (DBL).vi	6/8/2016 8:00:20 PM	42
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\Vertical Rod states.ctl	9/28/2016 11:44:16 AM	1
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\Aperture states.ctl	7/20/2017 9:52:54 AM	4
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\Minimum Times.ctl	4/11/2017 5:54:13 PM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\Sample Changer Settings.ctl	7/27/2017 9:46:03 AM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\SCA Bypass control.ctl	4/12/2017 8:47:16 AM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\GP307 cluster.ctl	3/1/2017 12:03:09 PM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\GV states.ctl	3/1/2017 12:01:48 PM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\Horizontal Rod states.ctl	9/28/2016 11:44:16 AM	1
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\GlobalRegistration\MC_Register_VI_In_Memory.vi	6/9/2016 3:20:54 AM	56
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\GlobalManager\MC_GlobalManager_Actions.ctl	6/9/2016 3:20:54 AM	4
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\GlobalManager\MC_GlobalManager.vi	6/9/2016 3:20:54 AM	17
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Constants\MC_Global_NamesAndDefaultValues.vi	6/9/2016 3:19:42 AM	28
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath\Functions\Error Handling\error.ctl	6/9/2016 3:22:42 AM	59
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath\Functions\Error Handling\Untranslate Error.vi	6/9/2016 3:22:42 AM	12
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\ErrorHandling\NIMS_Finalize Error.vi	6/9/2016 3:19:54 AM	27
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\NodeEndStatement\NIMS_NodeEndStatement_Output.vi	6/9/2016 3:21:02 AM	8
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Constants\MC_Global_Global.vi	6/9/2016 3:19:42 AM	278
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\RunTimeType\NIMS_RunTimeType_From StrictType (excl LVString).vi	6/9/2016 3:21:52 AM	29
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Get Row Vector - Matrix.vi	6/9/2016 3:22:34 AM	25
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Get Column Vector - Matrix.vi	6/9/2016 3:22:32 AM	27
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Is Row or Col Vector - Matrix.vi	6/9/2016 3:22:34 AM	21
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Struct\NIMS_StructGetField.vi	6/9/2016 3:21:54 AM	18
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Get Scalar - Matrix.vi	6/9/2016 3:22:34 AM	29
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Get Dims (Matrix).vi	6/9/2016 3:22:32 AM	28
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Get Dims (Vector).vi	6/9/2016 3:22:34 AM	26
-C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_Get Dims (Vector)_A2EDA302BA1D47449C1BA3CB58D8106E.lvgen\NIMS_Get Dims (Vector)_A2EDA302BA1D47449C1BA3CB58D8106E_000.vi	6/9/2016 4:47:39 AM	26
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Into String (1D-DBL).vi	6/9/2016 3:19:26 AM	53
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Write Formatted Data to String (1D-DBL).vi	6/9/2016 3:19:30 AM	45
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Display_1D_Array_Real.vi	6/9/2016 3:20:52 AM	79
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Is Scalar.vi	6/9/2016 3:22:34 AM	15
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_VariantTo2DData.vi	6/9/2016 3:22:36 AM	43
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_Get Row Vector - Matrix_73C62E6A23B74A87BA790FCBD9952466.lvgen\NIMS_Get Row Vector - Matrix_73C62E6A23B74A87BA790FCBD9952466_000.vi	6/9/2016 4:47:38 AM	26
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_Get Column Vector - Matrix_9A41694D383F4F97A368BCDCEE24DC60.lvgen\NIMS_Get Column Vector - Matrix_9A41694D383F4F97A368BCDCEE24DC60_002.vi	6/9/2016 4:48:50 AM	28
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_Is Row or Col Vector - Matrix_5BC98D2AF6734204A65B136C70091A2D.lvgen\NIMS_Is Row or Col Vector - Matrix_5BC98D2AF6734204A65B136C70091A2D_000.vi	6/9/2016 4:47:39 AM	22
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_Get Scalar - Matrix_1E430E5CAF9140B2A906F03FDAFA275A.lvgen\NIMS_Get Scalar - Matrix_1E430E5CAF9140B2A906F03FDAFA275A_000.vi	6/9/2016 4:47:38 AM	30
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_Get Dims (Matrix)_BC29225E7A664B16ACDE05B1E08C63D6.lvgen\NIMS_Get Dims (Matrix)_BC29225E7A664B16ACDE05B1E08C63D6_001.vi	6/9/2016 4:47:39 AM	29
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_Is Scalar_89B9ED78D71B42AB8B13B24B56DF904A.lvgen\NIMS_Is Scalar_89B9ED78D71B42AB8B13B24B56DF904A_000.vi	6/9/2016 4:47:40 AM	16
-C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_VariantTo2DData_AED9D9ABF80D436DB1EBE7150B0AFB04.lvgen\NIMS_VariantTo2DData_AED9D9ABF80D436DB1EBE7150B0AFB04_003.vi	6/9/2016 4:48:50 AM	44
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\GetStructFieldValue.vi	6/9/2016 3:20:58 AM	46
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\ClickedVariableIsStruct.vi	6/9/2016 3:20:58 AM	20
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\VariableType.ctl	6/9/2016 3:20:58 AM	1
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\VariableFlags.ctl	6/9/2016 3:20:58 AM	1
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\Action.ctl	6/9/2016 3:20:56 AM	7
-C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_RunTimeType_From StrictType (excl LVString)_BBF44FB49F834B71AF7A14CCEDF8BECD.lvgen\NIMS_RunTimeType_From StrictType (excl LVString)_BBF44FB49F834B71AF7A14CCEDF8BECD_000.vi	6/9/2016 4:47:45 AM	30
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\WorkSpace.vi	6/9/2016 3:21:00 AM	1566
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\Read UID Output Enabled.vi	6/9/2016 3:20:58 AM	24
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\Clear UID.vi	6/9/2016 3:20:56 AM	16
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\file.llb\Dflt Data Dir.vi	6/8/2016 8:44:34 PM	10
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\NIMS_ThrowDWarn.vi	6/9/2016 3:07:16 AM	38
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\Utility\RunTimeEnginePaths.ctl	6/9/2016 3:22:38 AM	110
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\Utility\GetRunTimeEnginePath.vi	6/9/2016 3:22:38 AM	426
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\PlugInManager\MC_PlugInFolderPath.vi	6/9/2016 3:20:56 AM	6
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\PlugInManager\MC_PlugInDisplayVIType.ctl	6/9/2016 3:20:56 AM	8
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\PlugInManager\MC_GetPlugInDisplayVI.vi	6/9/2016 3:20:56 AM	27
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Align_Real_Data.vi	6/9/2016 3:20:52 AM	29
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under No Specifier.vi	6/9/2016 3:19:26 AM	29
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Pad Zero Ahead Under Precision.vi	6/9/2016 3:19:28 AM	10
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Truncate String to Fit Width.vi	6/9/2016 3:19:30 AM	17
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Pad Decimal Point.vi	6/9/2016 3:42:32 AM	14
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Convert Exp String.vi	6/9/2016 3:19:24 AM	10
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Convert Decimal Symbol.vi	6/9/2016 3:19:24 AM	9
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Exp Specifier.vi	6/9/2016 3:42:32 AM	64
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Decimal Specifier.vi	6/9/2016 3:19:26 AM	44
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Pad Zero Ahead Under Sharp Flag.vi	6/9/2016 3:19:28 AM	14
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Hex Specifier.vi	6/9/2016 3:42:32 AM	58
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Unsigned Specifier.vi	6/9/2016 3:19:26 AM	43
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under String Specifier.vi	6/9/2016 3:19:26 AM	32
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Octal Specifier.vi	6/9/2016 3:19:26 AM	53
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under G Specifier.vi	6/9/2016 3:42:32 AM	57
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Under Char Specifier.vi	6/9/2016 3:19:26 AM	38
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Format Into String (1D-DBL).vi	6/9/2016 3:19:26 AM	53
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Convert Specifier String.vi	6/9/2016 3:19:26 AM	11
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Validate Specifier String.vi	6/9/2016 3:19:30 AM	12
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Split Format String.vi	6/9/2016 3:19:28 AM	34
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Extract Conversion Specifier.vi	6/9/2016 3:19:26 AM	14
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\BuiltInFunctionSupport\string\NIMS_string_Write Formatted Data to String (1D-DBL).vi	6/9/2016 3:19:30 AM	45
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\common\IM_msg.ctl	6/9/2016 1:51:02 AM	9
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\common\IM_refnum_cluster.ctl	6/9/2016 1:51:02 AM	12
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\UIManager\MC_UIManager_Actions.ctl	6/9/2016 3:21:00 AM	13
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\UIManager\MC_UIManager.vi	6/9/2016 3:21:00 AM	26
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Display_1D_Array_Real.vi	6/9/2016 3:20:52 AM	79
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Align_Complex_Data.vi	6/9/2016 3:20:52 AM	13
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Display_1D_Array_Complex.vi	6/9/2016 3:20:52 AM	84
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_And Array Elements.vi	6/9/2016 3:22:30 AM	6
-C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_And Array Elements_631861BECDC54B97B1BA31611A562819.lvgen\NIMS_And Array Elements_631861BECDC54B97B1BA31611A562819_000.vi	6/9/2016 4:47:39 AM	6
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeSupport\NIMS_Complex Is Real.vi	6/9/2016 3:22:32 AM	22
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Display_1D_Array_String.vi	6/9/2016 3:20:52 AM	34
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath\Plug In\_Char\NIMS_CH_character datatype.ctl	6/9/2016 3:22:58 AM	3
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath\Plug In\_Char\NIMS_CH_Character 2D to String 2D.vi	6/9/2016 3:22:58 AM	12
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\RunTimeType\NIMS_RunTimeType_Get Plug-In Name.vi	6/9/2016 3:21:52 AM	13
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_And Array Elements_631861BECDC54B97B1BA31611A562819.lvgen\NIMS_And Array Elements_631861BECDC54B97B1BA31611A562819_001.vi	6/9/2016 4:47:40 AM	7
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_Complex Is Real_2B70BAA071194520A271054C08F8A68A.lvgen\NIMS_Complex Is Real_2B70BAA071194520A271054C08F8A68A_001.vi	6/9/2016 4:48:14 AM	23
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_VariantTo2DData_AED9D9ABF80D436DB1EBE7150B0AFB04.lvgen\NIMS_VariantTo2DData_AED9D9ABF80D436DB1EBE7150B0AFB04_000.vi	6/9/2016 4:48:50 AM	44
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_VariantTo2DData_AED9D9ABF80D436DB1EBE7150B0AFB04.lvgen\NIMS_VariantTo2DData_AED9D9ABF80D436DB1EBE7150B0AFB04_001.vi	6/9/2016 4:48:50 AM	44
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_VariantTo2DData_AED9D9ABF80D436DB1EBE7150B0AFB04.lvgen\NIMS_VariantTo2DData_AED9D9ABF80D436DB1EBE7150B0AFB04_002.vi	6/9/2016 4:48:50 AM	44
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath\Plug In\_Struct\display\Display_StructField_Data.vi	6/9/2016 3:55:40 AM	105
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Struct\NIMS_Struct_Global.vi	6/9/2016 3:21:54 AM	10
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Struct\NIMS_Struct_GetFieldNames.vi	6/9/2016 3:21:54 AM	9
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath\Plug In\_Struct\display\Display _Struct.vi	6/9/2016 3:23:42 AM	110
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Display_Data.vi	6/9/2016 3:55:40 AM	141
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\SymbolTable\Read UID Output Enabled.vi	6/9/2016 3:20:58 AM	24
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\StdLib\HashTable\VariantBased\NIMS_VariantHashTable_Replace.vi	6/9/2016 3:22:38 AM	22
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\StdLib\HashTable\VariantBased\NIMS_VariantHashTable_Insert.vi	6/9/2016 3:22:36 AM	26
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_ManageDisplayBuffers.vi	6/9/2016 3:20:52 AM	23
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_DisplayManager_Actions.ctl	6/9/2016 3:20:52 AM	6
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_DisplayManager.vi	6/9/2016 3:20:52 AM	94
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\LocalVariableDefStatement\MC_LocalVariableDefStatement_Display.vi	6/9/2016 3:20:50 AM	50
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\WorkSpace\UID Generator.vi	6/9/2016 3:21:00 AM	18
 C:\ProgramData\National Instruments\InstCache\16.0\0\NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B.lvgen\NIMS_NodeEndStatement_Output_53EC0D466D134D7ABD903AC30B43404B_001.vi	6/9/2016 4:49:14 AM	9
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\K-ratio calc.vi	6/15/2017 10:42:00 AM	9
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\Type Definitions\Data Type.ctl	6/8/2016 9:43:04 PM	22
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\Private\MDTFlavorToTypeEnum.vi	6/8/2016 9:43:02 PM	19
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	6/8/2016 8:44:15 PM	99
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\Private\GetRefnumInfoInternal.vi	6/8/2016 9:43:02 PM	21
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\Type Definitions\Type Definition Info.ctl	6/8/2016 9:43:02 PM	10
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\Get Type Information.vi	6/8/2016 7:58:34 PM	63
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\features\get value.vi	6/13/2017 5:52:52 PM	18
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\get momentum-scaled.vi	6/14/2017 9:52:34 AM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\get velocity-scaled.vi	6/14/2017 10:22:02 AM	4
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\express\express shared\ex_CorrectErrorChain.vi	6/8/2016 7:31:46 PM	13
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\express\express input\FileDialogBlock.llb\subFile Dialog.vi	6/8/2016 8:45:30 PM	16
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\load error enhancer.vi	5/23/2017 7:17:46 PM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\set settings from string.vi	5/24/2017 2:48:59 PM	29
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\Variant-to-String.vi	5/24/2017 2:49:03 PM	9
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\get settings string.vi	5/23/2017 4:20:35 PM	6
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\saveloadprev.ctl	5/22/2017 12:42:51 PM	1
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\prev-save-load-enum.ctl	5/22/2017 12:36:19 PM	1
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\SLP-cluster-to-enum.vi	5/22/2017 12:45:29 PM	1
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\SaveLoadPrev-section.vi	5/23/2017 1:32:39 PM	38
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\low energy end\Low energy end\Einzel Range.vi	1/10/2017 11:56:06 AM	5
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Transmission\Quad Range.vi	1/10/2017 11:56:06 AM	6
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\low energy end\Low energy end\steerer range.vi	1/10/2017 11:56:03 AM	5
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\low energy end\Low energy end\steerer set.vi	1/10/2017 11:56:07 AM	8
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Transmission\HE steerer split.vi	1/10/2017 11:56:03 AM	9
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\R30.vi	7/25/2017 4:29:44 PM	81
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\HighEnd.vi	7/24/2017 1:57:23 PM	64
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Instr\_visa.llb\VISA Open Access Mode.ctl	6/8/2016 11:13:18 PM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\Transmission.vi	7/25/2017 4:27:21 PM	88
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\GFM monitor.vi	7/26/2017 1:58:40 PM	55
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\R45\realtime vi\10kv set steerer1.vi	7/12/2017 11:29:00 AM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\R45.vi	7/26/2017 1:58:14 PM	72
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\scale states.ctl	6/14/2017 6:03:44 PM	1
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\Scale - molecular.vi	7/20/2017 11:33:22 AM	90
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\errclust.llb\IVI Error Message Builder.vi	6/8/2016 11:08:18 PM	18
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 IVI Error Converter.vi	1/10/2017 11:56:06 AM	60
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 Close.vi	1/10/2017 11:56:06 AM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Current measurements\shift currents.vi	7/12/2017 11:29:00 AM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 Read.vi	1/10/2017 11:56:06 AM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\data aquisition\shift\count rate shift.vi	7/12/2017 11:29:00 AM	5
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Instr\_gpibsup.llb\Parse Address String.vi	6/8/2016 11:13:16 PM	5
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Error Query Global.vi	1/10/2017 11:56:06 AM	1
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Close.vi	1/10/2017 11:56:06 AM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Receive Message.vi	1/10/2017 11:56:07 AM	1
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Send Message.vi	1/10/2017 11:56:05 AM	1
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Read SCPI Error Queue (GPIB).vi	1/10/2017 11:56:05 AM	6
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Error Query.vi	1/10/2017 11:56:06 AM	4
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Trig Layer Config.vi	1/10/2017 11:56:06 AM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Arm Lay 2 Config.vi	1/10/2017 11:56:06 AM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Arm Lay 1 Config.vi	1/10/2017 11:56:05 AM	5
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Card Configure.vi	1/10/2017 11:56:04 AM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Channel String.vi	1/10/2017 11:56:03 AM	11
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 OpenClose Chan.vi	1/10/2017 11:56:04 AM	6
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithley\kei7001.llb\Keith 7001 Initialize.vi	1/10/2017 11:56:04 AM	4
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Keith 7001 change values.vi	1/10/2017 11:56:04 AM	15
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\High energy end\faraday switch.vi	7/12/2017 11:29:00 AM	31
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 Write Instrument Data.vi	1/10/2017 11:56:03 AM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 Configure DC Current Sense.vi	1/10/2017 11:56:06 AM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485.LLB\KE6485 Initialize.vi	1/10/2017 11:56:06 AM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\K-ratio calc.vi	6/15/2017 10:42:00 AM	9
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\R30.vi	7/28/2017 10:30:43 AM	81
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\HighEnd.vi	7/24/2017 1:57:23 PM	64
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\Transmission.vi	7/25/2017 4:27:21 PM	88
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\GFM monitor.vi	7/26/2017 1:58:40 PM	55
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\R45.vi	7/26/2017 1:58:14 PM	72
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\Scale - molecular.vi	7/20/2017 11:33:22 AM	90
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\small current measurement.vi	7/20/2017 11:35:02 AM	87
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\Scale.vi	7/14/2017 10:35:00 AM	62
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\features\field\Injector global.vi	7/12/2017 11:29:00 AM	5
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\features\field\Scale injector.vi	7/12/2017 11:29:00 AM	11
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\injector magnet.vi	7/24/2017 2:31:30 PM	46
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\terminal voltage readbacks.vi	7/14/2017 10:50:01 AM	50
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\flat top\sort names.vi	6/6/2017 10:49:04 AM	11
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\flat top\sort all.vi	7/11/2017 3:31:27 PM	13
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL Wait ms.vi	1/10/2017 11:56:04 AM	17
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL SCPI Error Query.vi	1/10/2017 11:56:06 AM	9
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL GEN Convert Errors.vi	1/10/2017 11:56:03 AM	6
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL Verify Checksum.vi	1/10/2017 11:56:06 AM	10
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL CheckSum Append.vi	1/10/2017 11:56:04 AM	12
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Utility\ZPL Write Read Instrument.vi	1/10/2017 11:56:06 AM	79
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Data\ZPL Meas Output Power.vi	1/10/2017 11:56:06 AM	23
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Data\ZPL Meas Output Voltage.vi	1/10/2017 11:56:06 AM	19
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Data\ZPL Meas Output Current.vi	1/10/2017 11:56:05 AM	20
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Action_Status\ZPL Read Set Voltage.vi	1/10/2017 11:56:05 AM	21
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Action_Status\ZPL Read Set Current.vi	1/10/2017 11:56:06 AM	24
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Configuration\ZPL Config Output ON-OFF.vi	1/10/2017 11:56:05 AM	18
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Configuration\ZPL Config Current Limit.vi	1/10/2017 11:56:05 AM	19
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Configuration\ZPL Config Voltage Limit.vi	1/10/2017 11:56:06 AM	19
-D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\ZPL Initialize.vi	1/10/2017 11:56:05 AM	165
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\SCA steerers.ctl	7/6/2017 10:16:03 AM	1
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\Source A.vi	7/24/2017 1:21:56 PM	115
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\flat top\flat top measure.vi	7/11/2017 3:20:33 PM	3
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\low energy end\Low energy end\steerer split.vi	1/10/2017 11:56:04 AM	10
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\LowEnd.vi	7/24/2017 1:09:38 PM	94
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\case selection.vi	5/4/2017 9:53:32 AM	15
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\Source A.vi	7/28/2017 2:36:55 PM	119
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\flat top.vi	7/11/2017 5:50:24 PM	73
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Analysis\8numeric.llb\Peak Detector (obs 2010).vi	6/8/2016 10:05:26 PM	200
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\file.llb\Write Spreadsheet String.vi	6/8/2016 9:52:46 PM	13
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\file.llb\Write Delimited Spreadsheet (DBL).vi	6/8/2016 8:58:31 PM	59
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Large current measurement readings.vi	7/20/2017 11:38:58 AM	62
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\LowEnd.vi	7/24/2017 1:09:38 PM	94
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\scan injector.vi	6/14/2017 3:54:29 PM	23
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Large current measurement readings.vi	7/20/2017 11:38:58 AM	62
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\bpm.vi	7/14/2017 10:50:01 AM	12
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\stop vis.vi	7/26/2017 12:48:48 PM	34
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\SaveLoadPreview-main.vi	7/14/2017 10:45:32 AM	67
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\upper subpanel selection.ctl	7/26/2017 12:49:38 PM	9
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\feature select.vi	7/26/2017 12:50:37 PM	38
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\upper pop.vi	7/26/2017 12:50:40 PM	15
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\pop vi.vi	5/4/2017 9:51:10 AM	9
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\select vi.vi	6/14/2017 11:51:11 AM	9
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\run vis.vi	7/26/2017 12:48:25 PM	70
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\control_main_events.ctl	5/3/2017 3:26:03 PM	1
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Control_MAIN.vi	7/26/2017 12:52:26 PM	85
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\conditioning monitor.vi	7/18/2017 3:36:52 PM	34
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\Aperture states.ctl	7/20/2017 9:52:54 AM	4
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\faraday cup\display AP status.vi	7/20/2017 10:17:54 AM	11
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\faraday cup\display FC status.vi	7/20/2017 10:17:50 AM	13
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\faraday cup\display in or out.vi	7/12/2017 11:29:00 AM	8
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\R30\detector fc open.vi	7/20/2017 10:18:16 AM	13
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Transmission\Switch magnet  fc open.vi	7/20/2017 10:18:14 AM	10
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\FC beamlines.ctl	7/19/2017 10:21:32 AM	1
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\beam cup control.vi	7/25/2017 2:27:13 PM	108
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\count rate.vi	7/11/2017 3:20:33 PM	13
-D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\Wheel Gate Valve.ctl	7/18/2017 4:48:08 PM	1
-D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\Sample Rod (down).ctl	4/21/2017 2:39:32 PM	6
-D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\Sample Rod (up-cathode).ctl	4/21/2017 2:39:34 PM	7
-D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\Sample Rod (mid).ctl	4/21/2017 2:39:34 PM	6
-D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\half extended piston (push-in).ctl	4/21/2017 2:39:32 PM	5
-D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\half extended piston (push).ctl	4/21/2017 2:39:35 PM	4
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Sample changer.vi	7/27/2017 2:56:47 PM	36
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\sub-VIs\cRIO ping.vi	5/20/2017 10:29:49 AM	4
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\GP307 cluster.ctl	3/1/2017 12:03:09 PM	3
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Sample changer.vi	7/28/2017 11:57:27 AM	44
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Operations Monitor.vi	7/24/2017 3:09:50 PM	110
 
 [Output File Version]
-PRIME Control 2017a.exe	1.0.0.99
+PRIME Control 2017a.exe	1.0.0.105
 
 [Output Files]
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.exe	7/27/2017 3:12:58 PM
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.aliases	7/27/2017 3:12:17 PM
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.ini	7/27/2017 3:12:17 PM
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\R30.vi	7/27/2017 3:12:15 PM
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\R30  library.lvlib	7/27/2017 3:12:11 PM
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\Quad Range.vi	7/27/2017 3:12:14 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.exe	7/28/2017 4:40:51 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.aliases	7/28/2017 4:40:29 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.ini	7/28/2017 4:40:29 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\R30.vi	7/28/2017 4:40:28 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\R30  library.lvlib	7/28/2017 4:40:23 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\Quad Range.vi	7/28/2017 4:40:26 PM
 D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\KE6485_32.dll	11/5/2013 1:03:50 PM
 D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\lvanlys.dll	6/8/2016 6:04:12 PM
 
-7/27/2017 3:12:58 PM
+7/28/2017 4:40:51 PM

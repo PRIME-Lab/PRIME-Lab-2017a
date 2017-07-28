@@ -289,7 +289,7 @@
 		<Property Name="Scaling:EngMax" Type="Str">2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
 		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMax" Type="Str">2</Property>
 		<Property Name="Scaling:RawMin" Type="Str">0</Property>
 		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
@@ -315,7 +315,7 @@
 		<Property Name="Scaling:EngMax" Type="Str">2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
 		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMax" Type="Str">2</Property>
 		<Property Name="Scaling:RawMin" Type="Str">0</Property>
 		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
@@ -341,7 +341,7 @@
 		<Property Name="Scaling:EngMax" Type="Str">2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
 		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMax" Type="Str">2</Property>
 		<Property Name="Scaling:RawMin" Type="Str">0</Property>
 		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
@@ -367,7 +367,7 @@
 		<Property Name="Scaling:EngMax" Type="Str">2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
 		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">10</Property>
+		<Property Name="Scaling:RawMax" Type="Str">2</Property>
 		<Property Name="Scaling:RawMin" Type="Str">0</Property>
 		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>

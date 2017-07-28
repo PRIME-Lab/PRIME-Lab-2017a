@@ -78,10 +78,10 @@
 	</Item>
 	<Item Name="ExB 1 Magnet set" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Logging:Deadband" Type="Str">0</Property>
+		<Property Name="Logging:Deadband" Type="Str">0.000000</Property>
 		<Property Name="Logging:LogData" Type="Str">True</Property>
 		<Property Name="Logging:LogEvents" Type="Str">True</Property>
-		<Property Name="Logging:ValueRes" Type="Str">0</Property>
+		<Property Name="Logging:ValueRes" Type="Str">0.000000</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
@@ -92,6 +92,13 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
+		<Property Name="Scaling:Coerce" Type="Str">True</Property>
+		<Property Name="Scaling:EngMax" Type="Str">200.000000</Property>
+		<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
+		<Property Name="Scaling:EngUnit" Type="Str"></Property>
+		<Property Name="Scaling:RawMax" Type="Str">200000.000000</Property>
+		<Property Name="Scaling:RawMin" Type="Str">0.000000</Property>
+		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -241,11 +248,11 @@
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/R45 shared var.lvlib/</Property>
-		<Property Name="Scaling:Coerce" Type="Str">False</Property>
-		<Property Name="Scaling:EngMax" Type="Str">12.000000</Property>
+		<Property Name="Scaling:Coerce" Type="Str">True</Property>
+		<Property Name="Scaling:EngMax" Type="Str">200.000000</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0.000000</Property>
 		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">150.000000</Property>
+		<Property Name="Scaling:RawMax" Type="Str">200000.000000</Property>
 		<Property Name="Scaling:RawMin" Type="Str">0.000000</Property>
 		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
