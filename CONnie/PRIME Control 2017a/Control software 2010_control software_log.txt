@@ -1,4 +1,4 @@
-7/26/2017 6:55:07 PM
+7/27/2017 3:10:50 PM
 [General]
 Project: D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\PRIME Control 2017a.lvproj
 Target: My Computer
@@ -25,7 +25,7 @@ D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\LowEnd.vi	7/24/2017 1:09:38 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\R30.vi	7/25/2017 4:29:44 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\flat top.vi	7/11/2017 5:50:24 PM
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Sample changer.vi	7/20/2017 9:16:51 AM
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Sample changer.vi	7/27/2017 2:56:47 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\scan injector.vi	6/14/2017 3:54:29 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Operations Monitor.vi	7/24/2017 3:09:50 PM
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Tools\Scale - molecular.vi	7/20/2017 11:33:22 AM
@@ -46,9 +46,9 @@ D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\main.lvl
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\R45 shared var.lvlib	7/25/2017 7:12:08 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\DAQuiri shared var.lvlib	7/24/2017 2:42:45 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\SCA shared var - old.lvlib	7/24/2017 2:42:46 PM	1.0.0.0
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\SCA shared var - new.lvlib	7/24/2017 2:42:46 PM	1.0.0.0
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\Transmission\old - trans rio shared var.lvlib	7/19/2017 1:10:54 PM	1.0.0.0
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\SCA shared var - new.lvlib	7/27/2017 10:22:43 AM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\Shared Variable libraries\CONnie shared var.lvlib	7/24/2017 2:42:46 PM	1.0.0.0
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\Transmission\old - trans rio shared var.lvlib	7/19/2017 1:10:54 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\High energy end\He rio\HE Shared Variable\he lib.lvlib	12/20/2016 11:35:02 AM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\save load\SaveLoad.lvlib	5/23/2017 7:22:53 PM	1.0.0.0
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\Data Type\NI_Data Type.lvlib	6/8/2016 10:42:34 PM	1.0.0.0
@@ -64,6 +64,7 @@ D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Transmission\trans
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\R30\R30  library.lvlib	5/1/2017 2:18:10 PM	1.0.0.0
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\keithly\KE6485\KE6485_32.dll	11/5/2013 1:03:50 PM
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\resource\lvanlys.dll	6/8/2016 6:04:12 PM
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Clear Errors.vi	6/8/2016 8:57:39 PM	24
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\DialogType.ctl	6/8/2016 8:31:45 PM	8
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\TagReturnType.ctl	6/8/2016 8:31:41 PM	3
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Check Special Tags.vi	6/8/2016 8:31:46 PM	22
@@ -89,7 +90,6 @@ C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.ll
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\BuildHelpPath.vi	6/8/2016 8:31:41 PM	5
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Not Found Dialog.vi	6/8/2016 8:31:45 PM	12
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\SCA commands.ctl	6/16/2017 12:48:05 PM	1
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Clear Errors.vi	6/8/2016 8:57:39 PM	24
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\event_ctls.llb\eventvkey.ctl	6/8/2016 8:31:45 PM	10
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\ErrWarn.ctl	6/8/2016 8:31:41 PM	19
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\set value.vi	7/14/2017 10:50:54 AM	26
@@ -97,16 +97,18 @@ C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.ll
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\General Error Handler Core CORE.vi	6/8/2016 8:31:45 PM	354
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\General Error Handler.vi	6/8/2016 8:57:31 PM	201
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\error.llb\Simple Error Handler.vi	6/8/2016 8:57:31 PM	44
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\dlg_ctls.llb\Space Constant.vi	6/8/2016 8:44:43 PM	19
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Utility\miscctls.llb\LVRowAndColumnTypeDef.ctl	6/8/2016 10:39:44 PM	1
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\Faraday cup states.ctl	3/1/2017 12:04:20 PM	3
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\flat top states.ctl	6/8/2017 5:44:46 PM	2
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\main\main\beamline selection.ctl	5/2/2017 11:33:20 AM	12
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\Flat top control settings.ctl	6/9/2017 11:33:14 AM	5
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\SCA broadcast status.ctl	7/18/2017 2:32:24 PM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Analysis\baseanly.llb\Mean (DBL).vi	6/8/2016 8:00:20 PM	42
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\Vertical Rod states.ctl	9/28/2016 11:44:16 AM	1
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\Aperture states.ctl	7/20/2017 9:52:54 AM	4
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\Minimum Times.ctl	4/11/2017 5:54:13 PM	2
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\Sample Changer Settings.ctl	6/16/2017 11:25:15 AM	2
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\Sample Changer Settings.ctl	7/27/2017 9:46:03 AM	3
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\SCA Bypass control.ctl	4/12/2017 8:47:16 AM	2
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\cRIO code\SCA\controls\GP307 cluster.ctl	3/1/2017 12:03:09 PM	3
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\GV states.ctl	3/1/2017 12:01:48 PM	2
@@ -151,7 +153,6 @@ C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lv
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\Utility\RunTimeEnginePaths.ctl	6/9/2016 3:22:38 AM	110
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\Utility\GetRunTimeEnginePath.vi	6/9/2016 3:22:38 AM	426
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\PlugInManager\MC_PlugInFolderPath.vi	6/9/2016 3:20:56 AM	6
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\dlg_ctls.llb\Space Constant.vi	6/8/2016 8:44:43 PM	19
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\PlugInManager\MC_PlugInDisplayVIType.ctl	6/9/2016 3:20:56 AM	8
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\PlugInManager\MC_GetPlugInDisplayVI.vi	6/9/2016 3:20:56 AM	27
 C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\imath\engines\lvmath2\RunTimeEngine\Managers\DisplayManager\MC_Align_Real_Data.vi	6/9/2016 3:20:52 AM	29
@@ -293,7 +294,6 @@ D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\Configuration\ZPL Config Voltage Lim
 D:\Repo\PRIME Lab 2017a\CONnie\addons\ZPLus\ZPL Initialize.vi	1/10/2017 11:56:05 AM	165
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\controls\SCA steerers.ctl	7/6/2017 10:16:03 AM	1
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\Source A.vi	7/24/2017 1:21:56 PM	115
-C:\Program Files (x86)\National Instruments\LabVIEW 2016\vi.lib\Analysis\baseanly.llb\Mean (DBL).vi	6/8/2016 8:00:20 PM	42
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Features\flat top\flat top measure.vi	7/11/2017 3:20:33 PM	3
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\low energy end\Low energy end\steerer split.vi	1/10/2017 11:56:04 AM	10
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\Beam Line Sections\LowEnd.vi	7/24/2017 1:09:38 PM	94
@@ -330,21 +330,21 @@ D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\S
 D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\Sample Rod (mid).ctl	4/21/2017 2:39:34 PM	6
 D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\half extended piston (push-in).ctl	4/21/2017 2:39:32 PM	5
 D:\Repo\PRIME Lab 2017a\CONnie\Sample Changer 2008 BETA 3.10.3\Visual Readback\half extended piston (push).ctl	4/21/2017 2:39:35 PM	4
-D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Sample changer.vi	7/20/2017 9:16:51 AM	28
+D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Sample changer.vi	7/27/2017 2:56:47 PM	36
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\sub-VIs\cRIO ping.vi	5/20/2017 10:29:49 AM	4
 D:\Repo\PRIME Lab 2017a\CONnie\PRIME Control 2017a\control vi\top level\Operations Monitor.vi	7/24/2017 3:09:50 PM	110
 
 [Output File Version]
-PRIME Control 2017a.exe	1.0.0.96
+PRIME Control 2017a.exe	1.0.0.99
 
 [Output Files]
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.exe	7/26/2017 6:56:39 PM
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.aliases	7/26/2017 6:56:15 PM
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.ini	7/26/2017 6:56:15 PM
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\R30.vi	7/26/2017 6:56:11 PM
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\R30  library.lvlib	7/26/2017 6:56:07 PM
-D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\Quad Range.vi	7/26/2017 6:56:11 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.exe	7/27/2017 3:12:58 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.aliases	7/27/2017 3:12:17 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\PRIME Control 2017a.ini	7/27/2017 3:12:17 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\R30.vi	7/27/2017 3:12:15 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\R30  library.lvlib	7/27/2017 3:12:11 PM
+D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\Quad Range.vi	7/27/2017 3:12:14 PM
 D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\KE6485_32.dll	11/5/2013 1:03:50 PM
 D:\Repo\PRIME Lab 2017a\Builds\PRIME Control 2017a Executable\data\lvanlys.dll	6/8/2016 6:04:12 PM
 
-7/26/2017 6:56:39 PM
+7/27/2017 3:12:58 PM

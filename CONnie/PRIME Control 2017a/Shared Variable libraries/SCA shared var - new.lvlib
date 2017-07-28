@@ -296,13 +296,14 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:URL" Type="Str">\\192.168.1.180\global SCA shared var lib\Immersion Lens V Set</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/Untitled Library 1/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!5!#A!!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Insert Rod Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -424,6 +425,7 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:URL" Type="Str">\\192.168.1.180\global SCA shared var lib\Sample Rod status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
@@ -479,7 +481,7 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">Sample Changer Settings.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../cRIO code/SCA/controls/Sample Changer Settings.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#GIA!!!"9!A!!!!!!%!"6!!Q!/27ZD&lt;W2F=C"0:G:T:81!!"6!"1!/27ZD&lt;W2F=C"S972J&gt;8-!!"6!"A!05G^M&lt;'^W:8)A5W&amp;N='RF!%Q!]1!!!!!!!!!"'V.B&lt;8"M:3"$;'&amp;O:W6S)&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!I1&amp;!!!Q!!!!%!!B&gt;497VQ&lt;'5A1WBB&lt;G&gt;F=C"4:82U;7ZH=Q!"!!-!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#HIQ!!!"9!A!!!!!!%!"6!!Q!/27ZD&lt;W2F=C"0:G:T:81!!"6!"A!/27ZD&lt;W2F=C"S972J&gt;8-!!"6!"A!05G^M&lt;'^W:8)A5W&amp;N='RF!%Q!]1!!!!!!!!!"'V.B&lt;8"M:3"$;'&amp;O:W6S)&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!I1&amp;!!!Q!!!!%!!B&gt;497VQ&lt;'5A1WBB&lt;G&gt;F=C"4:82U;7ZH=Q!"!!-!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="SCA Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -488,7 +490,7 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\global SCA shared var lib\Changing Sample</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.180\global SCA shared var lib\SCA status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
@@ -530,20 +532,20 @@
 		<Property Name="typedefPath1" Type="PathRel">../../cRIO code/SCA/controls/SCA commands.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Y&gt;!%!!"9!A!!!!!!"!7)!]1!!!!!!!!!"%&amp;.$13"D&lt;WVN97ZE=SZD&gt;'Q"35!7!")%6W&amp;J&gt;!B4;(6U:'^X&lt;B*3:82S97.U)'FO=W6S&gt;#"S&lt;W1237ZT:8*U)'FO=W6S&gt;#"S&lt;W145G6U=G&amp;D&gt;#"S:82S97.U)(*P:"**&lt;H.F=H1A=G6U=G&amp;D&gt;#"S&lt;W135G6U=G&amp;D&gt;#"T97VQ&lt;'5A=G^E%5FO=W6S&gt;#"T97VQ&lt;'5A=G^E$5^Q:7YA&gt;WBF:7QA2V9/1WRP=W5A&gt;WBF:7QA2V934X"F&lt;C"J&lt;WYA=W^V=G.F)%&gt;7%U.M&lt;X.F)'FP&lt;C"T&lt;X6S9W5A2V905(6N=#"P&gt;81A=W^V=G.F#V:F&lt;H1A=W^V=G.F&amp;6*P&gt;'&amp;U:3"X;'6F&lt;#"S97ZE&lt;WVM?1R3&lt;X2B&gt;'5A&gt;WBF:7Q;5X2B=H1A=G&amp;O:'^N)(.B&lt;8"M:3"D;'&amp;O:W545X2B=H1A=W&amp;N='RF)'.I97ZH:1!!#V.$13"$&lt;WVN97ZE!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SM Config Update?" Type="Variable">
+	<Item Name="SM Config Update" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\global SCA shared var lib\SM Config Update?</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.180\global SCA shared var lib\SM Config Update</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/My Computer/Untitled Library 1/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!:&amp;1!!!"9!A!!!!!!"!!1!)1!"!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Status Message" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -582,6 +584,7 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:URL" Type="Str">\\192.168.1.180\global SCA shared var lib\Wheel GV Status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>

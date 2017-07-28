@@ -10,6 +10,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">GP307 cluster.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../controls/GP307 cluster.ctl</Property>
@@ -22,8 +23,9 @@
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">SCA Bypass control.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../controls/SCA Bypass control.ctl</Property>
@@ -37,6 +39,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -44,9 +47,9 @@
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -54,9 +57,9 @@
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -66,7 +69,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -82,7 +85,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="Path" Type="Str">/Motor tests.lvproj/RT CompactRIO Target/SC2 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
@@ -97,9 +100,20 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!N!!A!&amp;37ZU-49!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Encoder Offset" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+		<Property Name="Initial Value:Value" Type="Str">160</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&lt;&amp;Q!!!"9!A!!!!!!"!!5!!A!!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Encoder position" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -107,6 +121,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!N!!A!&amp;37ZU-49!!1!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -116,8 +131,9 @@
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -125,9 +141,9 @@
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -135,9 +151,9 @@
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -145,9 +161,9 @@
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -157,8 +173,9 @@
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -166,19 +183,21 @@
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Immersion Lens I set" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="featurePacks" Type="Str">Initial Value,Network</Property>
+		<Property Name="Initial Value:Value" Type="Str">0.000000</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -186,19 +205,20 @@
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Immersion Lens V Set" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -208,10 +228,28 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">Horizontal Rod states.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../controls/Horizontal Rod states.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"9!A!!!!!!"!&amp;%!]1!!!!!!!!!"'5BP=GF[&lt;WZU97QA5G^E)(.U982F=SZD&gt;'Q!,U!7!!-/=X2B&gt;(6T)(6O9WRF98)'=G^E)'FO"X*P:#"P&gt;81!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Insert Rod Timeout" Type="Variable">
+		<Property Name="Description:Description" Type="Str">Minimum loops to process after Wheel GV actuated before moving on to next state</Property>
+		<Property Name="featurePacks" Type="Str">Description,Initial Value,Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Initial Value:Value" Type="Str">10000</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/local SCA shared var lib.lvlib/</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Ion Source Vac Cluster" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -219,21 +257,11 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">GP307 cluster.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../controls/GP307 cluster.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$-S!!!!"9!A!!!!!!&amp;!"2!-0````],37^O)'&gt;B&gt;7&gt;F)$%!(E!Q`````R2$&lt;WZW:7.U=G^O)#"(986H:3!R)!!!&amp;%!Q`````QN*&lt;WYA2W&amp;V:W5A-A!=1$$`````%E.P&lt;H:F9X2S&lt;WUA2W&amp;V:W5A-A!!2A$RV.SP4!!!!!%22V!T-$=A9WRV=X2F=CZD&gt;'Q!,%"1!!1!!!!"!!)!!RF797-A:W&amp;V:W5A9WRV=X2F=C"D&lt;WZU=G^M!!%!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Minimum Time" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">Minimum Times.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../controls/Minimum Times.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"L:Q!!!"9!A!!!!!!#!"^!"Q!:5G^U982F)&amp;&gt;I:76M)%VJ&lt;GFN&gt;7UA6'FN:1!U!0%!!!!!!!!!!2&amp;.;7ZJ&lt;86N)&amp;2J&lt;76T,G.U&lt;!!;1&amp;!!!1!!$%VJ&lt;GFN&gt;7UA6'FN:1!!!1!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="New Move" Type="Variable">
 		<Property Name="Description:Description" Type="Str">Number motor steps for next move of Sample Wheel</Property>
@@ -242,6 +270,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -255,6 +284,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
@@ -263,7 +293,7 @@
 	</Item>
 	<Item Name="Requested Sample" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Initial Value,Network</Property>
-		<Property Name="Initial Value:Value" Type="Str">0</Property>
+		<Property Name="Initial Value:Value" Type="Str">1</Property>
 		<Property Name="Network:AccessType" Type="Str">read/write</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
@@ -272,7 +302,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Motor tests.lvproj/RT CompactRIO Target/SC2 shared var.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
 		<Property Name="type" Type="Str">Network</Property>
@@ -287,29 +317,108 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">Horizontal Rod states.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../controls/Horizontal Rod states.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"9!A!!!!!!"!&amp;%!]1!!!!!!!!!"'5BP=GF[&lt;WZU97QA5G^E)(.U982F=SZD&gt;'Q!,U!7!!-/=X2B&gt;(6T)(6O9WRF98)'=G^E)'FO"X*P:#"P&gt;81!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="Retract Rod Timeout" Type="Variable">
+		<Property Name="Description:Description" Type="Str">Minimum loops to process after Wheel GV actuated before moving on to next state</Property>
+		<Property Name="featurePacks" Type="Str">Description,Initial Value,Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Initial Value:Value" Type="Str">10000</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/local SCA shared var lib.lvlib/</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Rollover Sample" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+		<Property Name="Initial Value:Value" Type="Str">64</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!&lt;&amp;Q!!!"9!A!!!!!!"!!5!!A!!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Rotate Wheel Minimum Time" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Initial Value,Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Initial Value:Value" Type="Str">1000</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/local SCA shared var lib.lvlib/</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Rotate Wheel timeout" Type="Variable">
+		<Property Name="Description:Description" Type="Str">Minimum loops to process after Wheel GV actuated before moving on to next state</Property>
+		<Property Name="featurePacks" Type="Str">Description,Initial Value,Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Initial Value:Value" Type="Str">30000.000000</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/local SCA shared var lib.lvlib/</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="Sample Rod status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">Vertical Rod states.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../controls/Vertical Rod states.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"H9Q!!!"9!A!!!!!!"!&amp;%!]1!!!!!!!!!"&amp;V:F=H2J9W&amp;M)&amp;*P:#"T&gt;'&amp;U:8-O9X2M!$&amp;!&amp;A!$$H.U982V=S"V&lt;G.M:7&amp;S#(*P:#"E&lt;X&gt;O"H*P:#"V=!!!"%6O&gt;7U!!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Sample Wheel Convectron" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+	<Item Name="Sample Rod Timeout" Type="Variable">
+		<Property Name="Description:Description" Type="Str">Maximum loops to process for processing Insert Rod actuation</Property>
+		<Property Name="featurePacks" Type="Str">Description,Initial Value,Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Initial Value:Value" Type="Str">10000</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/local SCA shared var lib.lvlib/</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Sample Wheel Convectron" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">2</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!"9!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -317,25 +426,11 @@
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/motor 2.lvproj/Sample-changer/shared var lib.lvlib/</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!"9!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="SCA settings" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typedefName1" Type="Str">Sample Changer Settings.ctl</Property>
-		<Property Name="typedefPath1" Type="PathRel">../controls/Sample Changer Settings.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#GIA!!!"9!A!!!!!!%!"6!!Q!/27ZD&lt;W2F=C"0:G:T:81!!"6!"1!/27ZD&lt;W2F=C"S972J&gt;8-!!"6!"A!05G^M&lt;'^W:8)A5W&amp;N='RF!%Q!]1!!!!!!!!!"'V.B&lt;8"M:3"$;'&amp;O:W6S)&amp;.F&gt;(2J&lt;G&gt;T,G.U&lt;!!I1&amp;!!!Q!!!!%!!B&gt;497VQ&lt;'5A1WBB&lt;G&gt;F=C"4:82U;7ZH=Q!"!!-!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="SCA status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
@@ -343,8 +438,9 @@
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
 		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
 		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
@@ -359,6 +455,7 @@
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"14!!!!"9!A!!!!!!%!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!!Q!5!!$!!!!!1!#!!%!!Q!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
@@ -368,50 +465,62 @@
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">SCA commands.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../controls/SCA commands.ctl</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Y&gt;!%!!"9!A!!!!!!"!7)!]1!!!!!!!!!"%&amp;.$13"D&lt;WVN97ZE=SZD&gt;'Q"35!7!")%6W&amp;J&gt;!B4;(6U:'^X&lt;B*3:82S97.U)'FO=W6S&gt;#"S&lt;W1237ZT:8*U)'FO=W6S&gt;#"S&lt;W145G6U=G&amp;D&gt;#"S:82S97.U)(*P:"**&lt;H.F=H1A=G6U=G&amp;D&gt;#"S&lt;W135G6U=G&amp;D&gt;#"T97VQ&lt;'5A=G^E%5FO=W6S&gt;#"T97VQ&lt;'5A=G^E$5^Q:7YA&gt;WBF:7QA2V9/1WRP=W5A&gt;WBF:7QA2V934X"F&lt;C"J&lt;WYA=W^V=G.F)%&gt;7%U.M&lt;X.F)'FP&lt;C"T&lt;X6S9W5A2V905(6N=#"P&gt;81A=W^V=G.F#V:F&lt;H1A=W^V=G.F&amp;6*P&gt;'&amp;U:3"X;'6F&lt;#"S97ZE&lt;WVM?1R3&lt;X2B&gt;'5A&gt;WBF:7Q;5X2B=H1A=G&amp;O:'^N)(.B&lt;8"M:3"D;'&amp;O:W545X2B=H1A=W&amp;N='RF)'.I97ZH:1!!#V.$13"$&lt;WVN97ZE!!%!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="SM Config Update?" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Initial Value,Network</Property>
-		<Property Name="Initial Value:Value" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Status Message" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:ElemSize" Type="Str">2</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"9!A!!!!!!"!!A!-0````]!!1!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Timeouts" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Network</Property>
+	<Item Name="Step Window Radius" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network,Initial Value</Property>
+		<Property Name="Initial Value:Value" Type="Str">1</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#YN!!!!"9!A!!!!!!(!"&amp;!"Q!+5W&amp;N='RF)&amp;*P:!!!%5!(!!J*&lt;H.F=H1A5G^E!!!21!=!#V*F&gt;(*B9X1A5G^E!!^!"Q!)6WBF:7QA2V9!!".!"Q!.37^O)&amp;.P&gt;8*D:3"(6A!41!=!$&amp;*P&gt;'&amp;U:3"8;'6F&lt;!!!*%"1!!9!!!!"!!)!!Q!%!!516'FN:7^V&gt;(-A1WRV=X2F=A!!!1!'!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!;&amp;A!!!"9!A!!!!!!"!!5!"1!!!1!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="Wheel GV Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
 		<Property Name="Network:UseBuffering" Type="Str">True</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/global SCA shared var lib.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!Z.1!!!"9!A!!!!!!"!#-!&amp;A!$$H.U982V=S"V&lt;G.M:7&amp;S"G.M&lt;X.F:!2P='6O!!!!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Wheel GV Timeout" Type="Variable">
+		<Property Name="Description:Description" Type="Str">Minimum loops to process after Wheel GV actuated before moving on to next state</Property>
+		<Property Name="featurePacks" Type="Str">Description,Initial Value,Network</Property>
+		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
+		<Property Name="Initial Value:Value" Type="Str">10000</Property>
+		<Property Name="Network:BuffSize" Type="Str">50</Property>
+		<Property Name="Network:SingleWriter" Type="Str">False</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/SCA-cRIO/local SCA shared var lib.lvlib/</Property>
+		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
+		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
+		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>

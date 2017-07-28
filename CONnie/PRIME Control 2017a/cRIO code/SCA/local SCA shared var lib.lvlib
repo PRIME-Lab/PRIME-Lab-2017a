@@ -50,24 +50,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"14!!!!"9!A!!!!!!%!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!!Q!5!!$!!!!!1!#!!%!!Q!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Encoder Offset" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Initial Value:Value" Type="Str">-1021.000000</Property>
-		<Property Name="Network:AccessType" Type="Str">read/write</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.154\SC2 shared var\SC2 Encoder Offset</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Motor tests.lvproj/RT CompactRIO Target/SC2 shared var.lvlib/</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!N!!A!&amp;37ZU-49!!1!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Execute Move" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -108,22 +90,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Insert Rod Timeout" Type="Variable">
-		<Property Name="Description:Description" Type="Str">Minimum loops to process after Wheel GV actuated before moving on to next state</Property>
-		<Property Name="featurePacks" Type="Str">Description,Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2017.lvproj/SCA-cRIO/local SCA shared var lib.lvlib/</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Motor Status" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -138,7 +104,7 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="New Command?" Type="Variable">
+	<Item Name="New Command" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
@@ -158,32 +124,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Retract Rod Timeout" Type="Variable">
-		<Property Name="Description:Description" Type="Str">Minimum loops to process after Wheel GV actuated before moving on to next state</Property>
-		<Property Name="featurePacks" Type="Str">Description,Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2017.lvproj/SCA-cRIO/local SCA shared var lib.lvlib/</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Rollover Sample" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"9!A!!!!!!"!!N!!1!%37ZU/!!!!1!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Rotate Wheel error" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -194,33 +134,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"14!!!!"9!A!!!!!!%!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!!Q!5!!$!!!!!1!#!!%!!Q!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Rotate Wheel Minimum Time" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Rotate Wheel timeout" Type="Variable">
-		<Property Name="Description:Description" Type="Str">Minimum loops to process after Wheel GV actuated before moving on to next state</Property>
-		<Property Name="featurePacks" Type="Str">Description,Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2017.lvproj/SCA-cRIO/local SCA shared var lib.lvlib/</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Sample Rod Bypass" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -230,22 +143,6 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Sample Rod Timeout" Type="Variable">
-		<Property Name="Description:Description" Type="Str">Maximum loops to process for processing Insert Rod actuation</Property>
-		<Property Name="featurePacks" Type="Str">Description,Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Path" Type="Str">/Control software 2017.lvproj/SCA-cRIO/local SCA shared var lib.lvlib/</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="SCA state control" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global,Real-Time Features</Property>
@@ -287,19 +184,6 @@
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"14!!!!"9!A!!!!!!%!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!!Q!5!!$!!!!!1!#!!%!!Q!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
-	<Item Name="Step Window Radius" Type="Variable">
-		<Property Name="featurePacks" Type="Str">Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:ElemSize" Type="Str">1</Property>
-		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">True</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!"9!A!!!!!!"!!N!"1!&amp;65FO&gt;$A!!1!!!!!!!!!!!!!!</Property>
-	</Item>
 	<Item Name="Vac Readback Loop error" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Global</Property>
 		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
@@ -325,20 +209,5 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Global</Property>
 		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!"9!A!!!!!!"!!R!)1&gt;#&lt;W^M:7&amp;O!!%!!!!!!!!!!!!!!!</Property>
-	</Item>
-	<Item Name="Wheel GV Timeout" Type="Variable">
-		<Property Name="Description:Description" Type="Str">Minimum loops to process after Wheel GV actuated before moving on to next state</Property>
-		<Property Name="featurePacks" Type="Str">Description,Global</Property>
-		<Property Name="Global:EnableTimestamp" Type="Str">False</Property>
-		<Property Name="Network:BuffSize" Type="Str">50</Property>
-		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">0</Property>
-		<Property Name="Real-Time Features:ApplyNetworkConfig" Type="Str">False</Property>
-		<Property Name="Real-Time Features:BufferLength" Type="Str">1</Property>
-		<Property Name="Real-Time Features:UseBuffering" Type="Str">False</Property>
-		<Property Name="type" Type="Str">Global</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!"9!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
