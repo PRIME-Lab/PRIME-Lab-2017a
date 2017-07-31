@@ -52,15 +52,15 @@
 		<Property Name="Network:ElemSize" Type="Str">1</Property>
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.180\global SCA shared var lib\Changing Sample</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.180\global SCA shared var lib\SCA Status</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
-		<Property Name="numTypedefs" Type="UInt">1</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Path" Type="Str">/PRIME_DAQ_2017a.lvproj/My Computer/PRIME DAQ 2017a/Shared Variables/SCA shared var - new.lvlib/</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typedefName1" Type="Str">SCA broadcast status.ctl</Property>
 		<Property Name="typedefPath1" Type="PathRel">../../controls/SCA broadcast status.ctl</Property>
-		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#1D!!!!"9!A!!!!!!"!(I!]1!!!!!!!!!"'&amp;.$13"C=G^B:'.B=X1A=X2B&gt;(6T,G.U&lt;!":1"9!"!&gt;897FU;7ZH%%.I97ZH;7ZH)(.B&lt;8"M:8-75W&amp;N='RF)'.I97ZH:3"D&lt;WVQ&lt;'6U:1&gt;'97FM&gt;8*F!"241U%A9H*P972D98.U)(.U982V=Q!!!1!!!!!!!!!!!!!!!!</Property>
+		<Property Name="typeDesc" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"L:Q!!!"9!A!!!!!!"!&amp;6!&amp;A!%"V&gt;B;82J&lt;G=11WBB&lt;G&gt;J&lt;G=A=W&amp;N='RF=R:497VQ&lt;'5A9WBB&lt;G&gt;F)'.P&lt;8"M:82F"U:B;7RV=G5!&amp;&amp;.$13"C=G^B:'.B=X1A=X2B&gt;(6T!!!"!!!!!!!!!!!!!!!!</Property>
 	</Item>
 	<Item Name="SM Command" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>

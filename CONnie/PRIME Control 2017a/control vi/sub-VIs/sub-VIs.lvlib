@@ -10,6 +10,7 @@
 	<Item Name="display FC status.vi" Type="VI" URL="../../faraday cup/display FC status.vi"/>
 	<Item Name="display in or out.vi" Type="VI" URL="../../faraday cup/display in or out.vi"/>
 	<Item Name="faraday switch.vi" Type="VI" URL="../../High energy end/faraday switch.vi"/>
+	<Item Name="find control ref.vi" Type="VI" URL="../find control ref.vi"/>
 	<Item Name="get momentum-scaled.vi" Type="VI" URL="../../Features/get momentum-scaled.vi"/>
 	<Item Name="get value.vi" Type="VI" URL="../../Features/features/get value.vi"/>
 	<Item Name="get velocity-scaled.vi" Type="VI" URL="../../Features/get velocity-scaled.vi"/>
