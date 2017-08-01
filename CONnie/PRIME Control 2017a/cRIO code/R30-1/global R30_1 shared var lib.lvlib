@@ -229,7 +229,7 @@
 		<Property Name="Scaling:EngMax" Type="Str">2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
 		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">2</Property>
+		<Property Name="Scaling:RawMax" Type="Str">0.1</Property>
 		<Property Name="Scaling:RawMin" Type="Str">0</Property>
 		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
@@ -239,14 +239,14 @@
 		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/R30-cRIO/global R30_1 shared var lib.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
 		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">2</Property>
+		<Property Name="Scaling:RawMax" Type="Str">0.1</Property>
 		<Property Name="Scaling:RawMin" Type="Str">0</Property>
 		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
@@ -268,7 +268,7 @@
 		<Property Name="Scaling:EngMax" Type="Str">2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
 		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">2</Property>
+		<Property Name="Scaling:RawMax" Type="Str">0.1</Property>
 		<Property Name="Scaling:RawMin" Type="Str">0</Property>
 		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
@@ -278,14 +278,14 @@
 		<Property Name="featurePacks" Type="Str">Network,Scaling</Property>
 		<Property Name="Network:BuffSize" Type="Str">50</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
-		<Property Name="Network:UseBuffering" Type="Str">True</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="Path" Type="Str">/PRIME Control 2017a.lvproj/R30-cRIO/global R30_1 shared var lib.lvlib/</Property>
 		<Property Name="Scaling:Coerce" Type="Str">False</Property>
 		<Property Name="Scaling:EngMax" Type="Str">2</Property>
 		<Property Name="Scaling:EngMin" Type="Str">0</Property>
 		<Property Name="Scaling:EngUnit" Type="Str"></Property>
-		<Property Name="Scaling:RawMax" Type="Str">2</Property>
+		<Property Name="Scaling:RawMax" Type="Str">0.1</Property>
 		<Property Name="Scaling:RawMin" Type="Str">0</Property>
 		<Property Name="Scaling:Type" Type="Str">Linear</Property>
 		<Property Name="type" Type="Str">Network</Property>
