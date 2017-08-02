@@ -1246,6 +1246,7 @@
 	<Property Name="varPersistentID:{FA6B6EBD-7C34-4E32-B405-4764402B29D8}" Type="Ref">/My Computer/ControlRoom shared var.lvlib/Le Inductor</Property>
 	<Property Name="varPersistentID:{FAD3CEFB-08B3-48D2-99A1-3D445255AC3E}" Type="Ref">/My Computer/SCA shared var - new.lvlib/Ion Source Vac Cluster</Property>
 	<Property Name="varPersistentID:{FB072767-6913-48F4-93B4-BCD0BEB535C4}" Type="Ref">/SCA-cRIO/local SCA shared var lib.lvlib/Convectron readback loop error</Property>
+	<Property Name="varPersistentID:{FB63E242-2ABB-4BB0-9D2E-4F14FF7BC684}" Type="Ref">/Trans-cRIO/global trans shared var.lvlib/ExB coil current read</Property>
 	<Property Name="varPersistentID:{FB720F3A-538A-45EB-B565-8B7A7DD73A92}" Type="Ref">/SCA-cRIO/Chassis/Mod5/AI0</Property>
 	<Property Name="varPersistentID:{FBE72E97-20FC-4252-A3B5-57540E18F3B1}" Type="Ref">/My Computer/Transmission shared var.lvlib/Trans X+ steerer V read</Property>
 	<Property Name="varPersistentID:{FC9C9D17-E529-4383-BC4D-32F444457221}" Type="Ref">/R30-cRIO/old - he shared variable library_CR.lvlib/Switch magnet AP OUT</Property>
@@ -5472,6 +5473,7 @@ DirectoryIndex index.htm
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
@@ -5491,11 +5493,11 @@ DirectoryIndex index.htm
 			<Item Name="Horizontal Rod states.ctl" Type="VI" URL="../cRIO code/SCA/controls/Horizontal Rod states.ctl"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Modify array of SCA states.vi" Type="VI" URL="../cRIO code/SCA/Modify array of SCA states.vi"/>
+			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/16.0/nimclv.dll"/>
 			<Item Name="SCA broadcast status.ctl" Type="VI" URL="../cRIO code/SCA/controls/SCA broadcast status.ctl"/>
 			<Item Name="SCA Bypass control.ctl" Type="VI" URL="../cRIO code/SCA/controls/SCA Bypass control.ctl"/>
 			<Item Name="SCA commands.ctl" Type="VI" URL="../cRIO code/SCA/controls/SCA commands.ctl"/>
 			<Item Name="SCA Sample-Encoder conversion.vi" Type="VI" URL="../cRIO code/SCA/SCA Sample-Encoder conversion.vi"/>
-			<Item Name="SCA state Transition Timeout Check.vi" Type="VI" URL="../cRIO code/SCA/SCA state Transition Timeout Check.vi"/>
 			<Item Name="SCA states.ctl" Type="VI" URL="../cRIO code/SCA/controls/SCA states.ctl"/>
 			<Item Name="state control sample changer.ctl" Type="VI" URL="../cRIO code/SCA/controls/state control sample changer.ctl"/>
 			<Item Name="Vertical Rod Sensor-State converter.vi" Type="VI" URL="../cRIO code/SCA/Vertical Rod Sensor-State converter.vi"/>
@@ -12627,11 +12629,6 @@ DirectoryIndex index.htm
 				<Item Name="FB Overlay DBL.ctl" Type="VI" URL="/&lt;vilib&gt;/functionblocks/FB Property/FB Overlay DBL.ctl"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="GP307 cluster.ctl" Type="VI" URL="../../../../PRIME Lab 2017b/Control/PRIME Control 2017b/Controls/GP307 cluster.ctl"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
@@ -12655,7 +12652,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F1E50D45-3CD2-4A01-9DC9-6964E6B51AE6}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>

@@ -202,7 +202,7 @@
 		<Property Name="Network:PointsPerWaveform" Type="Str">1</Property>
 		<Property Name="Network:ProjectBinding" Type="Str">False</Property>
 		<Property Name="Network:SingleWriter" Type="Str">False</Property>
-		<Property Name="Network:URL" Type="Str">\\192.168.1.91\global trans shared var\ExB coil current set</Property>
+		<Property Name="Network:URL" Type="Str">\\192.168.1.91\global trans shared var\ExB coil current read</Property>
 		<Property Name="Network:UseBinding" Type="Str">True</Property>
 		<Property Name="Network:UseBuffering" Type="Str">False</Property>
 		<Property Name="numTypedefs" Type="UInt">0</Property>
