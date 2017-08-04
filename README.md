@@ -74,4 +74,4 @@ Semi-major update:
 - Added PID control of Gas-filled Magnet (GFM)
 
 ## Pixie4
-The Pixie4DLL.dll recompiled using Patrick Boehnke's additions from 2013/14 (fetchlistmodedata) and XIA's latest source code.
+The Pixie4DLL.dll recompiled using Patrick Boehnke's additions from 2013/14 (fetchlistmondedata) and XIA's latest source code.

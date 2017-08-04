@@ -497,7 +497,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/PRIME DAQ 2017a Executable</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A9008A26-F1B1-4F7D-9E25-15995D6717C7}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PRIME_DAQ.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/D/Repo/PRIME Lab 2017a/Builds/PRIME DAQ 2017a Executable/PRIME_DAQ.exe</Property>
@@ -628,7 +628,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">PRIME DAQ 2017a Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{3903E623-58B7-4EA5-AED2-0C1C4BE8ED8A}</Property>
 				<Property Name="INST_productName" Type="Str">PRIME_DAQ_2017a</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.11</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
